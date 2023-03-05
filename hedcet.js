@@ -1,6 +1,6 @@
 // v14 <= node
-// npm install fast-csv lodash moment node-fetch@2
-// node headcet.js
+// npm install fast-csv node-fetch@2
+// node hedcet.js
 
 const bmsTrackerMovieNames = [
   "AvatarTheWayOfWater",
@@ -17,11 +17,8 @@ const paytmTrackerUrl =
   "https://api.github.com/repos/HedCET/paytm-movies/contents";
 const storePath = "store";
 
-const { rejects } = require("assert");
 const { parseFile, parseString, writeToPath } = require("fast-csv");
 const fs = require("fs");
-const { orderBy } = require("lodash");
-const moment = require("moment");
 const fetch = require("node-fetch");
 const path = require("path");
 
