@@ -17,7 +17,7 @@ const paytmTrackerUrl =
   "https://api.github.com/repos/HedCET/paytm-movies/contents";
 const storePath = "store";
 
-const { parseFile, parseString, writeToPath } = require("fast-csv");
+const { parseString, writeToPath } = require("fast-csv");
 const fs = require("fs");
 const fetch = require("node-fetch");
 const path = require("path");
@@ -77,30 +77,4 @@ const path = require("path");
       }
     }
   }
-
-  // dedup bms+paytm state+city+cinema
-  const dedupFilePath = path.resolve(storePath, "dedup.json");
-  const dedup = fs.existsSync(dedupFilePath)
-    ? JSON.parse(fs.readFileSync(dedupFilePath, "utf8"))
-    : {};
-  for (const file of fs.readdirSync(storePath))
-    if (file.match(/\.csv$/i)) {
-      const movieFilePath = path.resolve(storePath, file);
-      await new Promise((resolve, reject) => {
-        parseFile(movieFilePath, { headers: true })
-          .on("error", reject)
-          .on("data", ({ State, City, Name }) => {
-            if (!dedup[State]) dedup[State] = {};
-            if (!dedup[State][City]) dedup[State][City] = {};
-            if (!dedup[State][City][Name]) {
-              console.log("validate", `${State}|${City}|${Name}`);
-              dedup[State][City][Name] = `${State}|${City}|${Name}`;
-            }
-          })
-          .on("end", resolve);
-      });
-    }
-  fs.writeFileSync(dedupFilePath, JSON.stringify(dedup, undefined, 2));
-
-  // TODO: calculate dedup sum
 })();

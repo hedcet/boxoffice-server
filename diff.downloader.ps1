@@ -1,4 +1,3 @@
-#curl -H "Authorization: token <GITHUB_ACCESS_TOKEN>" https://api.github.com/repos/<OWNER>/<REPO>/contents/<FOLDER_PATH>
 #$url = "https://api.github.com/repos/HedCET/paytm-movies/contents/BheeshmaParvam"
 #$url = "https://api.github.com/repos/HedCET/bms/contents/BheeshmaParvam"
 
