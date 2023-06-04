@@ -5,7 +5,7 @@ $bmsTrackerMovieNames = @("BheeshmaParvam", "Pathaan")
 $bmsTrackerUrl = "https://api.github.com/repos/HedCET/bms/contents/"
 $paytmTrackerMovieNames = @("BheeshmaParvam", "Pathaan")
 $paytmTrackerUrl = "https://api.github.com/repos/HedCET/paytm-movies/contents/"
-$storePath = "store"
+$storePath = "store\dump"
 
 # bms diff store
 foreach ($movieName in $bmsTrackerMovieNames) {
@@ -18,7 +18,7 @@ foreach ($movieName in $bmsTrackerMovieNames) {
         $movieFile.name -match '^(.*)\.(\d\d\d\d-\d\d-\d\d)'
         $movieId = $matches[1]
         $movieDate = $matches[2]
-        $movieFilePath = "$storePath\bms.$movieId.$movieDate.csv"
+        $movieFilePath = "$storePath\$movieName.bms.$movieId.$movieDate.csv"
 
         if (!(Test-Path $movieFilePath -PathType Leaf)) {
             $movieFileUrl = $movieFile.download_url
@@ -45,7 +45,7 @@ foreach ($movieName in $paytmTrackerMovieNames) {
         $movieFile.name -match '^(.*)\.(\d\d\d\d-\d\d-\d\d)'
         $movieId = $matches[1]
         $movieDate = $matches[2]
-        $movieFilePath = "$storePath\paytm.$movieId.$movieDate.csv"
+        $movieFilePath = "$storePath\$movieName.paytm.$movieId.$movieDate.csv"
 
         if (!(Test-Path $movieFilePath -PathType Leaf)) {
             $movieFileUrl = $movieFile.download_url

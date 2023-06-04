@@ -1,21 +1,13 @@
 // v14 <= node
 // npm install fast-csv node-fetch@2
-// node hedcet.js
+// node diff.downloader.js
 
-const bmsTrackerMovieNames = [
-  "AvatarTheWayOfWater",
-  "BheeshmaParvam",
-  "Pathaan",
-];
+const bmsTrackerMovieNames = ["Neymar"];
 const bmsTrackerUrl = "https://api.github.com/repos/HedCET/bms/contents";
-const paytmTrackerMovieNames = [
-  "AvatarTheWayOfWater",
-  "BheeshmaParvam",
-  "Pathaan",
-];
+const paytmTrackerMovieNames = ["Neymar"];
 const paytmTrackerUrl =
   "https://api.github.com/repos/HedCET/paytm-movies/contents";
-const storePath = "store";
+const storePath = "store/dump";
 
 const { parseString, writeToPath } = require("fast-csv");
 const fs = require("fs");
@@ -31,7 +23,7 @@ const path = require("path");
       const match = movieFile.name.match(/^(.*)\.(\d\d\d\d-\d\d-\d\d)/);
       const movieFilePath = path.resolve(
         storePath,
-        `bms.${match[1]}.${match[2]}.csv`
+        `${movieName}.bms.${match[1]}.${match[2]}.csv`
       );
       if (!fs.existsSync(movieFilePath)) {
         console.log("downloading", movieFilePath);
@@ -58,7 +50,7 @@ const path = require("path");
       const match = movieFile.name.match(/^(.*)\.(\d\d\d\d-\d\d-\d\d)/);
       const movieFilePath = path.resolve(
         storePath,
-        `paytm.${match[1]}.${match[2]}.csv`
+        `${movieName}.paytm.${match[1]}.${match[2]}.csv`
       );
       if (!fs.existsSync(movieFilePath)) {
         console.log("downloading", movieFilePath);
