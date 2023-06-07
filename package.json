@@ -1,15 +1,8 @@
 {
   "dependencies": {
-    "@vaadin/date-picker": "^24.0.8",
     "fast-csv": "^4.3.6",
     "moment": "^2.29.4",
     "moment-timezone": "^0.5.43",
     "nedb-promises": "^6.2.1"
-  },
-  "devDependencies": {
-    "@web/dev-server": "^0.2.1"
-  },
-  "scripts": {
-    "watch": "wds --node-resolve --watch --root-dir web --app-index index.html"
   }
 }
