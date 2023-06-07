@@ -8,5 +8,8 @@
   },
   "devDependencies": {
     "@web/dev-server": "^0.2.1"
+  },
+  "scripts": {
+    "watch": "wds --node-resolve --watch --root-dir web --app-index index.html"
   }
 }
