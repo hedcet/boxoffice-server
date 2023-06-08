@@ -1,3 +1,4 @@
 node_modules
 package-lock.json
-store/dump
+store/dump/*/
+store/dump/*.json

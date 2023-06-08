@@ -1,8 +1,3 @@
-// v14 <= node
-// sudo apt-get install git
-// npm install moment moment-timezone nedb-promises
-// node diff.downloader.js
-
 const { execSync } = require("child_process");
 const fs = require("fs");
 const moment = require("moment");
@@ -19,7 +14,7 @@ const dumpDir = "store/dump";
 const ptmDir = "ptm";
 const ptmRepoUrl = "https://github.com/HedCET/paytm-movies";
 
-(async () => {
+const worker = async () => {
   // bms diff store
   const bmsDataPath = path.resolve(dumpDir, bmsDir);
   if (fs.existsSync(bmsDataPath)) {
@@ -31,22 +26,6 @@ const ptmRepoUrl = "https://github.com/HedCET/paytm-movies";
   } else {
     console.log(`git clone ${bmsRepoUrl} ${bmsDir}`);
     execSync(`git clone ${bmsRepoUrl} ${bmsDir}`, {
-      cwd: path.resolve(dumpDir),
-      stdio: [0, 1, 2],
-    });
-  }
-
-  // ptm diff store
-  const ptmDataPath = path.resolve(dumpDir, ptmDir);
-  if (fs.existsSync(ptmDataPath)) {
-    console.log(`git pull ${ptmRepoUrl}`);
-    execSync(`git pull`, {
-      cwd: path.resolve(ptmDataPath),
-      stdio: [0, 1, 2],
-    });
-  } else {
-    console.log(`git clone ${ptmRepoUrl} ${ptmDir}`);
-    execSync(`git clone ${ptmRepoUrl} ${ptmDir}`, {
       cwd: path.resolve(dumpDir),
       stdio: [0, 1, 2],
     });
@@ -75,6 +54,22 @@ const ptmRepoUrl = "https://github.com/HedCET/paytm-movies";
         }
     }
 
+  // ptm diff store
+  const ptmDataPath = path.resolve(dumpDir, ptmDir);
+  if (fs.existsSync(ptmDataPath)) {
+    console.log(`git pull ${ptmRepoUrl}`);
+    execSync(`git pull`, {
+      cwd: path.resolve(ptmDataPath),
+      stdio: [0, 1, 2],
+    });
+  } else {
+    console.log(`git clone ${ptmRepoUrl} ${ptmDir}`);
+    execSync(`git clone ${ptmRepoUrl} ${ptmDir}`, {
+      cwd: path.resolve(dumpDir),
+      stdio: [0, 1, 2],
+    });
+  }
+
   // ingest ptm data
   for (const dirName of fs.readdirSync(ptmDataPath))
     if (dirName.match(/^[0-9a-z]/i)) {
@@ -97,4 +92,6 @@ const ptmRepoUrl = "https://github.com/HedCET/paytm-movies";
           }
         }
     }
-})();
+};
+
+module.exports = { worker };
