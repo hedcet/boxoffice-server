@@ -6,9 +6,9 @@ this will download/update both [rebrand.ly/bookmyshow](http://rebrand.ly/bookmys
 ```
 sudo apt-get install git node (>= v14)
 cd <folder_path> && npm i
-node aggregate.js bms/ptm date/movie <YYYY-MM-DD>/<movieName>
+node report.js bms/ptm date/movie <YYYY-MM-DD>/<movieName>
 ```
 
-example - `node aggregate.js bms date 2023-06-04`
+example - `node report.js bms date 2023-06-04`
 
-<img src="./store/dump/aggregate.png" />
+<img src="./store/dump/report.png" />
