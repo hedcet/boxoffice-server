@@ -144,7 +144,7 @@ const { worker } = require("./worker.js");
     columns,
     data: orderBy(
       Object.values(data),
-      cmd_type === "date" ? ["shows"] : ["name"],
+      cmd_type === "date" ? ["shows", "sum"] : ["name", "shows"],
       "desc"
     ).map((i, j) => {
       const k = [
