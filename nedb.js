@@ -7,7 +7,34 @@ require("moment-timezone");
 moment.tz.setDefault("Asia/Kolkata");
 
 const { db } = require("./db.js");
-const { dumpDir } = require("./worker.js");
+const { dumpDir } = require("./env.js");
+
+const syncMetadata = async (relativeDir) => {
+  const dir = path.resolve(dumpDir, relativeDir);
+  for (const folderName of fs.readdirSync(dir))
+    if (folderName.match(/^[0-9a-z]/i)) {
+      const folder = path.resolve(dir, folderName);
+      if (fs.lstatSync(folder).isDirectory())
+        for (const fileName of fs.readdirSync(folder)) {
+          if (fileName.match(/^[0-9a-z]/i)) {
+            const file = path.resolve(folder, fileName);
+            if (fs.lstatSync(file).isFile()) {
+              const [key, d, ext = ""] = fileName.split(".");
+              if (ext.match(/csv/i)) {
+                const item = {
+                  date: moment.tz(d, ["YYYY-MM-DD"], "Asia/Kolkata").toDate(),
+                  key,
+                  name: folderName,
+                  source: relativeDir,
+                };
+                if (!(await db.findOne(item)))
+                  console.log(file, await db.insert(item));
+              }
+            }
+          }
+        }
+    }
+};
 
 const aggregate = async (query = {}, type = "date") => {
   const data = {};
@@ -19,10 +46,11 @@ const aggregate = async (query = {}, type = "date") => {
       dumpDir,
       `${source}/${name}/${key}.${moment(date).format("YYYY-MM-DD")}.csv`
     );
-    if (fs.existsSync(file)) {
+    if (fs.existsSync(file))
       await new Promise(async (resolve, reject) => {
         console.log(file);
 
+        // aggregation store
         const _id = type === "date" ? name : moment(date).format("MMMDddd");
         if (!data[_id]) data[_id] = { _id };
         const ref = data[_id];
@@ -59,10 +87,9 @@ const aggregate = async (query = {}, type = "date") => {
             resolve(true);
           });
       });
-    }
   }
 
   return data;
 };
 
-module.exports = { aggregate };
+module.exports = { syncMetadata, aggregate };

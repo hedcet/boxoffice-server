@@ -1,4 +1,4 @@
-// mongosh "mongodb://ip:port/db" dedup/export.js --quiet > out.json
+// mongosh "mongodb://ip:port/db" cinemas.export.js --quiet > cinemas.json
 
 data = db.cities
   .aggregate([
