@@ -39,13 +39,18 @@ const draw = async (data, config = {}) => {
     devicePixelRatio,
     fit: true,
     header: { background: "#E0E0E0" },
-    subtitle: { text: `${config.source} boxoffice data` },
+    subtitle: {
+      multiline: true,
+      text: `${config.source} boxoffice data`,
+      textAlign: "left",
+    },
     title: {
       text: `#${
         config.type === "date"
           ? moment(config.payload, ["YYYY-MM-DD"]).format("MMMDddd")
           : config.payload
       }`,
+      textAlign: "left",
     },
   };
   const width = 640;
