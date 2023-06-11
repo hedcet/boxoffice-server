@@ -53,6 +53,7 @@ const { syncMetadata: nedbSyncMetadata, aggregate } = require("./nedb.js");
     type,
     payload,
     imgPath: path.resolve(dumpDir, "report.png"),
+    source,
   }); // generate table image
 
   console.log(query, imgPath);
