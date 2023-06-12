@@ -1,4 +1,4 @@
-this will download/update both [rebrand.ly/bookmyshow](http://rebrand.ly/bookmyshow) & [rebrand.ly/paytm-movies](http://rebrand.ly/paytm-movies) into `store/dump` folder using git, javascript & nedb for analysis
+this will download/update both [rebrand.ly/bookmyshow](http://rebrand.ly/bookmyshow) & [rebrand.ly/paytm-movies](http://rebrand.ly/paytm-movies) into `store/dump` folder using git
 
 ### how to use?
 
