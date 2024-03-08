@@ -1,7 +1,7 @@
 const nedb = require("nedb-promises");
 const path = require("path");
 
-const dumpDir = "store/dump";
+const { dumpDir } = require("./env.js");
 
 // initialize db
 const db = new nedb({

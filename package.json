@@ -1,12 +1,13 @@
 {
   "dependencies": {
+    "canvas": "^2.11.2",
     "canvas-table": "^0.3.0",
     "fast-csv": "^4.3.6",
     "lodash": "^4.17.21",
     "moment": "^2.29.4",
     "moment-timezone": "^0.5.43",
     "nedb-promises": "^6.2.1",
-    "numeral": "^2.0.6",
-    "sharp": "^0.32.1"
+    "sharp": "^0.32.1",
+    "validator": "^13.11.0"
   }
 }

@@ -1,21 +1,23 @@
-const moment = require("moment");
 const path = require("path");
-
-require("moment-timezone");
-moment.tz.setDefault("Asia/Kolkata");
+const { isJSON } = require("validator");
 
 const { draw } = require("./canvas.table.js");
 const { db } = require("./db.js");
-const { bmsDir, dumpDir, ptmDir } = require("./env.js");
+const { bmsDirName, dumpDir, ptmDirName } = require("./env.js");
 const { sync: gitSync } = require("./git.sync.js");
+const { moment } = require("./moment.js");
 const { syncMetadata: nedbSyncMetadata, aggregate } = require("./nedb.js");
 
 (async () => {
-  // validate input
+  gitSync(); // git sync
+  await nedbSyncMetadata(bmsDirName); // nedb bms folder/file metadata sync
+  await nedbSyncMetadata(ptmDirName); // nedb ptm folder/file metadata sync
+
+  // validate args
   let source = process.argv[2] || "bms";
   let type = process.argv[3] || "date";
   let payload =
-    process.argv[4] || moment().subtract(1, "day").format("YYYY-MM-DD");
+    process.argv[4] || moment().subtract(1, "day").format("YYYY-MM-DD"); // default yesterday's date
 
   let query = {};
   switch (type) {
@@ -25,17 +27,17 @@ const { syncMetadata: nedbSyncMetadata, aggregate } = require("./nedb.js");
       query = {
         source,
         date: {
-          $gte: date.startOf("day").toDate(),
-          $lte: date.endOf("day").toDate(),
+          $gte: date.clone().startOf("day").toDate(),
+          $lte: date.clone().endOf("day").toDate(),
         },
       };
       break;
     }
 
     case "movie": {
-      if (!(await db.findOne({ name: payload })))
-        throw new Error("no movie found");
-      query = { source, name: payload };
+      const name = new RegExp(payload); // accept RegExp
+      if (!(await db.findOne({ name }))) throw new Error("movie not found");
+      query = { source, name };
       break;
     }
 
@@ -43,9 +45,6 @@ const { syncMetadata: nedbSyncMetadata, aggregate } = require("./nedb.js");
       throw new Error("invalid args");
   }
 
-  gitSync(); // git sync
-  await nedbSyncMetadata(bmsDir); // nedb bms folder/file metadata sync
-  await nedbSyncMetadata(ptmDir); // nedb ptm folder/file metadata sync
   const data = await aggregate(query, type); // csv read & aggregate
   const {
     config: { imgPath },

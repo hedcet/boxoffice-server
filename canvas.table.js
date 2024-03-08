@@ -2,19 +2,15 @@ const { createCanvas } = require("canvas");
 const { CanvasTable } = require("canvas-table");
 const fs = require("fs");
 const { orderBy } = require("lodash");
-const moment = require("moment");
-const numeral = require("numeral");
 const path = require("path");
 const sharp = require("sharp");
 
-require("moment-timezone");
-moment.tz.setDefault("Asia/Kolkata");
-
 const { dumpDir } = require("./env.js");
-const { randomId, toLocaleNumber } = require("./helper.js");
+const { randomId, toEnIn } = require("./helpers.js");
+const { moment } = require("./moment.js");
 
 const draw = async (data, config = {}) => {
-  let height = 8192;
+  let height = 8192; // crop at last
 
   const columns = [
     { title: config.type === "date" ? "Movie" : "Date" },
@@ -41,7 +37,7 @@ const draw = async (data, config = {}) => {
     header: { background: "#E0E0E0" },
     subtitle: {
       multiline: true,
-      text: `${config.source} boxoffice data`,
+      text: `${config.source} data for boxoffice analysis`,
       textAlign: "left",
     },
     title: {
@@ -59,18 +55,22 @@ const draw = async (data, config = {}) => {
     columns,
     data: orderBy(
       Object.values(data),
-      config.type === "date" ? ["sum", "shows"] : ["name", "shows"],
-      "desc"
+      config.type === "date" ? ["sum", "capacity"] : ["date", "capacity"],
+      config.type === "date" ? ["desc", "desc"] : ["asc", "desc"]
     )
-      .filter((i) => 100 <= i.shows)
+      // .filter((i) => 100 <= i.shows)
       .map((i, j) => {
         const k = [
           i._id,
-          `₹${toLocaleNumber(i.sum)}`,
-          `${toLocaleNumber(i.shows)}`, // `${i.hf[0] ? `(${toLocaleNumber(i.hf[0])}HF) ` : ""}${toLocaleNumber(i.shows)}`,
-          `${numeral(i.occupancy).format("0%")} (${toLocaleNumber(
-            i.booked
-          )}/${toLocaleNumber(i.capacity)})`,
+          `₹${toEnIn(i.sum)}${
+            1000 < i.sum
+              ? `(${toEnIn(i.sum, "en-in", { notation: "compact" })})`
+              : ""
+          }`,
+          `${toEnIn(i.shows)}`, // `${i.hf[0] ? `(${toEnIn(i.hf[0])}HF)` : ""}`,
+          `${Math.round((i.booked / i.capacity) * 100)}% of ${toEnIn(
+            i.capacity
+          )}`,
         ];
         return j % 2 ? k.map((l) => ({ background: "#F5F5F5", value: l })) : k;
       }),

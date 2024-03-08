@@ -3,8 +3,12 @@ const path = require("path");
 
 const { dumpDir } = require("./env.js");
 
+let AI = Math.ceil(Math.random() * 100000);
+const autoIncrementString = () =>
+  `${new Date().getTime().toString(36)}.${AI++}`;
+
 const gitClone = (repoUrl, relativeDir) => {
-  console.log(`git clone ${repoUrl} ${relativeDir}`);
+  console.log(`git clone --depth 1 ${repoUrl} ${relativeDir}`);
   execSync(`git clone ${repoUrl} ${relativeDir}`, {
     cwd: path.resolve(dumpDir),
     stdio: [0, 1, 2],
@@ -21,10 +25,8 @@ const gitPull = (repoUrl, relativeDir) => {
 
 const randomId = () => Math.random().toString(36).substr(2, 6);
 
-const toLocaleNumber = (value, locale = "en-IN", options = {}) => {
-  return parseInt(
-    typeof value === "string" ? value : `${value}`
-  ).toLocaleString(locale, options);
+const toEnIn = (value, locale = "en-IN", options = {}) => {
+  return value.toLocaleString(locale, options);
 };
 
-module.exports = { gitClone, gitPull, randomId, toLocaleNumber };
+module.exports = { autoIncrementString, gitClone, gitPull, randomId, toEnIn };

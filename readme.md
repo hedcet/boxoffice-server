@@ -1,4 +1,4 @@
-this will download/update both [rebrand.ly/bookmyshow](http://rebrand.ly/bookmyshow) & [rebrand.ly/paytm-movies](http://rebrand.ly/paytm-movies) into `store/dump` folder using git
+this will pull both [rebrand.ly/bookmyshow](http://rebrand.ly/bookmyshow) & [rebrand.ly/paytm-movies](http://rebrand.ly/paytm-movies) into `./store` folder using git
 
 ### how to use?
 
@@ -8,6 +8,6 @@ cd <git_clone_path> && npm i
 node report.js bms/ptm date/movie <YYYY-MM-DD>/<movieName>
 ```
 
-example cmd - `node report.js bms date 2023-06-04` will generate table img given below
+example cmd - `node report.js bms movie Kantara` will generate image table given below
 
-<img src="./store/dump/report.png" />
+<img src="./store/report.png" />

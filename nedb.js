@@ -1,13 +1,10 @@
 const { parseString, writeToPath } = require("fast-csv");
 const fs = require("fs");
-const moment = require("moment");
 const path = require("path");
-
-require("moment-timezone");
-moment.tz.setDefault("Asia/Kolkata");
 
 const { db } = require("./db.js");
 const { dumpDir } = require("./env.js");
+const { moment } = require("./moment.js");
 
 const syncMetadata = async (relativeDir) => {
   const dir = path.resolve(dumpDir, relativeDir);
@@ -46,47 +43,52 @@ const aggregate = async (query = {}, type = "date") => {
       dumpDir,
       `${source}/${name}/${key}.${moment(date).format("YYYY-MM-DD")}.csv`
     );
-    if (fs.existsSync(file))
-      await new Promise(async (resolve, reject) => {
-        console.log(file);
+    if (!fs.existsSync(file)) {
+      console.error("file not found", file);
+      continue;
+    }
+    await new Promise(async (resolve, reject) => {
+      console.log(file);
 
-        // aggregation store
-        const _id = type === "date" ? name : moment(date).format("MMMDddd");
-        if (!data[_id]) data[_id] = { _id };
-        const ref = data[_id];
+      // setup aggregation store
+      const _id = type === "date" ? name : moment(date).format("YYYYMMMDddd");
+      if (!data[_id]) data[_id] = { _id, date };
+      const ref = data[_id];
 
-        const csv = [];
-        parseString(fs.readFileSync(file, "utf8"), { headers: true })
-          .on("error", reject)
-          .on("data", (row) => csv.push(row))
-          .on("end", () => {
-            for (const j of csv) {
-              const _change = `${j.City}|${j.Name}|${j.Language}|${j["Time(IST)"]}`;
-              const booked = +j.Booked;
-              const capacity = +j.Capacity;
-              const sum = +j.Booked * +j.Price.replace(/[^0-9]+/g, "");
+      // read csv & aggregate
+      const csv = [];
+      parseString(fs.readFileSync(file, "utf8"), { headers: true })
+        .on("error", reject)
+        .on("data", (row) => csv.push(row))
+        .on("end", () => {
+          for (const j of csv) {
+            const _show_id = `${j.City}|${j.Name}|${j.Language}|${j["Time(IST)"]}`; // unique show id
+            const booked = +j.Booked;
+            const capacity = +j.Capacity;
+            const sum =
+              +j.Booked * +j.Price.split(".")[0].replace(/[^0-9]+/g, "");
 
-              if (!ref.booked) ref.booked = 0;
-              if (!ref.capacity) ref.capacity = 0;
-              // if (!ref.hf) ref.hf = [0];
-              if (!ref.shows) ref.shows = 0;
-              if (!ref.sum) ref.sum = 0;
+            if (!ref.booked) ref.booked = 0;
+            if (!ref.capacity) ref.capacity = 0;
+            // if (!ref.hf) ref.hf = [0]; // hf[0] store house full count
+            if (!ref.shows) ref.shows = 0;
+            if (!ref.sum) ref.sum = 0;
 
-              ref.booked += booked;
-              ref.capacity += capacity;
-              // ref.hf.push(0.99 < booked / capacity);
-              if (_change !== ref._change) {
-                ref.shows += 1;
-                // if (ref.hf.slice(1).every((i) => i)) ref.hf[0] += 1;
-                // ref.hf.splice(1);
-                ref._change = _change;
-              }
-              ref.sum += sum;
+            ref.booked += booked;
+            ref.capacity += capacity;
+            // ref.hf.push(0.99 < booked / capacity);
+            if (_show_id !== ref._show_id) {
+              ref.shows += 1;
+              // if (ref.hf.slice(1).every((i) => i)) ref.hf[0] += 1;
+              // ref.hf.splice(1);
+              ref._show_id = _show_id;
             }
-            ref.occupancy = ref.booked / ref.capacity;
-            resolve(true);
-          });
-      });
+            ref.sum += sum;
+          }
+          ref.occupancy = ref.booked / ref.capacity;
+          resolve(true);
+        });
+    });
   }
 
   return data;
