@@ -1,5 +1,4 @@
 const path = require("path");
-const { isJSON } = require("validator");
 
 const { draw } = require("./canvas.table.js");
 const { db } = require("./db.js");
@@ -9,9 +8,10 @@ const { moment } = require("./moment.js");
 const { syncMetadata: nedbSyncMetadata, aggregate } = require("./nedb.js");
 
 (async () => {
-  gitSync(); // git sync
-  await nedbSyncMetadata(bmsDirName); // nedb bms folder/file metadata sync
-  await nedbSyncMetadata(ptmDirName); // nedb ptm folder/file metadata sync
+  await gitSync(); // git clone/pull
+
+  await nedbSyncMetadata(bmsDirName); // sync bms folder/file metadata to nedb
+  await nedbSyncMetadata(ptmDirName); // sync ptm folder/file metadata to nedb
 
   // validate args
   let source = process.argv[2] || "bms";

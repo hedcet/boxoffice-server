@@ -1,4 +1,4 @@
-const { parseString, writeToPath } = require("fast-csv");
+const { parseString } = require("fast-csv");
 const fs = require("fs");
 const path = require("path");
 
@@ -52,7 +52,16 @@ const aggregate = async (query = {}, type = "date") => {
 
       // setup aggregation store
       const _id = type === "date" ? name : moment(date).format("YYYYMMMDddd");
-      if (!data[_id]) data[_id] = { _id, date };
+      if (!data[_id])
+        data[_id] = {
+          _id,
+          date,
+          shows: 0,
+          booked: 0,
+          capacity: 0,
+          sum: 0,
+          // hf: [0], // hf[0] store house full count
+        };
       const ref = data[_id];
 
       // read csv & aggregate
@@ -63,16 +72,9 @@ const aggregate = async (query = {}, type = "date") => {
         .on("end", () => {
           for (const j of csv) {
             const _show_id = `${j.City}|${j.Name}|${j.Language}|${j["Time(IST)"]}`; // unique show id
-            const booked = +j.Booked;
-            const capacity = +j.Capacity;
-            const sum =
-              +j.Booked * +j.Price.split(".")[0].replace(/[^0-9]+/g, "");
-
-            if (!ref.booked) ref.booked = 0;
-            if (!ref.capacity) ref.capacity = 0;
-            // if (!ref.hf) ref.hf = [0]; // hf[0] store house full count
-            if (!ref.shows) ref.shows = 0;
-            if (!ref.sum) ref.sum = 0;
+            const booked = +j.Booked.replace(/[^0-9]+/g, "");
+            const capacity = +j.Capacity.replace(/[^0-9]+/g, "");
+            const sum = booked * +j.Price.split(".")[0].replace(/[^0-9]+/g, "");
 
             ref.booked += booked;
             ref.capacity += capacity;
@@ -85,7 +87,7 @@ const aggregate = async (query = {}, type = "date") => {
             }
             ref.sum += sum;
           }
-          ref.occupancy = ref.booked / ref.capacity;
+          ref.occupancy = ref.capacity ? ref.booked / ref.capacity : 0;
           resolve(true);
         });
     });
