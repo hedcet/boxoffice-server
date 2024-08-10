@@ -1,5 +1,6 @@
 const { parseString } = require("fast-csv");
 const fs = require("fs");
+const { round } = require("lodash");
 const path = require("path");
 
 const { csvPath, qc } = require("./config/env.js");
@@ -9,10 +10,10 @@ const { moment } = require("./config/moment.js");
 const { db, syncFileInfo } = require("./config/nedb.js");
 
 (async () => {
-  const name = /devadoothan/i;
-  const displayName = "Devadoothan";
+  const name = /raayan/i;
+  const displayName = "Raayan";
   const from = moment("2024-07-26", ["YYYY-MM-DD"]);
-  const to = moment();
+  const to = moment("2024-08-08", ["YYYY-MM-DD"]);
 
   await sync(csvPath); // git clone/pull
   await syncFileInfo(csvPath); // sync folder/file metadata to nedb
@@ -27,11 +28,12 @@ const { db, syncFileInfo } = require("./config/nedb.js");
     Friday: { _name: "Friday" },
     Saturday: { _name: "Saturday" },
     Sunday: { _name: "Sunday" },
+    _total: { _shows: 0, _booked: 0, _capacity: 0, _sum: 0 },
   };
   let date;
   let weekIndex = 1;
   for (const i of await db
-    .find({ name, date: { $gte: from.toDate(), $lt: to.toDate() } })
+    .find({ name, date: { $gte: from.toDate(), $lte: to.toDate() } })
     .sort({ date: 1 })) {
     date = moment(i.date);
     const d = moment(date).format("dddd");
@@ -49,23 +51,32 @@ const { db, syncFileInfo } = require("./config/nedb.js");
         .on("data", (row) => csv.push(row))
         .on("end", () => {
           for (const j of csv) {
-            // const _id = `${j.City}|${j.Name}|${j.Language}|${j["Time(IST)"]}`; // unique show id
+            const _show_id = `${j.City}|${j.Name}|${j.Language}|${j["Time(IST)"]}`; // unique show id
             const booked = +j.Booked.replace(/[^0-9]+/g, "");
-            // const capacity = +j.Capacity.replace(/[^0-9]+/g, "");
+            const capacity = +j.Capacity.replace(/[^0-9]+/g, "");
             const sum = booked * +j.Price.split(".")[0].replace(/[^0-9]+/g, "");
-            data[d][k] += sum;
+            if (capacity) {
+              data[d][k] += sum;
+              if (data._total._show_id != _show_id) {
+                data._total._show_id = _show_id;
+                data._total._shows += 1;
+              }
+              data._total._booked += booked;
+              data._total._capacity += capacity;
+              data._total._sum += sum;
+            }
           }
           resolve(true);
         });
     });
     if (d === "Sunday") weekIndex += 1;
   }
-  if (!date) throw new Error("date not found");
+  if (!data._total._shows) throw new Error("shows not found");
 
   const columns = [{ width: 120, dataIndex: "_name" }];
   for (let i = 1; i <= weekIndex; i++) {
     const dataIndex = `_week_${i}`;
-    if (!data._total) data._total = {};
+    // if (!data._total) data._total = {};
     data._total[dataIndex] = Object.values(data)
       .filter((i) => i[dataIndex])
       .reduce((m, i) => m + i[dataIndex], 0);
@@ -77,13 +88,6 @@ const { db, syncFileInfo } = require("./config/nedb.js");
       align: "right",
     });
   }
-  const title = `#${displayName}\n#Kerala #BoxOffice ${from.format(
-    "MMMD"
-  )}/${date.format("MMMD")} ₹${toEnIn(
-    Object.values(data._total).reduce((m, i) => m + i, 0),
-    "en-in",
-    { notation: "compact" }
-  )}`;
   const dataSource = [];
   for (const i of Object.values(data)) {
     Object.keys(i)
@@ -95,8 +99,26 @@ const { db, syncFileInfo } = require("./config/nedb.js");
     dataSource.push("-");
     dataSource.push(i);
   }
+  const title = `#${displayName}\n#Kerala #BoxOffice ${from.format(
+    "MMMD"
+  )}/${date.format("MMMD")} ${Math.round(
+    date.diff(from, "week", true)
+  )}W Summary`;
 
   console.log(
+    `#${displayName} #Kerala #BoxOffice ${from.format("MMMD")}/${date.format(
+      "MMMD"
+    )} ${Math.round(
+      date.diff(from, "week", true)
+    )}W Summary\n├ Gross ~ ₹${toEnIn(data._total._sum, "en-in", {
+      notation: "compact",
+    })}\n├ Occupancy ~ ${toEnIn(data._total._booked)}${
+      data._total._booked
+        ? `(${round((data._total._booked / data._total._capacity) * 100, 2)}%)`
+        : ""
+    }\n├ Shows ~ ${toEnIn(
+      data._total._shows
+    )}\ngithub.com/hedcet/boxoffice/tree/main/${displayName}`,
     `${qc}?data=${encodeURIComponent(
       JSON.stringify({
         columns,
