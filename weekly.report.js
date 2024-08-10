@@ -60,7 +60,7 @@ const { db, syncFileInfo } = require("./config/nedb.js");
     });
     if (d === "Sunday") weekIndex += 1;
   }
-  if (!date) throw new Error("data not found");
+  if (!date) throw new Error("date not found");
 
   const columns = [{ width: 120, dataIndex: "_name" }];
   for (let i = 1; i <= weekIndex; i++) {
@@ -77,11 +77,13 @@ const { db, syncFileInfo } = require("./config/nedb.js");
       align: "right",
     });
   }
-  const title = `#${displayName}\n#Kerala #BoxOffice ₹${toEnIn(
+  const title = `#${displayName}\n#Kerala #BoxOffice ${from.format(
+    "MMMD"
+  )}/${date.format("MMMD")} ₹${toEnIn(
     Object.values(data._total).reduce((m, i) => m + i, 0),
     "en-in",
     { notation: "compact" }
-  )} ${from.format("MMMD")}/${date.format("MMMD")}`;
+  )}`;
   const dataSource = [];
   for (const i of Object.values(data)) {
     Object.keys(i)
