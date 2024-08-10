@@ -10,8 +10,8 @@ const { moment } = require("./config/moment.js");
 const { db, syncFileInfo } = require("./config/nedb.js");
 
 (async () => {
-  const name = /raayan/i;
-  const displayName = "Raayan";
+  const name = /devadoothan/i;
+  const displayName = "Devadoothan";
   const from = moment("2024-07-26", ["YYYY-MM-DD"]);
   const to = moment("2024-08-08", ["YYYY-MM-DD"]);
 
@@ -80,7 +80,7 @@ const { db, syncFileInfo } = require("./config/nedb.js");
     data._total[dataIndex] = Object.values(data)
       .filter((i) => i[dataIndex])
       .reduce((m, i) => m + i[dataIndex], 0);
-    columns.push("|");
+    if (1 < i) columns.push("|");
     columns.push({
       width: 120,
       title: `Week ${i}`,
