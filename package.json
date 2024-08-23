@@ -5,6 +5,7 @@
     "moment": "^2.30.1",
     "moment-timezone": "^0.5.45",
     "nedb-promises": "^6.2.3",
-    "simple-git": "^3.24.0"
+    "simple-git": "^3.24.0",
+    "snoowrap": "^1.23.0"
   }
 }

@@ -10,10 +10,10 @@ const { moment } = require("./config/moment.js");
 const { db, syncFileInfo } = require("./config/nedb.js");
 
 (async () => {
-  const name = /devadoothan/i;
-  const displayName = "Devadoothan";
-  const from = moment("2024-07-26", ["YYYY-MM-DD"]);
-  const to = moment("2024-08-08", ["YYYY-MM-DD"]);
+  const name = /checkmate/i;
+  const displayName = "Checkmate";
+  const from = moment("2024-08-09", ["YYYY-MM-DD"]);
+  const to = moment("2024-08-15", ["YYYY-MM-DD"]);
 
   await sync(csvPath); // git clone/pull
   await syncFileInfo(csvPath); // sync folder/file metadata to nedb
@@ -88,6 +88,7 @@ const { db, syncFileInfo } = require("./config/nedb.js");
       align: "right",
     });
   }
+  columns.push({ width: 20 });
   const dataSource = [];
   for (const i of Object.values(data)) {
     Object.keys(i)
