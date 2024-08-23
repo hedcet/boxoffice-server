@@ -6,5 +6,37 @@
     "reply_to": "1etj5ky",
     "source": "github",
     "start_date": "2024-08-17"
+  },
+  {
+    "enable": true,
+    "github_folder": "Footage",
+    "comment_id": "ljl5yf2",
+    "reply_to": "1ez3f75",
+    "source": "github",
+    "start_date": "2024-08-23"
+  },
+  {
+    "enable": true,
+    "github_folder": "Thaanara",
+    "comment_id": "ljl656n",
+    "reply_to": "1ez785g",
+    "source": "github",
+    "start_date": "2024-08-23"
+  },
+  {
+    "enable": true,
+    "github_folder": "PalumPazhavum",
+    "comment_id": "ljl6k8x",
+    "reply_to": "1ez568j",
+    "source": "github",
+    "start_date": "2024-08-23"
+  },
+  {
+    "enable": true,
+    "github_folder": "Karnika",
+    "comment_id": "ljl6r0q",
+    "reply_to": "1ez76sh",
+    "source": "github",
+    "start_date": "2024-08-23"
   }
 ]
