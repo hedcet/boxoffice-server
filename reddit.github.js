@@ -14,12 +14,16 @@ const { client } = require("./config/snoowrap.js");
   await sync(csvPath); // git clone/pull
   await syncFileInfo(csvPath); // sync folder/file metadata to nedb
 
-  for (const config of JSON.parse(
-    fs.readFileSync(path.resolve("./reddit.json"), "utf8")
-  ).filter((i) => i.enable)) {
+  // mapping reddit post to github folder
+  // store comment id to overwrite
+  const config_path = path.resolve(__dirname, "./reddit.json");
+  const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
+  for (const config of configs) {
+    if (!config.enable) continue; // for long run
     if (!(await db.findOne({ name: config.github_folder })))
       throw new Error("name not found");
 
+    // TODO - validate
     const start_date = moment(config.start_date, ["YYYY-MM-DD"]);
     const end_date = config.end_date
       ? moment(config.end_date, ["YYYY-MM-DD"])
@@ -110,7 +114,7 @@ const { client } = require("./config/snoowrap.js");
     } |\n\n[source](https://github.com/hedcet/boxoffice/tree/main/${
       config.github_folder
     }) | last updated at ${moment().format("YYYY-MM-DDTHH:mm")}`;
-    console.log(text);
+    console.log(config, text);
 
     // reddit
     if (config.comment_id)
@@ -121,14 +125,18 @@ const { client } = require("./config/snoowrap.js");
           .then(resolve)
           .catch(reject)
       );
-    else if (config.reply_to)
-      await new Promise((resolve, reject) =>
+    else if (config.reply_to) {
+      const { id } = await new Promise((resolve, reject) =>
         client
           .getSubmission(config.reply_to)
           .reply(text)
           .then(resolve)
           .catch(reject)
       );
-    else throw Error("invalid config");
+      config.comment_id = id;
+      fs.writeFileSync(config_path, JSON.stringify(configs, undefined, 2));
+    } else throw Error("invalid config");
+
+    await new Promise((r) => setTimeout(r, 60000));
   }
 })();
