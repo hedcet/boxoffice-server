@@ -21,8 +21,6 @@ const { client } = require("./config/snoowrap.js");
   for (const config of configs) {
     if (!config.enable) continue; // for long run
     if (!["github"].includes(config.source)) continue;
-    if (!(await db.findOne({ name: config.github_folder })))
-      throw new Error("name not found");
 
     // TODO - validate
     const start_date = moment(config.start_date, ["YYYY-MM-DD"]);
@@ -34,10 +32,16 @@ const { client } = require("./config/snoowrap.js");
     const data = {};
     for (const i of await db
       .find({
-        name: config.github_folder,
         date: { $gte: start_date.toDate(), $lte: end_date.toDate() },
+        ...(config.github_id
+          ? { id: config.github_id }
+          : { name: config.github_folder }),
       })
       .sort({ date: 1 })) {
+      if (!config.github_folder) {
+        config.github_folder = i.name;
+        fs.writeFileSync(config_path, JSON.stringify(configs, undefined, 2));
+      }
       const date = moment(i.date);
       const _date_id = date.format("YYYY-MM-DD");
       if (!data[_date_id])
