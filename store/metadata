@@ -1064,6 +1064,7 @@
 {"date":{"$$date":1724265000000},"id":"af1bbb","name":"Nunakuzhi","_id":"gCdr1Deso7CKSXBy"}
 {"date":{"$$date":1722623400000},"id":"133ef9","name":"Bidurbhai","_id":"gELOPHZQUWO3i2PW"}
 {"date":{"$$date":1723833000000},"id":"64c5c3","name":"Vazha","_id":"gFmPhGL0NBbpstTB"}
+{"date":{"$$date":1724351400000},"id":"0640a5","name":"Devadoothan","_id":"gGZqO2CcURQZkGrf"}
 {"date":{"$$date":1721413800000},"id":"47ae7f","name":"Golam","_id":"gH6znxUvACDQC1TF"}
 {"date":{"$$date":1721586600000},"id":"d4c50e","name":"Gaganachari","_id":"gHh4v7unRaMszbTu"}
 {"date":{"$$date":1723401000000},"id":"ec3ba2","name":"Borderlands","_id":"gIZixjEllbyTklIE"}
@@ -1581,4 +1582,3 @@
 {"$$indexCreated":{"fieldName":"date","unique":false,"sparse":false}}
 {"$$indexCreated":{"fieldName":"id","unique":false,"sparse":false}}
 {"$$indexCreated":{"fieldName":"name","unique":false,"sparse":false}}
-{"date":{"$$date":1724351400000},"id":"0640a5","name":"Devadoothan","_id":"gGZqO2CcURQZkGrf"}

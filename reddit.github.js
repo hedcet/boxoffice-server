@@ -19,7 +19,7 @@ const { client } = require("./config/snoowrap.js");
   const config_path = path.resolve(__dirname, "./reddit.json");
   const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
   for (const config of configs) {
-    if (!config.enable) continue; // for long run
+    if (!config.enable || !["github"].includes(config.source)) continue; // for long run
     if (!(await db.findOne({ name: config.github_folder })))
       throw new Error("name not found");
 
@@ -113,7 +113,7 @@ const { client } = require("./config/snoowrap.js");
         : toEnIn(total.sum, "en-in", { notation: "compact" })
     } |\n\n[source](https://github.com/hedcet/boxoffice/tree/main/${
       config.github_folder
-    }) | last updated at ${moment().format("YYYY-MM-DDTHH:mm")}`;
+    }) | last updated at ${moment().format("YYYY-MM-DDTHH:mmZZ")}`;
     console.log(config, text);
 
     // reddit
