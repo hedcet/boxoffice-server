@@ -19,7 +19,8 @@ const { client } = require("./config/snoowrap.js");
   const config_path = path.resolve(__dirname, "./reddit.json");
   const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
   for (const config of configs) {
-    if (!config.enable || !["github"].includes(config.source)) continue; // for long run
+    if (!config.enable) continue; // for long run
+    if (!["github"].includes(config.source)) continue;
     if (!(await db.findOne({ name: config.github_folder })))
       throw new Error("name not found");
 

@@ -13,7 +13,8 @@ const { client } = require("./config/snoowrap.js");
   const config_path = path.resolve(__dirname, "./reddit.json");
   const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
   for (const config of configs) {
-    if (!config.enable || !["wtf"].includes(config.source)) continue; // for long run
+    if (!config.enable) continue; // for long run
+    if (!["wtf"].includes(config.source)) continue;
 
     // scraping
     const $ = cheerio.load(
