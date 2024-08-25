@@ -10,6 +10,7 @@
 {"date":{"$$date":1721241000000},"id":"02bb27","name":"Indian2","_id":"0KJX2URFR9ks0f4E"}
 {"date":{"$$date":1720290600000},"id":"d2b854","name":"GuruvayoorambalaNadayil","_id":"0OkmZr8Ro799kHuo"}
 {"date":{"$$date":1720117800000},"id":"363f46","name":"Kalki2898Ad","_id":"0R1H4U8ajsBtJ8Fr"}
+{"date":{"$$date":1724437800000},"id":"5ca283","name":"TrailersScreeningShow","_id":"0RFUK4YMXtd2DVLP"}
 {"date":{"$$date":1723401000000},"id":"a4b0fd","name":"PanchayatJetty","_id":"0StNYm1cYmAEccEn"}
 {"date":{"$$date":1724351400000},"id":"c6d0ea","name":"AlienRomulus","_id":"0SunsumIh8ei4k3k"}
 {"date":{"$$date":1720117800000},"id":"7beaae","name":"AQuietPlaceDayOne","_id":"0TfMernhas5iM5J4"}
@@ -72,6 +73,7 @@
 {"date":{"$$date":1723660200000},"id":"d175dc","name":"InsideOut2","_id":"2vv2M5QVHT8W92AJ"}
 {"date":{"$$date":1721673000000},"id":"d1b1e4","name":"Treasure","_id":"2xc1HCDVG0TpYtBM"}
 {"date":{"$$date":1722969000000},"id":"399d6e","name":"IdiyanChandhu","_id":"2yVAkCUKJCip0x6X"}
+{"date":{"$$date":1724437800000},"id":"3190b0","name":"HaroldAndThePurpleCrayon","_id":"321b07MaI7XUSvtI"}
 {"date":{"$$date":1723573800000},"id":"7c8c69","name":"NadannaSambhavam","_id":"34ex9gM7wA1pLjRu"}
 {"date":{"$$date":1721759400000},"id":"18ae94","name":"Vishesham","_id":"34riPvRh5N6dnQTJ"}
 {"date":{"$$date":1723228200000},"id":"9af778","name":"Ormachithram","_id":"36tPgtljZBqke3J5"}
@@ -119,6 +121,7 @@
 {"date":{"$$date":1720549800000},"id":"d175dc","name":"InsideOut2","_id":"5F7GnrL7bGBy4t3X"}
 {"date":{"$$date":1723401000000},"id":"3d06b7","name":"Bheema","_id":"5IFv5B6BzpUfa32C"}
 {"date":{"$$date":1721154600000},"id":"c45eb4","name":"DharmaDaiva","_id":"5IIDwW61U8SbzZKy"}
+{"date":{"$$date":1724437800000},"id":"7f5c4e","name":"AdiosAmigo","_id":"5IjxsND68aQOPtUX"}
 {"date":{"$$date":1723401000000},"id":"1b079e","name":"AliyaBasuGayabHai","_id":"5Iy1fKxTZkyb7vcX"}
 {"date":{"$$date":1720981800000},"id":"510e43","name":"Thalavan","_id":"5JAVLkSqhoNC4RoL"}
 {"date":{"$$date":1721759400000},"id":"d175dc","name":"InsideOut2","_id":"5JjexZThfIdfRAoX"}
@@ -133,6 +136,7 @@
 {"date":{"$$date":1723660200000},"id":"44f579","name":"Makudi","_id":"5edXNGAu9spCWfzg"}
 {"date":{"$$date":1722709800000},"id":"d175dc","name":"InsideOut2","_id":"5fLQ3ZomXr38DAJv"}
 {"date":{"$$date":1722709800000},"id":"cd758b","name":"Kill","_id":"5gP85VoOok9jFmMw"}
+{"date":{"$$date":1724437800000},"id":"a6e305","name":"Manichitrathazhu","_id":"5gu1PHTlbJdDOhVB"}
 {"date":{"$$date":1720895400000},"id":"c45eb4","name":"DharmaDaiva","_id":"5kEDQgB58tRMSm9s"}
 {"date":{"$$date":1720722600000},"id":"5ed5ac","name":"Turbo","_id":"5m0RSqfT42d4wIPT"}
 {"date":{"$$date":1720117800000},"id":"d9ab53","name":"Rockstar","_id":"5nxJbDqdI5MhyWca"}
@@ -203,6 +207,7 @@
 {"date":{"$$date":1723487400000},"id":"12319a","name":"Gu","_id":"7QLuXxFAG5gZ1NLg"}
 {"date":{"$$date":1720895400000},"id":"e0d967","name":"NadannaSambhavam","_id":"7QnHabzWt8KPaPmr"}
 {"date":{"$$date":1722277800000},"id":"cd758b","name":"Kill","_id":"7Qrnbb1EiVZxNXn9"}
+{"date":{"$$date":1724437800000},"id":"e419d8","name":"Karnika","_id":"7Sh2juUx2c0RpdvI"}
 {"date":{"$$date":1723919400000},"id":"a6e305","name":"Manichitrathazhu","_id":"7asqe5IlxY4Tof88"}
 {"date":{"$$date":1723055400000},"id":"785df2","name":"Jama","_id":"7b7wdij2Szu5yAuD"}
 {"date":{"$$date":1721241000000},"id":"c45eb4","name":"DharmaDaiva","_id":"7bUVXucYbbY8amMJ"}
@@ -414,15 +419,18 @@
 {"date":{"$$date":1720981800000},"id":"0210bb","name":"KunddalaPuranam","_id":"GYaoKZlZbkwEzBFE"}
 {"date":{"$$date":1723833000000},"id":"cd758b","name":"Kill","_id":"GaEMlM6K7amEVgjX"}
 {"date":{"$$date":1724005800000},"id":"72acc4","name":"Kalki2898Ad","_id":"Gas5tyyBtQxBhunX"}
+{"date":{"$$date":1724437800000},"id":"2d2d1e","name":"Cicada","_id":"GhqX4Lr6DoarhgwV"}
 {"date":{"$$date":1722969000000},"id":"7c8c69","name":"NadannaSambhavam","_id":"GiPZysZdMzCYT1qD"}
 {"date":{"$$date":1721068200000},"id":"df3199","name":"Hindustani2","_id":"GioPVLp2HvMa1heW"}
 {"date":{"$$date":1723141800000},"id":"316aab","name":"ItEndsWithUs","_id":"Gv0GHLPCoSkucRU8"}
 {"date":{"$$date":1722018600000},"id":"2ea5a1","name":"Levelcross","_id":"H0qpuMDZ5udEBukT"}
 {"date":{"$$date":1724351400000},"id":"091abd","name":"DemonteColony2","_id":"H0zjJFHoE7lOV8bs"}
 {"date":{"$$date":1721845800000},"id":"47ae7f","name":"Golam","_id":"H2icQxDhFwYKvTMV"}
+{"date":{"$$date":1724437800000},"id":"51b310","name":"BlinkTwice","_id":"H93zaEt0nxPQSu4K"}
 {"date":{"$$date":1720290600000},"id":"49e9f9","name":"OruKadhaParayumNeram","_id":"H9XeRkFtP70hauj4"}
 {"date":{"$$date":1723919400000},"id":"0703d6","name":"Raayan","_id":"HHqpCRplJoiqAdQX"}
 {"date":{"$$date":1720463400000},"id":"d4c50e","name":"Gaganachari","_id":"HQ98ZDOjRV2tr05I"}
+{"date":{"$$date":1724437800000},"id":"a8dcdb","name":"Hunt","_id":"HQBzF4lxi88z8qvm"}
 {"date":{"$$date":1721154600000},"id":"47ae7f","name":"Golam","_id":"HQgVCJMfZQ3c3qiH"}
 {"date":{"$$date":1723314600000},"id":"5d582d","name":"2024OscarNominatedShortFilmsAnimation","_id":"HW3m3gnT8jYpGnC0"}
 {"date":{"$$date":1722709800000},"id":"0703d6","name":"Raayan","_id":"HYY4AdyWGxswsfQ6"}
@@ -430,6 +438,7 @@
 {"date":{"$$date":1721500200000},"id":"47ae7f","name":"Golam","_id":"Hey02PWyGOk4k3FT"}
 {"date":{"$$date":1721673000000},"id":"12319a","name":"Gu","_id":"Hhcponfse6u7TibW"}
 {"date":{"$$date":1722364200000},"id":"eb1e74","name":"BadNewz","_id":"Hjf5qHSxjHvOplQ4"}
+{"date":{"$$date":1724437800000},"id":"292032","name":"Pechi","_id":"HkFgQ5HNRvvP0x5D"}
 {"date":{"$$date":1721586600000},"id":"d3eb55","name":"SpyXFamilyCodeWhite","_id":"HkZ55scoOvEGM9cX"}
 {"date":{"$$date":1722796200000},"id":"7c8c69","name":"NadannaSambhavam","_id":"HlEC5JNw0CFqYBaR"}
 {"date":{"$$date":1723401000000},"id":"daecaf","name":"Sanketh","_id":"Hnfo09eaCMe9jApq"}
@@ -437,6 +446,7 @@
 {"date":{"$$date":1722537000000},"id":"2d3399","name":"Trap2024","_id":"HoxGYY9c3G5JBqP2"}
 {"date":{"$$date":1722796200000},"id":"4eb7de","name":"ShivamBhaje","_id":"HrkYdSPJTWUMioDJ"}
 {"date":{"$$date":1720981800000},"id":"e0d967","name":"NadannaSambhavam","_id":"HtsSlcOsUsSDLTYq"}
+{"date":{"$$date":1724437800000},"id":"64c5c3","name":"Vazha","_id":"Hu5wwbIXPXMkQst5"}
 {"date":{"$$date":1722623400000},"id":"1dacc4","name":"ImaikkaaNodigal","_id":"HwSAwfkuuzgip4zd"}
 {"date":{"$$date":1721413800000},"id":"bffbbe","name":"SamadhanaPusthagam","_id":"HxWI0CN2x0cky4Fo"}
 {"date":{"$$date":1721845800000},"id":"12319a","name":"Gu","_id":"I2A7CwhwOoNPb2IW"}
@@ -472,6 +482,7 @@
 {"date":{"$$date":1722018600000},"id":"5ca283","name":"TrailersScreeningShow","_id":"IuKRLojUvWKwCBPx"}
 {"date":{"$$date":1722277800000},"id":"1e02d4","name":"Devadoothan","_id":"Iw4RbXHYcxSulQdm"}
 {"date":{"$$date":1723919400000},"id":"871b57","name":"SuperZindagi","_id":"IyuaJSSI8azQsdP2"}
+{"date":{"$$date":1724437800000},"id":"046a78","name":"DespicableMe4","_id":"J1pzyzWNHYx2wlxY"}
 {"date":{"$$date":1722882600000},"id":"7c8c69","name":"NadannaSambhavam","_id":"J1yTjCDzw2D4Nv48"}
 {"date":{"$$date":1721413800000},"id":"046a78","name":"DespicableMe4","_id":"J3inASXXdU0wqOTj"}
 {"date":{"$$date":1722796200000},"id":"eb1d4e","name":"Ulajh","_id":"J5Lyn0nY0z7Xi64H"}
@@ -567,6 +578,7 @@
 {"date":{"$$date":1721154600000},"id":"e0d967","name":"NadannaSambhavam","_id":"MJmFtTZGZTuY09mr"}
 {"date":{"$$date":1723055400000},"id":"4c4fc2","name":"Twisters","_id":"ML5luKtbu8HjNQ35"}
 {"date":{"$$date":1721068200000},"id":"5ca283","name":"TrailersScreeningShow","_id":"MM058YlTXJp605nO"}
+{"date":{"$$date":1724437800000},"id":"0703d6","name":"Raayan","_id":"MMbYOdzIy5MdGfLX"}
 {"date":{"$$date":1720809000000},"id":"f457c2","name":"OruKadhaParayumNeram","_id":"MUjn4ZNzfxWVDhfR"}
 {"date":{"$$date":1723487400000},"id":"2d13da","name":"Ghuspaithiya","_id":"MVsNkctsE4zJIzIv"}
 {"date":{"$$date":1720117800000},"id":"52265f","name":"Maharaja","_id":"MXd9UsfEq2Rbylj9"}
@@ -685,6 +697,7 @@
 {"date":{"$$date":1720031400000},"id":"7beaae","name":"AQuietPlaceDayOne","_id":"QsCkFaWpvgcaQbpW"}
 {"date":{"$$date":1721932200000},"id":"72acc4","name":"Kalki2898Ad","_id":"QvyDZanfUzzonQ1g"}
 {"date":{"$$date":1722969000000},"id":"1676b4","name":"Vishesham","_id":"QwKtMDLx0VilhAlQ"}
+{"date":{"$$date":1724437800000},"id":"50a029","name":"Footage","_id":"R80hknVPMCwtdlI6"}
 {"date":{"$$date":1721327400000},"id":"363e72","name":"MayaPuthagam","_id":"RCLTyJqFQ9B6An5H"}
 {"date":{"$$date":1723228200000},"id":"7f5c4e","name":"AdiosAmigo","_id":"RDFkHDHUjyTDVCd7"}
 {"date":{"$$date":1720290600000},"id":"10217e","name":"TrailersScreeningShow","_id":"REWFzj5DmPQZMSZJ"}
@@ -743,6 +756,7 @@
 {"date":{"$$date":1720809000000},"id":"47ae7f","name":"Golam","_id":"TRt97fctNcLakPWs"}
 {"date":{"$$date":1721845800000},"id":"9b454d","name":"Maharaja","_id":"TTmw2OHMePsKkGHB"}
 {"date":{"$$date":1722018600000},"id":"eb1e74","name":"BadNewz","_id":"TYq0AphKe9pew7Qv"}
+{"date":{"$$date":1724437800000},"id":"02d94b","name":"Thaanara","_id":"TaBntiwEolv9k65b"}
 {"date":{"$$date":1722623400000},"id":"72acc4","name":"Kalki2898Ad","_id":"Tdy2yyioBI6LqzUb"}
 {"date":{"$$date":1722277800000},"id":"4c4fc2","name":"Twisters","_id":"TgHqU1GxrBZI8G4p"}
 {"date":{"$$date":1720981800000},"id":"5ed5ac","name":"Turbo","_id":"Tgl4O0yUrIUBmxvc"}
@@ -753,6 +767,7 @@
 {"date":{"$$date":1720809000000},"id":"092d0d","name":"Kill","_id":"TxQKippO2oCimIxQ"}
 {"date":{"$$date":1724351400000},"id":"f47407","name":"Stree2","_id":"Tygad7nNdoYf2l66"}
 {"date":{"$$date":1723055400000},"id":"1676b4","name":"Vishesham","_id":"U06CLTAJv9rsRZdO"}
+{"date":{"$$date":1724437800000},"id":"0640a5","name":"Devadoothan","_id":"U0UFBrk8Kb66vwip"}
 {"date":{"$$date":1720636200000},"id":"5de7a6","name":"MSDhoniTheUntoldStory","_id":"U1yIu2KbFks3RmxF"}
 {"date":{"$$date":1721932200000},"id":"18ae94","name":"Vishesham","_id":"U2BWHzdDnnLWwjIu"}
 {"date":{"$$date":1722364200000},"id":"046a78","name":"DespicableMe4","_id":"U7vFfjgyqRKwDUgW"}
@@ -786,6 +801,7 @@
 {"date":{"$$date":1723228200000},"id":"1676b4","name":"Vishesham","_id":"VESjAu6TFHtAXNt7"}
 {"date":{"$$date":1719945000000},"id":"ffa1a9","name":"Matthu","_id":"VF82qtlKJQTXOjqd"}
 {"date":{"$$date":1723314600000},"id":"7f5c4e","name":"AdiosAmigo","_id":"VQkYzHKnukP56SCD"}
+{"date":{"$$date":1724437800000},"id":"72acc4","name":"Kalki2898Ad","_id":"VR3E15zeIcuyzRim"}
 {"date":{"$$date":1720117800000},"id":"9fa5aa","name":"Kurukku","_id":"VT3H7EBEUdPexHTz"}
 {"date":{"$$date":1721327400000},"id":"5ed5ac","name":"Turbo","_id":"VTW8zADFzgJZvZvw"}
 {"date":{"$$date":1721932200000},"id":"1e02d4","name":"Devadoothan","_id":"VWMniZcHKQQGsrFU"}
@@ -874,6 +890,7 @@
 {"date":{"$$date":1723314600000},"id":"636eab","name":"DeadpoolWolverine","_id":"YtEKMmUj6hlrve97"}
 {"date":{"$$date":1723314600000},"id":"1dacc4","name":"ImaikkaaNodigal","_id":"Yvx2Ddd6SxpCpznC"}
 {"date":{"$$date":1721500200000},"id":"cd758b","name":"Kill","_id":"YxCd7tZfVLynmjMt"}
+{"date":{"$$date":1724437800000},"id":"636eab","name":"DeadpoolWolverine","_id":"YzA8rQQvx9Q4ipLr"}
 {"date":{"$$date":1723746600000},"id":"12319a","name":"Gu","_id":"Z0CFzhfYbQnJYs3I"}
 {"date":{"$$date":1722018600000},"id":"399d6e","name":"IdiyanChandu","_id":"Z47KkNnbY3WI60Qd"}
 {"date":{"$$date":1724265000000},"id":"b21655","name":"Aattam","_id":"Z60OOYGrGkXZmAYg"}
@@ -1056,6 +1073,7 @@
 {"date":{"$$date":1722623400000},"id":"12319a","name":"Gu","_id":"g4snj29IUECnpRYU"}
 {"date":{"$$date":1723401000000},"id":"72acc4","name":"Kalki2898Ad","_id":"g5yReWrkYtVuljSb"}
 {"date":{"$$date":1721413800000},"id":"f9f417","name":"ABeautifulPlanet3DImax","_id":"g6IgCTxP2jWIGYRP"}
+{"date":{"$$date":1724437800000},"id":"316aab","name":"ItEndsWithUs","_id":"g7R4eUlGXl9kOist"}
 {"date":{"$$date":1721586600000},"id":"12319a","name":"Gu","_id":"g9C8HE09WwQIsdLG"}
 {"date":{"$$date":1722882600000},"id":"12319a","name":"Gu","_id":"gA5YzJF992SdsFf8"}
 {"date":{"$$date":1723573800000},"id":"40e37b","name":"Partner","_id":"gAcjYtV5SwYPAbC7"}
@@ -1106,6 +1124,7 @@
 {"date":{"$$date":1720722600000},"id":"2b003c","name":"RkVellimegham","_id":"hblpgm6qvhOGfVEU"}
 {"date":{"$$date":1720204200000},"id":"46e1bc","name":"Kalki2898Ad","_id":"he4wkGSjMdI3Jyes"}
 {"date":{"$$date":1721673000000},"id":"5ca283","name":"TrailersScreeningShow","_id":"hjv3jBe99DKiKFyp"}
+{"date":{"$$date":1724437800000},"id":"f154cb","name":"PalumPazhavum","_id":"hnpIzdrwX1XMf1gV"}
 {"date":{"$$date":1721932200000},"id":"cf2771","name":"Ullozhukku","_id":"hoyPIK2NikU85xBj"}
 {"date":{"$$date":1722537000000},"id":"eb1d4e","name":"Ulajh","_id":"hqCsXJb4GdwoVNIz"}
 {"date":{"$$date":1720809000000},"id":"58c135","name":"Ezhuthola","_id":"hsNK6wz4Sk2dl3d1"}
@@ -1136,6 +1155,7 @@
 {"date":{"$$date":1721241000000},"id":"2b003c","name":"RkVellimegham","_id":"ixViVhjVpPZfmcWW"}
 {"date":{"$$date":1720117800000},"id":"705db9","name":"Paradise","_id":"ixchFlNNB7Ox3zat"}
 {"date":{"$$date":1720895400000},"id":"72acc4","name":"Kalki2898Ad","_id":"j2eBVt0CFCxSS1OF"}
+{"date":{"$$date":1724437800000},"id":"c6d0ea","name":"AlienRomulus","_id":"j3VxfeGxcuy5jTWU"}
 {"date":{"$$date":1724178600000},"id":"b05fcf","name":"Checkmate","_id":"j6jcWkI5h9v1ucuW"}
 {"date":{"$$date":1723141800000},"id":"1676b4","name":"Vishesham","_id":"jAOpHSvcmHB4bOMK"}
 {"date":{"$$date":1723141800000},"id":"4cc01d","name":"MemoryPlus","_id":"jBppuz4tuhaT5Se5"}
@@ -1145,6 +1165,7 @@
 {"date":{"$$date":1723401000000},"id":"596583","name":"LailaMajnu","_id":"jHnZFZmMofcfAKyI"}
 {"date":{"$$date":1723833000000},"id":"046a78","name":"DespicableMe4","_id":"jJD7aADbckwbnURf"}
 {"date":{"$$date":1721241000000},"id":"e0d967","name":"NadannaSambhavam","_id":"jJZPbskQwX2n2yGx"}
+{"date":{"$$date":1724437800000},"id":"f47407","name":"Stree2","_id":"jLSQOqlxbRt4qNcR"}
 {"date":{"$$date":1722364200000},"id":"7c8c69","name":"NadannaSambhavam","_id":"jM4s52syoa7iLIFt"}
 {"date":{"$$date":1724351400000},"id":"23cb6a","name":"Kottukkaali","_id":"jPzGhXLFAIaffxJo"}
 {"date":{"$$date":1720031400000},"id":"465d8b","name":"Dna","_id":"jQ8WamqethkCYDHL"}
@@ -1164,12 +1185,16 @@
 {"date":{"$$date":1723573800000},"id":"871b57","name":"SuperZindagi","_id":"jxctLk55P470Fauu"}
 {"date":{"$$date":1724005800000},"id":"12319a","name":"Gu","_id":"k3ImOrRGlupx5a1L"}
 {"date":{"$$date":1720463400000},"id":"a867a8","name":"Dna","_id":"k5yefgy26pC3JIPD"}
+{"date":{"$$date":1724437800000},"id":"193f72","name":"Thangalaan","_id":"k767e7d3xEfyCjuR"}
 {"date":{"$$date":1720117800000},"id":"7b9344","name":"TrailersScreeningShow","_id":"kA3a0xe8QKjiyFoU"}
 {"date":{"$$date":1720549800000},"id":"0210bb","name":"KunddalaPuranam","_id":"kF5rSWLsxRwqk9So"}
 {"date":{"$$date":1723055400000},"id":"f89ced","name":"Balipe","_id":"kIsyUtuF9OXuGv7J"}
+{"date":{"$$date":1724437800000},"id":"091abd","name":"DemonteColony2","_id":"kLjEiu2qcyFVX75E"}
+{"date":{"$$date":1724437800000},"id":"a2f12c","name":"PogumidamVeguThooramillai","_id":"kNZB8m1LwZ0IYSwG"}
 {"date":{"$$date":1720722600000},"id":"9c9fec","name":"Sarfira","_id":"kQ6IfqeQLGWNJzKO"}
 {"date":{"$$date":1721327400000},"id":"cf2771","name":"Ullozhukku","_id":"kQP6nvdN7fK1gg9B"}
 {"date":{"$$date":1722796200000},"id":"3d55c2","name":"Devadoothan","_id":"kRYAAvDPqYFLgDVW"}
+{"date":{"$$date":1724437800000},"id":"23cb6a","name":"Kottukkaali","_id":"kScTYPSnflJrxayt"}
 {"date":{"$$date":1722969000000},"id":"3d55c2","name":"Devadoothan","_id":"kT8BMwrYrlTm5NNr"}
 {"date":{"$$date":1720463400000},"id":"3b98ea","name":"Pattaapakal","_id":"kUyBxtOIDhZI2pCK"}
 {"date":{"$$date":1721845800000},"id":"72acc4","name":"Kalki2898Ad","_id":"kVDVms9htBroF9Oc"}
@@ -1192,6 +1217,7 @@
 {"date":{"$$date":1722969000000},"id":"0703d6","name":"Raayan","_id":"lTcPpRDFlmYr0gdO"}
 {"date":{"$$date":1720722600000},"id":"b90905","name":"Partners","_id":"lTl8CwwGsegv4zme"}
 {"date":{"$$date":1719858600000},"id":"2e32a3","name":"KunddalaPuranam","_id":"lTn8hcUFPxWBvSDj"}
+{"date":{"$$date":1724437800000},"id":"af1bbb","name":"Nunakuzhi","_id":"lWjk9VwMR9YVrC4B"}
 {"date":{"$$date":1722364200000},"id":"399d6e","name":"IdiyanChandu","_id":"lYZIhEmLYT7ICqsP"}
 {"date":{"$$date":1721068200000},"id":"72acc4","name":"Kalki2898Ad","_id":"lYeyfoMeKEInDkiM"}
 {"date":{"$$date":1720463400000},"id":"0210bb","name":"KunddalaPuranam","_id":"lZAbRJPIeENYx7lV"}
@@ -1289,6 +1315,7 @@
 {"date":{"$$date":1720031400000},"id":"52265f","name":"Maharaja","_id":"ozqtPwX1kFRjo7pX"}
 {"date":{"$$date":1719945000000},"id":"dbeeff","name":"LittleHearts","_id":"p1JGnEvZChltCEg4"}
 {"date":{"$$date":1722709800000},"id":"2d3399","name":"Trap2024","_id":"p1S9O5N7sDwKrCQ1"}
+{"date":{"$$date":1724437800000},"id":"71ebe6","name":"Hunt","_id":"p1xfwdBx7tzBy9kQ"}
 {"date":{"$$date":1722364200000},"id":"18ae94","name":"Vishesham","_id":"p49PubHHoHWJZ45Q"}
 {"date":{"$$date":1719858600000},"id":"6c6e90","name":"InsideOut2","_id":"p4PWxMvkhyaJJnxx"}
 {"date":{"$$date":1722969000000},"id":"133ef9","name":"Bidurbhai","_id":"p6nLMicYK0OCPCbT"}
@@ -1313,6 +1340,7 @@
 {"date":{"$$date":1720809000000},"id":"d4c50e","name":"Gaganachari","_id":"pe0320GTU7CuBlCr"}
 {"date":{"$$date":1721068200000},"id":"b90905","name":"Partners","_id":"pfi6sYcnnFDVi3Kp"}
 {"date":{"$$date":1721413800000},"id":"974bd1","name":"Longlegs","_id":"pkHz8iSc2JPRmAhb"}
+{"date":{"$$date":1724437800000},"id":"f60568","name":"MainePyarKiya","_id":"plE9uBXxRlnU62dN"}
 {"date":{"$$date":1720204200000},"id":"3a8360","name":"Mandakini","_id":"ppWcoWLniFpsw5eA"}
 {"date":{"$$date":1722623400000},"id":"40e37b","name":"Partner","_id":"praMW4id3sRU51zq"}
 {"date":{"$$date":1722623400000},"id":"2d3399","name":"Trap2024","_id":"ptmRdvbKSGSOvpJ3"}
@@ -1366,6 +1394,7 @@
 {"date":{"$$date":1722537000000},"id":"a4b0fd","name":"PanchayatJetty","_id":"rXrNMrbaXXizrnwb"}
 {"date":{"$$date":1724178600000},"id":"cd758b","name":"Kill","_id":"rcbPjaathhbQhYcc"}
 {"date":{"$$date":1721673000000},"id":"363e72","name":"MayaPuthagam","_id":"rdqGsXp3V2I2ge6k"}
+{"date":{"$$date":1724437800000},"id":"b21655","name":"Aattam","_id":"rf0lXy4MddNh72BT"}
 {"date":{"$$date":1723141800000},"id":"2ea5a1","name":"LevelCross","_id":"rgv02Bc9Fxp8V3vz"}
 {"date":{"$$date":1722709800000},"id":"f89ced","name":"Balipe","_id":"rhItLlsWYhh2nroG"}
 {"date":{"$$date":1722796200000},"id":"2b7ef0","name":"Bardovi","_id":"rk2jBS8PL7Oz0jnO"}
@@ -1392,6 +1421,7 @@
 {"date":{"$$date":1720722600000},"id":"510e43","name":"Thalavan","_id":"sgKrZnXRn998F6XV"}
 {"date":{"$$date":1721500200000},"id":"d1b1e4","name":"Treasure","_id":"shWtwWt3ic333N2r"}
 {"date":{"$$date":1722796200000},"id":"399d6e","name":"IdiyanChandhu","_id":"skKT5mATp6eTDMhn"}
+{"date":{"$$date":1724437800000},"id":"f545bd","name":"Vedaa","_id":"skyRlI4nCJ8KnEzE"}
 {"date":{"$$date":1722537000000},"id":"5ca283","name":"TrailersScreeningShow","_id":"slKN0Rb4VvkYIbpW"}
 {"date":{"$$date":1721154600000},"id":"5ca283","name":"TrailersScreeningShow","_id":"smZt05rPXSpVv0NU"}
 {"date":{"$$date":1719858600000},"id":"7beaae","name":"AQuietPlaceDayOne","_id":"snBGdoErZJVJjdkB"}
@@ -1582,33 +1612,3 @@
 {"$$indexCreated":{"fieldName":"date","unique":false,"sparse":false}}
 {"$$indexCreated":{"fieldName":"id","unique":false,"sparse":false}}
 {"$$indexCreated":{"fieldName":"name","unique":false,"sparse":false}}
-{"date":{"$$date":1724437800000},"id":"b21655","name":"Aattam","_id":"rf0lXy4MddNh72BT"}
-{"date":{"$$date":1724437800000},"id":"7f5c4e","name":"AdiosAmigo","_id":"5IjxsND68aQOPtUX"}
-{"date":{"$$date":1724437800000},"id":"c6d0ea","name":"AlienRomulus","_id":"j3VxfeGxcuy5jTWU"}
-{"date":{"$$date":1724437800000},"id":"51b310","name":"BlinkTwice","_id":"H93zaEt0nxPQSu4K"}
-{"date":{"$$date":1724437800000},"id":"2d2d1e","name":"Cicada","_id":"GhqX4Lr6DoarhgwV"}
-{"date":{"$$date":1724437800000},"id":"636eab","name":"DeadpoolWolverine","_id":"YzA8rQQvx9Q4ipLr"}
-{"date":{"$$date":1724437800000},"id":"091abd","name":"DemonteColony2","_id":"kLjEiu2qcyFVX75E"}
-{"date":{"$$date":1724437800000},"id":"046a78","name":"DespicableMe4","_id":"J1pzyzWNHYx2wlxY"}
-{"date":{"$$date":1724437800000},"id":"0640a5","name":"Devadoothan","_id":"U0UFBrk8Kb66vwip"}
-{"date":{"$$date":1724437800000},"id":"50a029","name":"Footage","_id":"R80hknVPMCwtdlI6"}
-{"date":{"$$date":1724437800000},"id":"3190b0","name":"HaroldAndThePurpleCrayon","_id":"321b07MaI7XUSvtI"}
-{"date":{"$$date":1724437800000},"id":"71ebe6","name":"Hunt","_id":"p1xfwdBx7tzBy9kQ"}
-{"date":{"$$date":1724437800000},"id":"a8dcdb","name":"Hunt","_id":"HQBzF4lxi88z8qvm"}
-{"date":{"$$date":1724437800000},"id":"316aab","name":"ItEndsWithUs","_id":"g7R4eUlGXl9kOist"}
-{"date":{"$$date":1724437800000},"id":"72acc4","name":"Kalki2898Ad","_id":"VR3E15zeIcuyzRim"}
-{"date":{"$$date":1724437800000},"id":"e419d8","name":"Karnika","_id":"7Sh2juUx2c0RpdvI"}
-{"date":{"$$date":1724437800000},"id":"23cb6a","name":"Kottukkaali","_id":"kScTYPSnflJrxayt"}
-{"date":{"$$date":1724437800000},"id":"f60568","name":"MainePyarKiya","_id":"plE9uBXxRlnU62dN"}
-{"date":{"$$date":1724437800000},"id":"a6e305","name":"Manichitrathazhu","_id":"5gu1PHTlbJdDOhVB"}
-{"date":{"$$date":1724437800000},"id":"af1bbb","name":"Nunakuzhi","_id":"lWjk9VwMR9YVrC4B"}
-{"date":{"$$date":1724437800000},"id":"f154cb","name":"PalumPazhavum","_id":"hnpIzdrwX1XMf1gV"}
-{"date":{"$$date":1724437800000},"id":"292032","name":"Pechi","_id":"HkFgQ5HNRvvP0x5D"}
-{"date":{"$$date":1724437800000},"id":"a2f12c","name":"PogumidamVeguThooramillai","_id":"kNZB8m1LwZ0IYSwG"}
-{"date":{"$$date":1724437800000},"id":"0703d6","name":"Raayan","_id":"MMbYOdzIy5MdGfLX"}
-{"date":{"$$date":1724437800000},"id":"f47407","name":"Stree2","_id":"jLSQOqlxbRt4qNcR"}
-{"date":{"$$date":1724437800000},"id":"02d94b","name":"Thaanara","_id":"TaBntiwEolv9k65b"}
-{"date":{"$$date":1724437800000},"id":"193f72","name":"Thangalaan","_id":"k767e7d3xEfyCjuR"}
-{"date":{"$$date":1724437800000},"id":"5ca283","name":"TrailersScreeningShow","_id":"0RFUK4YMXtd2DVLP"}
-{"date":{"$$date":1724437800000},"id":"64c5c3","name":"Vazha","_id":"Hu5wwbIXPXMkQst5"}
-{"date":{"$$date":1724437800000},"id":"f545bd","name":"Vedaa","_id":"skyRlI4nCJ8KnEzE"}

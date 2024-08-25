@@ -7,6 +7,7 @@
     "moment-timezone": "^0.5.45",
     "nedb-promises": "^6.2.3",
     "node-fetch": "^2.7.0",
+    "sharp": "^0.33.5",
     "simple-git": "^3.24.0",
     "snoowrap": "^1.23.0"
   }

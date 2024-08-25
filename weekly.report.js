@@ -1,7 +1,9 @@
 const { parseString } = require("fast-csv");
 const fs = require("fs");
 const { round } = require("lodash");
+const fetch = require("node-fetch");
 const path = require("path");
+const sharp = require("sharp");
 
 const { csvPath, qc } = require("./config/env.js");
 const { toEnIn } = require("./config/misc.js");
@@ -9,15 +11,19 @@ const { sync } = require("./config/git.js");
 const { moment } = require("./config/moment.js");
 const { db, syncFileInfo } = require("./config/nedb.js");
 
+const collageGap = 3;
+const collageItemWidth = 96;
+
 (async () => {
-  const name = /checkmate/i;
-  const displayName = "Checkmate";
-  const from = moment("2024-08-09", ["YYYY-MM-DD"]);
-  const to = moment("2024-08-15", ["YYYY-MM-DD"]);
+  const id = "";
+  const name = /manichitrathazhu/i;
+  const displayName = "Manichitrathazhu";
+  const start_date = moment("2024-08-17", ["YYYY-MM-DD"]);
+  const end_date = moment("2024-08-24", ["YYYY-MM-DD"]);
+  const posterPath = path.resolve(__dirname, "./store/poster.jpg");
 
   await sync(csvPath); // git clone/pull
   await syncFileInfo(csvPath); // sync folder/file metadata to nedb
-  if (!(await db.findOne({ name }))) throw new Error("name not found");
 
   // aggregate
   const data = {
@@ -30,12 +36,14 @@ const { db, syncFileInfo } = require("./config/nedb.js");
     Sunday: { _name: "Sunday" },
     _total: { _shows: 0, _booked: 0, _capacity: 0, _sum: 0 },
   };
-  let date;
   let weekIndex = 1;
   for (const i of await db
-    .find({ name, date: { $gte: from.toDate(), $lte: to.toDate() } })
+    .find({
+      date: { $gte: start_date.toDate(), $lte: end_date.toDate() },
+      ...(id ? { id } : { name }),
+    })
     .sort({ date: 1 })) {
-    date = moment(i.date);
+    const date = moment(i.date);
     const d = moment(date).format("dddd");
     const k = `_week_${weekIndex}`;
     if (!data[d][k]) data[d][k] = 0;
@@ -72,23 +80,40 @@ const { db, syncFileInfo } = require("./config/nedb.js");
     if (d === "Sunday") weekIndex += 1;
   }
   if (!data._total._shows) throw new Error("shows not found");
+  delete data._total._show_id;
 
+  console.log(
+    `#${displayName} #Kerala #BoxOffice ${start_date.format(
+      "MMMD"
+    )}/${end_date.format("MMMD")} ${Math.round(
+      end_date.diff(start_date, "week", true)
+    )}W Summary\n├ Gross ~ ₹${toEnIn(data._total._sum, "en-in", {
+      notation: "compact",
+    })}\n├ Occupancy ~ ${toEnIn(data._total._booked)}${
+      data._total._booked
+        ? `(${round((data._total._booked / data._total._capacity) * 100, 2)}%)`
+        : ""
+    }\n├ Shows ~ ${toEnIn(
+      data._total._shows
+    )}\ngithub.com/hedcet/boxoffice/tree/main/${displayName}`
+  );
+
+  // table generation
   const columns = [{ width: 120, dataIndex: "_name" }];
   for (let i = 1; i <= weekIndex; i++) {
     const dataIndex = `_week_${i}`;
-    // if (!data._total) data._total = {};
     data._total[dataIndex] = Object.values(data)
       .filter((i) => i[dataIndex])
       .reduce((m, i) => m + i[dataIndex], 0);
     if (1 < i) columns.push("|");
     columns.push({
-      width: 120,
+      width: Math.max(100, `${data._total[dataIndex]}`.length * 16),
       title: `Week ${i}`,
       dataIndex,
       align: "right",
     });
   }
-  columns.push({ width: 20 });
+  columns.push({ width: 10 });
   const dataSource = [];
   for (const i of Object.values(data)) {
     Object.keys(i)
@@ -100,39 +125,48 @@ const { db, syncFileInfo } = require("./config/nedb.js");
     dataSource.push("-");
     dataSource.push(i);
   }
-  const title = `#${displayName}\n#Kerala #BoxOffice ${from.format(
+  const title = `#${displayName}\n#Kerala #BoxOffice ${start_date.format(
     "MMMD"
-  )}/${date.format("MMMD")} ${Math.round(
-    date.diff(from, "week", true)
+  )}/${end_date.format("MMMD")} ${Math.round(
+    end_date.diff(start_date, "week", true)
   )}W Summary`;
+  const table = `${qc}?data=${encodeURIComponent(
+    JSON.stringify({
+      columns,
+      dataSource,
+      title,
+      titleStyle: { font: "normal 18px sans-serif" },
+    })
+  )}&options=${encodeURIComponent(
+    JSON.stringify({
+      paddingHorizontal: 20,
+      paddingVertical: 20,
+      titleSpacing: 30,
+    })
+  )}`;
 
-  console.log(
-    `#${displayName} #Kerala #BoxOffice ${from.format("MMMD")}/${date.format(
-      "MMMD"
-    )} ${Math.round(
-      date.diff(from, "week", true)
-    )}W Summary\n├ Gross ~ ₹${toEnIn(data._total._sum, "en-in", {
-      notation: "compact",
-    })}\n├ Occupancy ~ ${toEnIn(data._total._booked)}${
-      data._total._booked
-        ? `(${round((data._total._booked / data._total._capacity) * 100, 2)}%)`
-        : ""
-    }\n├ Shows ~ ${toEnIn(
-      data._total._shows
-    )}\ngithub.com/hedcet/boxoffice/tree/main/${displayName}`,
-    `${qc}?data=${encodeURIComponent(
-      JSON.stringify({
-        columns,
-        dataSource,
-        title,
-        titleStyle: { font: "normal 18px sans-serif" },
-      })
-    )}&options=${encodeURIComponent(
-      JSON.stringify({
-        paddingHorizontal: 20,
-        paddingVertical: 20,
-        titleSpacing: 30,
-      })
-    )}`
-  );
+  if (posterPath) {
+    const tableBuffer = await (await fetch(table)).buffer();
+    const tableInfo = await sharp(tableBuffer).metadata();
+    await sharp({
+      create: {
+        width: collageItemWidth + tableInfo.width,
+        height: tableInfo.height,
+        channels: 3,
+        background: "rgb(255, 255, 255)",
+      },
+    })
+      .composite([
+        {
+          input: await sharp(posterPath)
+            .resize(collageItemWidth, tableInfo.height)
+            .toBuffer(),
+          left: 0,
+          top: 0,
+        },
+        { input: tableBuffer, left: collageItemWidth, top: 0 },
+      ])
+      .jpeg({ mozjpeg: true })
+      .toFile(path.resolve(__dirname, "./store/collage.jpg"));
+  } else console.log(table);
 })();

@@ -13,4 +13,4 @@ node report.js bms/ptm date/movie <YYYY-MM-DD>/<movieName>
 
 example cmd - `node report.js bms movie Kantara` will generate image table like given below
 
-<img src="./store/report.png" />
+<img src="./store/collage.jpg" />

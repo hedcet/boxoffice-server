@@ -1,4 +1,5 @@
 node_modules
-store
+
 package-lock.json
 reddit.sh
+weekly.sh
