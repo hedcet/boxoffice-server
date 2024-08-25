@@ -118,7 +118,7 @@ const { client } = require("./config/snoowrap.js");
         : toEnIn(total.sum, "en-in", { notation: "compact" })
     } |\n\n[source](https://github.com/hedcet/boxoffice/tree/main/${
       config.github_folder
-    }) | last updated at ${moment().format("YYYY-MM-DDTHH:mmZZ")}`;
+    }) | last updated at ${moment().format("YYYY-MM-DDTHH:mmZ")}`;
     console.log(config, text);
 
     // reddit

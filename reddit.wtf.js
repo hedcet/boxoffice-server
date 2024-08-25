@@ -64,7 +64,7 @@ const { client } = require("./config/snoowrap.js");
       } |`;
     text += `\n\n[source](https://whatthefuss.in/movie/${
       config.url_id
-    }) | last updated at ${moment().format("YYYY-MM-DDTHH:mmZZ")}`;
+    }) | last updated at ${moment().format("YYYY-MM-DDTHH:mmZ")}`;
     console.log(config, text);
 
     // reddit
