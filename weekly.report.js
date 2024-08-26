@@ -6,7 +6,7 @@ const path = require("path");
 const sharp = require("sharp");
 
 const { csvPath, qc } = require("./config/env.js");
-const { toEnIn } = require("./config/misc.js");
+const { textWidth, toEnIn } = require("./config/misc.js");
 const { sync } = require("./config/git.js");
 const { moment } = require("./config/moment.js");
 const { db, syncFileInfo } = require("./config/nedb.js");
@@ -19,7 +19,7 @@ const collageItemWidth = 96;
   const name = /manichitrathazhu/i;
   const displayName = "Manichitrathazhu";
   const start_date = moment("2024-08-17", ["YYYY-MM-DD"]);
-  const end_date = moment("2024-08-24", ["YYYY-MM-DD"]);
+  const end_date = moment("2024-08-25", ["YYYY-MM-DD"]);
   const posterPath = path.resolve(__dirname, "./store/poster.jpg");
 
   await sync(csvPath); // git clone/pull
@@ -107,7 +107,7 @@ const collageItemWidth = 96;
       .reduce((m, i) => m + i[dataIndex], 0);
     if (1 < i) columns.push("|");
     columns.push({
-      width: Math.max(100, `${data._total[dataIndex]}`.length * 16),
+      width: Math.max(100, textWidth(`${data._total[dataIndex]}`) + 24),
       title: `Week ${i}`,
       dataIndex,
       align: "right",

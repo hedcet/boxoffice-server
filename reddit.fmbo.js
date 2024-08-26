@@ -8,7 +8,7 @@ const { moment } = require("./config/moment.js");
 const { client } = require("./config/snoowrap.js");
 
 (async () => {
-  // mapping reddit post to wtf url_id
+  // mapping reddit post to fmbo url_id
   // store comment id to overwrite
   const config_path = path.resolve(__dirname, "./reddit.json");
   const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
