@@ -1,3 +1,5 @@
+![healthchecks.io](https://healthchecks.io/badge/5db5179f-a059-425b-86f2-8fb9c6/rxjUdNU6.svg)
+
 this will pull both [rebrand.ly/bookmyshow](http://rebrand.ly/bookmyshow) & [rebrand.ly/paytm-movies](http://rebrand.ly/paytm-movies) into `./store` folder using git
 
 ### how to use?
