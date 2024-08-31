@@ -1,6 +1,54 @@
 [
   {
     "enable": true,
+    "github_folder": "Bharathanatyam",
+    "comment_id": "lkn5z0g",
+    "reply_to": "1f4pwir",
+    "source": "github",
+    "start_date": "2024-08-30"
+  },
+  {
+    "enable": true,
+    "github_folder": "Churul",
+    "comment_id": "lksnq7b",
+    "reply_to": "1f4pyl5",
+    "source": "github",
+    "start_date": "2024-08-30"
+  },
+  {
+    "enable": true,
+    "github_folder": "KattappadatheManthrikan",
+    "comment_id": "lksntn8",
+    "reply_to": "1f4pzq3",
+    "source": "github",
+    "start_date": "2024-08-30"
+  },
+  {
+    "enable": true,
+    "github_folder": "Manorajyam",
+    "comment_id": "lksnx16",
+    "reply_to": "1f4q0rg",
+    "source": "github",
+    "start_date": "2024-08-30"
+  },
+  {
+    "enable": true,
+    "github_folder": "SambavasthalathuNinnum",
+    "comment_id": "lkso0e2",
+    "reply_to": "1f4q1im",
+    "source": "github",
+    "start_date": "2024-08-30"
+  },
+  {
+    "enable": true,
+    "github_folder": "Virunnu",
+    "comment_id": "lkn6ulw",
+    "reply_to": "1f4q2in",
+    "source": "github",
+    "start_date": "2024-08-29"
+  },
+  {
+    "enable": true,
     "github_folder": "Manichitrathazhu",
     "comment_id": "ljjcm62",
     "reply_to": "1etj5ky",
@@ -16,7 +64,7 @@
     "start_date": "2024-08-23"
   },
   {
-    "enable": true,
+    "enable": false,
     "github_folder": "Thaanara",
     "comment_id": "ljl656n",
     "reply_to": "1ez785g",
@@ -24,7 +72,7 @@
     "start_date": "2024-08-23"
   },
   {
-    "enable": true,
+    "enable": false,
     "github_folder": "PalumPazhavum",
     "comment_id": "ljl6k8x",
     "reply_to": "1ez568j",
