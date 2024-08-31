@@ -19,7 +19,7 @@ const collageItemWidth = 96;
   const name = /manichitrathazhu/i;
   const displayName = "Manichitrathazhu";
   const start_date = moment("2024-08-17", ["YYYY-MM-DD"]);
-  const end_date = moment("2024-08-25", ["YYYY-MM-DD"]);
+  const end_date = moment("2024-08-30", ["YYYY-MM-DD"]);
   const posterPath = path.resolve(__dirname, "./store/poster.jpg");
 
   await sync(csvPath); // git clone/pull
