@@ -1,6 +1,6 @@
 const { parseString } = require("fast-csv");
 const fs = require("fs");
-const { round } = require("lodash");
+const { round, shuffle } = require("lodash");
 const fetch = require("node-fetch");
 const path = require("path");
 const sharp = require("sharp");
@@ -11,6 +11,11 @@ const { sync } = require("./config/git.js");
 const { moment } = require("./config/moment.js");
 const { db, syncFileInfo } = require("./config/nedb.js");
 
+const json_path = path.resolve(__dirname, "./export-movies-images.json");
+const json = fs.existsSync(json_path)
+  ? JSON.parse(fs.readFileSync(json_path, "utf8"))
+  : {};
+
 const collageGap = 3;
 const collageItemWidth = 96;
 
@@ -20,7 +25,6 @@ const collageItemWidth = 96;
   const displayName = "Manichitrathazhu";
   const start_date = moment("2024-08-17", ["YYYY-MM-DD"]);
   const end_date = moment("2024-08-30", ["YYYY-MM-DD"]);
-  const posterPath = path.resolve(__dirname, "./store/poster.jpg");
 
   await sync(csvPath); // git clone/pull
   await syncFileInfo(csvPath); // sync folder/file metadata to nedb
@@ -36,6 +40,7 @@ const collageItemWidth = 96;
     Sunday: { _name: "Sunday" },
     _total: { _shows: 0, _booked: 0, _capacity: 0, _sum: 0 },
   };
+  const images = [];
   let weekIndex = 1;
   for (const i of await db
     .find({
@@ -43,6 +48,9 @@ const collageItemWidth = 96;
       ...(id ? { id } : { name }),
     })
     .sort({ date: 1 })) {
+    if (json[i.id])
+      for (const image of json[i.id])
+        if (!images.includes(image)) images.push(image);
     const date = moment(i.date);
     const d = moment(date).format("dddd");
     const k = `_week_${weekIndex}`;
@@ -145,7 +153,19 @@ const collageItemWidth = 96;
     })
   )}`;
 
-  if (posterPath) {
+  // random image
+  let image;
+  if (!image)
+    for (const i of shuffle(images)) {
+      const [link, size] = i.split("|");
+      if (32 * 1024 < +size) {
+        image = link;
+        break;
+      }
+    }
+
+  if (image) {
+    // collage generation
     const tableBuffer = await (await fetch(table)).buffer();
     const tableInfo = await sharp(tableBuffer).metadata();
     await sharp({
@@ -158,7 +178,11 @@ const collageItemWidth = 96;
     })
       .composite([
         {
-          input: await sharp(posterPath)
+          input: await sharp(
+            await (
+              await fetch(image, { headers: { "user-agent": "curl/1.0" } })
+            ).buffer()
+          )
             .resize(collageItemWidth, tableInfo.height)
             .toBuffer(),
           left: 0,
@@ -167,6 +191,6 @@ const collageItemWidth = 96;
         { input: tableBuffer, left: collageItemWidth, top: 0 },
       ])
       .jpeg({ mozjpeg: true })
-      .toFile(path.resolve(__dirname, "./store/collage.jpg"));
+      .toFile(path.resolve(__dirname, "./store/weekly.individual.jpg"));
   } else console.log(table);
 })();
