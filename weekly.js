@@ -126,7 +126,7 @@ const collageMax = 5;
     ? fs.readFileSync(html_path, "utf8")
     : "";
   fs.writeFileSync(
-    html_path,
+    `${html_path}.html`,
     String.raw({ raw: html.split("$?") }, [
       JSON.stringify(items.map((i) => pick(i, ["bg", "fg", "image", "sum"]))),
     ])
