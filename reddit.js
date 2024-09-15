@@ -142,6 +142,6 @@ const { client } = require("./config/snoowrap.js");
       fs.writeFileSync(config_path, JSON.stringify(configs, undefined, 2));
     } else throw Error("invalid config");
 
-    await new Promise((r) => setTimeout(r, 60000));
+    await new Promise((r) => setTimeout(r, 1000 * 3));
   }
 })();

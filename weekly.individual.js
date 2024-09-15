@@ -21,10 +21,10 @@ const collageItemWidth = 96;
 
 (async () => {
   const id = "";
-  const name = /manichitrathazhu/i;
-  const displayName = "Manichitrathazhu";
-  const start_date = moment("2024-08-17", ["YYYY-MM-DD"]);
-  const end_date = moment("2024-08-30", ["YYYY-MM-DD"]);
+  const name = /pazhavum/i;
+  const displayName = "PalumPazhavum";
+  const start_date = moment("2024-08-23", ["YYYY-MM-DD"]);
+  const end_date = moment("2024-09-06", ["YYYY-MM-DD"]);
 
   await sync(csvPath); // git clone/pull
   await syncFileInfo(csvPath); // sync folder/file metadata to nedb
@@ -44,7 +44,7 @@ const collageItemWidth = 96;
   let weekIndex = 1;
   for (const i of await db
     .find({
-      date: { $gte: start_date.toDate(), $lte: end_date.toDate() },
+      date: { $gte: start_date.toDate(), $lt: end_date.toDate() },
       ...(id ? { id } : { name }),
     })
     .sort({ date: 1 })) {

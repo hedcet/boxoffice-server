@@ -19,8 +19,8 @@ const json = fs.existsSync(json_path)
 const collageMax = 5;
 
 (async () => {
-  const start_date = moment("2024-08-26", ["YYYY-MM-DD"]);
-  const end_date = moment("2024-09-01", ["YYYY-MM-DD"]);
+  const start_date = moment("2024-09-02", ["YYYY-MM-DD"]);
+  const end_date = moment("2024-09-09", ["YYYY-MM-DD"]);
 
   await sync(csvPath); // git clone/pull
   await syncFileInfo(csvPath); // sync folder/file metadata to nedb
@@ -28,7 +28,7 @@ const collageMax = 5;
   // aggregate
   const data = {};
   for (const i of await db
-    .find({ date: { $gte: start_date.toDate(), $lte: end_date.toDate() } })
+    .find({ date: { $gte: start_date.toDate(), $lt: end_date.toDate() } })
     .sort({ date: 1 })) {
     const file = path.resolve(
       csvPath,
