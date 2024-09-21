@@ -1,6 +1,22 @@
 [
   {
     "enable": true,
+    "github_folder": "KuttanteShinigami",
+    "comment_id": "lo5nqxc",
+    "reply_to": "1fl78k7",
+    "source": "github",
+    "start_date": "2024-09-20"
+  },
+  {
+    "enable": true,
+    "github_folder": "KadhaInnuvare",
+    "comment_id": "lo5nr86",
+    "reply_to": "1fl46zf",
+    "source": "github",
+    "start_date": "2024-09-20"
+  },
+  {
+    "enable": true,
     "github_folder": "Arm",
     "comment_id": "ln2gf8c",
     "reply_to": "1feskxr",
@@ -16,7 +32,7 @@
     "start_date": "2024-09-12"
   },
   {
-    "enable": true,
+    "enable": false,
     "github_folder": "PrathibhaTutorials",
     "comment_id": "ln2gfox",
     "reply_to": "1fflsh1",
@@ -24,7 +40,7 @@
     "start_date": "2024-09-13"
   },
   {
-    "enable": true,
+    "enable": false,
     "github_folder": "GangsOfSukumarakurup",
     "comment_id": "ln2gfwp",
     "reply_to": "1fflybs",
@@ -32,7 +48,7 @@
     "start_date": "2024-09-13"
   },
   {
-    "enable": true,
+    "enable": false,
     "github_folder": "BadBoyz",
     "comment_id": "ln2gg5k",
     "reply_to": "1ffm6t5",
@@ -40,7 +56,7 @@
     "start_date": "2024-09-13"
   },
   {
-    "enable": true,
+    "enable": false,
     "github_folder": "Kondal",
     "comment_id": "ln2gge3",
     "reply_to": "1ffmbk4",

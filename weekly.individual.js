@@ -1,6 +1,6 @@
 const { parseString } = require("fast-csv");
 const fs = require("fs");
-const { round, shuffle } = require("lodash");
+const { camelCase, round, shuffle, upperFirst } = require("lodash");
 const fetch = require("node-fetch");
 const path = require("path");
 const sharp = require("sharp");
@@ -21,10 +21,10 @@ const collageItemWidth = 96;
 
 (async () => {
   const id = "";
-  const name = /pazhavum/i;
-  const displayName = "PalumPazhavum";
-  const start_date = moment("2024-08-23", ["YYYY-MM-DD"]);
-  const end_date = moment("2024-09-06", ["YYYY-MM-DD"]);
+  const name = /saripodha|surya/i;
+  const displayName = "SuryasSaturday";
+  const start_date = moment("2024-08-29", ["YYYY-MM-DD"]);
+  const end_date = moment("2024-09-12", ["YYYY-MM-DD"]);
 
   await sync(csvPath); // git clone/pull
   await syncFileInfo(csvPath); // sync folder/file metadata to nedb
@@ -41,7 +41,6 @@ const collageItemWidth = 96;
     _total: { _shows: 0, _booked: 0, _capacity: 0, _sum: 0 },
   };
   const images = [];
-  let weekIndex = 1;
   for (const i of await db
     .find({
       date: { $gte: start_date.toDate(), $lt: end_date.toDate() },
@@ -53,7 +52,7 @@ const collageItemWidth = 96;
         if (!images.includes(image)) images.push(image);
     const date = moment(i.date);
     const d = moment(date).format("dddd");
-    const k = `_week_${weekIndex}`;
+    const k = `_week_${date.format("W")}`;
     if (!data[d][k]) data[d][k] = 0;
     const file = path.resolve(
       csvPath,
@@ -85,7 +84,6 @@ const collageItemWidth = 96;
           resolve(true);
         });
     });
-    if (d === "Sunday") weekIndex += 1;
   }
   if (!data._total._shows) throw new Error("shows not found");
   delete data._total._show_id;
@@ -108,15 +106,21 @@ const collageItemWidth = 96;
 
   // table generation
   const columns = [{ width: 120, dataIndex: "_name" }];
-  for (let i = 1; i <= weekIndex; i++) {
-    const dataIndex = `_week_${i}`;
+  for (const [i, dataIndex] of Object.values(data)
+    .map((i) => Object.keys(i).filter((j) => j.startsWith("_week_")))
+    .reduce((m, items) => {
+      for (const i of items) if (!m.includes(i)) m.push(i);
+      return m;
+    }, [])
+    .sort()
+    .entries()) {
     data._total[dataIndex] = Object.values(data)
       .filter((i) => i[dataIndex])
       .reduce((m, i) => m + i[dataIndex], 0);
-    if (1 < i) columns.push("|");
+    if (i) columns.push("|");
     columns.push({
       width: Math.max(100, textWidth(`${data._total[dataIndex]}`) + 24),
-      title: `Week ${i}`,
+      title: upperFirst(camelCase(dataIndex)),
       dataIndex,
       align: "right",
     });
