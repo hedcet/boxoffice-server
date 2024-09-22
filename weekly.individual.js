@@ -21,10 +21,10 @@ const collageItemWidth = 96;
 
 (async () => {
   const id = "";
-  const name = /saripodha|surya/i;
-  const displayName = "SuryasSaturday";
-  const start_date = moment("2024-08-29", ["YYYY-MM-DD"]);
-  const end_date = moment("2024-09-12", ["YYYY-MM-DD"]);
+  const name = /goat|greatest/i;
+  const displayName = "TheGOAT";
+  const start_date = moment("2024-09-05", ["YYYY-MM-DD"]);
+  const end_date = moment("2024-09-19", ["YYYY-MM-DD"]);
 
   await sync(csvPath); // git clone/pull
   await syncFileInfo(csvPath); // sync folder/file metadata to nedb

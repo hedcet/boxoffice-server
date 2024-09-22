@@ -43,14 +43,16 @@
       <template x-for="(v, i) in movies">
         <div class="image" :class="i?'ml-px':''">
           <img :src="v.image" />
-          <div class="overlay flex flex-col justify-end" :style="{backgroundColor:v.bg,color:v.fg}">
-            <div class="flex justify-end m-1">
-              <div class="oswald">
-                <span class="text-xl">₹</span>
-                <span class="text-6xl" x-text="v.sum"></span>
+          <template x-if="v.sum">
+            <div class="overlay flex flex-col justify-end" :style="{backgroundColor:v.bg,color:v.fg}">
+              <div class="flex justify-end m-1">
+                <div class="oswald">
+                  <span class="text-xl">₹</span>
+                  <span class="text-6xl" x-text="v.sum"></span>
+                </div>
               </div>
             </div>
-          </div>
+          </template>
       </template>
     </div>
   </div>

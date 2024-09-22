@@ -1,6 +1,22 @@
 [
   {
-    "enable": true,
+    "enable": false,
+    "github_folder": "AllWeImagineAsLight",
+    "comment_id": "loaru80",
+    "reply_to": "1flkn73",
+    "source": "github",
+    "start_date": "2024-09-21"
+  },
+  {
+    "enable": false,
+    "github_folder": "AkriKallyanam",
+    "comment_id": "loaruji",
+    "reply_to": "1fmb0t6",
+    "source": "github",
+    "start_date": "2024-09-20"
+  },
+  {
+    "enable": false,
     "github_folder": "KuttanteShinigami",
     "comment_id": "lo5nqxc",
     "reply_to": "1fl78k7",
@@ -8,7 +24,7 @@
     "start_date": "2024-09-20"
   },
   {
-    "enable": true,
+    "enable": false,
     "github_folder": "KadhaInnuvare",
     "comment_id": "lo5nr86",
     "reply_to": "1fl46zf",
