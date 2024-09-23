@@ -115,9 +115,9 @@ const collageMax = 5;
   }
 
   console.log(
-    `#Kerala #BoxOffice ${start_date.format("MMMD")}/${end_date.format(
-      "MMMD"
-    )} ${Math.round(end_date.diff(start_date, "week", true))}W Summary`
+    `#Kerala #BoxOffice ${start_date.format("MMMDddd")}/${end_date.format(
+      "MMMDddd"
+    )} ${Math.round(end_date.diff(start_date, "week", true))}Week Summary`
   );
 
   // html generation

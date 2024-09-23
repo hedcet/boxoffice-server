@@ -90,10 +90,10 @@ const collageItemWidth = 96;
 
   console.log(
     `#${displayName} #Kerala #BoxOffice ${start_date.format(
-      "MMMD"
-    )}/${end_date.format("MMMD")} ${Math.round(
+      "MMMDddd"
+    )}/${end_date.format("MMMDddd")} ${Math.round(
       end_date.diff(start_date, "week", true)
-    )}W Summary\n├ Gross ~ ₹${toEnIn(data._total._sum, "en-in", {
+    )}Week Summary\n├ Gross ~ ₹${toEnIn(data._total._sum, "en-in", {
       notation: "compact",
     })}\n├ Occupancy ~ ${toEnIn(data._total._booked)}${
       data._total._booked
