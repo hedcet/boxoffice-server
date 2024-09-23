@@ -28,7 +28,7 @@
     .image .overlay {
       bottom: 0;
       left: 0;
-      mask-image: linear-gradient(150deg, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 1) 90%);
+      mask-image: linear-gradient(190deg, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 1) 90%);
       position: absolute;
       right: 0;
       top: 0;
@@ -37,20 +37,25 @@
   </style>
 </head>
 
-<body class="bg-white" x-data="{ movies: [] }" x-init='movies = [{"bg":"#d8e8e8","fg":"black","image":"https://i.imgur.com/rla7HUM.jpeg?3114c0","sum":"9.8Cr"},{"bg":"#f8f808","fg":"black","image":"https://i.imgur.com/Y4PjWkz.jpeg?7b48ee","sum":"2.1Cr"},{"bg":"#382818","fg":"white","image":"https://i.imgur.com/bxk1NBi.jpeg?b2b9d5","sum":"78L"},{"bg":"#080808","fg":"white","image":"https://i.imgur.com/R5gOeO8.jpeg?1250f4","sum":"61L"},{"bg":"#281808","fg":"white","image":"https://i.imgur.com/5uPeNF5.jpeg?ef2021","sum":"31L"}]'>
+<body class="bg-white" x-data="{ movies: [] }" x-init='movies = [{"booked":"13L","image":"https://i.imgur.com/MgFaqe5.jpeg?1f06cd","sum":"23Cr","bg":"#180808","fg":"white"},{"booked":"12L","image":"https://i.imgur.com/p96qb68.jpeg?d9cc36","sum":"19Cr","bg":"#181818","fg":"white"},{"booked":"1L","image":"https://i.imgur.com/OUeAfz4.jpeg?aa6219","sum":"1.4Cr","bg":"#281818","fg":"white"},{"booked":"62T","image":"https://i.imgur.com/YiVIoSG.jpeg?40f941","sum":"93L","bg":"#081808","fg":"white"},{"booked":"44T","image":"https://i.imgur.com/bMA8a51.jpeg?c2aac8","sum":"72L","bg":"#88c8b8","fg":"black"},{"booked":"41T","image":"https://i.imgur.com/zKK737c.jpeg?93244e","sum":"60L","bg":"#081818","fg":"white"}]'>
   <div class="flex justify-center">
     <div class="flex flex-wrap" id="screenshot">
       <template x-for="(v, i) in movies">
-        <div class="image" :class="i?'ml-px':''">
+        <div class="image" :class="i?'ml-1':''">
           <img :src="v.image" />
-          <div class="overlay flex flex-col justify-end" :style="{backgroundColor:v.bg,color:v.fg}">
-            <div class="flex justify-end m-1">
-              <div class="oswald">
-                <span class="text-xl">₹</span>
-                <span class="text-6xl" x-text="v.sum"></span>
+          <template x-if="v.sum">
+            <div class="overlay flex flex-col justify-end" :style="{backgroundColor:v.bg,color:v.fg}">
+              <div class="flex m-1">
+                <div class="oswald">
+                  <span class="text-xs">₹</span>
+                  <span class="text-6xl" x-text="v.sum"></span>
+                  <span class="text-xs">from</span>
+                  <span class="text-xs" x-text="v.booked"></span>
+                  <span class="text-xs">bookings</span>
+                </div>
               </div>
             </div>
-          </div>
+          </template>
       </template>
     </div>
   </div>

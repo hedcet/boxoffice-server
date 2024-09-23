@@ -115,9 +115,13 @@ const collageMax = 5;
   }
 
   console.log(
-    `#Kerala #BoxOffice ${start_date.format("MMMDddd")}/${end_date.format(
-      "MMMDddd"
-    )} ${Math.round(end_date.diff(start_date, "week", true))}Week Summary`
+    `#Kerala #BoxOffice ${start_date.format("MMMD")}/${end_date.format(
+      "MMMD"
+    )} ${Math.round(
+      end_date.diff(start_date, "week", true)
+    )}Week Summary github.com/hedcet/boxoffice/commits/main?since=${start_date.format(
+      "YYYY-MM-DD"
+    )}&until=${end_date.format("YYYY-MM-DD")}`
   );
 
   // html generation

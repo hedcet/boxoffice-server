@@ -28,7 +28,7 @@
     .image .overlay {
       bottom: 0;
       left: 0;
-      mask-image: linear-gradient(150deg, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 1) 90%);
+      mask-image: linear-gradient(190deg, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 1) 90%);
       position: absolute;
       right: 0;
       top: 0;
@@ -41,14 +41,17 @@
   <div class="flex justify-center">
     <div class="flex flex-wrap" id="screenshot">
       <template x-for="(v, i) in movies">
-        <div class="image" :class="i?'ml-px':''">
+        <div class="image" :class="i?'ml-1':''">
           <img :src="v.image" />
           <template x-if="v.sum">
             <div class="overlay flex flex-col justify-end" :style="{backgroundColor:v.bg,color:v.fg}">
-              <div class="flex justify-end m-1">
+              <div class="flex m-1">
                 <div class="oswald">
-                  <span class="text-xl">₹</span>
+                  <span class="text-xs">₹</span>
                   <span class="text-6xl" x-text="v.sum"></span>
+                  <span class="text-xs">from</span>
+                  <span class="text-xs" x-text="v.booked"></span>
+                  <span class="text-xs">bookings</span>
                 </div>
               </div>
             </div>
