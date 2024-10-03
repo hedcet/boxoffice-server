@@ -1,5 +1,6 @@
 node_modules
 
+*.bat
 *.sh
 export-*
 package-lock.json
