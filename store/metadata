@@ -2462,3 +2462,6 @@
 {"$$indexCreated":{"fieldName":"date","unique":false,"sparse":false}}
 {"$$indexCreated":{"fieldName":"id","unique":false,"sparse":false}}
 {"$$indexCreated":{"fieldName":"name","unique":false,"sparse":false}}
+{"$$indexCreated":{"fieldName":"date"}}
+{"$$indexCreated":{"fieldName":"id"}}
+{"$$indexCreated":{"fieldName":"name"}}
