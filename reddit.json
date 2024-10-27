@@ -1,5 +1,174 @@
 [
   {
+    "enable": true,
+    "github_folder": "Thrayam",
+    "comment_id": "ltvabj4",
+    "reply_to": "1gbozcv",
+    "source": "github",
+    "start_date": "2024-10-25"
+  },
+  {
+    "enable": true,
+    "github_folder": "Pallotty",
+    "comment_id": "ltvabx9",
+    "reply_to": "1gbouub",
+    "source": "github",
+    "start_date": "2024-10-25"
+  },
+  {
+    "enable": true,
+    "github_folder": "KundannoorileKulsithaLahala",
+    "comment_id": "ltvacbs",
+    "reply_to": "1gbott5",
+    "source": "github",
+    "start_date": "2024-10-25"
+  },
+  {
+    "enable": true,
+    "github_folder": "DhayaBharati",
+    "comment_id": "ltvacs6",
+    "reply_to": "1gbot7t",
+    "source": "github",
+    "start_date": "2024-10-25"
+  },
+  {
+    "enable": true,
+    "github_folder": "ChandranumPoliceum",
+    "comment_id": "ltvad6s",
+    "reply_to": "1gboskn",
+    "source": "github",
+    "start_date": "2024-10-25"
+  },
+  {
+    "enable": true,
+    "github_folder": "Anwar",
+    "comment_id": "ltvadnn",
+    "reply_to": "1gborr2",
+    "source": "github",
+    "start_date": "2024-10-25"
+  },
+  {
+    "enable": true,
+    "github_folder": "Pani",
+    "comment_id": "ltvae3k",
+    "reply_to": "1gazww6",
+    "source": "github",
+    "start_date": "2024-10-24"
+  },
+  {
+    "enable": false,
+    "github_folder": "SaghavGourisankar",
+    "comment_id": "ltvaegy",
+    "reply_to": "1gbykjz",
+    "source": "github",
+    "start_date": "2024-10-18"
+  },
+  {
+    "enable": false,
+    "github_folder": "Krouryam",
+    "comment_id": "ltvaevq",
+    "reply_to": "1gbyght",
+    "source": "github",
+    "start_date": "2024-10-18"
+  },
+  {
+    "enable": false,
+    "github_folder": "3DSpaceSafari",
+    "comment_id": "ltvafal",
+    "reply_to": "1g1gti3",
+    "source": "github",
+    "start_date": "2024-10-12"
+  },
+  {
+    "enable": false,
+    "github_folder": "LuttoAndMonai",
+    "comment_id": "ltvafov",
+    "reply_to": "1gbycks",
+    "source": "github",
+    "start_date": "2024-10-04"
+  },
+  {
+    "enable": false,
+    "github_folder": "NayakanPrithvi",
+    "comment_id": "lsozm5b",
+    "reply_to": "1g6qwwn",
+    "source": "github",
+    "start_date": "2024-10-18"
+  },
+  {
+    "enable": false,
+    "github_folder": "PorattuNadakam",
+    "comment_id": "lsozmjv",
+    "reply_to": "1g6qvus",
+    "source": "github",
+    "start_date": "2024-10-18"
+  },
+  {
+    "enable": true,
+    "github_folder": "Bougainvillea",
+    "comment_id": "lshhz8p",
+    "reply_to": "1g585m5",
+    "source": "github",
+    "start_date": "2024-10-17"
+  },
+  {
+    "enable": false,
+    "github_folder": "PaleriManikyam",
+    "comment_id": "lqkh76v",
+    "reply_to": "1fwx412",
+    "source": "github",
+    "start_date": "2024-10-04"
+  },
+  {
+    "enable": false,
+    "github_folder": "Koon",
+    "comment_id": "lqexiqd",
+    "reply_to": "1fw3fls",
+    "source": "github",
+    "start_date": "2024-10-04"
+  },
+  {
+    "enable": false,
+    "github_id": ["fc7a22"],
+    "github_folder": "Kummattikali",
+    "comment_id": "lqey4zv",
+    "reply_to": "1fw3dnm",
+    "source": "github",
+    "start_date": "2024-10-02"
+  },
+  {
+    "enable": false,
+    "github_folder": "Thanupp",
+    "comment_id": "lqexiyx",
+    "reply_to": "1fw3c9k",
+    "source": "github",
+    "start_date": "2024-10-04"
+  },
+  {
+    "enable": false,
+    "github_folder": "OruKattilOruMuri",
+    "comment_id": "lqexj7c",
+    "reply_to": "1fw3bdt",
+    "source": "github",
+    "start_date": "2024-10-04"
+  },
+  {
+    "enable": false,
+    "github_folder": "PushpakaVimanam",
+    "comment_id": "lqexjg1",
+    "reply_to": "1fw3a89",
+    "source": "github",
+    "start_date": "2024-10-04"
+  },
+  {
+    "enable": false,
+    "github_folder": "ThekkuVadakku",
+    "comment_id": "lqexjox",
+    "reply_to": "1fw391z",
+    "source": "github",
+    "start_date": "2024-10-04"
+  },
+  {
     "enable": false,
     "github_folder": "AllWeImagineAsLight",
     "comment_id": "loaru80",
@@ -177,7 +346,7 @@
   },
   {
     "enable": false,
-    "github_id": "a8dcdb",
+    "github_id": ["a8dcdb"],
     "github_folder": "Hunt",
     "comment_id": "ljnvtpb",
     "reply_to": "1ez3gli",

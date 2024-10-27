@@ -11,20 +11,17 @@ const { sync } = require("./config/git.js");
 const { moment } = require("./config/moment.js");
 const { db, syncFileInfo } = require("./config/nedb.js");
 
-const json_path = path.resolve(__dirname, "./export-movies-images.json");
-const json = fs.existsSync(json_path)
-  ? JSON.parse(fs.readFileSync(json_path, "utf8"))
-  : {};
-
 const collageGap = 3;
 const collageItemWidth = 96;
 
 (async () => {
-  const id = "";
-  const name = /goat|greatest/i;
-  const displayName = "TheGOAT";
-  const start_date = moment("2024-09-05", ["YYYY-MM-DD"]);
-  const end_date = moment("2024-09-19", ["YYYY-MM-DD"]);
+  const id = undefined; // []
+  const name = /jigra/i;
+  const displayName = "Jigra";
+  let image =
+    "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xxlarge/jigra-et00370844-1728285023.jpg";
+  const start_date = moment("2024-10-11", ["YYYY-MM-DD"]);
+  const end_date = moment("2024-10-25", ["YYYY-MM-DD"]);
 
   await sync(csvPath); // git clone/pull
   await syncFileInfo(csvPath); // sync folder/file metadata to nedb
@@ -40,16 +37,12 @@ const collageItemWidth = 96;
     Sunday: { _name: "Sunday" },
     _total: { _shows: 0, _booked: 0, _capacity: 0, _sum: 0 },
   };
-  const images = [];
   for (const i of await db
     .find({
       date: { $gte: start_date.toDate(), $lt: end_date.toDate() },
-      ...(id ? { id } : { name }),
+      ...(id ? { id: { $in: id } } : { name }),
     })
     .sort({ date: 1 })) {
-    if (json[i.id])
-      for (const image of json[i.id])
-        if (!images.includes(image)) images.push(image);
     const date = moment(i.date);
     const d = moment(date).format("dddd");
     const k = `_week_${date.format("W")}`;
@@ -156,17 +149,6 @@ const collageItemWidth = 96;
       titleSpacing: 30,
     })
   )}`;
-
-  // random image
-  let image;
-  if (!image)
-    for (const i of shuffle(images)) {
-      const [link, size] = i.split("|");
-      if (32 * 1024 < +size) {
-        image = link;
-        break;
-      }
-    }
 
   if (image) {
     // collage generation

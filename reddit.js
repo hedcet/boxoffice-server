@@ -34,7 +34,7 @@ const { client } = require("./config/snoowrap.js");
       .find({
         date: { $gte: start_date.toDate(), $lte: end_date.toDate() },
         ...(config.github_id
-          ? { id: config.github_id }
+          ? { id: { $in: config.github_id } }
           : { name: config.github_folder }),
       })
       .sort({ date: 1 })) {
