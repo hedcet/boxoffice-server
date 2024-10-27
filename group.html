@@ -1,0 +1,49 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <link href='https://cdn.jsdelivr.net/npm/normalize.css/normalize.min.css' rel='stylesheet' type='text/css' />
+  <script src='https://cdn.tailwindcss.com'></script>
+  <link href='https://cdn.jsdelivr.net/npm/daisyui/dist/full.min.css' rel='stylesheet' type='text/css' />
+  <script src="https://cdn.jsdelivr.net/npm/alpinejs/dist/cdn.min.js"></script>
+</head>
+
+<body class='bg-white' x-data="{ movies: [] }" x-init="fetch('/group').then(res => res.json()).then(data => movies = data)">
+  <table class='table table-xs table-zebra'>
+    <thead style='position: sticky; top: 0;'>
+      <tr>
+        <th></th>
+        <th>group</th>
+        <th>name</th>
+        <th>date</th>
+        <th><input class='badge badge-xs badge-outline' style='cursor: pointer;' type='submit' @click="clickHandler($data)" /></th>
+      </tr>
+    </thead>
+    <tbody>
+      <template x-for="(v, i) in movies">
+        <tr class="hover" @click="v._enable = !v._enable">
+          <td :style="v.color" x-text="i + 1"></td>
+          <td x-text="v.group"></td>
+          <td>
+            <span x-text="v.name"></span>
+            <span class="badge badge-xs badge-outline" :class="v.group ? 'badge-success' : 'badge-error'" x-text="v.length"></span>
+          </td>
+          <td x-text="v.date"></td>
+          <th><input class='checkbox checkbox-xs' type='checkbox' x-model="v._enable" /></th>
+        </tr>
+      </template>
+    </tbody>
+  </table>
+
+  <script>
+    function clickHandler({ movies }) {
+      fetch('/group', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ refs: movies.filter(i => i._enable).reduce((m, i) => [...m, ...i.refs], []) })
+      }).then(r => location.reload());
+    }
+  </script>
+</body>
+
+</html>

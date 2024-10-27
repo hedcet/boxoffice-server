@@ -37,7 +37,7 @@
   </style>
 </head>
 
-<body class="bg-white" x-data="{ movies: [] }" x-init='movies = [{"booked":"13L","image":"https://i.imgur.com/MgFaqe5.jpeg?1f06cd","sum":"23Cr","bg":"#180808","fg":"white"},{"booked":"12L","image":"https://i.imgur.com/p96qb68.jpeg?d9cc36","sum":"19Cr","bg":"#181818","fg":"white"},{"booked":"1L","image":"https://i.imgur.com/OUeAfz4.jpeg?aa6219","sum":"1.4Cr","bg":"#281818","fg":"white"},{"booked":"62T","image":"https://i.imgur.com/YiVIoSG.jpeg?40f941","sum":"93L","bg":"#081808","fg":"white"},{"booked":"44T","image":"https://i.imgur.com/bMA8a51.jpeg?c2aac8","sum":"72L","bg":"#88c8b8","fg":"black"},{"booked":"41T","image":"https://i.imgur.com/zKK737c.jpeg?93244e","sum":"60L","bg":"#081818","fg":"white"}]'>
+<body class="bg-white" x-data="{ movies: [] }" x-init='movies = [{"bg":"#a80808","booked":"5.8L","fg":"white","image":"https://i.imgur.com/KQUhLfa.jpeg?8c2745","sum":"9.5Cr"},{"bg":"#380818","booked":"2.2L","fg":"white","image":"https://i.imgur.com/6Cdp2F3.jpeg?7c0e86","sum":"3.3Cr"},{"bg":"#280808","booked":"1.2L","fg":"white","image":"https://i.imgur.com/NwewTZ0.jpeg?45415b","sum":"2.1Cr"},{"bg":"#181818","booked":"34T","fg":"white","image":"https://i.imgur.com/FrGCNlO.jpeg?1c93e2","sum":"54L"},{"bg":"#381808","booked":"23T","fg":"white","image":"https://i.imgur.com/wAqkk1r.jpeg?fe3bf0","sum":"35L"},{"bg":"#080808","booked":"9.1T","fg":"white","image":"https://i.imgur.com/taVidrC.jpeg?557608","sum":"11L"}]'>
   <div class="flex justify-center">
     <div class="flex flex-wrap" id="screenshot">
       <template x-for="(v, i) in movies">
@@ -46,7 +46,7 @@
           <template x-if="v.sum">
             <div class="overlay flex flex-col justify-end" :style="{backgroundColor:v.bg,color:v.fg}">
               <div class="flex m-1">
-                <div class="oswald">
+                <div class="oswald tracking-tighter">
                   <span class="text-xs">₹</span>
                   <span class="text-6xl" x-text="v.sum"></span>
                   <span class="text-xs">from</span>

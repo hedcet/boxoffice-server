@@ -12,6 +12,7 @@ const db = new nedb({
 });
 
 db.ensureIndex({ fieldName: "date" }, console.error);
+db.ensureIndex({ fieldName: "group" }, console.error);
 db.ensureIndex({ fieldName: "id" }, console.error);
 db.ensureIndex({ fieldName: "name" }, console.error);
 
