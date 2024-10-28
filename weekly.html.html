@@ -37,7 +37,7 @@
   </style>
 </head>
 
-<body class="bg-white" x-data="{ movies: [] }" x-init='movies = [{"bg":"#a80808","booked":"5.8L","fg":"white","image":"https://i.imgur.com/KQUhLfa.jpeg?8c2745","sum":"9.5Cr"},{"bg":"#380818","booked":"2.2L","fg":"white","image":"https://i.imgur.com/6Cdp2F3.jpeg?7c0e86","sum":"3.3Cr"},{"bg":"#280808","booked":"1.2L","fg":"white","image":"https://i.imgur.com/NwewTZ0.jpeg?45415b","sum":"2.1Cr"},{"bg":"#181818","booked":"34T","fg":"white","image":"https://i.imgur.com/FrGCNlO.jpeg?1c93e2","sum":"54L"},{"bg":"#381808","booked":"23T","fg":"white","image":"https://i.imgur.com/wAqkk1r.jpeg?fe3bf0","sum":"35L"},{"bg":"#080808","booked":"9.1T","fg":"white","image":"https://i.imgur.com/taVidrC.jpeg?557608","sum":"11L"}]'>
+<body class="bg-white" x-data="{ movies: [] }" x-init='movies = [{"bg":"#180808","booked":"3.9L","fg":"white","image":"https://i.imgur.com/wa9RdNz.jpeg?27bb4d","occupancy":"31.03%","sum":"6.1Cr"},{"bg":"#a80808","booked":"2.5L","fg":"white","image":"https://i.imgur.com/FNvV9Cu.jpeg?32b9eb","occupancy":"14.77%","sum":"4.1Cr"},{"bg":"#080808","booked":"66T","fg":"white","image":"https://i.imgur.com/y4SjcHY.jpeg?4e0de2","occupancy":"15.12%","sum":"1.4Cr"},{"bg":"#380818","booked":"55T","fg":"white","image":"https://i.imgur.com/rOjZod3.jpeg?5fec97","occupancy":"9.42%","sum":"80L"},{"bg":"#180808","booked":"48T","fg":"white","image":"https://i.imgur.com/s76hW6E.jpeg?0fa97a","occupancy":"11.12%","sum":"81L"},{"bg":"#f8d808","booked":"17T","fg":"black","image":"https://i.imgur.com/7GH59YG.jpeg?f57174","occupancy":"14.96%","sum":"26L"}]'>
   <div class="flex justify-center">
     <div class="flex flex-wrap" id="screenshot">
       <template x-for="(v, i) in movies">
@@ -45,13 +45,14 @@
           <img :src="v.image" />
           <template x-if="v.sum">
             <div class="overlay flex flex-col justify-end" :style="{backgroundColor:v.bg,color:v.fg}">
-              <div class="flex m-1">
-                <div class="oswald tracking-tighter">
-                  <span class="text-xs">₹</span>
-                  <span class="text-6xl" x-text="v.sum"></span>
-                  <span class="text-xs">from</span>
-                  <span class="text-xs" x-text="v.booked"></span>
-                  <span class="text-xs">bookings</span>
+              <div class="oswald flex flex-row items-end m-1 text-xs tracking-tighter">₹<span class="text-6xl"
+                  style="letter-spacing: -0.075em; margin-right: 2px;" x-text="v.sum"></span>&nbsp;from&nbsp;
+                <div class="flex flex-col justify-end">
+                  <span style="position: relative; top: 2px" x-text="v.occupancy"></span>
+                  <div>
+                    <span x-text="v.booked"></span>
+                    <span>bookings</span>
+                  </div>
                 </div>
               </div>
             </div>

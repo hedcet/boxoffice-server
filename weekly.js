@@ -19,7 +19,7 @@ const json = fs.existsSync(json_path)
 const collageMax = 6;
 
 (async () => {
-  const start_date = moment("2024-10-14", ["YYYY-MM-DD"]).startOf("day");
+  const start_date = moment("2024-10-21", ["YYYY-MM-DD"]).startOf("day");
   const end_date = start_date.clone().add(7, "day").startOf("day");
 
   await sync(csvPath); // git clone/pull
@@ -87,6 +87,9 @@ const collageMax = 6;
         item.sum = toEnIn(item.sum, "en-in", {
           notation: "compact",
         });
+        item.occupancy = item.booked
+          ? `${round((item.booked / item.capacity) * 100, 2)}%`
+          : "";
         item.image = link;
         item.dominant = (
           await sharp(
@@ -140,7 +143,9 @@ const collageMax = 6;
       JSON.stringify(
         items
           .slice(0, collageMax)
-          .map((i) => pick(i, ["bg", "booked", "fg", "image", "sum"]))
+          .map((i) =>
+            pick(i, ["bg", "booked", "fg", "image", "occupancy", "sum"])
+          )
       ),
     ])
   );
