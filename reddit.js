@@ -9,6 +9,7 @@ const { sync } = require("./config/git.js");
 const { moment } = require("./config/moment.js");
 const { db, syncFileInfo } = require("./config/nedb.js");
 const { client } = require("./config/snoowrap.js");
+const { group } = require("console");
 
 (async () => {
   await sync(csvPath); // git clone/pull
@@ -27,6 +28,15 @@ const { client } = require("./config/snoowrap.js");
     const end_date = config.end_date
       ? moment(config.end_date, ["YYYY-MM-DD"])
       : moment();
+
+    if (config.github_group) {
+      const $in = await db.find({ group: { $in: config.github_group } });
+      await db.update(
+        { id: { $in: $in.map((i) => i.id) } },
+        { $set: { group: config.github_group } },
+        { multi: true }
+      );
+    }
 
     // aggregate
     const data = {};

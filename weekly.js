@@ -25,6 +25,18 @@ const collageMax = 6;
   await sync(csvPath); // git clone/pull
   await syncFileInfo(csvPath); // sync folder/file metadata to nedb
 
+  for (const { group } of await db.find({
+    date: { $gte: start_date.toDate(), $lt: end_date.toDate() },
+  }))
+    if (group) {
+      const $in = await db.find({ group: { $in: group } });
+      await db.update(
+        { id: { $in: $in.map((i) => i.id) } },
+        { $set: { group } },
+        { multi: true }
+      );
+    }
+
   // aggregate
   const data = {};
   for (const i of await db

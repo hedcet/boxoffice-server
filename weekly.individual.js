@@ -30,6 +30,15 @@ const collageItemWidth = 96;
   await sync(csvPath); // git clone/pull
   await syncFileInfo(csvPath); // sync folder/file metadata to nedb
 
+  if (group) {
+    const $in = await db.find({ group: { $in: group } });
+    await db.update(
+      { id: { $in: $in.map((i) => i.id) } },
+      { $set: { group } },
+      { multi: true }
+    );
+  }
+
   // aggregate
   const data = {
     Monday: { _name: "Monday" },
