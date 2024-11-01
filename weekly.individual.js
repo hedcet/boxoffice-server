@@ -21,11 +21,11 @@ const collageItemWidth = 96;
 
 (async () => {
   const group = undefined; // []
-  const name = /jigra/i;
-  const displayName = "Jigra";
+  const name = /robot/i;
+  const displayName = "TheWildRobot";
   let image = ""; // bms/ptm image-url
-  const start_date = moment("2024-10-11", ["YYYY-MM-DD"]);
-  const end_date = moment("2024-10-25", ["YYYY-MM-DD"]);
+  const start_date = moment("2024-10-18", ["YYYY-MM-DD"]);
+  const end_date = moment("2024-11-01", ["YYYY-MM-DD"]);
 
   await sync(csvPath); // git clone/pull
   await syncFileInfo(csvPath); // sync folder/file metadata to nedb
@@ -141,8 +141,8 @@ const collageItemWidth = 96;
     Object.keys(i)
       .filter((j) => j.startsWith("_week_"))
       .map((j) => {
-        if (1000 <= i[j])
-          i[j] = `₹${toEnIn(i[j], "en-in", { notation: "compact" })}`;
+        // if (1000 <= i[j])
+        i[j] = `₹${toEnIn(i[j], "en-in", { notation: "compact" })}`;
       });
     dataSource.push("-");
     dataSource.push(i);
