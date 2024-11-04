@@ -30,7 +30,7 @@ const { group } = require("console");
       : moment();
 
     if (config.github_group) {
-      const $in = await db.find({ group: { $in: config.github_group } });
+      const $in = await db.find({ group: config.github_group });
       await db.update(
         { id: { $in: $in.map((i) => i.id) } },
         { $set: { group: config.github_group } },
@@ -44,7 +44,7 @@ const { group } = require("console");
       .find({
         date: { $gte: start_date.toDate(), $lte: end_date.toDate() },
         ...(config.github_group
-          ? { group: { $in: config.github_group } }
+          ? { group: config.github_group }
           : { name: config.github_folder }),
       })
       .sort({ date: 1 })) {

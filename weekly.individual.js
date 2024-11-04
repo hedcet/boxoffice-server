@@ -20,7 +20,7 @@ const collageGap = 3;
 const collageItemWidth = 96;
 
 (async () => {
-  const group = undefined; // []
+  const group = "";
   const name = /robot/i;
   const displayName = "TheWildRobot";
   let image = ""; // bms/ptm image-url
@@ -31,7 +31,7 @@ const collageItemWidth = 96;
   await syncFileInfo(csvPath); // sync folder/file metadata to nedb
 
   if (group) {
-    const $in = await db.find({ group: { $in: group } });
+    const $in = await db.find({ group });
     await db.update(
       { id: { $in: $in.map((i) => i.id) } },
       { $set: { group } },
@@ -54,7 +54,7 @@ const collageItemWidth = 96;
   for (const i of await db
     .find({
       date: { $gte: start_date.toDate(), $lt: end_date.toDate() },
-      ...(group ? { group: { $in: group } } : { name }),
+      ...(group ? { group } : { name }),
     })
     .sort({ date: 1 })) {
     if (json[i.id])

@@ -19,7 +19,7 @@ const json = fs.existsSync(json_path)
 const collageMax = 6;
 
 (async () => {
-  const start_date = moment("2024-10-21", ["YYYY-MM-DD"]).startOf("day");
+  const start_date = moment("2024-10-28", ["YYYY-MM-DD"]).startOf("day");
   const end_date = start_date.clone().add(7, "day").startOf("day");
 
   await sync(csvPath); // git clone/pull
@@ -27,15 +27,15 @@ const collageMax = 6;
 
   for (const { group } of await db.find({
     date: { $gte: start_date.toDate(), $lt: end_date.toDate() },
-  }))
-    if (group) {
-      const $in = await db.find({ group: { $in: group } });
-      await db.update(
-        { id: { $in: $in.map((i) => i.id) } },
-        { $set: { group } },
-        { multi: true }
-      );
-    }
+    group: { $exists: true },
+  })) {
+    const $in = await db.find({ group });
+    await db.update(
+      { id: { $in: $in.map((i) => i.id) } },
+      { $set: { group } },
+      { multi: true }
+    );
+  }
 
   // aggregate
   const data = {};
