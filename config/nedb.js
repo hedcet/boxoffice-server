@@ -9,6 +9,7 @@ const { moment } = require("./moment.js");
 const db = new nedb({
   autoload: true,
   filename: path.resolve(local, "metadata"),
+  timestampData: true,
 });
 
 db.ensureIndex({ fieldName: "date" }, console.error);

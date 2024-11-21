@@ -27,21 +27,22 @@ const { db, syncFileInfo } = require("./config/nedb.js");
   });
 
   app.get("/group", async (req, res) => {
-    const data = await db.find({});
+    const data = await db.find({
+      date: { $gt: moment().subtract(3, "month").toDate() },
+    });
     const r = [];
     for (const items of orderBy(
       Object.values(groupBy(data, "id")),
       [(i) => i[0].name],
       ["asc"]
     )) {
-      const date = moment(orderBy(items, ["date"], ["asc"])[0].date).format(
-        "YYYY-MM-DD"
-      );
+      const [f] = orderBy(items, ["createdAt", "date"], ["asc", "asc"]);
+      const created_at = moment(f.createdAt || f.date).format("YYYY-MM-DD");
       r.push({
-        color: get_color(items[0].group || date),
-        date,
+        color: get_color(items[0].group || created_at),
+        created_at,
         group: items[0].group,
-        length: items.length,
+        hits: items.length,
         name: orderBy(items, [(i) => i.name.length], ["asc"])[0].name,
         refs: items.map((i) => i.id),
       });

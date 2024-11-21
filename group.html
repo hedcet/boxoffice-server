@@ -15,7 +15,8 @@
         <th></th>
         <th>group</th>
         <th>name</th>
-        <th>date</th>
+        <th>created_at</th>
+        <th>hits</th>
         <th><input class='badge badge-xs badge-outline' style='cursor: pointer;' type='submit' @click="clickHandler($data)" /></th>
       </tr>
     </thead>
@@ -24,11 +25,9 @@
         <tr class="hover" @click="v._enable = !v._enable">
           <td :style="v.color" x-text="i + 1"></td>
           <td x-text="v.group"></td>
-          <td>
-            <span x-text="v.name"></span>
-            <span class="badge badge-xs badge-outline" :class="v.group ? 'badge-success' : 'badge-error'" x-text="v.length"></span>
-          </td>
-          <td x-text="v.date"></td>
+          <td x-text="v.name"></td>
+          <td x-text="v.created_at"></td>
+          <td x-text="v.hits"></td>
           <th><input class='checkbox checkbox-xs' type='checkbox' x-model="v._enable" /></th>
         </tr>
       </template>

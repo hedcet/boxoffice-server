@@ -1,15 +1,16 @@
 const cheerio = require("cheerio");
 const fs = require("fs");
 const fetch = require("node-fetch");
-const { camelCase, upperFirst } = require("lodash");
+const { startCase } = require("lodash");
 const path = require("path");
 
 const { toEnIn } = require("./config/misc.js");
 const { moment } = require("./config/moment.js");
 const { client } = require("./config/snoowrap.js");
 
-function toUpperFirstCamelCase(text) {
-  return upperFirst(camelCase(text));
+function toPascalCase(text) {
+  const _text = (text || '').replace(/(\d+).(\d+)/g, '$1point$2');
+  return startCase(_text).replace(/\s+/g, '');
 }
 
 (async () => {
@@ -24,7 +25,7 @@ function toUpperFirstCamelCase(text) {
   //       (r) => r.text()
   //     )
   //   );
-  //   const title = toUpperFirstCamelCase($(".movie-title").text());
+  //   const title = toPascalCase($(".movie-title").text());
   //   if (!title) continue;
   //   const image = `https://fridaymatinee.in/fmbo/${$(".header-bg img").attr(
   //     "src"
@@ -93,13 +94,11 @@ function toUpperFirstCamelCase(text) {
       if (!v.data.length) continue;
       let text = `kerala boxoffice tracked data\n\n| Date | Shows | Occupancy | Gross |\n| - | -: | -: | -: |`;
       for (const { name, shows, booked, sum, occupancy } of v.data)
-        text += `\n| ${name} | ${toEnIn(shows)} | ${toEnIn(booked)}${
-          booked ? `(${occupancy})` : ""
-        } | ₹${
-          sum < 1000
+        text += `\n| ${name} | ${toEnIn(shows)} | ${toEnIn(booked)}${booked ? `(${occupancy})` : ""
+          } | ₹${sum < 1000
             ? toEnIn(sum)
             : toEnIn(sum, "en-in", { notation: "compact" })
-        } |`;
+          } |`;
       text += `\n\n[source](https://github.com/hedcet/boxoffice-server/blob/main/fmbo.json) | last updated at ${moment().format(
         "YYYY-MM-DDTHH:mmZ"
       )}`;

@@ -1,5 +1,61 @@
 [
   {
+    "enable": false,
+    "github_folder": "EeBendhamSoopara",
+    "comment_id": "lxcqtgk",
+    "reply_to": "1gropwh",
+    "source": "github",
+    "start_date": "2024-11-15"
+  },
+  {
+    "enable": false,
+    "github_folder": "AnandSreebala",
+    "comment_id": "lxcqtt7",
+    "reply_to": "1grkkpj",
+    "source": "github",
+    "start_date": "2024-11-15"
+  },
+  {
+    "enable": false,
+    "github_folder": "Swargam",
+    "comment_id": "lw75d31",
+    "reply_to": "1gm0qa1",
+    "source": "github",
+    "start_date": "2024-11-08"
+  },
+  {
+    "enable": false,
+    "github_folder": "OruAnweshanathinteThudakkam",
+    "comment_id": "lw75dew",
+    "reply_to": "1gm0p6m",
+    "source": "github",
+    "start_date": "2024-11-08"
+  },
+  {
+    "enable": false,
+    "github_folder": "Mura",
+    "comment_id": "lw75dqd",
+    "reply_to": "1gm0nho",
+    "source": "github",
+    "start_date": "2024-11-08"
+  },
+  {
+    "enable": false,
+    "github_folder": "IAmKathalan",
+    "comment_id": "lw75e2s",
+    "reply_to": "1glfbkw",
+    "source": "github",
+    "start_date": "2024-11-07"
+  },
+  {
+    "enable": false,
+    "github_folder": "Chaama",
+    "comment_id": "lvt77jq",
+    "reply_to": "1gl9g37",
+    "source": "github",
+    "start_date": "2024-11-01"
+  },
+  {
     "enable": true,
     "github_folder": "LuckyBaskhar",
     "comment_id": "lv4vxr0",
@@ -8,7 +64,7 @@
     "start_date": "2024-10-31"
   },
   {
-    "enable": true,
+    "enable": false,
     "github_folder": "Oshana",
     "comment_id": "lv4vcsy",
     "reply_to": "1ggzbzj",
@@ -64,7 +120,7 @@
     "start_date": "2024-10-25"
   },
   {
-    "enable": true,
+    "enable": false,
     "github_folder": "Pani",
     "comment_id": "ltvae3k",
     "reply_to": "1gazww6",
@@ -120,7 +176,7 @@
     "start_date": "2024-10-18"
   },
   {
-    "enable": true,
+    "enable": false,
     "github_folder": "Bougainvillea",
     "comment_id": "lshhz8p",
     "reply_to": "1g585m5",

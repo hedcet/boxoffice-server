@@ -9,7 +9,6 @@ const { sync } = require("./config/git.js");
 const { moment } = require("./config/moment.js");
 const { db, syncFileInfo } = require("./config/nedb.js");
 const { client } = require("./config/snoowrap.js");
-const { group } = require("console");
 
 (async () => {
   await sync(csvPath); // git clone/pull
