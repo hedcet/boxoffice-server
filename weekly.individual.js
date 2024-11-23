@@ -11,7 +11,7 @@ const { sync } = require("./config/git.js");
 const { moment } = require("./config/moment.js");
 const { db, syncFileInfo } = require("./config/nedb.js");
 
-const json_path = path.resolve(__dirname, "./store/images.json");
+const json_path = path.resolve(__dirname, "./store/data.json");
 const json = fs.existsSync(json_path)
   ? JSON.parse(fs.readFileSync(json_path, "utf8"))
   : {};
@@ -21,11 +21,11 @@ const collageItemWidth = 96;
 
 (async () => {
   const group = "";
-  const name = /kathalan/i;
-  const displayName = "IamKathalan";
+  const name = /^mura/i;
+  const displayName = "Mura";
   let image = ""; // bms/ptm image-url
-  const start_date = moment("2024-11-07", ["YYYY-MM-DD"]);
-  const end_date = moment("2024-11-21", ["YYYY-MM-DD"]);
+  const start_date = moment("2024-11-08", ["YYYY-MM-DD"]);
+  const end_date = moment("2024-11-22", ["YYYY-MM-DD"]);
 
   await sync(csvPath); // git clone/pull
   await syncFileInfo(csvPath); // sync folder/file metadata to nedb
@@ -58,7 +58,7 @@ const collageItemWidth = 96;
     })
     .sort({ date: 1 })) {
     if (json[i.id])
-      for (const image of json[i.id])
+      for (const image of json[i.id]?.images || [])
         if (!images.includes(image)) images.push(image);
     const date = moment(i.date);
     const d = moment(date).format("dddd");
@@ -105,10 +105,9 @@ const collageItemWidth = 96;
       end_date.diff(start_date, "week", true)
     )}Week Summary\n├ Gross ~ ₹${toEnIn(data._total._sum, "en-in", {
       notation: "compact",
-    })}\n├ Occupancy ~ ${toEnIn(data._total._booked)}${
-      data._total._booked
-        ? `(${round((data._total._booked / data._total._capacity) * 100, 2)}%)`
-        : ""
+    })}\n├ Occupancy ~ ${toEnIn(data._total._booked)}${data._total._booked
+      ? `(${round((data._total._booked / data._total._capacity) * 100, 2)}%)`
+      : ""
     }\n├ Shows ~ ${toEnIn(
       data._total._shows
     )}\ngithub.com/hedcet/boxoffice/tree/main/${displayName}`

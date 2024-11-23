@@ -1,5 +1,69 @@
 [
   {
+    "enable": true,
+    "github_folder": "AllWeImagineAsLightEngSub",
+    "comment_id": "lyi19f1",
+    "reply_to": "1gwmup8",
+    "source": "github",
+    "start_date": "2024-11-22"
+  },
+  {
+    "enable": true,
+    "github_folder": "AllWeImagineAsLight",
+    "comment_id": "loaru80",
+    "reply_to": "1flkn73",
+    "source": "github",
+    "start_date": "2024-09-21"
+  },
+  {
+    "enable": true,
+    "github_folder": "NjanKandathaSare",
+    "comment_id": "lyi1794",
+    "reply_to": "1gwnvfy",
+    "source": "github",
+    "start_date": "2024-11-22"
+  },
+  {
+    "enable": true,
+    "github_folder": "TwoMenArmy",
+    "comment_id": "lyi17mn",
+    "reply_to": "1gwmrcv",
+    "source": "github",
+    "start_date": "2024-11-22"
+  },
+  {
+    "enable": true,
+    "github_folder": "TurkishTharkkam",
+    "comment_id": "lyi17zh",
+    "reply_to": "1gwmp5v",
+    "source": "github",
+    "start_date": "2024-11-22"
+  },
+  {
+    "enable": true,
+    "github_folder": "Parakramam",
+    "comment_id": "lyi18bu",
+    "reply_to": "1gwmmi1",
+    "source": "github",
+    "start_date": "2024-11-22"
+  },
+  {
+    "enable": true,
+    "github_folder": "Sookshmadarshini",
+    "comment_id": "lyi18os",
+    "reply_to": "1gwmhmx",
+    "source": "github",
+    "start_date": "2024-11-22"
+  },
+  {
+    "enable": true,
+    "github_folder": "HelloMummy",
+    "comment_id": "lyi1927",
+    "reply_to": "1gvwisz",
+    "source": "github",
+    "start_date": "2024-11-21"
+  },
+  {
     "enable": false,
     "github_folder": "EeBendhamSoopara",
     "comment_id": "lxcqtgk",
@@ -56,7 +120,7 @@
     "start_date": "2024-11-01"
   },
   {
-    "enable": true,
+    "enable": false,
     "github_folder": "LuckyBaskhar",
     "comment_id": "lv4vxr0",
     "reply_to": "1gg7jfi",
@@ -239,14 +303,6 @@
     "reply_to": "1fw391z",
     "source": "github",
     "start_date": "2024-10-04"
-  },
-  {
-    "enable": false,
-    "github_folder": "AllWeImagineAsLight",
-    "comment_id": "loaru80",
-    "reply_to": "1flkn73",
-    "source": "github",
-    "start_date": "2024-09-21"
   },
   {
     "enable": false,

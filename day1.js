@@ -1,6 +1,6 @@
 const { parseString } = require("fast-csv");
 const fs = require("fs");
-const { groupBy, orderBy, round } = require("lodash");
+const { groupBy, orderBy, round, uniq } = require("lodash");
 const path = require("path");
 
 const { csvPath } = require("./config/env.js");
@@ -10,8 +10,13 @@ const { moment } = require("./config/moment.js");
 const { db, syncFileInfo } = require("./config/nedb.js");
 const { client } = require("./config/snoowrap.js");
 
+const json_path = path.resolve(__dirname, "./store/data.json");
+const json = fs.existsSync(json_path)
+  ? JSON.parse(fs.readFileSync(json_path, "utf8"))
+  : {};
+
 (async () => {
-  const reddit_post_id = "1gsfg0b";
+  const reddit_post_id = "1gwyydp";
 
   const start_date = moment("2024-08-17", ["YYYY-MM-DD"]).startOf("day");
   const end_date = moment().startOf("day");
@@ -40,10 +45,8 @@ const { client } = require("./config/snoowrap.js");
     const file = path.resolve(csvPath, `${i.name}/${i.id}.${date}.csv`);
     console.log(file);
     const _id = i.group || i.id;
-    if (!data[_id])
-      data[_id] = { _id, name: i.name, from: date, shows: 0, booked: 0, capacity: 0, sum: 0, };
-    data[_id].to = date;
-    data[_id].files = (data[_id].files || 0) + 1;
+    if (!data[_id]) data[_id] = {};
+    data[_id][date] = { _id, date, id: i.id, name: i.name, shows: 0, booked: 0, capacity: 0, sum: 0, };
     await new Promise(async (resolve, reject) => {
       const csv = [];
       parseString(fs.readFileSync(file, "utf8"), { headers: true })
@@ -56,13 +59,13 @@ const { client } = require("./config/snoowrap.js");
             const capacity = +j.Capacity.replace(/[^0-9]+/g, "");
             const sum = booked * +j.Price.split(".")[0].replace(/[^0-9]+/g, "");
             if (capacity) {
-              if (data[_id].show_id != show_id) {
-                data[_id].show_id = show_id;
-                data[_id].shows += 1;
+              if (data[_id][date].show_id != show_id) {
+                data[_id][date].show_id = show_id;
+                data[_id][date].shows += 1;
               }
-              data[_id].booked += booked;
-              data[_id].capacity += capacity;
-              data[_id].sum += sum;
+              data[_id][date].booked += booked;
+              data[_id][date].capacity += capacity;
+              data[_id][date].sum += sum;
             }
           }
           resolve(true);
@@ -70,9 +73,23 @@ const { client } = require("./config/snoowrap.js");
     });
   }
 
+  // re-aggregate
+  const _items = []
+  for (const d of Object.values(data)) {
+    const v = Object.values(d)
+    let _item = v[0].shows < v[1]?.shows * .25 ? v[1] : v[0];
+    for (const i of v)
+      if (d[json[i.id]?.released_at]) {
+        _item = d[json[i.id]?.released_at]
+        break;
+      }
+    if (1000000 < _item.sum)
+      _items.push(_item)
+  }
+
   const items = orderBy(
-    Object.values(data),
-    ["from", "booked"],
+    Object.values(_items),
+    ["date", "booked"],
     ["desc", "desc"]
   );
 
@@ -83,21 +100,21 @@ const { client } = require("./config/snoowrap.js");
       console.log(
         k,
         v.length,
-        v.map((i) => i.from)
+        v.map((i) => i.date)
       );
 
   // table generation
   let text =
-    "| Movie | Shows | Occupancy | Gross | From | To | Files |\n| - | -: | -: | -: | - | - | -: |";
+    "| Day1 | Movie | Shows | Occupancy | Gross |\n| - | - | -: | -: | -: |";
   for (const item of items)
-    text += `\n| [#${item.name
+    text += `\n| ${item.date} | [#${item.name
       }](https://github.com/hedcet/boxoffice/tree/main/${item.name})${1 < names[item.name].length ? ` (${item._id}.*)` : ""
       } | ${toEnIn(item.shows)} | ${toEnIn(item.booked, "en-in", {
         notation: "compact",
       })}${item.booked ? `(${round((item.booked / item.capacity) * 100, 2)}%)` : ""
       } | ₹${toEnIn(item.sum, "en-in", {
         notation: "compact",
-      })} | ${item.from} | ${item.to} | ${item.files} Day${1 < item.files ? 's' : ''} |`;
+      })} |`;
 
   // reddit
   await new Promise((resolve, reject) =>

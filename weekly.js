@@ -11,7 +11,7 @@ const { sync } = require("./config/git.js");
 const { moment } = require("./config/moment.js");
 const { db, syncFileInfo } = require("./config/nedb.js");
 
-const json_path = path.resolve(__dirname, "./store/images.json");
+const json_path = path.resolve(__dirname, "./store/data.json");
 const json = fs.existsSync(json_path)
   ? JSON.parse(fs.readFileSync(json_path, "utf8"))
   : {};
@@ -49,11 +49,11 @@ const collageMax = 6;
     console.log(file);
     const _id = i.group || i.id;
     if (data[_id])
-      data[_id].images = [...data[_id].images, ...(json[i.id] || [])];
+      data[_id].images = [...data[_id].images, ...(json[i.id]?.images || [])];
     else
       data[_id] = {
         name: i.name,
-        images: json[i.id] || [],
+        images: json[i.id]?.images || [],
         shows: 0,
         booked: 0,
         capacity: 0,
@@ -122,12 +122,12 @@ const collageMax = 6;
             .join("");
         item.fg =
           128 <
-          Math.round(
-            (item.dominant.r * 299 +
-              item.dominant.g * 587 +
-              item.dominant.b * 114) /
+            Math.round(
+              (item.dominant.r * 299 +
+                item.dominant.g * 587 +
+                item.dominant.b * 114) /
               1000
-          )
+            )
             ? "black"
             : "white";
         break;
