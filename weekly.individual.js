@@ -21,11 +21,11 @@ const collageItemWidth = 96;
 
 (async () => {
   const group = "";
-  const name = /^mura/i;
-  const displayName = "Mura";
+  const name = /gladiator/i;
+  const displayName = "GladiatorII";
   let image = ""; // bms/ptm image-url
-  const start_date = moment("2024-11-08", ["YYYY-MM-DD"]);
-  const end_date = moment("2024-11-22", ["YYYY-MM-DD"]);
+  const start_date = moment("2024-11-15", ["YYYY-MM-DD"]);
+  const end_date = moment("2024-11-29", ["YYYY-MM-DD"]);
 
   await sync(csvPath); // git clone/pull
   await syncFileInfo(csvPath); // sync folder/file metadata to nedb

@@ -38,25 +38,26 @@
 </head>
 
 <body class="bg-white" x-data="{ movies: [] }" x-init='movies = $?'>
-  <div class="flex justify-center">
-    <div class="flex flex-wrap" id="screenshot">
+  <div class="flex">
+    <div class="flex" id="screenshot">
       <template x-for="(v, i) in movies">
         <div class="image" :class="i?'ml-1':''">
           <img :src="v.image" />
           <template x-if="v.sum">
             <div class="overlay flex flex-col justify-end" :style="{backgroundColor:v.bg,color:v.fg}">
               <div class="oswald flex flex-row items-end m-1 text-xs tracking-tighter">₹<span class="text-6xl"
-                  style="letter-spacing: -0.075em; margin-right: 2px;" x-text="v.sum"></span>&nbsp;from&nbsp;
+                  style="letter-spacing: -0.075em; margin-right: 2px;" x-text="v.gross"></span>&nbsp;from&nbsp;
                 <div class="flex flex-col justify-end">
                   <span style="position: relative; top: 2px" x-text="v.occupancy"></span>
                   <div>
-                    <span x-text="v.booked"></span>
+                    <span x-text="v.booked_"></span>
                     <span>bookings</span>
                   </div>
                 </div>
               </div>
             </div>
           </template>
+        </div>
       </template>
     </div>
   </div>

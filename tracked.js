@@ -97,7 +97,7 @@ const { client } = require("./config/snoowrap.js");
       })}${item.booked ? `(${round((item.booked / item.capacity) * 100, 2)}%)` : ""
       } | ₹${toEnIn(item.sum, "en-in", {
         notation: "compact",
-      })} | ${item.from} | ${item.to} | ${item.files} Day${1 < item.files ? 's' : ''} |`;
+      })} | ${item.from} | ${item.to} | ${item.files} |`;
 
   // reddit
   await new Promise((resolve, reject) =>

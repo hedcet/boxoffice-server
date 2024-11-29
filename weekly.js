@@ -1,11 +1,12 @@
 const { parseString } = require("fast-csv");
 const fs = require("fs");
-const { orderBy, pick, round, shuffle } = require("lodash");
+const { HttpsProxyAgent } = require("https-proxy-agent");
+const { orderBy, round, shuffle } = require("lodash");
 const fetch = require("node-fetch");
 const path = require("path");
 const sharp = require("sharp");
 
-const { csvPath } = require("./config/env.js");
+const { csvPath, proxy } = require("./config/env.js");
 const { toEnIn } = require("./config/misc.js");
 const { sync } = require("./config/git.js");
 const { moment } = require("./config/moment.js");
@@ -19,7 +20,7 @@ const json = fs.existsSync(json_path)
 const collageMax = 6;
 
 (async () => {
-  const start_date = moment("2024-11-11", ["YYYY-MM-DD"]).startOf("day");
+  const start_date = moment("2024-11-18", ["YYYY-MM-DD"]).startOf("day");
   const end_date = start_date.clone().add(7, "day").startOf("day");
 
   await sync(csvPath); // git clone/pull
@@ -85,10 +86,23 @@ const collageMax = 6;
     });
   }
 
+  const title = `#Kerala #BoxOffice ${start_date.format(
+    "MMMD"
+  )}/${end_date.format("MMMD")} ${Math.round(
+    end_date.diff(start_date, "week", true)
+  )}Week Summary`;
+
   const items = orderBy(
     Object.values(data).filter((i) => i.images.length),
     ["booked", "sum"],
     ["desc", "desc"]
+  );
+
+  console.log(
+    items.reduce(
+      (m, { name }) => (`${m} #${name}`.length < 240 ? `${m} #${name}` : m),
+      title
+    )
   );
 
   for (const item of items.slice(0, collageMax)) {
@@ -96,25 +110,17 @@ const collageMax = 6;
       const [link, size] = i.split("|");
       if (32 * 1024 < +size) {
         console.log(item.name, link);
-        item.sum = toEnIn(item.sum, "en-in", {
-          notation: "compact",
-        });
-        item.occupancy = item.booked
-          ? `${round((item.booked / item.capacity) * 100, 2)}%`
-          : "";
         item.image = link;
         item.dominant = (
           await sharp(
             await (
               await fetch(link, {
+                ...(proxy ? { agent: new HttpsProxyAgent(proxy) } : {}),
                 headers: { "user-agent": "curl/1.0" },
               })
             ).buffer()
           ).stats()
         ).dominant;
-        item.booked = toEnIn(item.booked, "en-in", {
-          notation: "compact",
-        });
         item.bg =
           "#" +
           Object.values(item.dominant)
@@ -122,27 +128,27 @@ const collageMax = 6;
             .join("");
         item.fg =
           128 <
-            Math.round(
-              (item.dominant.r * 299 +
-                item.dominant.g * 587 +
-                item.dominant.b * 114) /
+          Math.round(
+            (item.dominant.r * 299 +
+              item.dominant.g * 587 +
+              item.dominant.b * 114) /
               1000
-            )
+          )
             ? "black"
             : "white";
+        item.booked_ = toEnIn(item.booked, "en-in", {
+          notation: "compact",
+        });
+        item.occupancy = item.booked
+          ? `${round((item.booked / item.capacity) * 100, 2)}%`
+          : "";
+        item.gross = toEnIn(item.sum, "en-in", {
+          notation: "compact",
+        });
         break;
       }
     }
   }
-
-  console.log(
-    items.reduce(
-      (m, { name }) => (`${m} #${name}`.length < 240 ? `${m} #${name}` : m),
-      `#Kerala #BoxOffice ${start_date.format("MMMD")}/${end_date.format(
-        "MMMD"
-      )} ${Math.round(end_date.diff(start_date, "week", true))}Week Summary`
-    )
-  );
 
   // html generation
   const html_path = path.resolve(__dirname, "./weekly.html");
@@ -152,13 +158,25 @@ const collageMax = 6;
   fs.writeFileSync(
     `${html_path}.html`,
     String.raw({ raw: html.split("$?") }, [
-      JSON.stringify(
-        items
-          .slice(0, collageMax)
-          .map((i) =>
-            pick(i, ["bg", "booked", "fg", "image", "occupancy", "sum"])
-          )
-      ),
+      JSON.stringify(items.slice(0, collageMax)),
     ])
   );
+
+  // md generation
+  let text = `${title}\n\n| Movie | Shows | Occupancy | Gross |\n| - | -: | -: | -: |`;
+  for (const item of items.slice(0, collageMax))
+    text += `\n| [#${
+      item.name
+    }](https://github.com/hedcet/boxoffice/tree/main/${item.name}) | ${toEnIn(
+      item.shows
+    )} | ${item.booked_}${item.occupancy ? `(${item.occupancy})` : ""} | ₹${
+      item.gross
+    } |`;
+  text += `\n\n[source](https://github.com/hedcet/boxoffice/commits/main/?since=${start_date
+    .clone()
+    .add(1, "day")
+    .format("YYYY-MM-DD")}&until=${end_date.format(
+    "YYYY-MM-DD"
+  )}) | last updated at ${moment().format("YYYY-MM-DDTHH:mmZ")}`;
+  console.log(text);
 })();
