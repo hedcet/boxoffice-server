@@ -1,6 +1,6 @@
 const { parseString } = require("fast-csv");
 const fs = require("fs");
-const { groupBy, orderBy, round } = require("lodash");
+const { groupBy, orderBy, round, startCase } = require("lodash");
 const path = require("path");
 
 const { csvPath } = require("./config/env.js");
@@ -41,7 +41,15 @@ const { client } = require("./config/snoowrap.js");
     console.log(file);
     const _id = i.group || i.id;
     if (!data[_id])
-      data[_id] = { _id, name: i.name, from: date, shows: 0, booked: 0, capacity: 0, sum: 0, };
+      data[_id] = {
+        _id,
+        name: i.name,
+        from: date,
+        shows: 0,
+        booked: 0,
+        capacity: 0,
+        sum: 0,
+      };
     data[_id].to = date;
     data[_id].files = (data[_id].files || 0) + 1;
     await new Promise(async (resolve, reject) => {
@@ -90,14 +98,17 @@ const { client } = require("./config/snoowrap.js");
   let text =
     "| Movie | Shows | Occupancy | Gross | From | To | Files |\n| - | -: | -: | -: | - | - | -: |";
   for (const item of items)
-    text += `\n| [#${item.name
-      }](https://github.com/hedcet/boxoffice/tree/main/${item.name})${1 < names[item.name].length ? ` (${item._id}.*)` : ""
-      } | ${toEnIn(item.shows)} | ${toEnIn(item.booked, "en-in", {
-        notation: "compact",
-      })}${item.booked ? `(${round((item.booked / item.capacity) * 100, 2)}%)` : ""
-      } | ₹${toEnIn(item.sum, "en-in", {
-        notation: "compact",
-      })} | ${item.from} | ${item.to} | ${item.files} |`;
+    text += `\n| [${startCase(
+      item.name
+    )}](https://github.com/hedcet/boxoffice/tree/main/${item.name})${
+      1 < names[item.name].length ? ` (${item._id}.*)` : ""
+    } | ${toEnIn(item.shows)} | ${toEnIn(item.booked, "en-in", {
+      notation: "compact",
+    })}${
+      item.booked ? `(${round((item.booked / item.capacity) * 100, 2)}%)` : ""
+    } | ₹${toEnIn(item.sum, "en-in", {
+      notation: "compact",
+    })} | ${item.from} | ${item.to} | ${item.files} |`;
 
   // reddit
   await new Promise((resolve, reject) =>

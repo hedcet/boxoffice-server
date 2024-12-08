@@ -1,6 +1,6 @@
 const { parseString } = require("fast-csv");
 const fs = require("fs");
-const { groupBy, orderBy, round, uniq } = require("lodash");
+const { groupBy, orderBy, round, startCase } = require("lodash");
 const path = require("path");
 
 const { csvPath } = require("./config/env.js");
@@ -46,7 +46,16 @@ const json = fs.existsSync(json_path)
     console.log(file);
     const _id = i.group || i.id;
     if (!data[_id]) data[_id] = {};
-    data[_id][date] = { _id, date, id: i.id, name: i.name, shows: 0, booked: 0, capacity: 0, sum: 0, };
+    data[_id][date] = {
+      _id,
+      date,
+      id: i.id,
+      name: i.name,
+      shows: 0,
+      booked: 0,
+      capacity: 0,
+      sum: 0,
+    };
     await new Promise(async (resolve, reject) => {
       const csv = [];
       parseString(fs.readFileSync(file, "utf8"), { headers: true })
@@ -74,17 +83,16 @@ const json = fs.existsSync(json_path)
   }
 
   // re-aggregate
-  const _items = []
+  const _items = [];
   for (const d of Object.values(data)) {
-    const v = Object.values(d)
-    let _item = v[0].shows < v[1]?.shows * .25 ? v[1] : v[0];
+    const v = Object.values(d);
+    let _item = v[0].shows < v[1]?.shows * 0.25 ? v[1] : v[0];
     for (const i of v)
       if (d[json[i.id]?.released_at]) {
-        _item = d[json[i.id]?.released_at]
+        _item = d[json[i.id]?.released_at];
         break;
       }
-    if (1000000 < _item.sum)
-      _items.push(_item)
+    if (1000000 < _item.sum) _items.push(_item);
   }
 
   const items = orderBy(
@@ -105,16 +113,19 @@ const json = fs.existsSync(json_path)
 
   // table generation
   let text =
-    "| Day1 | Movie | Shows | Occupancy | Gross |\n| - | - | -: | -: | -: |";
+    "| Date | Movie | Shows | Occupancy | Gross |\n| - | - | -: | -: | -: |";
   for (const item of items)
-    text += `\n| ${item.date} | [#${item.name
-      }](https://github.com/hedcet/boxoffice/tree/main/${item.name})${1 < names[item.name].length ? ` (${item._id}.*)` : ""
-      } | ${toEnIn(item.shows)} | ${toEnIn(item.booked, "en-in", {
-        notation: "compact",
-      })}${item.booked ? `(${round((item.booked / item.capacity) * 100, 2)}%)` : ""
-      } | ₹${toEnIn(item.sum, "en-in", {
-        notation: "compact",
-      })} |`;
+    text += `\n| ${item.date} | [${startCase(
+      item.name
+    )}](https://github.com/hedcet/boxoffice/tree/main/${item.name})${
+      1 < names[item.name].length ? ` (${item._id}.*)` : ""
+    } | ${toEnIn(item.shows)} | ${toEnIn(item.booked, "en-in", {
+      notation: "compact",
+    })}${
+      item.booked ? `(${round((item.booked / item.capacity) * 100, 2)}%)` : ""
+    } | ₹${toEnIn(item.sum, "en-in", {
+      notation: "compact",
+    })} |`;
 
   // reddit
   await new Promise((resolve, reject) =>

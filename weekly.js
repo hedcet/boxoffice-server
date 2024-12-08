@@ -1,7 +1,7 @@
 const { parseString } = require("fast-csv");
 const fs = require("fs");
 const { HttpsProxyAgent } = require("https-proxy-agent");
-const { orderBy, round, shuffle } = require("lodash");
+const { orderBy, round, shuffle, startCase } = require("lodash");
 const fetch = require("node-fetch");
 const path = require("path");
 const sharp = require("sharp");
@@ -20,7 +20,7 @@ const json = fs.existsSync(json_path)
 const collageMax = 6;
 
 (async () => {
-  const start_date = moment("2024-11-18", ["YYYY-MM-DD"]).startOf("day");
+  const start_date = moment("2024-11-25", ["YYYY-MM-DD"]).startOf("day");
   const end_date = start_date.clone().add(7, "day").startOf("day");
 
   await sync(csvPath); // git clone/pull
@@ -164,10 +164,10 @@ const collageMax = 6;
 
   // md generation
   let text = `${title}\n\n| Movie | Shows | Occupancy | Gross |\n| - | -: | -: | -: |`;
-  for (const item of items.slice(0, collageMax))
-    text += `\n| [#${
+  for (const item of items)
+    text += `\n| [${startCase(
       item.name
-    }](https://github.com/hedcet/boxoffice/tree/main/${item.name}) | ${toEnIn(
+    )}](https://github.com/hedcet/boxoffice/tree/main/${item.name}) | ${toEnIn(
       item.shows
     )} | ${item.booked_}${item.occupancy ? `(${item.occupancy})` : ""} | ₹${
       item.gross

@@ -1,0 +1,704 @@
+[
+  {
+    "enable": true,
+    "github_folder": "Pushpa2TheRule",
+    "letterboxd_slug": "pushpa-2-the-rule",
+    "average": 3.06,
+    "total": 7209,
+    "half": 173,
+    "one": 263,
+    "one_half": 291,
+    "two": 795,
+    "two_half": 1046,
+    "three": 1566,
+    "three_half": 1343,
+    "four": 1012,
+    "four_half": 373,
+    "five": 347,
+    "last_updated_at": "2024-12-08T09:46+05:30",
+    "director": {
+      "/director/sukumar/": "Sukumar"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "Vallyettan",
+    "letterboxd_slug": "vallyettan",
+    "average": 3.24,
+    "total": 508,
+    "half": 7,
+    "one": 20,
+    "one_half": 10,
+    "two": 59,
+    "two_half": 61,
+    "three": 177,
+    "three_half": 93,
+    "four": 56,
+    "four_half": 9,
+    "five": 16,
+    "last_updated_at": "2024-12-08T09:46+05:30",
+    "director": {
+      "/director/shaji-kailas/": "Shaji Kailas"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "Sookshmadarshini",
+    "letterboxd_slug": "sookshmadarshini",
+    "average": 3.6,
+    "total": 5470,
+    "half": 3,
+    "one": 16,
+    "one_half": 15,
+    "two": 86,
+    "two_half": 196,
+    "three": 775,
+    "three_half": 1476,
+    "four": 2065,
+    "four_half": 484,
+    "five": 354,
+    "last_updated_at": "2024-12-08T09:46+05:30",
+    "director": {
+      "/director/mc-jithin/": "MC Jithin"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "HelloMummy",
+    "letterboxd_slug": "hello-mummy",
+    "average": 3.02,
+    "total": 509,
+    "half": 11,
+    "one": 29,
+    "one_half": 40,
+    "two": 111,
+    "two_half": 127,
+    "three": 124,
+    "three_half": 42,
+    "four": 20,
+    "four_half": 3,
+    "five": 2,
+    "last_updated_at": "2024-12-08T09:47+05:30",
+    "director": {
+      "/director/vaishakh-elans/": "Vaishakh Elans"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "AnandSreebala",
+    "letterboxd_slug": "anand-sreebala",
+    "half": 2,
+    "one": 2,
+    "one_half": 4,
+    "two": 25,
+    "two_half": 39,
+    "three": 67,
+    "three_half": 25,
+    "four": 12,
+    "four_half": 1,
+    "five": 1,
+    "last_updated_at": "2024-12-08T09:47+05:30",
+    "director": {
+      "/director/vishnu-vinay/": "Vishnu Vinay"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "Kanguva",
+    "letterboxd_slug": "kanguva",
+    "average": 2.08,
+    "total": 6943,
+    "half": 1069,
+    "one": 1234,
+    "one_half": 1027,
+    "two": 1466,
+    "two_half": 992,
+    "three": 723,
+    "three_half": 228,
+    "four": 130,
+    "four_half": 19,
+    "five": 55,
+    "last_updated_at": "2024-12-08T09:47+05:30",
+    "director": {
+      "/director/siva/": "Siva"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "OruAnweshanathinteThudakkam",
+    "letterboxd_slug": "oru-anweshanathinte-thudakkam",
+    "half": 2,
+    "one": 4,
+    "one_half": 2,
+    "two": 1,
+    "two_half": 1,
+    "three": 1,
+    "three_half": 1,
+    "last_updated_at": "2024-12-08T09:47+05:30",
+    "director": {
+      "/director/nishad-m-a/": "Nishad M A"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "Mura",
+    "letterboxd_slug": "mura-2024",
+    "average": 3.25,
+    "total": 370,
+    "half": 2,
+    "one": 9,
+    "one_half": 11,
+    "two": 32,
+    "two_half": 70,
+    "three": 99,
+    "three_half": 91,
+    "four": 46,
+    "four_half": 6,
+    "five": 4,
+    "last_updated_at": "2024-12-08T09:47+05:30",
+    "director": {
+      "/director/muhammad-musthafa/": "Muhammad Musthafa"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "IAmKathalan",
+    "letterboxd_slug": "i-am-kathalan",
+    "average": 3.26,
+    "total": 953,
+    "half": 2,
+    "one": 8,
+    "one_half": 13,
+    "two": 74,
+    "two_half": 162,
+    "three": 385,
+    "three_half": 202,
+    "four": 86,
+    "four_half": 13,
+    "five": 8,
+    "last_updated_at": "2024-12-08T09:48+05:30",
+    "director": {
+      "/director/girish-a-d/": "Girish A D"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "SinghamAgain",
+    "letterboxd_slug": "singham-again",
+    "average": 2.48,
+    "total": 2724,
+    "half": 356,
+    "one": 376,
+    "one_half": 315,
+    "two": 496,
+    "two_half": 390,
+    "three": 400,
+    "three_half": 171,
+    "four": 115,
+    "four_half": 25,
+    "five": 80,
+    "last_updated_at": "2024-12-08T09:48+05:30",
+    "director": {
+      "/director/rohit-shetty/": "Rohit Shetty"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "LuckyBaskhar",
+    "letterboxd_slug": "lucky-baskhar",
+    "average": 3.69,
+    "total": 21897,
+    "half": 30,
+    "one": 59,
+    "one_half": 70,
+    "two": 297,
+    "two_half": 556,
+    "three": 2317,
+    "three_half": 4486,
+    "four": 8469,
+    "four_half": 3058,
+    "five": 2555,
+    "last_updated_at": "2024-12-08T09:48+05:30",
+    "director": {
+      "/director/venky-atluri/": "Venky Atluri"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "Amaran",
+    "letterboxd_slug": "amaran-2024",
+    "average": 3.65,
+    "total": 14934,
+    "half": 42,
+    "one": 63,
+    "one_half": 97,
+    "two": 347,
+    "two_half": 711,
+    "three": 2126,
+    "three_half": 2914,
+    "four": 4702,
+    "four_half": 1745,
+    "five": 2187,
+    "last_updated_at": "2024-12-08T09:48+05:30",
+    "director": {
+      "/director/rajkumar-periasamy/": "Rajkumar Periasamy"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "Pani",
+    "letterboxd_slug": "pani",
+    "average": 3.09,
+    "total": 1195,
+    "half": 40,
+    "one": 47,
+    "one_half": 70,
+    "two": 177,
+    "two_half": 230,
+    "three": 315,
+    "three_half": 188,
+    "four": 93,
+    "four_half": 15,
+    "five": 20,
+    "last_updated_at": "2024-12-08T09:48+05:30",
+    "director": {
+      "/director/joju-george/": "Joju George"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "VenomTheLastDance",
+    "letterboxd_slug": "venom-the-last-dance",
+    "average": 2.55,
+    "total": 194346,
+    "half": 4189,
+    "one": 9674,
+    "one_half": 12377,
+    "two": 29519,
+    "two_half": 32954,
+    "three": 48140,
+    "three_half": 24880,
+    "four": 18895,
+    "four_half": 4103,
+    "five": 9615,
+    "last_updated_at": "2024-12-08T09:48+05:30",
+    "director": {
+      "/director/kelly-marcel/": "Kelly Marcel"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "PorattuNadakam",
+    "letterboxd_slug": "porattu-nadakam",
+    "half": 21,
+    "one": 27,
+    "one_half": 14,
+    "two": 15,
+    "two_half": 4,
+    "three": 1,
+    "three_half": 2,
+    "four": 1,
+    "five": 1,
+    "last_updated_at": "2024-12-08T09:48+05:30",
+    "director": {
+      "/director/naushad-saffron/": "Naushad Saffron"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "Bougainvillea",
+    "letterboxd_slug": "bougainvillea",
+    "average": 3.22,
+    "total": 3593,
+    "half": 23,
+    "one": 51,
+    "one_half": 85,
+    "two": 353,
+    "two_half": 552,
+    "three": 1208,
+    "three_half": 777,
+    "four": 411,
+    "four_half": 69,
+    "five": 64,
+    "last_updated_at": "2024-12-08T09:48+05:30",
+    "director": {
+      "/director/amal-neerad-1/": "Amal Neerad"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "Vettaiyan",
+    "letterboxd_slug": "vettaiyan",
+    "average": 2.94,
+    "total": 16304,
+    "half": 104,
+    "one": 273,
+    "one_half": 393,
+    "two": 1608,
+    "two_half": 2876,
+    "three": 5664,
+    "three_half": 3381,
+    "four": 1570,
+    "four_half": 219,
+    "five": 216,
+    "last_updated_at": "2024-12-08T09:43+05:30",
+    "director": {
+      "/director/t-j-gnanavel/": "T. J. Gnanavel"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "ThekkuVadakku",
+    "letterboxd_slug": "thekku-vadakku",
+    "average": 2.68,
+    "total": 327,
+    "half": 68,
+    "one": 65,
+    "one_half": 53,
+    "two": 73,
+    "two_half": 27,
+    "three": 25,
+    "three_half": 9,
+    "four": 5,
+    "five": 2,
+    "last_updated_at": "2024-12-08T09:43+05:30",
+    "director": {
+      "/director/prem-shankar/": "Prem Shankar"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "PushpakaVimanam",
+    "letterboxd_slug": "pushpaka-vimanam-2024",
+    "half": 2,
+    "one": 1,
+    "two": 2,
+    "two_half": 2,
+    "last_updated_at": "2024-12-08T09:44+05:30",
+    "director": {
+      "/director/ullas-krishna/": "Ullas Krishna"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "JokerFolieADeux",
+    "letterboxd_slug": "joker-folie-a-deux",
+    "average": 2.45,
+    "total": 504347,
+    "half": 18401,
+    "one": 40272,
+    "one_half": 43123,
+    "two": 99458,
+    "two_half": 82653,
+    "three": 97166,
+    "three_half": 54755,
+    "four": 44565,
+    "four_half": 10557,
+    "five": 13397,
+    "last_updated_at": "2024-12-08T09:44+05:30",
+    "director": {
+      "/director/todd-phillips/": "Todd Phillips"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "DevaraPart1",
+    "letterboxd_slug": "devara-part-1",
+    "average": 2.62,
+    "total": 12002,
+    "half": 269,
+    "one": 606,
+    "one_half": 770,
+    "two": 2092,
+    "two_half": 2659,
+    "three": 3112,
+    "three_half": 1333,
+    "four": 806,
+    "four_half": 122,
+    "five": 233,
+    "last_updated_at": "2024-12-08T09:44+05:30",
+    "director": {
+      "/director/koratala-siva/": "Koratala Siva"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "Cup",
+    "letterboxd_slug": "cup",
+    "half": 2,
+    "one": 2,
+    "one_half": 3,
+    "two": 2,
+    "two_half": 1,
+    "three_half": 2,
+    "last_updated_at": "2024-12-08T09:44+05:30",
+    "director": {
+      "/director/sanju-v-samuel/": "Sanju V Samuel"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "Meiyazhagan",
+    "letterboxd_slug": "meiyazhagan",
+    "average": 4.09,
+    "total": 23950,
+    "half": 13,
+    "one": 43,
+    "one_half": 38,
+    "two": 180,
+    "two_half": 316,
+    "three": 1455,
+    "three_half": 2773,
+    "four": 7777,
+    "four_half": 4494,
+    "five": 6861,
+    "last_updated_at": "2024-12-08T09:44+05:30",
+    "director": {
+      "/director/c-prem-kumar/": "C. Prem Kumar"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "KadhaInnuvare",
+    "letterboxd_slug": "kadha-innuvare",
+    "half": 4,
+    "one": 4,
+    "one_half": 4,
+    "two": 4,
+    "two_half": 7,
+    "three": 3,
+    "four": 2,
+    "five": 1,
+    "last_updated_at": "2024-12-08T09:44+05:30",
+    "director": {
+      "/director/vishnu-mohan-1/": "Vishnu Mohan"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "Arm",
+    "letterboxd_slug": "arm-2024",
+    "average": 3.22,
+    "total": 7917,
+    "half": 17,
+    "one": 67,
+    "one_half": 106,
+    "two": 406,
+    "two_half": 989,
+    "three": 2462,
+    "three_half": 2012,
+    "four": 1358,
+    "four_half": 255,
+    "five": 245,
+    "last_updated_at": "2024-12-08T09:44+05:30",
+    "director": {
+      "/director/jithin-laal/": "Jithin Laal"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "Kondal",
+    "letterboxd_slug": "kondal",
+    "average": 2.86,
+    "total": 1004,
+    "half": 42,
+    "one": 123,
+    "one_half": 123,
+    "two": 245,
+    "two_half": 197,
+    "three": 203,
+    "three_half": 40,
+    "four": 26,
+    "four_half": 2,
+    "five": 3,
+    "last_updated_at": "2024-12-08T09:45+05:30",
+    "director": {
+      "/director/ajith-mampally/": "Ajith Mampally"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "BadBoyz",
+    "letterboxd_slug": "bad-boyz",
+    "half": 32,
+    "one": 13,
+    "one_half": 11,
+    "two": 13,
+    "two_half": 8,
+    "three": 3,
+    "five": 1,
+    "last_updated_at": "2024-12-08T09:45+05:30",
+    "director": {
+      "/director/omar-lulu/": "Omar Lulu"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "KishkindhaKandam",
+    "letterboxd_slug": "kishkindha-kaandam",
+    "average": 3.97,
+    "total": 15293,
+    "half": 13,
+    "one": 26,
+    "one_half": 28,
+    "two": 124,
+    "two_half": 304,
+    "three": 1213,
+    "three_half": 2296,
+    "four": 5819,
+    "four_half": 2832,
+    "five": 2638,
+    "last_updated_at": "2024-12-08T09:46+05:30",
+    "director": {
+      "/director/dinjith-ayyathan/": "Dinjith Ayyathan"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "TheGOAT",
+    "letterboxd_slug": "the-greatest-of-all-time",
+    "average": 2.59,
+    "total": 18682,
+    "half": 923,
+    "one": 1353,
+    "one_half": 1379,
+    "two": 3197,
+    "two_half": 3451,
+    "three": 4057,
+    "three_half": 2151,
+    "four": 1363,
+    "four_half": 308,
+    "five": 500,
+    "last_updated_at": "2024-12-08T09:46+05:30",
+    "director": {
+      "/director/venkat-prabhu/": "Venkat Prabhu"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "Bharathanatyam",
+    "letterboxd_slug": "bharathanatyam-2024",
+    "average": 3.22,
+    "total": 1679,
+    "half": 8,
+    "one": 13,
+    "one_half": 39,
+    "two": 115,
+    "two_half": 301,
+    "three": 719,
+    "three_half": 322,
+    "four": 134,
+    "four_half": 12,
+    "five": 16,
+    "last_updated_at": "2024-12-08T09:46+05:30",
+    "director": {
+      "/director/krishnadas-murali/": "Krishnadas Murali"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "Virunnu",
+    "letterboxd_slug": "virunnu",
+    "half": 5,
+    "one": 5,
+    "one_half": 5,
+    "two": 2,
+    "two_half": 2,
+    "three": 1,
+    "four": 1,
+    "five": 1,
+    "last_updated_at": "2024-12-08T09:46+05:30",
+    "director": {
+      "/director/kannan-thamarakkulam/": "Kannan Thamarakkulam"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "Hunt",
+    "letterboxd_slug": "hunt-2024",
+    "half": 4,
+    "one": 5,
+    "one_half": 2,
+    "two": 1,
+    "two_half": 1,
+    "three": 2,
+    "last_updated_at": "2024-12-08T09:47+05:30",
+    "director": {
+      "/director/shaji-kailas/": "Shaji Kailas"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "PalumPazhavum",
+    "letterboxd_slug": "paalum-pazhavum",
+    "half": 1,
+    "one": 3,
+    "one_half": 5,
+    "two": 7,
+    "two_half": 5,
+    "three": 8,
+    "three_half": 2,
+    "four": 2,
+    "five": 1,
+    "last_updated_at": "2024-12-08T09:47+05:30",
+    "director": {
+      "/director/v-k-prakash/": "V. K. Prakash"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "Thaanara",
+    "letterboxd_slug": "thaanara",
+    "half": 4,
+    "one": 1,
+    "one_half": 1,
+    "two": 1,
+    "two_half": 2,
+    "three": 2,
+    "three_half": 1,
+    "last_updated_at": "2024-12-08T09:47+05:30",
+    "director": {
+      "/director/haridas-1/": "Haridas"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "Footage",
+    "letterboxd_slug": "footage-2024",
+    "half": 3,
+    "one": 17,
+    "one_half": 12,
+    "two": 21,
+    "two_half": 17,
+    "three": 19,
+    "three_half": 9,
+    "four": 11,
+    "four_half": 2,
+    "five": 3,
+    "last_updated_at": "2024-12-08T09:49+05:30",
+    "director": {
+      "/director/saiju-sreedharan/": "Saiju Sreedharan"
+    }
+  },
+  {
+    "enable": true,
+    "github_folder": "Manichitrathazhu",
+    "letterboxd_slug": "manichitrathazhu",
+    "last_updated_at": "2024-12-08T09:44+05:30",
+    "average": 3.97,
+    "total": 6146,
+    "half": 16,
+    "one": 25,
+    "one_half": 33,
+    "two": 93,
+    "two_half": 111,
+    "three": 343,
+    "three_half": 551,
+    "four": 1626,
+    "four_half": 1060,
+    "five": 2288,
+    "director": {
+      "/director/fazil/": "Fazil"
+    }
+  }
+]
