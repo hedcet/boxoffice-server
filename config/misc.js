@@ -37,4 +37,13 @@ const toEnIn = (value, locale = "en-in", options = {}) => {
   return value.toLocaleString(locale, options);
 };
 
-module.exports = { autoIncrementString, randomId, textWidth, toEnIn };
+const getOrdinalSuffix = (n) =>
+  n < 11 || n > 13 ? ["st", "nd", "rd", "th"][Math.min((n - 1) % 10, 3)] : "th";
+
+module.exports = {
+  autoIncrementString,
+  getOrdinalSuffix,
+  randomId,
+  textWidth,
+  toEnIn,
+};

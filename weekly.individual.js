@@ -5,7 +5,7 @@ const fetch = require("node-fetch");
 const path = require("path");
 const sharp = require("sharp");
 
-const { csvPath, qc } = require("./config/env.js");
+const { csvPath, proxy, qc } = require("./config/env.js");
 const { textWidth, toEnIn } = require("./config/misc.js");
 const { sync } = require("./config/git.js");
 const { moment } = require("./config/moment.js");
@@ -105,9 +105,10 @@ const collageItemWidth = 96;
       end_date.diff(start_date, "week", true)
     )}Week Summary\n├ Gross ~ ₹${toEnIn(data._total._sum, "en-in", {
       notation: "compact",
-    })}\n├ Occupancy ~ ${toEnIn(data._total._booked)}${data._total._booked
-      ? `(${round((data._total._booked / data._total._capacity) * 100, 2)}%)`
-      : ""
+    })}\n├ Occupancy ~ ${toEnIn(data._total._booked)}${
+      data._total._booked
+        ? `(${round((data._total._booked / data._total._capacity) * 100, 2)}%)`
+        : ""
     }\n├ Shows ~ ${toEnIn(
       data._total._shows
     )}\ngithub.com/hedcet/boxoffice/tree/main/${displayName}`
@@ -191,7 +192,10 @@ const collageItemWidth = 96;
         {
           input: await sharp(
             await (
-              await fetch(image, { headers: { "user-agent": "curl/1.0" } })
+              await fetch(image, {
+                ...(proxy ? { agent: new HttpsProxyAgent(proxy) } : {}),
+                headers: { "user-agent": "curl/1.0" },
+              })
             ).buffer()
           )
             .resize(collageItemWidth, tableInfo.height)

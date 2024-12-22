@@ -12,8 +12,7 @@ const { client } = require("./config/snoowrap.js");
   // store comment id to overwrite
   const config_path = path.resolve(__dirname, "./reddit.json");
   const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
-  for (const config of configs) {
-    if (!config.enable) continue; // for long run
+  for (const config of configs.filter((i) => i.enable)) {
     if (!["wtf"].includes(config.source)) continue;
 
     // scraping

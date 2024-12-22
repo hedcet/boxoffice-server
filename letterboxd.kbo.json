@@ -1,0 +1,1044 @@
+[
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T20:55+05:30",
+    "letterboxd_slug": "marco-2024",
+    "github_folder": "Marco",
+    "director": {
+      "/director/haneef-adeni/": "Haneef Adeni"
+    },
+    "genre": [
+      "Action"
+    ],
+    "half": 16,
+    "one": 31,
+    "one_half": 42,
+    "two": 82,
+    "two_half": 133,
+    "three": 280,
+    "three_half": 249,
+    "four": 271,
+    "four_half": 74,
+    "five": 82,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/0/7/2/6/0/1/1072601-marco-0-230-0-345-crop.jpg?v=3b097c9a16"
+  },
+  {
+    "enable": true,
+    "letterboxd_slug": "viduthalai-part-ii",
+    "github_folder": "ViduthalaiPart2",
+    "director": {
+      "/director/vetrimaaran/": "Vetrimaaran"
+    },
+    "genre": [
+      "History",
+      "Thriller",
+      "Action",
+      "Crime"
+    ],
+    "half": 3,
+    "one": 10,
+    "one_half": 15,
+    "two": 75,
+    "two_half": 162,
+    "three": 413,
+    "three_half": 543,
+    "four": 764,
+    "four_half": 369,
+    "five": 272,
+    "last_updated_at": "2024-12-21T20:56+05:30",
+    "image": "https://a.ltrbxd.com/resized/film-poster/9/1/9/5/7/3/919573-viduthalai-part-ii-0-230-0-345-crop.jpg?v=01e351d280"
+  },
+  {
+    "enable": true,
+    "letterboxd_slug": "mufasa-the-lion-king",
+    "github_folder": "MufasaTheLionKing",
+    "director": {
+      "/director/barry-jenkins/": "Barry Jenkins"
+    },
+    "genre": [
+      "Drama",
+      "Family",
+      "Adventure",
+      "Animation"
+    ],
+    "average": 2.97,
+    "total": 16325,
+    "half": 179,
+    "one": 411,
+    "one_half": 601,
+    "two": 1662,
+    "two_half": 2085,
+    "three": 4119,
+    "three_half": 2975,
+    "four": 2461,
+    "four_half": 668,
+    "five": 1164,
+    "last_updated_at": "2024-12-21T20:56+05:30",
+    "image": "https://a.ltrbxd.com/resized/film-poster/6/8/2/7/5/4/682754-mufasa-the-lion-king-0-230-0-345-crop.jpg?v=eb5c9fcffd"
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T20:55+05:30",
+    "letterboxd_slug": "ed-extra-decent",
+    "github_folder": "EDExtraDecent",
+    "director": {
+      "/director/aamir-pallikkal/": "Aamir Pallikkal"
+    },
+    "genre": [
+      "Drama",
+      "Comedy"
+    ],
+    "one": 4,
+    "one_half": 2,
+    "two": 5,
+    "two_half": 6,
+    "three": 8,
+    "three_half": 6,
+    "four": 7,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/7/9/0/3/9/1179039-e-d-extra-decent-0-230-0-345-crop.jpg?v=eab79ea1b7",
+    "four_half": 2
+  },
+  {
+    "enable": true,
+    "github_folder": "RifleClub",
+    "letterboxd_slug": "rifle-club",
+    "director": {
+      "/director/aashiq-abu/": "Aashiq Abu"
+    },
+    "half": 2,
+    "one": 6,
+    "one_half": 5,
+    "two": 21,
+    "two_half": 62,
+    "three": 206,
+    "three_half": 363,
+    "four": 499,
+    "four_half": 118,
+    "five": 73,
+    "last_updated_at": "2024-12-21T20:56+05:30",
+    "genre": [
+      "Thriller",
+      "Action"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/0/6/4/4/6/8/1064468-rifle-club-0-230-0-345-crop.jpg?v=ae3f2da0e3"
+  },
+  {
+    "enable": true,
+    "github_folder": "Rudhiram",
+    "letterboxd_slug": "rudhiram",
+    "director": {
+      "/director/jisho-lon-antony/": "Jisho Lon Antony"
+    },
+    "half": 3,
+    "one": 5,
+    "one_half": 5,
+    "two": 15,
+    "two_half": 14,
+    "three": 13,
+    "four": 2,
+    "last_updated_at": "2024-12-21T20:56+05:30",
+    "four_half": 1,
+    "five": 1,
+    "genre": [
+      "Drama"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/9/4/0/6/4/4/940644-rudhiram-0-230-0-345-crop.jpg?v=4259148f04"
+  },
+  {
+    "enable": true,
+    "github_folder": "Pushpa2TheRule",
+    "letterboxd_slug": "pushpa-2-the-rule",
+    "average": 2.94,
+    "total": 12996,
+    "half": 359,
+    "one": 503,
+    "one_half": 589,
+    "two": 1604,
+    "two_half": 2070,
+    "three": 3005,
+    "three_half": 2260,
+    "four": 1590,
+    "four_half": 495,
+    "five": 521,
+    "last_updated_at": "2024-12-21T20:56+05:30",
+    "director": {
+      "/director/sukumar/": "Sukumar"
+    },
+    "genre": [
+      "Crime",
+      "Action",
+      "Thriller"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/7/7/2/0/3/0/772030-pushpa-2-the-rule-0-230-0-345-crop.jpg?v=e736c1fd72"
+  },
+  {
+    "enable": true,
+    "github_folder": "Vallyettan",
+    "letterboxd_slug": "vallyettan",
+    "average": 3.24,
+    "total": 527,
+    "half": 7,
+    "one": 20,
+    "one_half": 11,
+    "two": 59,
+    "two_half": 65,
+    "three": 180,
+    "three_half": 98,
+    "four": 61,
+    "four_half": 9,
+    "five": 17,
+    "last_updated_at": "2024-12-21T20:54+05:30",
+    "director": {
+      "/director/shaji-kailas/": "Shaji Kailas"
+    },
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/2/0/2/1/5/8/202158-vallyettan-0-230-0-345-crop.jpg?v=54eee95a41"
+  },
+  {
+    "enable": true,
+    "github_folder": "Sookshmadarshini",
+    "letterboxd_slug": "sookshmadarshini",
+    "average": 3.62,
+    "total": 8824,
+    "half": 10,
+    "one": 24,
+    "one_half": 25,
+    "two": 133,
+    "two_half": 301,
+    "three": 1238,
+    "three_half": 2363,
+    "four": 3366,
+    "four_half": 792,
+    "five": 572,
+    "last_updated_at": "2024-12-21T20:54+05:30",
+    "director": {
+      "/director/mc-jithin/": "MC Jithin"
+    },
+    "genre": [
+      "Thriller",
+      "Mystery"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/8/5/4/8/8/7/854887-sookshmadarshini-0-230-0-345-crop.jpg?v=dae4514406"
+  },
+  {
+    "enable": true,
+    "github_folder": "HelloMummy",
+    "letterboxd_slug": "hello-mummy",
+    "average": 3.02,
+    "total": 625,
+    "half": 13,
+    "one": 35,
+    "one_half": 49,
+    "two": 130,
+    "two_half": 146,
+    "three": 166,
+    "three_half": 53,
+    "four": 25,
+    "four_half": 5,
+    "five": 3,
+    "last_updated_at": "2024-12-21T20:30+05:30",
+    "director": {
+      "/director/vaishakh-elans/": "Vaishakh Elans"
+    },
+    "genre": [
+      "Fantasy",
+      "Comedy"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/2/3/3/1/8/1123318-hello-mummy-0-230-0-345-crop.jpg?v=7bd4d6b2f0"
+  },
+  {
+    "enable": true,
+    "github_folder": "AnandSreebala",
+    "letterboxd_slug": "anand-sreebala",
+    "half": 2,
+    "one": 2,
+    "one_half": 6,
+    "two": 27,
+    "two_half": 40,
+    "three": 70,
+    "three_half": 26,
+    "four": 12,
+    "four_half": 1,
+    "five": 1,
+    "last_updated_at": "2024-12-21T20:54+05:30",
+    "director": {
+      "/director/vishnu-vinay/": "Vishnu Vinay"
+    },
+    "genre": [
+      "Thriller",
+      "Crime"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/2/7/2/8/8/1127288-anand-sreebala-0-230-0-345-crop.jpg?v=1796923ec4"
+  },
+  {
+    "enable": true,
+    "github_folder": "Kanguva",
+    "letterboxd_slug": "kanguva",
+    "average": 1.73,
+    "total": 9296,
+    "half": 1531,
+    "one": 1750,
+    "one_half": 1405,
+    "two": 1949,
+    "two_half": 1271,
+    "three": 890,
+    "three_half": 260,
+    "four": 160,
+    "four_half": 21,
+    "five": 59,
+    "last_updated_at": "2024-12-21T20:54+05:30",
+    "director": {
+      "/director/siva/": "Siva"
+    },
+    "genre": [
+      "Action",
+      "Thriller",
+      "Fantasy"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/5/4/9/2/8/4/549284-kanguva-0-230-0-345-crop.jpg?v=74c326b501"
+  },
+  {
+    "enable": true,
+    "github_folder": "OruAnweshanathinteThudakkam",
+    "letterboxd_slug": "oru-anweshanathinte-thudakkam",
+    "half": 2,
+    "one": 4,
+    "one_half": 2,
+    "two": 1,
+    "two_half": 1,
+    "three": 1,
+    "three_half": 1,
+    "last_updated_at": "2024-12-21T20:54+05:30",
+    "director": {
+      "/director/nishad-m-a/": "Nishad M A"
+    },
+    "genre": [
+      "Crime",
+      "Thriller"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/5/7/8/5/8/1157858-oru-anweshanathinte-thudakkam-0-230-0-345-crop.jpg?v=8f1f8b1eb9"
+  },
+  {
+    "enable": true,
+    "github_folder": "Mura",
+    "letterboxd_slug": "mura-2024",
+    "average": 3.25,
+    "total": 572,
+    "half": 3,
+    "one": 9,
+    "one_half": 16,
+    "two": 60,
+    "two_half": 108,
+    "three": 163,
+    "three_half": 124,
+    "four": 71,
+    "four_half": 9,
+    "five": 9,
+    "last_updated_at": "2024-12-21T20:54+05:30",
+    "director": {
+      "/director/muhammad-musthafa/": "Muhammad Musthafa"
+    },
+    "genre": [
+      "Action",
+      "Thriller"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/1/2/2/0/2/1112202-mura-2024-0-230-0-345-crop.jpg?v=26d836867c"
+  },
+  {
+    "enable": true,
+    "github_folder": "IAmKathalan",
+    "letterboxd_slug": "i-am-kathalan",
+    "average": 3.26,
+    "total": 984,
+    "half": 2,
+    "one": 8,
+    "one_half": 15,
+    "two": 79,
+    "two_half": 164,
+    "three": 401,
+    "three_half": 206,
+    "four": 86,
+    "four_half": 13,
+    "five": 10,
+    "last_updated_at": "2024-12-21T20:54+05:30",
+    "director": {
+      "/director/girish-a-d/": "Girish A D"
+    },
+    "genre": [
+      "Thriller"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/9/4/3/7/0/8/943708-i-am-kathalan-0-230-0-345-crop.jpg?v=1e9d0032c1"
+  },
+  {
+    "enable": true,
+    "github_folder": "SinghamAgain",
+    "letterboxd_slug": "singham-again",
+    "average": 2.23,
+    "total": 3466,
+    "half": 503,
+    "one": 532,
+    "one_half": 414,
+    "two": 626,
+    "two_half": 507,
+    "three": 466,
+    "three_half": 184,
+    "four": 119,
+    "four_half": 29,
+    "five": 86,
+    "last_updated_at": "2024-12-21T20:54+05:30",
+    "director": {
+      "/director/rohit-shetty/": "Rohit Shetty"
+    },
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/9/1/3/8/5/4/913854-singham-again-0-230-0-345-crop.jpg?v=eaf7cfe6a0"
+  },
+  {
+    "enable": true,
+    "github_folder": "LuckyBaskhar",
+    "letterboxd_slug": "lucky-baskhar",
+    "average": 3.67,
+    "total": 25771,
+    "half": 35,
+    "one": 85,
+    "one_half": 93,
+    "two": 380,
+    "two_half": 731,
+    "three": 2912,
+    "three_half": 5316,
+    "four": 9812,
+    "four_half": 3447,
+    "five": 2960,
+    "last_updated_at": "2024-12-21T20:31+05:30",
+    "director": {
+      "/director/venky-atluri/": "Venky Atluri"
+    },
+    "genre": [
+      "Thriller",
+      "Drama",
+      "Crime"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/2/2/8/9/1/1122891-lucky-baskhar-0-230-0-345-crop.jpg?v=fa25155b94"
+  },
+  {
+    "enable": true,
+    "github_folder": "Amaran",
+    "letterboxd_slug": "amaran-2024",
+    "average": 3.6,
+    "total": 17448,
+    "half": 59,
+    "one": 94,
+    "one_half": 131,
+    "two": 453,
+    "two_half": 899,
+    "three": 2648,
+    "three_half": 3502,
+    "four": 5333,
+    "four_half": 1909,
+    "five": 2420,
+    "last_updated_at": "2024-12-21T20:54+05:30",
+    "director": {
+      "/director/rajkumar-periasamy/": "Rajkumar Periasamy"
+    },
+    "genre": [
+      "Action",
+      "Drama",
+      "War"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/8/3/2/9/4/8/832948-amaran-2024-0-230-0-345-crop.jpg?v=0785aec181"
+  },
+  {
+    "enable": true,
+    "github_folder": "Pani",
+    "letterboxd_slug": "pani",
+    "average": 3.09,
+    "total": 1229,
+    "half": 43,
+    "one": 48,
+    "one_half": 74,
+    "two": 183,
+    "two_half": 233,
+    "three": 319,
+    "three_half": 199,
+    "four": 95,
+    "four_half": 15,
+    "five": 20,
+    "last_updated_at": "2024-12-21T20:55+05:30",
+    "director": {
+      "/director/joju-george/": "Joju George"
+    },
+    "genre": [
+      "Thriller",
+      "Drama"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/0/8/0/3/0/5/1080305-pani-0-230-0-345-crop.jpg?v=78c9890063"
+  },
+  {
+    "enable": true,
+    "github_folder": "VenomTheLastDance",
+    "letterboxd_slug": "venom-the-last-dance",
+    "average": 2.53,
+    "total": 223289,
+    "half": 5046,
+    "one": 11661,
+    "one_half": 14745,
+    "two": 34936,
+    "two_half": 38422,
+    "three": 54790,
+    "three_half": 27705,
+    "four": 20902,
+    "four_half": 4507,
+    "five": 10575,
+    "last_updated_at": "2024-12-21T20:54+05:30",
+    "director": {
+      "/director/kelly-marcel/": "Kelly Marcel"
+    },
+    "genre": [
+      "Action",
+      "Science Fiction",
+      "Adventure",
+      "Thriller"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/8/1/9/3/2/0/819320-venom-the-last-dance-0-230-0-345-crop.jpg?v=6a049e8f65"
+  },
+  {
+    "enable": true,
+    "github_folder": "PorattuNadakam",
+    "letterboxd_slug": "porattu-nadakam",
+    "half": 24,
+    "one": 29,
+    "one_half": 13,
+    "two": 19,
+    "two_half": 5,
+    "three": 2,
+    "three_half": 2,
+    "four": 1,
+    "five": 1,
+    "last_updated_at": "2024-12-21T20:55+05:30",
+    "director": {
+      "/director/naushad-saffron/": "Naushad Saffron"
+    },
+    "genre": [
+      "Comedy"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/2/0/3/3/6/5/1203365-porattu-nadakam-0-230-0-345-crop.jpg?v=909e77ae34"
+  },
+  {
+    "enable": true,
+    "github_folder": "Bougainvillea",
+    "letterboxd_slug": "bougainvillea",
+    "average": 3.08,
+    "total": 6006,
+    "half": 32,
+    "one": 97,
+    "one_half": 172,
+    "two": 634,
+    "two_half": 1008,
+    "three": 2016,
+    "three_half": 1190,
+    "four": 667,
+    "four_half": 103,
+    "five": 87,
+    "last_updated_at": "2024-12-21T20:55+05:30",
+    "director": {
+      "/director/amal-neerad-1/": "Amal Neerad"
+    },
+    "genre": [
+      "Thriller",
+      "Action"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/0/6/4/1/5/1/1064151-bougainvillea-0-230-0-345-crop.jpg?v=9c6b778e09"
+  },
+  {
+    "enable": true,
+    "github_folder": "Vettaiyan",
+    "letterboxd_slug": "vettaiyan",
+    "average": 2.94,
+    "total": 16807,
+    "half": 108,
+    "one": 288,
+    "one_half": 418,
+    "two": 1656,
+    "two_half": 2970,
+    "three": 5854,
+    "three_half": 3454,
+    "four": 1617,
+    "four_half": 222,
+    "five": 220,
+    "last_updated_at": "2024-12-21T20:54+05:30",
+    "director": {
+      "/director/t-j-gnanavel/": "T. J. Gnanavel"
+    },
+    "genre": [
+      "Crime",
+      "Action",
+      "Drama"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/9/8/6/3/3/0/986330-vettaiyan-0-230-0-345-crop.jpg?v=4cbec04ede"
+  },
+  {
+    "enable": true,
+    "github_folder": "ThekkuVadakku",
+    "letterboxd_slug": "thekku-vadakku",
+    "average": 2.68,
+    "total": 373,
+    "half": 77,
+    "one": 78,
+    "one_half": 58,
+    "two": 83,
+    "two_half": 34,
+    "three": 26,
+    "three_half": 10,
+    "four": 5,
+    "five": 2,
+    "last_updated_at": "2024-12-21T20:54+05:30",
+    "director": {
+      "/director/prem-shankar/": "Prem Shankar"
+    },
+    "genre": [
+      "Drama",
+      "Comedy"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/2/7/3/2/2/1127322-thekku-vadakku-0-230-0-345-crop.jpg?v=fb331c95dc"
+  },
+  {
+    "enable": true,
+    "github_folder": "PushpakaVimanam",
+    "letterboxd_slug": "pushpaka-vimanam-2024",
+    "half": 2,
+    "one": 1,
+    "two": 2,
+    "two_half": 2,
+    "last_updated_at": "2024-12-21T20:54+05:30",
+    "director": {
+      "/director/ullas-krishna/": "Ullas Krishna"
+    },
+    "genre": [
+      "Fantasy",
+      "Comedy",
+      "Action"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/4/4/3/4/5/1144345-pushpaka-vimanam-2024-0-230-0-345-crop.jpg?v=15435ff030"
+  },
+  {
+    "enable": true,
+    "github_folder": "JokerFolieADeux",
+    "letterboxd_slug": "joker-folie-a-deux",
+    "average": 2.44,
+    "total": 543756,
+    "half": 20321,
+    "one": 44755,
+    "one_half": 47080,
+    "two": 108108,
+    "two_half": 88703,
+    "three": 104163,
+    "three_half": 58230,
+    "four": 47211,
+    "four_half": 11073,
+    "five": 14112,
+    "last_updated_at": "2024-12-21T20:54+05:30",
+    "director": {
+      "/director/todd-phillips/": "Todd Phillips"
+    },
+    "genre": [
+      "Thriller",
+      "Crime",
+      "Drama"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/8/0/0/8/5/8/800858-joker-folie-a-deux-0-230-0-345-crop.jpg?v=a4bf0389e2"
+  },
+  {
+    "enable": true,
+    "github_folder": "DevaraPart1",
+    "letterboxd_slug": "devara-part-1",
+    "average": 2.61,
+    "total": 12541,
+    "half": 286,
+    "one": 650,
+    "one_half": 814,
+    "two": 2221,
+    "two_half": 2759,
+    "three": 3222,
+    "three_half": 1383,
+    "four": 837,
+    "four_half": 130,
+    "five": 239,
+    "last_updated_at": "2024-12-21T20:55+05:30",
+    "director": {
+      "/director/koratala-siva/": "Koratala Siva"
+    },
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/7/2/8/7/6/6/728766-devara-part-1-0-230-0-345-crop.jpg?v=7727d2bed5"
+  },
+  {
+    "enable": true,
+    "github_folder": "Cup",
+    "letterboxd_slug": "cup",
+    "half": 3,
+    "one": 2,
+    "one_half": 3,
+    "two": 2,
+    "two_half": 1,
+    "three_half": 2,
+    "last_updated_at": "2024-12-21T20:55+05:30",
+    "director": {
+      "/director/sanju-v-samuel/": "Sanju V Samuel"
+    },
+    "genre": [
+      "Family",
+      "Drama"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/8/3/8/9/5/3/838953-cup-0-230-0-345-crop.jpg?v=0e93bc8a81"
+  },
+  {
+    "enable": true,
+    "github_folder": "Meiyazhagan",
+    "letterboxd_slug": "meiyazhagan",
+    "average": 4.09,
+    "total": 25037,
+    "half": 13,
+    "one": 42,
+    "one_half": 40,
+    "two": 185,
+    "two_half": 330,
+    "three": 1522,
+    "three_half": 2871,
+    "four": 8147,
+    "four_half": 4676,
+    "five": 7211,
+    "last_updated_at": "2024-12-21T20:55+05:30",
+    "director": {
+      "/director/c-prem-kumar/": "C. Prem Kumar"
+    },
+    "genre": [
+      "Drama",
+      "Family"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/0/2/4/2/2/9/1024229-meiyazhagan-0-230-0-345-crop.jpg?v=12411597ce"
+  },
+  {
+    "enable": true,
+    "github_folder": "KadhaInnuvare",
+    "letterboxd_slug": "kadha-innuvare",
+    "half": 12,
+    "one": 25,
+    "one_half": 27,
+    "two": 53,
+    "two_half": 39,
+    "three": 50,
+    "four": 17,
+    "five": 4,
+    "last_updated_at": "2024-12-21T20:55+05:30",
+    "director": {
+      "/director/vishnu-mohan-1/": "Vishnu Mohan"
+    },
+    "three_half": 15,
+    "average": 2.98,
+    "total": 244,
+    "four_half": 2,
+    "genre": [
+      "Romance",
+      "Drama",
+      "Family"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/0/3/8/0/7/9/1038079-kadha-innuvare-0-230-0-345-crop.jpg?v=0e94b7fa1a"
+  },
+  {
+    "enable": true,
+    "github_folder": "Arm",
+    "letterboxd_slug": "arm-2024",
+    "average": 3.21,
+    "total": 8316,
+    "half": 19,
+    "one": 74,
+    "one_half": 111,
+    "two": 433,
+    "two_half": 1044,
+    "three": 2589,
+    "three_half": 2089,
+    "four": 1424,
+    "four_half": 273,
+    "five": 260,
+    "last_updated_at": "2024-12-21T20:55+05:30",
+    "director": {
+      "/director/jithin-laal/": "Jithin Laal"
+    },
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/8/0/1/2/4/3/801243-ajayante-randam-moshanam-0-230-0-345-crop.jpg?v=d581959423"
+  },
+  {
+    "enable": true,
+    "github_folder": "Kondal",
+    "letterboxd_slug": "kondal",
+    "average": 2.86,
+    "total": 1044,
+    "half": 47,
+    "one": 125,
+    "one_half": 126,
+    "two": 251,
+    "two_half": 207,
+    "three": 214,
+    "three_half": 43,
+    "four": 26,
+    "four_half": 2,
+    "five": 3,
+    "last_updated_at": "2024-12-21T20:55+05:30",
+    "director": {
+      "/director/ajith-mampally/": "Ajith Mampally"
+    },
+    "genre": [
+      "Drama",
+      "Action"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/0/6/5/9/0/2/1065902-kondal-0-230-0-345-crop.jpg?v=897dfaf855"
+  },
+  {
+    "enable": true,
+    "github_folder": "BadBoyz",
+    "letterboxd_slug": "bad-boyz",
+    "half": 32,
+    "one": 13,
+    "one_half": 11,
+    "two": 13,
+    "two_half": 8,
+    "three": 3,
+    "five": 1,
+    "last_updated_at": "2024-12-21T20:55+05:30",
+    "director": {
+      "/director/omar-lulu/": "Omar Lulu"
+    },
+    "genre": [
+      "Action",
+      "Comedy"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/6/1/0/1/7/1161017-bad-boyz-0-230-0-345-crop.jpg?v=73b0cdfe96"
+  },
+  {
+    "enable": true,
+    "github_folder": "KishkindhaKandam",
+    "letterboxd_slug": "kishkindha-kaandam",
+    "average": 3.96,
+    "total": 16828,
+    "half": 13,
+    "one": 28,
+    "one_half": 39,
+    "two": 145,
+    "two_half": 358,
+    "three": 1372,
+    "three_half": 2610,
+    "four": 6410,
+    "four_half": 3027,
+    "five": 2826,
+    "last_updated_at": "2024-12-21T20:55+05:30",
+    "director": {
+      "/director/dinjith-ayyathan/": "Dinjith Ayyathan"
+    },
+    "genre": [
+      "Drama",
+      "Thriller",
+      "Mystery"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/9/2/4/0/2/8/924028-kishkindha-kaandam-0-230-0-345-crop.jpg?v=acfeca0857"
+  },
+  {
+    "enable": true,
+    "github_folder": "TheGOAT",
+    "letterboxd_slug": "the-greatest-of-all-time",
+    "average": 2.58,
+    "total": 19088,
+    "half": 948,
+    "one": 1385,
+    "one_half": 1421,
+    "two": 3274,
+    "two_half": 3530,
+    "three": 4138,
+    "three_half": 2194,
+    "four": 1377,
+    "four_half": 311,
+    "five": 510,
+    "last_updated_at": "2024-12-21T20:55+05:30",
+    "director": {
+      "/director/venkat-prabhu/": "Venkat Prabhu"
+    },
+    "genre": [
+      "Action",
+      "Drama",
+      "Thriller"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/0/1/8/0/2/1/1018021-the-greatest-of-all-time-0-230-0-345-crop.jpg?v=9ce4f6a6d4"
+  },
+  {
+    "enable": true,
+    "github_folder": "Bharathanatyam",
+    "letterboxd_slug": "bharathanatyam-2024",
+    "average": 3.22,
+    "total": 1739,
+    "half": 8,
+    "one": 14,
+    "one_half": 41,
+    "two": 121,
+    "two_half": 311,
+    "three": 739,
+    "three_half": 337,
+    "four": 140,
+    "four_half": 12,
+    "five": 16,
+    "last_updated_at": "2024-12-21T20:55+05:30",
+    "director": {
+      "/director/krishnadas-murali/": "Krishnadas Murali"
+    },
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/2/0/2/4/9/0/1202490-bharathanatyam-2024-0-230-0-345-crop.jpg?v=e8daddeffe"
+  },
+  {
+    "enable": true,
+    "github_folder": "Virunnu",
+    "letterboxd_slug": "virunnu",
+    "half": 5,
+    "one": 5,
+    "one_half": 5,
+    "two": 4,
+    "two_half": 2,
+    "three": 1,
+    "four": 1,
+    "five": 1,
+    "last_updated_at": "2024-12-21T20:55+05:30",
+    "director": {
+      "/director/kannan-thamarakkulam/": "Kannan Thamarakkulam"
+    },
+    "genre": [
+      "Drama",
+      "Thriller"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/9/7/2/3/8/5/972385-virunnu-0-230-0-345-crop.jpg?v=a4b6d63b7c"
+  },
+  {
+    "enable": true,
+    "github_folder": "Hunt",
+    "letterboxd_slug": "hunt-2024",
+    "half": 4,
+    "one": 5,
+    "one_half": 2,
+    "two": 1,
+    "two_half": 1,
+    "three": 2,
+    "last_updated_at": "2024-12-21T20:55+05:30",
+    "director": {
+      "/director/shaji-kailas/": "Shaji Kailas"
+    },
+    "genre": [
+      "Horror",
+      "Thriller"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/9/6/0/7/6/3/960763-hunt-0-230-0-345-crop.jpg?v=f4f4229c1a"
+  },
+  {
+    "enable": true,
+    "github_folder": "PalumPazhavum",
+    "letterboxd_slug": "paalum-pazhavum",
+    "half": 1,
+    "one": 5,
+    "one_half": 7,
+    "two": 9,
+    "two_half": 6,
+    "three": 8,
+    "three_half": 2,
+    "four": 2,
+    "five": 1,
+    "last_updated_at": "2024-12-21T20:55+05:30",
+    "director": {
+      "/director/v-k-prakash/": "V. K. Prakash"
+    },
+    "genre": [
+      "Romance",
+      "Comedy"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/2/8/7/1/7/1128717-paalum-pazhavum-0-230-0-345-crop.jpg?v=1d237e97a6"
+  },
+  {
+    "enable": true,
+    "github_folder": "Thaanara",
+    "letterboxd_slug": "thaanara",
+    "half": 4,
+    "one": 1,
+    "one_half": 1,
+    "two": 1,
+    "two_half": 2,
+    "three": 2,
+    "three_half": 1,
+    "last_updated_at": "2024-12-21T20:56+05:30",
+    "director": {
+      "/director/haridas-1/": "Haridas"
+    },
+    "genre": [
+      "Drama",
+      "Comedy"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/0/1/1/5/6/0/1011560-thaanara-0-230-0-345-crop.jpg?v=e25486affe"
+  },
+  {
+    "enable": true,
+    "github_folder": "Footage",
+    "letterboxd_slug": "footage-2024",
+    "half": 3,
+    "one": 16,
+    "one_half": 12,
+    "two": 21,
+    "two_half": 17,
+    "three": 19,
+    "three_half": 9,
+    "four": 11,
+    "four_half": 2,
+    "five": 3,
+    "last_updated_at": "2024-12-21T20:56+05:30",
+    "director": {
+      "/director/saiju-sreedharan/": "Saiju Sreedharan"
+    },
+    "genre": [
+      "Thriller"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/9/9/5/2/6/1/995261-footage-0-230-0-345-crop.jpg?v=bb7aea20b5"
+  },
+  {
+    "enable": true,
+    "github_folder": "Manichitrathazhu",
+    "letterboxd_slug": "manichitrathazhu",
+    "last_updated_at": "2024-12-21T20:56+05:30",
+    "average": 3.97,
+    "total": 6247,
+    "half": 17,
+    "one": 25,
+    "one_half": 33,
+    "two": 93,
+    "two_half": 112,
+    "three": 345,
+    "three_half": 563,
+    "four": 1660,
+    "four_half": 1069,
+    "five": 2330,
+    "director": {
+      "/director/fazil/": "Fazil"
+    },
+    "genre": [
+      "Horror",
+      "Thriller",
+      "Fantasy"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/7/0/8/1/8/70818-manichitrathazhu-0-230-0-345-crop.jpg?v=855b51d051"
+  }
+]

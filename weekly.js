@@ -4,9 +4,10 @@ const { HttpsProxyAgent } = require("https-proxy-agent");
 const { orderBy, round, shuffle, startCase } = require("lodash");
 const fetch = require("node-fetch");
 const path = require("path");
+const { launch } = require("puppeteer");
 const sharp = require("sharp");
 
-const { csvPath, proxy } = require("./config/env.js");
+const { csvPath, executablePath, proxy } = require("./config/env.js");
 const { toEnIn } = require("./config/misc.js");
 const { sync } = require("./config/git.js");
 const { moment } = require("./config/moment.js");
@@ -20,7 +21,7 @@ const json = fs.existsSync(json_path)
 const collageMax = 6;
 
 (async () => {
-  const start_date = moment("2024-11-25", ["YYYY-MM-DD"]).startOf("day");
+  const start_date = moment("2024-12-09", ["YYYY-MM-DD"]).startOf("day");
   const end_date = start_date.clone().add(7, "day").startOf("day");
 
   await sync(csvPath); // git clone/pull
@@ -86,12 +87,6 @@ const collageMax = 6;
     });
   }
 
-  const title = `#Kerala #BoxOffice ${start_date.format(
-    "MMMD"
-  )}/${end_date.format("MMMD")} ${Math.round(
-    end_date.diff(start_date, "week", true)
-  )}Week Summary`;
-
   const items = orderBy(
     Object.values(data).filter((i) => i.images.length),
     ["booked", "sum"],
@@ -101,10 +96,13 @@ const collageMax = 6;
   console.log(
     items.reduce(
       (m, { name }) => (`${m} #${name}`.length < 240 ? `${m} #${name}` : m),
-      title
+      `#Kerala #BoxOffice ${start_date.format("MMMD")}/${end_date.format(
+        "MMMD"
+      )} ${Math.round(end_date.diff(start_date, "week", true))}Week Summary`
     )
   );
 
+  // image processing
   for (const item of items.slice(0, collageMax)) {
     for (const i of shuffle(item.images)) {
       const [link, size] = i.split("|");
@@ -136,18 +134,18 @@ const collageMax = 6;
           )
             ? "black"
             : "white";
-        item.booked_ = toEnIn(item.booked, "en-in", {
-          notation: "compact",
-        });
-        item.occupancy = item.booked
-          ? `${round((item.booked / item.capacity) * 100, 2)}%`
-          : "";
-        item.gross = toEnIn(item.sum, "en-in", {
-          notation: "compact",
-        });
         break;
       }
     }
+  }
+
+  // other props
+  for (const item of items) {
+    item.booked_ = toEnIn(item.booked, "en-in", { notation: "compact" });
+    item.occupancy = item.booked
+      ? `${round((item.booked / item.capacity) * 100, 2)}%`
+      : "";
+    item.gross = toEnIn(item.sum, "en-in", { notation: "compact" });
   }
 
   // html generation
@@ -162,8 +160,36 @@ const collageMax = 6;
     ])
   );
 
+  // screenshot
+  const browser = await launch({
+    args: [
+      "--disable-setuid-sandbox",
+      "--lang=en-IN,en",
+      "--no-sandbox",
+      "--window-size=1920,1080",
+    ],
+    defaultViewport: { width: 1920, height: 1080 },
+    executablePath,
+    // headless: false,
+  });
+  let [page] = await browser.pages();
+  if (!page) page = await browser.newPage();
+  await page.goto(`file:///${path.resolve(__dirname, "./weekly.html.html")}`, {
+    waitUntil: "networkidle0",
+  });
+  await (
+    await page.$("#screenshot")
+  ).screenshot({
+    path: path.resolve(__dirname, "./store/weekly.png"),
+  });
+  await browser.close();
+
   // md generation
-  let text = `${title}\n\n| Movie | Shows | Occupancy | Gross |\n| - | -: | -: | -: |`;
+  let text = `Kerala BoxOffice ${start_date.format(
+    "Wo"
+  )} Week Summary (${start_date.format("MMM DD")} - ${end_date.format(
+    "MMM DD YYYY"
+  )})\n\n| Movie | Shows | Occupancy↓ | Gross |\n| - | -: | -: | -: |`;
   for (const item of items)
     text += `\n| [${startCase(
       item.name

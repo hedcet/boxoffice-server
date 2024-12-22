@@ -1,0 +1,7362 @@
+[
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T09:50+05:30",
+    "letterboxd_slug": "vrushabha",
+    "name": "Vrushabha",
+    "releaseYear": 2025,
+    "director": {
+      "/director/nanda-kishore-4/": "Nanda Kishore"
+    },
+    "genre": [
+      "Drama",
+      "Action"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T09:51+05:30",
+    "letterboxd_slug": "hridaya-poorvam",
+    "name": "Hridaya Poorvam",
+    "releaseYear": 2025,
+    "director": {
+      "/director/sathyan-anthikad/": "Sathyan Anthikad"
+    },
+    "genre": []
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T09:51+05:30",
+    "letterboxd_slug": "odum-kuthira-chadum-kuthira",
+    "name": "Odum Kuthira Chadum Kuthira",
+    "originalName": "ഓടും കുതിര ചാടും കുതിര",
+    "releaseYear": 2025,
+    "director": {
+      "/director/althaf-salim/": "Althaf Salim"
+    },
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T09:51+05:30",
+    "letterboxd_slug": "alappuzha-gymkhana",
+    "name": "Alappuzha Gymkhana",
+    "originalName": "ആലപ്പുഴ ജിംഖാന",
+    "releaseYear": 2025,
+    "director": {
+      "/director/khalid-rahman/": "Khalid Rahman"
+    },
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Action"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T09:51+05:30",
+    "letterboxd_slug": "untitled-tejas-adrian-project",
+    "name": "Untitled Tejas - Adrian project",
+    "releaseYear": 2025,
+    "director": {
+      "/director/tejas-suresh/": "Tejas Suresh"
+    },
+    "genre": []
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T09:51+05:30",
+    "letterboxd_slug": "empuraan",
+    "name": "Empuraan",
+    "originalName": "എമ്പുരാൻ",
+    "releaseYear": 2025,
+    "director": {
+      "/director/prithviraj-sukumaran/": "Prithviraj Sukumaran"
+    },
+    "genre": [
+      "Thriller",
+      "Crime",
+      "Action"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T09:51+05:30",
+    "letterboxd_slug": "aapp-kaise-ho",
+    "name": "Aapp Kaise Ho",
+    "originalName": "ആപ് കൈസേ ഹോ",
+    "releaseYear": 2025,
+    "director": {
+      "/director/vinay-jose/": "Vinay Jose"
+    },
+    "genre": []
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T09:51+05:30",
+    "letterboxd_slug": "painkili",
+    "name": "Painkili",
+    "originalName": "പൈങ്കിളി",
+    "releaseYear": 2025,
+    "director": {
+      "/director/sreejith-babu-1/": "Sreejith Babu"
+    },
+    "genre": [
+      "Comedy",
+      "Drama"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T09:51+05:30",
+    "letterboxd_slug": "bromance-2025",
+    "name": "Bromance",
+    "releaseYear": 2025,
+    "director": {
+      "/director/arun-d-jose/": "Arun D Jose"
+    },
+    "genre": []
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T09:51+05:30",
+    "letterboxd_slug": "lovely-2025",
+    "name": "Lovely",
+    "releaseYear": 2025,
+    "director": {
+      "/director/dileesh-nair/": "Dileesh Nair"
+    },
+    "genre": [
+      "Fantasy"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T09:51+05:30",
+    "letterboxd_slug": "ponman",
+    "name": "Ponman",
+    "originalName": "പൊൻMAN",
+    "releaseYear": 2025,
+    "director": {
+      "/director/jyothish-shankar/": "Jyothish Shankar"
+    },
+    "genre": []
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T09:52+05:30",
+    "letterboxd_slug": "thudarum",
+    "name": "Thudarum",
+    "originalName": "തുടരും",
+    "releaseYear": 2025,
+    "director": {
+      "/director/tharun-moorthy/": "Tharun Moorthy"
+    },
+    "genre": []
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T09:52+05:30",
+    "letterboxd_slug": "dominic-and-the-ladies-purse",
+    "name": "Dominic and The Ladies' purse",
+    "releaseYear": 2025,
+    "director": {
+      "/director/gautham-vasudev-menon/": "Gautham Vasudev Menon"
+    },
+    "genre": [
+      "Action",
+      "Thriller"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T09:52+05:30",
+    "letterboxd_slug": "pravinkoodu-shappu",
+    "name": "Pravinkoodu Shappu",
+    "originalName": "പ്രാവിൻകൂട് ഷാപ്പു",
+    "releaseYear": 2025,
+    "director": {
+      "/director/sreeraj-sreenivasan/": "Sreeraj Sreenivasan"
+    },
+    "genre": [
+      "Thriller"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T09:52+05:30",
+    "letterboxd_slug": "ennu-swantham-punyalan",
+    "name": "Ennu Swantham Punyalan",
+    "originalName": "എന്ന് സ്വന്തം പുണ്യാളൻ",
+    "releaseYear": 2025,
+    "director": {
+      "/director/mahesh-madhu/": "Mahesh Madhu"
+    },
+    "genre": [
+      "Fantasy",
+      "Comedy"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T09:52+05:30",
+    "letterboxd_slug": "rachel-2025",
+    "name": "Rachel",
+    "releaseYear": 2025,
+    "director": {
+      "/director/anandhini-bala/": "Anandhini Bala"
+    },
+    "genre": []
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T09:52+05:30",
+    "letterboxd_slug": "rekha-chithram",
+    "name": "Rekha Chithram",
+    "originalName": "രേഖ ചിത്രം",
+    "releaseYear": 2025,
+    "director": {
+      "/director/jofin-t-chacko/": "Jofin T. Chacko"
+    },
+    "genre": [
+      "Thriller",
+      "Horror",
+      "Mystery"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:12+05:30",
+    "letterboxd_slug": "communist-pacha-adhava-appa",
+    "name": "Communist Pacha Adhava Appa",
+    "originalName": "കമ്മ്യൂണിസ്റ്റ് പച്ച അഥവാ അപ്പ",
+    "releaseYear": 2025,
+    "director": {
+      "/director/shamim-moideen/": "Shamim Moideen"
+    },
+    "genre": []
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T09:52+05:30",
+    "letterboxd_slug": "id-2025",
+    "name": "ID",
+    "originalName": "ഐ ഡി : ദി ഫാക്ട്",
+    "releaseYear": 2025,
+    "director": {
+      "/director/arun-sivavilasam/": "Arun Sivavilasam"
+    },
+    "genre": [
+      "Thriller"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T09:52+05:30",
+    "letterboxd_slug": "identity-2025",
+    "name": "Identity",
+    "originalName": "ഐഡന്റിറ്റി",
+    "releaseYear": 2025,
+    "director": {
+      "/director/anas-khan/": "Anas Khan",
+      "/director/akhil-paul/": "Akhil Paul"
+    },
+    "genre": [
+      "Action",
+      "Thriller"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T09:52+05:30",
+    "letterboxd_slug": "barroz",
+    "name": "Barroz",
+    "originalName": "ബറോസ്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/mohanlal/": "Mohanlal"
+    },
+    "genre": [
+      "Fantasy",
+      "Action",
+      "Adventure",
+      "Thriller"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T09:53+05:30",
+    "letterboxd_slug": "niyathi-cc1-2024",
+    "name": "Niyathi Cc1/2024",
+    "originalName": "നിയതി സിസി1/2024",
+    "releaseYear": 2024,
+    "director": {
+      "/director/arundev-malappuram/": "Arundev Malappuram"
+    },
+    "genre": [
+      "Drama",
+      "Crime"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:16+05:30",
+    "letterboxd_slug": "marco-2024",
+    "name": "Marco",
+    "originalName": "മാർക്കോ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/haneef-adeni/": "Haneef Adeni"
+    },
+    "genre": [
+      "Action"
+    ],
+    "half": 17,
+    "one": 30,
+    "one_half": 44,
+    "two": 83,
+    "two_half": 137,
+    "three": 281,
+    "three_half": 252,
+    "four": 276,
+    "four_half": 73,
+    "five": 82
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:16+05:30",
+    "letterboxd_slug": "ed-extra-decent",
+    "name": "E.D. (Extra Decent)",
+    "releaseYear": 2024,
+    "director": {
+      "/director/aamir-pallikkal/": "Aamir Pallikkal"
+    },
+    "genre": [
+      "Drama",
+      "Comedy"
+    ],
+    "one": 4,
+    "one_half": 2,
+    "two": 6,
+    "two_half": 6,
+    "three": 8,
+    "three_half": 6,
+    "four": 7,
+    "four_half": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:16+05:30",
+    "letterboxd_slug": "rifle-club",
+    "name": "Rifle Club",
+    "originalName": "റൈഫിൾ ക്ലബ്ബ്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/aashiq-abu/": "Aashiq Abu"
+    },
+    "genre": [
+      "Thriller",
+      "Action"
+    ],
+    "half": 2,
+    "one": 6,
+    "one_half": 5,
+    "two": 21,
+    "two_half": 63,
+    "three": 207,
+    "three_half": 367,
+    "four": 502,
+    "four_half": 118,
+    "five": 74
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T09:53+05:30",
+    "letterboxd_slug": "in-your-language",
+    "name": "In Your Language",
+    "originalName": "നിങ്ങളുടെ ഭാഷയിൽ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/ram-g-krishna/": "Ram Gayathri Krishna"
+    },
+    "genre": [
+      "Documentary"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:16+05:30",
+    "letterboxd_slug": "back-door-2024",
+    "name": "Back Door",
+    "originalName": "പിൻവാതിൽ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/j-c-george/": "J. C. George"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 4
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:17+05:30",
+    "letterboxd_slug": "the-art-of-warfare",
+    "name": "The Art Of Warfare",
+    "originalName": "സംഘർഷ ഘടന",
+    "releaseYear": 2024,
+    "director": {
+      "/director/krishand/": "Krishand"
+    },
+    "genre": [],
+    "half": 1,
+    "one": 1,
+    "two": 17,
+    "two_half": 14,
+    "three": 39,
+    "three_half": 51,
+    "four": 51,
+    "four_half": 9,
+    "five": 12
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:15+05:30",
+    "letterboxd_slug": "feminist-fathima",
+    "name": "Feminist Fathima",
+    "originalName": "ഫെമിനിച്ചി ഫാത്തിമ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/fasil-muhammed/": "Fasil Muhammed"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "two": 1,
+    "two_half": 4,
+    "three": 17,
+    "three_half": 14,
+    "four": 45,
+    "four_half": 13,
+    "five": 16
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:17+05:30",
+    "letterboxd_slug": "pattth",
+    "name": "Pattth",
+    "originalName": "പാത്ത്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/jithin-issac-thomas/": "Jithin Issac Thomas"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 1,
+    "one_half": 3,
+    "two": 3,
+    "two_half": 2,
+    "three": 20,
+    "three_half": 20,
+    "four": 34,
+    "four_half": 6,
+    "five": 10
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:17+05:30",
+    "letterboxd_slug": "cupid-saw-the-star",
+    "name": "Cupid Saw the Star",
+    "originalName": "കാമദേവൻ നക്ഷത്രം കണ്ടു",
+    "releaseYear": 2024,
+    "director": {
+      "/director/adhithya-baby/": "Adhithya Baby"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 1,
+    "one": 4,
+    "one_half": 1,
+    "two": 4,
+    "two_half": 9,
+    "three": 6,
+    "three_half": 4,
+    "four": 1,
+    "four_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:17+05:30",
+    "letterboxd_slug": "girl-friends-2024",
+    "name": "Girl Friends",
+    "originalName": "ഗേൾ ഫ്രണ്ട്സ്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/shobhana-padinjhattil/": "Shobhana Padinjhattil"
+    },
+    "genre": [
+      "Romance",
+      "Drama"
+    ],
+    "half": 3,
+    "one": 3,
+    "two": 1,
+    "two_half": 1,
+    "four": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:17+05:30",
+    "letterboxd_slug": "dust-art-redrawn-in-respiration",
+    "name": "Dust Art Redrawn in Respiration",
+    "originalName": "മായുന്നു മാറിവരയുന്നു നിശ്വാസങ്ങളിൽ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/abhilash-babu/": "Abhilash Babu"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 1,
+    "one": 1,
+    "one_half": 1,
+    "two": 3,
+    "three": 2,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:17+05:30",
+    "letterboxd_slug": "watusi-zombie",
+    "name": "Watusi Zombie!",
+    "releaseYear": 2024,
+    "director": {
+      "/director/cyril-abraham-dennis-2/": "Cyril Abraham Dennis"
+    },
+    "genre": [
+      "Comedy"
+    ],
+    "half": 5,
+    "one": 3,
+    "one_half": 6,
+    "two": 12,
+    "two_half": 10,
+    "three": 26,
+    "three_half": 15,
+    "four": 11,
+    "four_half": 3,
+    "five": 8
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:17+05:30",
+    "letterboxd_slug": "the-other-side-2024-3",
+    "name": "The Other Side",
+    "originalName": "അപ്പുറം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/indu-lakshmi/": "Indu Lakshmi"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "one": 1,
+    "one_half": 1,
+    "two": 6,
+    "two_half": 8,
+    "three": 20,
+    "three_half": 14,
+    "four": 19,
+    "four_half": 13,
+    "five": 8
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:17+05:30",
+    "letterboxd_slug": "victoria-2024-2",
+    "name": "Victoria",
+    "originalName": "വിക്ടോറിയ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/sivaranjini-1/": "Sivaranjini"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "two_half": 3,
+    "three": 8,
+    "three_half": 12,
+    "four": 17,
+    "four_half": 3,
+    "five": 5
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:17+05:30",
+    "letterboxd_slug": "a-pan-indian-story",
+    "name": "A Pan Indian Story",
+    "originalName": "എ പാൻ ഇന്ത്യൻ സ്റ്റോറി",
+    "releaseYear": 2024,
+    "director": {
+      "/director/v-c-abhilash/": "V C Abhilash"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "one": 2,
+    "one_half": 2,
+    "two": 4,
+    "two_half": 5,
+    "three": 11,
+    "three_half": 2,
+    "four": 5,
+    "four_half": 1,
+    "five": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:17+05:30",
+    "letterboxd_slug": "in-search-of-the-light",
+    "name": "In Search of the Light",
+    "originalName": "വെളിച്ചം തേടി",
+    "releaseYear": 2024,
+    "director": {
+      "/director/rinoshun-k/": "Rinoshun K"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 2,
+    "one": 2,
+    "one_half": 4,
+    "two": 3,
+    "two_half": 2,
+    "three": 3,
+    "four": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:17+05:30",
+    "letterboxd_slug": "the-looking-glass-2024",
+    "name": "The Looking Glass",
+    "originalName": "മുഖക്കണ്ണാടി",
+    "releaseYear": 2024,
+    "director": {
+      "/director/santosh-babusenan/": "Santosh Babusenan",
+      "/director/satish-babusenan/": "Satish Babusenan"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 1,
+    "one": 4,
+    "one_half": 1,
+    "two": 4,
+    "two_half": 1,
+    "three": 1,
+    "three_half": 2,
+    "four": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:17+05:30",
+    "letterboxd_slug": "rudhiram",
+    "name": "Rudhiram",
+    "originalName": "രുധിരം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/jisho-lon-antony/": "Jisho Lon Antony"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 3,
+    "one": 5,
+    "one_half": 5,
+    "two": 15,
+    "two_half": 14,
+    "three": 13,
+    "four": 2,
+    "four_half": 1,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:18+05:30",
+    "letterboxd_slug": "saptha-kandam",
+    "name": "Saptha Kandam",
+    "releaseYear": 2024,
+    "director": {
+      "/director/prasanth-sasi/": "Prasanth Sasi"
+    },
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "one": 1,
+    "one_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:15+05:30",
+    "letterboxd_slug": "agolathapanavum-athmahathyayum-chapter-1",
+    "name": "Agolathapanavum Athmahathyayum - Chapter 1: Aipose Puranam",
+    "originalName": "ആഗോളതാപനവും ആത്മഹത്യയും - സ്കന്ധം 1: ഐപോസ് പുരാണം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/khasi/": "Khasi"
+    },
+    "genre": [
+      "Comedy",
+      "Documentary"
+    ],
+    "three": 7,
+    "three_half": 2,
+    "four": 10,
+    "four_half": 1,
+    "five": 18
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:18+05:30",
+    "letterboxd_slug": "her-2024-1",
+    "name": "Her",
+    "originalName": "ഹേർ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/lijin-jose/": "Lijin Jose"
+    },
+    "genre": [
+      "Drama",
+      "Romance",
+      "Family"
+    ],
+    "average": 2.99,
+    "total": 252,
+    "half": 7,
+    "one": 24,
+    "one_half": 35,
+    "two": 58,
+    "two_half": 50,
+    "three": 46,
+    "three_half": 18,
+    "four": 12,
+    "four_half": 1,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:18+05:30",
+    "letterboxd_slug": "sthanarthi-sreekuttan",
+    "name": "Sthanarthi Sreekuttan",
+    "originalName": "സ്ഥാനാർത്ഥി ശ്രീക്കുട്ടൻ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/vinesh-viswanath/": "Vinesh Viswanath"
+    },
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "half": 2,
+    "one_half": 3,
+    "two_half": 2,
+    "three": 13,
+    "three_half": 7,
+    "four": 9,
+    "five": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:18+05:30",
+    "letterboxd_slug": "her-2024-2",
+    "name": "Her",
+    "originalName": "ഹെർ",
+    "releaseYear": 2024,
+    "genre": [],
+    "two_half": 1,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/2/7/9/4/0/5/1279405-her-2024-2-0-230-0-345-crop.jpg?v=ea17d17a14"
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:18+05:30",
+    "letterboxd_slug": "sookshmadarshini",
+    "name": "Sookshmadarshini",
+    "originalName": "സൂക്ഷ്മദര്‍ശിനി",
+    "releaseYear": 2024,
+    "director": {
+      "/director/mc-jithin/": "MC Jithin"
+    },
+    "genre": [
+      "Thriller",
+      "Mystery"
+    ],
+    "average": 3.62,
+    "total": 8827,
+    "half": 10,
+    "one": 24,
+    "one_half": 25,
+    "two": 133,
+    "two_half": 301,
+    "three": 1239,
+    "three_half": 2363,
+    "four": 3367,
+    "four_half": 793,
+    "five": 572
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:18+05:30",
+    "letterboxd_slug": "turkish-tharkkam",
+    "name": "Turkish Tharkkam",
+    "originalName": "ടർക്കിഷ് തർക്കം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/nawaz-sulaiman/": "Nawaz Sulaiman"
+    },
+    "genre": [
+      "Thriller"
+    ],
+    "one_half": 1,
+    "two": 5,
+    "two_half": 2,
+    "three_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:18+05:30",
+    "letterboxd_slug": "parakramam",
+    "name": "Parakramam",
+    "originalName": "പരാക്രമം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/arjun-ramesh/": "Arjun Ramesh"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 1,
+    "one": 1,
+    "one_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:18+05:30",
+    "letterboxd_slug": "njan-kandatha-sare",
+    "name": "Njan Kandatha Sare",
+    "originalName": "ഞാൻ കണ്ടതാ സാറേ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/varun-g-panicker/": "Varun G Panicker"
+    },
+    "genre": [
+      "Thriller",
+      "Comedy"
+    ],
+    "two_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T09:55+05:30",
+    "letterboxd_slug": "social-animal",
+    "name": "Social Animal",
+    "releaseYear": 2024,
+    "director": {
+      "/director/sreeraj-ks/": "Sreeraj KS"
+    },
+    "genre": [
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:15+05:30",
+    "letterboxd_slug": "hello-mummy",
+    "name": "Hello Mummy",
+    "originalName": "ഹലോ മമ്മി",
+    "releaseYear": 2024,
+    "director": {
+      "/director/vaishakh-elans/": "Vaishakh Elans"
+    },
+    "genre": [
+      "Fantasy",
+      "Comedy"
+    ],
+    "average": 3.02,
+    "total": 626,
+    "half": 13,
+    "one": 35,
+    "one_half": 49,
+    "two": 130,
+    "two_half": 146,
+    "three": 167,
+    "three_half": 53,
+    "four": 25,
+    "four_half": 5,
+    "five": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:18+05:30",
+    "letterboxd_slug": "anand-sreebala",
+    "name": "Anand Sreebala",
+    "originalName": "ആനന്ദ് ശ്രീബാല",
+    "releaseYear": 2024,
+    "director": {
+      "/director/vishnu-vinay/": "Vishnu Vinay"
+    },
+    "genre": [
+      "Thriller",
+      "Crime"
+    ],
+    "half": 2,
+    "one": 2,
+    "one_half": 6,
+    "two": 27,
+    "two_half": 40,
+    "three": 70,
+    "three_half": 26,
+    "four": 12,
+    "four_half": 1,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:18+05:30",
+    "letterboxd_slug": "mura-2024",
+    "name": "Mura",
+    "originalName": "മുറ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/muhammad-musthafa/": "Muhammad Musthafa"
+    },
+    "genre": [
+      "Action",
+      "Thriller"
+    ],
+    "average": 3.25,
+    "total": 575,
+    "half": 3,
+    "one": 9,
+    "one_half": 16,
+    "two": 60,
+    "two_half": 108,
+    "three": 164,
+    "three_half": 126,
+    "four": 71,
+    "four_half": 9,
+    "five": 9
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:18+05:30",
+    "letterboxd_slug": "swargam",
+    "name": "Swargam",
+    "originalName": "സ്വർഗം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/rejis-antony/": "Rejis Antony"
+    },
+    "genre": [
+      "Drama",
+      "Family"
+    ],
+    "half": 8,
+    "one": 4,
+    "one_half": 1,
+    "two": 1,
+    "two_half": 3,
+    "three": 1,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:18+05:30",
+    "letterboxd_slug": "oru-anweshanathinte-thudakkam",
+    "name": "Oru Anweshanathinte Thudakkam",
+    "originalName": "ഒരു  അന്വേഷണത്തിന്റ്റെ തുടക്കം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/nishad-m-a/": "Nishad M A"
+    },
+    "genre": [
+      "Crime",
+      "Thriller"
+    ],
+    "half": 2,
+    "one": 4,
+    "one_half": 2,
+    "two": 1,
+    "two_half": 1,
+    "three": 1,
+    "three_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:18+05:30",
+    "letterboxd_slug": "i-am-kathalan",
+    "name": "I Am Kathalan",
+    "originalName": "I Am കാതലൻ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/girish-a-d/": "Girish A D"
+    },
+    "genre": [
+      "Thriller"
+    ],
+    "average": 3.26,
+    "total": 984,
+    "half": 2,
+    "one": 8,
+    "one_half": 15,
+    "two": 79,
+    "two_half": 164,
+    "three": 401,
+    "three_half": 206,
+    "four": 86,
+    "four_half": 13,
+    "five": 10
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:18+05:30",
+    "letterboxd_slug": "echoes-in-the-liminal",
+    "name": "Echoes in the Liminal",
+    "originalName": "Antharvasam",
+    "releaseYear": 2024,
+    "director": {
+      "/director/sisira-nath/": "Sisira Nath"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "three": 2,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:18+05:30",
+    "letterboxd_slug": "slaves-of-the-empire",
+    "name": "Slaves of the Empire",
+    "releaseYear": 2024,
+    "director": {
+      "/director/rajesh-james/": "Rajesh James"
+    },
+    "genre": [
+      "Documentary"
+    ],
+    "four": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T09:56+05:30",
+    "letterboxd_slug": "fall-2024-1",
+    "name": "Fall",
+    "originalName": "Kaalam",
+    "releaseYear": 2024,
+    "director": {
+      "/director/abhinav-c/": "Abhinav C"
+    },
+    "genre": []
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:18+05:30",
+    "letterboxd_slug": "oshana",
+    "name": "Oshana",
+    "originalName": "ഓശാന",
+    "releaseYear": 2024,
+    "director": {
+      "/director/nv-manoj/": "N.V. Manoj"
+    },
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:18+05:30",
+    "letterboxd_slug": "dinosaurs-egg",
+    "name": "Dinosaur's Egg",
+    "originalName": "Dinosarinte Mutta",
+    "releaseYear": 2024,
+    "director": {
+      "/director/sruthil-mathew/": "Sruthil Mathew"
+    },
+    "genre": [
+      "Documentary"
+    ],
+    "two": 1,
+    "two_half": 1,
+    "three": 4
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:18+05:30",
+    "letterboxd_slug": "pallotty-90s-kids",
+    "name": "Pallotty 90's Kids",
+    "originalName": "പല്ലൊട്ടി 90's കിഡ്സ്‌",
+    "releaseYear": 2024,
+    "director": {
+      "/director/jithin-raj-2/": "Jithin Raj"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "average": 3.39,
+    "total": 334,
+    "half": 1,
+    "one": 7,
+    "one_half": 4,
+    "two": 21,
+    "two_half": 32,
+    "three": 74,
+    "three_half": 81,
+    "four": 86,
+    "four_half": 16,
+    "five": 12
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:19+05:30",
+    "letterboxd_slug": "laggam",
+    "name": "Laggam",
+    "originalName": "ലഗ്ഗാം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/ramesh-cheppala/": "Ramesh Cheppala"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 4,
+    "one": 9,
+    "one_half": 9,
+    "two": 15,
+    "two_half": 6,
+    "three": 7,
+    "four": 1,
+    "four_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:19+05:30",
+    "letterboxd_slug": "thrayam",
+    "name": "Thrayam",
+    "originalName": "ത്രയം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/sanjith-chandrasenan/": "Sanjith Chandrasenan"
+    },
+    "genre": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "half": 3,
+    "one": 1,
+    "one_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:19+05:30",
+    "letterboxd_slug": "pani",
+    "name": "Pani",
+    "originalName": "പണി",
+    "releaseYear": 2024,
+    "director": {
+      "/director/joju-george/": "Joju George"
+    },
+    "genre": [
+      "Thriller",
+      "Drama"
+    ],
+    "average": 3.09,
+    "total": 1230,
+    "half": 43,
+    "one": 49,
+    "one_half": 74,
+    "two": 183,
+    "two_half": 233,
+    "three": 319,
+    "three_half": 199,
+    "four": 95,
+    "four_half": 15,
+    "five": 20
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:19+05:30",
+    "letterboxd_slug": "porattu-nadakam",
+    "name": "Porattu Nadakam",
+    "originalName": "പൊറാട്ടു നാടകം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/naushad-saffron/": "Naushad Saffron"
+    },
+    "genre": [
+      "Comedy"
+    ],
+    "half": 24,
+    "one": 29,
+    "one_half": 13,
+    "two": 19,
+    "two_half": 5,
+    "three": 2,
+    "three_half": 2,
+    "four": 1,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:19+05:30",
+    "letterboxd_slug": "kundannoorile-kulsitha-lahala",
+    "name": "Kundannoorile Kulsitha Lahala",
+    "originalName": "കുണ്ടന്നൂരിലെ കുത്സിതലഹള",
+    "releaseYear": 2024,
+    "director": {
+      "/director/akshay-ashok/": "Akshay Ashok"
+    },
+    "genre": [
+      "Action"
+    ],
+    "one": 1,
+    "one_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:19+05:30",
+    "letterboxd_slug": "bougainvillea",
+    "name": "Bougainvillea",
+    "originalName": "ബോഗയ്ൻവില്ല",
+    "releaseYear": 2024,
+    "director": {
+      "/director/amal-neerad-1/": "Amal Neerad"
+    },
+    "genre": [
+      "Thriller",
+      "Action"
+    ],
+    "average": 3.08,
+    "total": 6008,
+    "half": 32,
+    "one": 97,
+    "one_half": 172,
+    "two": 634,
+    "two_half": 1008,
+    "three": 2016,
+    "three_half": 1192,
+    "four": 667,
+    "four_half": 103,
+    "five": 87
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:19+05:30",
+    "letterboxd_slug": "charam",
+    "name": "Charam",
+    "originalName": "ചരം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/rajith-kumar-1/": "Rajith Kumar"
+    },
+    "genre": [
+      "Drama",
+      "Crime"
+    ],
+    "half": 1,
+    "one": 4,
+    "two_half": 1,
+    "three": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:19+05:30",
+    "letterboxd_slug": "thekku-vadakku",
+    "name": "Thekku Vadakku",
+    "originalName": "തെക്കു വടക്ക്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/prem-shankar/": "Prem Shankar"
+    },
+    "genre": [
+      "Drama",
+      "Comedy"
+    ],
+    "average": 2.68,
+    "total": 374,
+    "half": 77,
+    "one": 78,
+    "one_half": 58,
+    "two": 84,
+    "two_half": 34,
+    "three": 26,
+    "three_half": 10,
+    "four": 5,
+    "five": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:19+05:30",
+    "letterboxd_slug": "thanupp",
+    "name": "Thanupp",
+    "originalName": "തണുപ്പ്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/ragesh-narayanan/": "Ragesh Narayanan"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 2,
+    "two": 1,
+    "two_half": 2,
+    "three": 2,
+    "three_half": 5,
+    "four": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:19+05:30",
+    "letterboxd_slug": "pushpaka-vimanam-2024",
+    "name": "Pushpaka Vimanam",
+    "originalName": "പുഷ്പക വിമാനം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/ullas-krishna/": "Ullas Krishna"
+    },
+    "genre": [
+      "Fantasy",
+      "Comedy",
+      "Action"
+    ],
+    "half": 2,
+    "one": 1,
+    "two": 2,
+    "two_half": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:19+05:30",
+    "letterboxd_slug": "oru-kattil-oru-muri",
+    "name": "Oru Kattil Oru Muri",
+    "originalName": "ഒരു കട്ടിൽ ഒരു മുറി",
+    "releaseYear": 2024,
+    "director": {
+      "/director/shanavas-k-bavakkutty/": "Shanavas K Bavakkutty"
+    },
+    "genre": [
+      "Romance",
+      "Drama"
+    ],
+    "half": 3,
+    "one": 1,
+    "one_half": 2,
+    "two": 1,
+    "four_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:19+05:30",
+    "letterboxd_slug": "kummatikali",
+    "name": "Kummatikali",
+    "originalName": "കുമ്മാട്ടിക്കളി",
+    "releaseYear": 2024,
+    "director": {
+      "/director/vincent-selva/": "Vincent Selva"
+    },
+    "genre": [],
+    "half": 1,
+    "three_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:19+05:30",
+    "letterboxd_slug": "gumasthan",
+    "name": "Gumasthan",
+    "originalName": "ഗുമസ്ഥൻ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/amal-k-joby/": "Amal K Joby"
+    },
+    "genre": [
+      "Crime",
+      "Thriller"
+    ],
+    "average": 2.9,
+    "total": 426,
+    "half": 41,
+    "one": 43,
+    "one_half": 50,
+    "two": 101,
+    "two_half": 73,
+    "three": 71,
+    "three_half": 21,
+    "four": 19,
+    "four_half": 5,
+    "five": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:19+05:30",
+    "letterboxd_slug": "cup",
+    "name": "Cup",
+    "originalName": "കപ്പ്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/sanju-v-samuel/": "Sanju V Samuel"
+    },
+    "genre": [
+      "Family",
+      "Drama"
+    ],
+    "half": 3,
+    "one": 2,
+    "one_half": 3,
+    "two": 2,
+    "two_half": 1,
+    "three_half": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:19+05:30",
+    "letterboxd_slug": "chithini",
+    "name": "Chithini",
+    "originalName": "ചിത്തിനി",
+    "releaseYear": 2024,
+    "director": {
+      "/director/east-coast-vijayan/": "East Coast Vijayan"
+    },
+    "genre": [
+      "Horror"
+    ],
+    "half": 2,
+    "two_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:19+05:30",
+    "letterboxd_slug": "kadha-innuvare",
+    "name": "Kadha Innuvare",
+    "originalName": "കഥ ഇന്നുവരെ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/vishnu-mohan-1/": "Vishnu Mohan"
+    },
+    "genre": [
+      "Romance",
+      "Drama",
+      "Family"
+    ],
+    "average": 2.98,
+    "total": 245,
+    "half": 12,
+    "one": 25,
+    "one_half": 27,
+    "two": 53,
+    "two_half": 39,
+    "three": 50,
+    "three_half": 16,
+    "four": 17,
+    "four_half": 2,
+    "five": 4
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T09:58+05:30",
+    "letterboxd_slug": "kuttante-shinigami",
+    "name": "Kuttante Shinigami",
+    "releaseYear": 2024,
+    "director": {
+      "/director/rasheed-parakkal/": "Rasheed Parakkal"
+    },
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:19+05:30",
+    "letterboxd_slug": "kondal",
+    "name": "Kondal",
+    "originalName": "കൊണ്ടല്‍",
+    "releaseYear": 2024,
+    "director": {
+      "/director/ajith-mampally/": "Ajith Mampally"
+    },
+    "genre": [
+      "Drama",
+      "Action"
+    ],
+    "average": 2.86,
+    "total": 1044,
+    "half": 47,
+    "one": 125,
+    "one_half": 126,
+    "two": 251,
+    "two_half": 207,
+    "three": 214,
+    "three_half": 43,
+    "four": 26,
+    "four_half": 2,
+    "five": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:19+05:30",
+    "letterboxd_slug": "bad-boyz",
+    "name": "Bad Boyz",
+    "releaseYear": 2024,
+    "director": {
+      "/director/omar-lulu/": "Omar Lulu"
+    },
+    "genre": [
+      "Action",
+      "Comedy"
+    ],
+    "half": 32,
+    "one": 13,
+    "one_half": 11,
+    "two": 13,
+    "two_half": 8,
+    "three": 3,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:19+05:30",
+    "letterboxd_slug": "prathibha-tutorials",
+    "name": "Prathibha Tutorials",
+    "releaseYear": 2024,
+    "director": {
+      "/director/abhilash-raghavan/": "Abhilash Raghavan"
+    },
+    "genre": [
+      "Comedy"
+    ],
+    "half": 15,
+    "one": 4,
+    "one_half": 1,
+    "two": 1,
+    "two_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T09:59+05:30",
+    "letterboxd_slug": "gangs-of-sukumarakurup",
+    "name": "Gangs of Sukumarakurup",
+    "originalName": "Gangs of സുകുമാരക്കുറുപ്പ്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/shebi-chowghat/": "Shebi Chowghat"
+    },
+    "genre": [
+      "Thriller"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:20+05:30",
+    "letterboxd_slug": "kishkindha-kaandam",
+    "name": "Kishkindha Kaandam",
+    "originalName": "കിഷ്കിന്ധാ കാണ്ഡം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/dinjith-ayyathan/": "Dinjith Ayyathan"
+    },
+    "genre": [
+      "Drama",
+      "Thriller",
+      "Mystery"
+    ],
+    "average": 3.96,
+    "total": 16831,
+    "half": 13,
+    "one": 28,
+    "one_half": 39,
+    "two": 145,
+    "two_half": 358,
+    "three": 1372,
+    "three_half": 2612,
+    "four": 6411,
+    "four_half": 3027,
+    "five": 2826
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:20+05:30",
+    "letterboxd_slug": "arm-2024",
+    "name": "A.R.M",
+    "originalName": "അജയന്റെ രണ്ടാം മോഷണം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/jithin-laal/": "Jithin Laal"
+    },
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "average": 3.21,
+    "total": 8319,
+    "half": 19,
+    "one": 74,
+    "one_half": 111,
+    "two": 433,
+    "two_half": 1044,
+    "three": 2589,
+    "three_half": 2090,
+    "four": 1425,
+    "four_half": 273,
+    "five": 261
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:20+05:30",
+    "letterboxd_slug": "dreadful-chapters",
+    "name": "Dreadful Chapters",
+    "originalName": "ഡ്രെഡ്ഫുൾ ചാപ്‌റ്റേഴ്‌സ്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/nirmal-baby-varghese/": "Nirmal Baby Varghese"
+    },
+    "genre": [
+      "Horror",
+      "Thriller"
+    ],
+    "half": 3,
+    "one": 4,
+    "two": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:20+05:30",
+    "letterboxd_slug": "bharathanatyam-2024",
+    "name": "Bharathanatyam",
+    "originalName": "ഭരതനാട്യം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/krishnadas-murali/": "Krishnadas Murali"
+    },
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "average": 3.22,
+    "total": 1739,
+    "half": 8,
+    "one": 14,
+    "one_half": 41,
+    "two": 121,
+    "two_half": 311,
+    "three": 739,
+    "three_half": 337,
+    "four": 140,
+    "four_half": 12,
+    "five": 16
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T09:59+05:30",
+    "letterboxd_slug": "sambavasthalathu-ninnum",
+    "name": "Sambavasthalathu Ninnum",
+    "originalName": "സംഭവസ്ഥലത്തു നിന്നും",
+    "releaseYear": 2024,
+    "director": {
+      "/director/sinto-david/": "Sinto David"
+    },
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T15:07+05:30",
+    "letterboxd_slug": "kuvi",
+    "name": "Kuvi",
+    "releaseYear": 2024,
+    "genre": [],
+    "director": {
+      "/director/sakhil-raveendran/": "Sakhil Raveendran"
+    }
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:20+05:30",
+    "letterboxd_slug": "virunnu",
+    "name": "Virunnu",
+    "originalName": "വിരുന്ന്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/kannan-thamarakkulam/": "Kannan Thamarakkulam"
+    },
+    "genre": [
+      "Drama",
+      "Thriller"
+    ],
+    "half": 5,
+    "one": 5,
+    "one_half": 5,
+    "two": 4,
+    "two_half": 2,
+    "three": 1,
+    "four": 1,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:20+05:30",
+    "letterboxd_slug": "manorajyam",
+    "name": "Manorajyam",
+    "releaseYear": 2024,
+    "director": {
+      "/director/rasheed-parakkal/": "Rasheed Parakkal"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "one_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T09:59+05:30",
+    "letterboxd_slug": "sea-of-love-2024",
+    "name": "Sea of Love",
+    "originalName": "Kadalolam Sneham",
+    "releaseYear": 2024,
+    "director": {
+      "/director/sai-krishna-3/": "Sai Krishna"
+    },
+    "genre": []
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:20+05:30",
+    "letterboxd_slug": "footage-2024",
+    "name": "Footage",
+    "originalName": "ഫൂട്ടേജ്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/saiju-sreedharan/": "Saiju Sreedharan"
+    },
+    "genre": [
+      "Thriller"
+    ],
+    "half": 3,
+    "one": 16,
+    "one_half": 12,
+    "two": 21,
+    "two_half": 17,
+    "three": 19,
+    "three_half": 9,
+    "four": 11,
+    "four_half": 2,
+    "five": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:20+05:30",
+    "letterboxd_slug": "paalum-pazhavum",
+    "name": "Paalum Pazhavum",
+    "originalName": "പാലും പഴവും",
+    "releaseYear": 2024,
+    "director": {
+      "/director/v-k-prakash/": "V. K. Prakash"
+    },
+    "genre": [
+      "Comedy",
+      "Romance"
+    ],
+    "half": 1,
+    "one": 5,
+    "one_half": 7,
+    "two": 10,
+    "two_half": 6,
+    "three": 8,
+    "three_half": 2,
+    "four": 2,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:20+05:30",
+    "letterboxd_slug": "hunt-2024",
+    "name": "Hunt",
+    "releaseYear": 2024,
+    "director": {
+      "/director/shaji-kailas/": "Shaji Kailas"
+    },
+    "genre": [
+      "Thriller",
+      "Horror"
+    ],
+    "half": 4,
+    "one": 5,
+    "one_half": 2,
+    "two": 1,
+    "two_half": 1,
+    "three": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:20+05:30",
+    "letterboxd_slug": "thaanara",
+    "name": "Thaanara",
+    "originalName": "താനാരാ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/haridas-1/": "Haridas"
+    },
+    "genre": [
+      "Drama",
+      "Comedy"
+    ],
+    "half": 4,
+    "one": 1,
+    "one_half": 1,
+    "two": 1,
+    "two_half": 2,
+    "three": 2,
+    "three_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:20+05:30",
+    "letterboxd_slug": "vaazha-biopic-of-a-billion-boys",
+    "name": "Vaazha: Biopic of a Billion Boys",
+    "originalName": "വാഴ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/anand-menen/": "Anand Menen"
+    },
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "average": 3.16,
+    "total": 9184,
+    "half": 65,
+    "one": 173,
+    "one_half": 231,
+    "two": 720,
+    "two_half": 1114,
+    "three": 2500,
+    "three_half": 1945,
+    "four": 1661,
+    "four_half": 371,
+    "five": 404
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:20+05:30",
+    "letterboxd_slug": "nunakkuzhi",
+    "name": "Nunakkuzhi",
+    "originalName": "നുണക്കുഴി",
+    "releaseYear": 2024,
+    "director": {
+      "/director/jeethu-joseph/": "Jeethu Joseph"
+    },
+    "genre": [
+      "Comedy",
+      "Crime"
+    ],
+    "average": 3.12,
+    "total": 4118,
+    "half": 41,
+    "one": 98,
+    "one_half": 127,
+    "two": 502,
+    "two_half": 793,
+    "three": 1351,
+    "three_half": 693,
+    "four": 387,
+    "four_half": 54,
+    "five": 72
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:20+05:30",
+    "letterboxd_slug": "manorathangal",
+    "name": "Manorathangal",
+    "originalName": "മനോരഥങ്ങൾ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/priyadarshan/": "Priyadarshan",
+      "/director/jayaraj/": "Jayaraj",
+      "/director/santosh-sivan/": "Santosh Sivan",
+      "/director/shyamaprasad/": "Shyamaprasad",
+      "/director/aswathy-v-nair/": "Aswathy V Nair",
+      "/director/rathish-ambat/": "Rathish Ambat",
+      "/director/mahesh-narayanan/": "Mahesh Narayanan",
+      "/director/ranjith-2/": "Ranjith"
+    },
+    "genre": [
+      "Comedy",
+      "Romance",
+      "Drama"
+    ],
+    "average": 3.18,
+    "total": 478,
+    "half": 4,
+    "one": 17,
+    "one_half": 26,
+    "two": 71,
+    "two_half": 82,
+    "three": 164,
+    "three_half": 44,
+    "four": 55,
+    "four_half": 5,
+    "five": 10
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T20:39+05:30",
+    "letterboxd_slug": "mottled-wood-owl",
+    "name": "Mottled Wood Owl",
+    "originalName": "Kuthichoolan (Mottled Wood Owl)",
+    "releaseYear": 2024,
+    "director": {
+      "/director/jinesh-p-k/": "Jinesh P K"
+    },
+    "genre": [
+      "Mystery",
+      "Drama"
+    ],
+    "three": 1,
+    "three_half": 2,
+    "four": 1,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:20+05:30",
+    "letterboxd_slug": "adios-amigo-2024",
+    "name": "Adios Amigo",
+    "originalName": "അഡിയോസ് അമിഗോ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/nahas-nazar/": "Nahas Nazar"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "average": 2.91,
+    "total": 2780,
+    "half": 61,
+    "one": 156,
+    "one_half": 190,
+    "two": 493,
+    "two_half": 586,
+    "three": 767,
+    "three_half": 292,
+    "four": 175,
+    "four_half": 29,
+    "five": 31
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:20+05:30",
+    "letterboxd_slug": "super-zindagi",
+    "name": "Super Zindagi",
+    "originalName": "സൂപ്പർ Zindagi",
+    "releaseYear": 2024,
+    "director": {
+      "/director/vintesh/": "Vintesh"
+    },
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "half": 4,
+    "one": 2,
+    "two": 1,
+    "two_half": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:20+05:30",
+    "letterboxd_slug": "checkmate-2024",
+    "name": "Checkmate",
+    "originalName": "ചെക്ക്മേറ്റ്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/ratish-sekhar/": "Ratish Sekhar"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 2,
+    "one": 1,
+    "one_half": 1,
+    "three": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:20+05:30",
+    "letterboxd_slug": "cicada-2024-1",
+    "name": "CICADA",
+    "originalName": "സിക്കാഡ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/sreejith-edavana/": "Sreejith Edavana"
+    },
+    "genre": [
+      "Thriller"
+    ],
+    "half": 1,
+    "two": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:20+05:30",
+    "letterboxd_slug": "creature-2024-2",
+    "name": "CREATURE",
+    "originalName": "JEEVI",
+    "releaseYear": 2024,
+    "director": {
+      "/director/aromal-r-lal/": "AROMAL R LAL"
+    },
+    "genre": [
+      "Fantasy"
+    ],
+    "half": 2,
+    "two": 1,
+    "three": 1,
+    "three_half": 1,
+    "four_half": 2,
+    "five": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:20+05:30",
+    "letterboxd_slug": "close-up-2024",
+    "name": "Close up",
+    "releaseYear": 2024,
+    "director": {
+      "/director/tylerchhe/": "Tylerchhe"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "two": 1,
+    "three_half": 2,
+    "four": 2,
+    "five": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:20+05:30",
+    "letterboxd_slug": "wednesday-morning-3-am-2024",
+    "name": "Wednesday Morning, 3 A.M.",
+    "releaseYear": 2024,
+    "director": {
+      "/director/bharath-krishnan/": "Bharath Krishnan"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "three": 1,
+    "four": 4,
+    "four_half": 1,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:01+05:30",
+    "letterboxd_slug": "l-learning-to-love",
+    "name": "L - Learning to Love",
+    "releaseYear": 2024,
+    "director": {
+      "/director/darshan-k/": "Darshan K"
+    },
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:20+05:30",
+    "letterboxd_slug": "level-cross",
+    "name": "Level Cross",
+    "originalName": "ലെവെൽ ക്രോസ്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/arfaz-ayub/": "Arfaz Ayub"
+    },
+    "genre": [
+      "Thriller",
+      "Drama"
+    ],
+    "average": 3.2,
+    "total": 2585,
+    "half": 8,
+    "one": 35,
+    "one_half": 67,
+    "two": 198,
+    "two_half": 368,
+    "three": 757,
+    "three_half": 602,
+    "four": 410,
+    "four_half": 68,
+    "five": 72
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:21+05:30",
+    "letterboxd_slug": "secret-2024",
+    "name": "Secret",
+    "releaseYear": 2024,
+    "director": {
+      "/director/s-n-swamy/": "S. N. Swamy"
+    },
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Thriller",
+      "Mystery"
+    ],
+    "half": 62,
+    "one": 35,
+    "one_half": 21,
+    "two": 10,
+    "two_half": 7,
+    "three": 1,
+    "three_half": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:21+05:30",
+    "letterboxd_slug": "panchayat-jetty",
+    "name": "Panchayat Jetty",
+    "originalName": "പഞ്ചായത്ത് ജെട്ടി",
+    "releaseYear": 2024,
+    "director": {
+      "/director/salim-hassan/": "Salim Hassan",
+      "/director/manikandan-pattambi-1/": "Manikandan Pattambi"
+    },
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "half": 5,
+    "one": 2,
+    "one_half": 3,
+    "two": 3,
+    "three": 4,
+    "four": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:21+05:30",
+    "letterboxd_slug": "grow-vasu",
+    "name": "GROW VASU",
+    "releaseYear": 2024,
+    "director": {
+      "/director/arshaq/": "Arshaq"
+    },
+    "genre": [
+      "History",
+      "Documentary"
+    ],
+    "three": 1,
+    "three_half": 1,
+    "four": 1,
+    "five": 8
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:21+05:30",
+    "letterboxd_slug": "vishesham",
+    "name": "Vishesham",
+    "originalName": "വിശേഷം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/sooraj-tom/": "Sooraj Tom"
+    },
+    "genre": [
+      "Comedy",
+      "Family",
+      "Drama"
+    ],
+    "average": 3.1,
+    "total": 928,
+    "half": 17,
+    "one": 43,
+    "one_half": 57,
+    "two": 157,
+    "two_half": 201,
+    "three": 236,
+    "three_half": 121,
+    "four": 63,
+    "four_half": 18,
+    "five": 15
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:21+05:30",
+    "letterboxd_slug": "nagendrans-honeymoons",
+    "name": "Nagendran's Honeymoons",
+    "releaseYear": 2024,
+    "director": {
+      "/director/nithin-renji-panicker/": "Nithin Renji Panicker"
+    },
+    "genre": [
+      "Comedy"
+    ],
+    "average": 2.96,
+    "total": 496,
+    "half": 36,
+    "one": 61,
+    "one_half": 59,
+    "two": 100,
+    "two_half": 81,
+    "three": 96,
+    "three_half": 29,
+    "four": 29,
+    "four_half": 1,
+    "five": 4
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:21+05:30",
+    "letterboxd_slug": "idiyan-chandhu",
+    "name": "Idiyan Chandhu",
+    "originalName": "ഇടിയൻ ചന്തു",
+    "releaseYear": 2024,
+    "director": {
+      "/director/sreejith-vijayan/": "Sreejith Vijayan"
+    },
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "average": 2.67,
+    "total": 431,
+    "half": 98,
+    "one": 106,
+    "one_half": 72,
+    "two": 78,
+    "two_half": 31,
+    "three": 31,
+    "three_half": 6,
+    "four": 7,
+    "five": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:21+05:30",
+    "letterboxd_slug": "samadhana-pusthakam",
+    "name": "Samadhana Pusthakam",
+    "originalName": "സമാധാന പുസ്തകം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/raveesh-nath/": "Raveesh Nath"
+    },
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Family"
+    ],
+    "half": 10,
+    "one": 19,
+    "one_half": 12,
+    "two": 16,
+    "two_half": 15,
+    "three": 11,
+    "three_half": 1,
+    "four": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:02+05:30",
+    "letterboxd_slug": "ramuvinte-manaivikal",
+    "name": "Ramuvinte Manaivikal",
+    "releaseYear": 2024,
+    "director": {
+      "/director/suthish-subramanyam/": "Suthish Subramanyam"
+    },
+    "genre": [
+      "Thriller",
+      "Mystery",
+      "Drama"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:21+05:30",
+    "letterboxd_slug": "ginger-biscuit",
+    "name": "Ginger Biscuit",
+    "releaseYear": 2024,
+    "genre": [
+      "Documentary"
+    ],
+    "two": 1,
+    "two_half": 2,
+    "three": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:21+05:30",
+    "letterboxd_slug": "mazhayude-varavu",
+    "name": "Mazhayude Varavu",
+    "releaseYear": 2024,
+    "director": {
+      "/director/arjun-ajith-nair/": "Arjun Ajith Nair"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "three_half": 1,
+    "four": 2,
+    "four_half": 2,
+    "five": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:21+05:30",
+    "letterboxd_slug": "kanakarajyam",
+    "name": "Kanakarajyam",
+    "originalName": "കനകരാജ്യം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/sagar-hari/": "Sagar Hari"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "one": 5,
+    "one_half": 11,
+    "two": 14,
+    "two_half": 14,
+    "three": 13,
+    "three_half": 4,
+    "four": 3,
+    "four_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:21+05:30",
+    "letterboxd_slug": "kurukku",
+    "name": "Kurukku",
+    "originalName": "കുരുക്ക്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/abhijith-noorani/": "Abhijith Noorani"
+    },
+    "genre": [
+      "Mystery",
+      "Crime",
+      "Thriller"
+    ],
+    "half": 5,
+    "one": 13,
+    "one_half": 4,
+    "two": 13,
+    "two_half": 6,
+    "three": 7,
+    "three_half": 2,
+    "four": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:21+05:30",
+    "letterboxd_slug": "partners-2024",
+    "name": "Partners",
+    "originalName": "പങ്കാളികൾ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/naveen-john/": "Naveen John"
+    },
+    "genre": [
+      "Thriller",
+      "Crime",
+      "Drama"
+    ],
+    "one": 3,
+    "one_half": 4,
+    "two": 2,
+    "two_half": 2,
+    "three": 3,
+    "three_half": 1,
+    "four": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:21+05:30",
+    "letterboxd_slug": "aazhi",
+    "name": "Aazhi",
+    "releaseYear": 2024,
+    "director": {
+      "/director/vivek-av/": "Vivek AV"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:21+05:30",
+    "letterboxd_slug": "pattaapakal",
+    "name": "Pattaapakal",
+    "originalName": "പട്ടാപകൽ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/saajir-sadaf/": "Saajir Sadaf"
+    },
+    "genre": [
+      "Music",
+      "Comedy"
+    ],
+    "half": 25,
+    "one": 11,
+    "one_half": 4,
+    "two": 6,
+    "two_half": 4,
+    "three": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:21+05:30",
+    "letterboxd_slug": "big-ben",
+    "name": "Big Ben",
+    "originalName": "ബിഗ് ബെൻ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/bino-augustine/": "Bino Augustine"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 1,
+    "one": 1,
+    "one_half": 1,
+    "two": 3,
+    "two_half": 3,
+    "three": 1,
+    "three_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:21+05:30",
+    "letterboxd_slug": "ullozhukku",
+    "name": "Ullozhukku",
+    "originalName": "ഉള്ളൊഴുക്ക്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/christo-tomy/": "Christo Tomy"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "average": 3.64,
+    "total": 5714,
+    "half": 8,
+    "one": 20,
+    "one_half": 24,
+    "two": 109,
+    "two_half": 207,
+    "three": 866,
+    "three_half": 1421,
+    "four": 2163,
+    "four_half": 477,
+    "five": 419
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:21+05:30",
+    "letterboxd_slug": "gaganachari",
+    "name": "Gaganachari",
+    "originalName": "ഗഗനചാരി",
+    "releaseYear": 2024,
+    "director": {
+      "/director/arun-chandu/": "Arun Chandu"
+    },
+    "genre": [
+      "Comedy",
+      "Science Fiction",
+      "Fantasy"
+    ],
+    "average": 3.42,
+    "total": 3688,
+    "half": 16,
+    "one": 40,
+    "one_half": 38,
+    "two": 138,
+    "two_half": 251,
+    "three": 768,
+    "three_half": 1023,
+    "four": 1014,
+    "four_half": 210,
+    "five": 190
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:21+05:30",
+    "letterboxd_slug": "nadanna-sambhavam",
+    "name": "Nadanna Sambhavam",
+    "originalName": "നടന്ന സംഭവം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/vishnu-narayanan/": "Vishnu Narayanan"
+    },
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "average": 2.9,
+    "total": 1206,
+    "half": 64,
+    "one": 119,
+    "one_half": 136,
+    "two": 250,
+    "two_half": 247,
+    "three": 263,
+    "three_half": 83,
+    "four": 36,
+    "four_half": 4,
+    "five": 4
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:22+05:30",
+    "letterboxd_slug": "swargathile-katturumbu",
+    "name": "Swargathile Katturumbu",
+    "originalName": "സ്വർഗ്ഗത്തിലെ  കട്ടുറുമ്പു",
+    "releaseYear": 2024,
+    "director": {
+      "/director/jespal-shamugham/": "Jespal Shamugham"
+    },
+    "genre": [],
+    "four": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:22+05:30",
+    "letterboxd_slug": "dna-2024",
+    "name": "DNA",
+    "releaseYear": 2024,
+    "director": {
+      "/director/t-s-suresh-babu/": "T S Suresh Babu"
+    },
+    "genre": [
+      "Drama",
+      "Thriller"
+    ],
+    "half": 9,
+    "one": 4,
+    "one_half": 3,
+    "two": 6
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:22+05:30",
+    "letterboxd_slug": "dna-2024-1",
+    "name": "DNA",
+    "releaseYear": 2024,
+    "director": {
+      "/director/t-s-suresh-babu/": "T S Suresh Babu"
+    },
+    "genre": [
+      "Crime",
+      "Drama"
+    ],
+    "one": 1,
+    "two": 1,
+    "two_half": 1,
+    "three": 1,
+    "three_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:03+05:30",
+    "letterboxd_slug": "murivu",
+    "name": "Murivu",
+    "releaseYear": 2024,
+    "director": {
+      "/director/k-shemeer/": "K. Shemeer"
+    },
+    "genre": []
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:22+05:30",
+    "letterboxd_slug": "grrr-2024",
+    "name": "Grrr..",
+    "originalName": "ഗ്ർർർ..",
+    "releaseYear": 2024,
+    "director": {
+      "/director/jay-k/": "Jay K"
+    },
+    "genre": [
+      "Drama",
+      "Comedy"
+    ],
+    "average": 2.56,
+    "total": 1060,
+    "half": 221,
+    "one": 248,
+    "one_half": 173,
+    "two": 209,
+    "two_half": 95,
+    "three": 74,
+    "three_half": 18,
+    "four": 14,
+    "four_half": 3,
+    "five": 5
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:22+05:30",
+    "letterboxd_slug": "golam",
+    "name": "Golam",
+    "originalName": "ഗോളം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/samjad-p-s/": "Samjad P S"
+    },
+    "genre": [
+      "Crime",
+      "Thriller"
+    ],
+    "average": 3.18,
+    "total": 5279,
+    "half": 17,
+    "one": 46,
+    "one_half": 76,
+    "two": 374,
+    "two_half": 684,
+    "three": 1778,
+    "three_half": 1324,
+    "four": 739,
+    "four_half": 115,
+    "five": 126
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:22+05:30",
+    "letterboxd_slug": "little-hearts-2024",
+    "name": "Little Hearts",
+    "originalName": "ലിറ്റില്‍ ഹാര്‍ട്‍സ്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/aby-treesa-paul/": "Aby Treesa Paul",
+      "/director/anto-jose-periera/": "Anto Jose Periera"
+    },
+    "genre": [
+      "Romance",
+      "Comedy"
+    ],
+    "average": 2.86,
+    "total": 926,
+    "half": 79,
+    "one": 112,
+    "one_half": 111,
+    "two": 184,
+    "two_half": 174,
+    "three": 185,
+    "three_half": 50,
+    "four": 25,
+    "four_half": 2,
+    "five": 4
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:22+05:30",
+    "letterboxd_slug": "three-sons-of-narayani",
+    "name": "Three Sons of Narayani",
+    "originalName": "Narayaneente Moonnaanmakkal",
+    "releaseYear": 2024,
+    "director": {
+      "/director/sharan-venugopal/": "Sharan Venugopal"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "two_half": 4,
+    "three": 6,
+    "three_half": 3,
+    "four_half": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:22+05:30",
+    "letterboxd_slug": "remote-control-2024",
+    "name": "Remote Control",
+    "releaseYear": 2024,
+    "director": {
+      "/director/prince-antony/": "Prince Antony"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:22+05:30",
+    "letterboxd_slug": "swakaryam-sambhava-bahulam",
+    "name": "Swakaryam Sambhava Bahulam",
+    "originalName": "സ്വകാര്യം സംഭവ ബഹുലം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/naseer-badarudeen/": "Naseer Badarudeen"
+    },
+    "genre": [
+      "Mystery",
+      "Crime",
+      "Drama"
+    ],
+    "half": 9,
+    "one": 21,
+    "one_half": 6,
+    "two": 8,
+    "two_half": 4,
+    "three": 4,
+    "three_half": 1,
+    "four": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:22+05:30",
+    "letterboxd_slug": "pombalai-orumai",
+    "name": "Pombalai Orumai",
+    "releaseYear": 2024,
+    "director": {
+      "/director/vipin-atley/": "Vipin Atley"
+    },
+    "genre": [
+      "Thriller"
+    ],
+    "half": 2,
+    "one": 1,
+    "one_half": 3,
+    "two": 4,
+    "two_half": 4,
+    "three": 23,
+    "three_half": 6,
+    "four": 4,
+    "five": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:22+05:30",
+    "letterboxd_slug": "once-upon-a-time-in-kochi",
+    "name": "Once Upon a Time in Kochi",
+    "originalName": "വൺസ് അപ്പോൺ എ ടൈം ഇൻ കൊച്ചി",
+    "releaseYear": 2024,
+    "director": {
+      "/director/nadirshah/": "Nadirshah"
+    },
+    "genre": [
+      "Comedy"
+    ],
+    "half": 7,
+    "one": 8,
+    "one_half": 2,
+    "two": 2,
+    "two_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:22+05:30",
+    "letterboxd_slug": "andru-the-man",
+    "name": "Andru the Man",
+    "originalName": "ആൻഡ്രു ദി മാന്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/sivakumar-kankal/": "Sivakumar Kankal"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "one_half": 1,
+    "two": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:22+05:30",
+    "letterboxd_slug": "kundala-puranam",
+    "name": "Kundala Puranam",
+    "originalName": "കുണ്ഡല പുരാണം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/santhosh-puthukkunnu/": "Santhosh Puthukkunnu"
+    },
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "half": 1,
+    "one_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:22+05:30",
+    "letterboxd_slug": "kudumba-sthreeyum-kunjadum",
+    "name": "Kudumba Sthreeyum Kunjadum",
+    "originalName": "കുടുംബ സ്ത്രീയും കുഞ്ഞാടും",
+    "releaseYear": 2024,
+    "director": {
+      "/director/mahesh-p-sreenivasan/": "Mahesh P. Sreenivasan"
+    },
+    "genre": [
+      "Comedy"
+    ],
+    "half": 2,
+    "one": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:22+05:30",
+    "letterboxd_slug": "thalavan",
+    "name": "Thalavan",
+    "originalName": "തലവൻ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/jis-joy/": "Jis Joy"
+    },
+    "genre": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "average": 3.25,
+    "total": 6581,
+    "half": 15,
+    "one": 34,
+    "one_half": 55,
+    "two": 313,
+    "two_half": 710,
+    "three": 2307,
+    "three_half": 1845,
+    "four": 1028,
+    "four_half": 144,
+    "five": 130
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:22+05:30",
+    "letterboxd_slug": "mandakini",
+    "name": "Mandakini",
+    "originalName": "മന്ദാകിനി",
+    "releaseYear": 2024,
+    "director": {
+      "/director/vinod-leela/": "Vinod Leela"
+    },
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "average": 2.87,
+    "total": 2022,
+    "half": 100,
+    "one": 210,
+    "one_half": 194,
+    "two": 419,
+    "two_half": 419,
+    "three": 460,
+    "three_half": 130,
+    "four": 63,
+    "four_half": 14,
+    "five": 13
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T20:41+05:30",
+    "letterboxd_slug": "all-we-imagine-as-light",
+    "name": "All We Imagine as Light",
+    "originalName": "പ്രഭയായ് നിനച്ചതെല്ലാം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/payal-kapadia/": "Payal Kapadia"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "average": 3.87,
+    "total": 27089,
+    "half": 39,
+    "one": 120,
+    "one_half": 130,
+    "two": 607,
+    "two_half": 1058,
+    "three": 3513,
+    "three_half": 5195,
+    "four": 9284,
+    "four_half": 3994,
+    "five": 3149
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:22+05:30",
+    "letterboxd_slug": "turbo-2024",
+    "name": "Turbo",
+    "originalName": "ടർബോ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/vysakh-1/": "Vysakh"
+    },
+    "genre": [
+      "Action",
+      "Comedy",
+      "Drama"
+    ],
+    "average": 2.74,
+    "total": 5155,
+    "half": 126,
+    "one": 355,
+    "one_half": 380,
+    "two": 1034,
+    "two_half": 1179,
+    "three": 1283,
+    "three_half": 491,
+    "four": 234,
+    "four_half": 22,
+    "five": 51
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:22+05:30",
+    "letterboxd_slug": "cid-ramachandran-retd-si",
+    "name": "CID Ramachandran Retd SI",
+    "originalName": "CID രാമചന്ദ്രൻ Retd SI",
+    "releaseYear": 2024,
+    "director": {
+      "/director/sanoop-sathyan/": "Sanoop Sathyan"
+    },
+    "genre": [
+      "Thriller",
+      "Crime"
+    ],
+    "average": 3.13,
+    "total": 821,
+    "half": 3,
+    "one": 12,
+    "one_half": 35,
+    "two": 128,
+    "two_half": 200,
+    "three": 274,
+    "three_half": 117,
+    "four": 44,
+    "four_half": 3,
+    "five": 5
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:15+05:30",
+    "letterboxd_slug": "gu-2024",
+    "name": "Gu",
+    "releaseYear": 2024,
+    "director": {
+      "/director/manu-radhakrishnan/": "Manu Radhakrishnan"
+    },
+    "genre": [
+      "Drama",
+      "Horror"
+    ],
+    "half": 2,
+    "one": 2,
+    "two": 5,
+    "two_half": 2,
+    "three": 3,
+    "three_half": 3,
+    "four": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:15+05:30",
+    "letterboxd_slug": "guruvayoorambala-nadayil",
+    "name": "Guruvayoorambala Nadayil",
+    "originalName": "ഗുരുവായൂരമ്പല നടയിൽ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/vipin-das-1/": "Vipin Das"
+    },
+    "genre": [
+      "Comedy"
+    ],
+    "average": 3.02,
+    "total": 12419,
+    "half": 82,
+    "one": 165,
+    "one_half": 246,
+    "two": 949,
+    "two_half": 1791,
+    "three": 4100,
+    "three_half": 2837,
+    "four": 1698,
+    "four_half": 271,
+    "five": 280
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:22+05:30",
+    "letterboxd_slug": "sureshanteyum-sumalathayudeyum-hrudayahariyaya-pranayakadha",
+    "name": "Sureshanteyum Sumalathayudeyum Hrudayahariyaya Pranayakadha",
+    "originalName": "സുരേശന്‍റേയും സുമലതയുടേയും ഹൃദയഹാരിയായ പ്രണയകഥ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/ratheesh-balakrishnan-poduval/": "Ratheesh Balakrishnan Poduval"
+    },
+    "genre": [
+      "Fantasy",
+      "Comedy"
+    ],
+    "half": 7,
+    "one": 19,
+    "one_half": 10,
+    "two": 31,
+    "two_half": 28,
+    "three": 34,
+    "three_half": 19,
+    "four": 30,
+    "four_half": 4,
+    "five": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:23+05:30",
+    "letterboxd_slug": "perumani",
+    "name": "Perumani",
+    "originalName": "പെരുമാനി",
+    "releaseYear": 2024,
+    "director": {
+      "/director/maju/": "Maju"
+    },
+    "genre": [
+      "Fantasy",
+      "Comedy"
+    ],
+    "one": 3,
+    "one_half": 2,
+    "two": 7,
+    "two_half": 21,
+    "three": 37,
+    "three_half": 46,
+    "four": 31,
+    "four_half": 5,
+    "five": 6
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:23+05:30",
+    "letterboxd_slug": "marivillin-gopurangal",
+    "name": "Marivillin Gopurangal",
+    "originalName": "മാരിവില്ലിൻ ഗോപുരങ്ങൾ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/arun-bose/": "Arun Bose"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 4,
+    "one": 1,
+    "one_half": 7,
+    "two": 4,
+    "two_half": 7,
+    "three": 5,
+    "three_half": 1,
+    "four": 3,
+    "four_half": 1,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:23+05:30",
+    "letterboxd_slug": "the-past-the-present-the-ghost",
+    "name": "The Past, the Present & the Ghost",
+    "originalName": "ഭൂതം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/shinos-rahman/": "Shinos Rahman",
+      "/director/sajas-rahman/": "Sajas Rahman"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "two_half": 1,
+    "three": 1,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:23+05:30",
+    "letterboxd_slug": "aaro",
+    "name": "Aaro",
+    "originalName": "ആരോ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/v-k-kareem/": "V K Kareem"
+    },
+    "genre": [],
+    "half": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:23+05:30",
+    "letterboxd_slug": "abyss-of-want",
+    "name": "Abyss of want",
+    "releaseYear": 2024,
+    "director": {
+      "/director/ibrahim-2/": "Ibrahim"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "one": 1,
+    "three": 4,
+    "five": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:23+05:30",
+    "letterboxd_slug": "her-2024",
+    "name": "Her",
+    "releaseYear": 2024,
+    "director": {
+      "/director/sudarshan-rao-ms/": "Sudarshan Rao MS"
+    },
+    "genre": [
+      "Horror"
+    ],
+    "one": 1,
+    "one_half": 1,
+    "three_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:23+05:30",
+    "letterboxd_slug": "nadikar",
+    "name": "Nadikar",
+    "originalName": "നടികര്‍",
+    "releaseYear": 2024,
+    "director": {
+      "/director/lal-jr-1/": "Lal Jr."
+    },
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "average": 2.89,
+    "total": 772,
+    "half": 49,
+    "one": 81,
+    "one_half": 102,
+    "two": 191,
+    "two_half": 155,
+    "three": 139,
+    "three_half": 32,
+    "four": 19,
+    "four_half": 2,
+    "five": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:23+05:30",
+    "letterboxd_slug": "malayalee-from-india",
+    "name": "Malayalee from India",
+    "originalName": "മലയാളി ഫ്രം ഇന്ത്യ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/dijo-jose-antony/": "Dijo Jose Antony"
+    },
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "average": 2.66,
+    "total": 3199,
+    "half": 307,
+    "one": 360,
+    "one_half": 335,
+    "two": 666,
+    "two_half": 629,
+    "three": 584,
+    "three_half": 194,
+    "four": 94,
+    "four_half": 9,
+    "five": 21
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:12+05:30",
+    "letterboxd_slug": "aadrika",
+    "name": "Aadrika",
+    "releaseYear": 2024,
+    "director": {
+      "/director/abhijit-adhya/": "Abhijit Adhya"
+    },
+    "genre": [
+      "Drama",
+      "Crime"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:23+05:30",
+    "letterboxd_slug": "pavi-caretaker",
+    "name": "Pavi Caretaker",
+    "originalName": "പവി കെയർടേക്കർ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/vineeth-kumar/": "Vineeth Kumar"
+    },
+    "genre": [
+      "Comedy",
+      "Romance"
+    ],
+    "average": 2.79,
+    "total": 1046,
+    "half": 81,
+    "one": 140,
+    "one_half": 146,
+    "two": 230,
+    "two_half": 212,
+    "three": 165,
+    "three_half": 48,
+    "four": 16,
+    "four_half": 3,
+    "five": 5
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:23+05:30",
+    "letterboxd_slug": "panchavalsara-padhathi",
+    "name": "Panchavalsara Padhathi",
+    "originalName": "പഞ്ചവത്സര പദ്ധതി",
+    "releaseYear": 2024,
+    "director": {
+      "/director/premlal/": "Premlal"
+    },
+    "genre": [
+      "Comedy"
+    ],
+    "half": 4,
+    "two": 6
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:23+05:30",
+    "letterboxd_slug": "everything-is-more-beautiful-because-were-doomed",
+    "name": "Everything is More Beautiful Because We're Doomed",
+    "releaseYear": 2024,
+    "director": {
+      "/director/athul-kishan/": "Athul Kishan"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "three": 1,
+    "three_half": 2,
+    "four": 6,
+    "four_half": 1,
+    "five": 11
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:23+05:30",
+    "letterboxd_slug": "udanadi-mangalyam",
+    "name": "Udanadi Mangalyam",
+    "releaseYear": 2024,
+    "director": {
+      "/director/vishnu-rathikumar/": "Vishnu Rathikumar"
+    },
+    "genre": [
+      "Family",
+      "Drama"
+    ],
+    "half": 2,
+    "one": 2,
+    "one_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:23+05:30",
+    "letterboxd_slug": "four-thieves",
+    "name": "Four Thieves",
+    "originalName": "Chaar Chor",
+    "releaseYear": 2024,
+    "director": {
+      "/director/nithin-narayanan/": "Nithin Narayanan"
+    },
+    "genre": [
+      "Comedy"
+    ],
+    "half": 4,
+    "two": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:15+05:30",
+    "letterboxd_slug": "aavesham-2024",
+    "name": "Aavesham",
+    "originalName": "ആവേശം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/jithu-madhavan/": "Jithu Madhavan"
+    },
+    "genre": [
+      "Comedy",
+      "Action"
+    ],
+    "average": 3.81,
+    "total": 34545,
+    "half": 39,
+    "one": 76,
+    "one_half": 86,
+    "two": 406,
+    "two_half": 788,
+    "three": 3698,
+    "three_half": 6793,
+    "four": 12958,
+    "four_half": 4614,
+    "five": 5087
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:23+05:30",
+    "letterboxd_slug": "varshangalkku-shesham",
+    "name": "Varshangalkku Shesham",
+    "originalName": "വർഷങ്ങൾക്ക് ശേഷം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/vineeth-sreenivasan/": "Vineeth Sreenivasan"
+    },
+    "genre": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "average": 2.95,
+    "total": 9101,
+    "half": 145,
+    "one": 343,
+    "one_half": 381,
+    "two": 1064,
+    "two_half": 1313,
+    "three": 2356,
+    "three_half": 1578,
+    "four": 1329,
+    "four_half": 288,
+    "five": 304
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:23+05:30",
+    "letterboxd_slug": "jai-ganesh",
+    "name": "Jai Ganesh",
+    "originalName": "ജയ് ഗണേഷ്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/ranjith-sankar/": "Ranjith Sankar"
+    },
+    "genre": [
+      "Drama",
+      "Thriller"
+    ],
+    "average": 2.92,
+    "total": 1301,
+    "half": 37,
+    "one": 100,
+    "one_half": 106,
+    "two": 284,
+    "two_half": 312,
+    "three": 277,
+    "three_half": 130,
+    "four": 44,
+    "four_half": 6,
+    "five": 5
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:07+05:30",
+    "letterboxd_slug": "off-beat-journey",
+    "name": "Off Beat Journey",
+    "releaseYear": 2024,
+    "director": {
+      "/director/galeeli-sulabhan/": "Galeeli Sulabhan"
+    },
+    "genre": [
+      "Documentary"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:07+05:30",
+    "letterboxd_slug": "neelakkuyil",
+    "name": "Neelakkuyil",
+    "originalName": "നീലക്കുയിൽ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/k-n-hariprasad/": "K N Hariprasad"
+    },
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:23+05:30",
+    "letterboxd_slug": "war-ft-mary",
+    "name": "War ft mary",
+    "releaseYear": 2024,
+    "director": {
+      "/director/athulkrishna/": "Athulkrishna"
+    },
+    "genre": [
+      "Comedy"
+    ],
+    "one_half": 1,
+    "two": 1,
+    "five": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:23+05:30",
+    "letterboxd_slug": "vayasethrayaayi-muppathiee",
+    "name": "Vayasethrayaayi Muppathiee",
+    "originalName": "വയസ്സെത്രയായി മുപ്പത്തീ..!!",
+    "releaseYear": 2024,
+    "director": {
+      "/director/pappan-t-nambiar/": "Pappan T Nambiar"
+    },
+    "genre": [],
+    "half": 19,
+    "one": 4,
+    "one_half": 9,
+    "two": 8,
+    "two_half": 6,
+    "three": 5,
+    "three_half": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:23+05:30",
+    "letterboxd_slug": "the-goat-life",
+    "name": "The Goat Life",
+    "originalName": "ആടുജീവിതം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/blessy/": "Blessy"
+    },
+    "genre": [
+      "Adventure",
+      "Drama"
+    ],
+    "average": 3.44,
+    "total": 19595,
+    "half": 314,
+    "one": 197,
+    "one_half": 162,
+    "two": 594,
+    "two_half": 980,
+    "three": 3430,
+    "three_half": 3942,
+    "four": 5683,
+    "four_half": 1987,
+    "five": 2306
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:23+05:30",
+    "letterboxd_slug": "secret-home",
+    "name": "Secret Home",
+    "releaseYear": 2024,
+    "director": {
+      "/director/abhayakumar/": "Abhayakumar"
+    },
+    "genre": [
+      "Drama",
+      "Crime"
+    ],
+    "half": 2,
+    "one": 1,
+    "one_half": 2,
+    "two": 3,
+    "two_half": 2,
+    "four": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:12+05:30",
+    "letterboxd_slug": "kolahalam",
+    "name": "Kolahalam",
+    "releaseYear": 2024,
+    "director": {
+      "/director/rasheed-parambil/": "Rasheed Parambil"
+    },
+    "genre": [
+      "Comedy",
+      "Drama"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:23+05:30",
+    "letterboxd_slug": "thespians-of-aattam",
+    "name": "Thespians of Aattam",
+    "releaseYear": 2024,
+    "director": {
+      "/director/ananthakrishnan-gopinathan/": "Ananthakrishnan Gopinathan"
+    },
+    "genre": [
+      "Documentary"
+    ],
+    "three_half": 1,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:23+05:30",
+    "letterboxd_slug": "anchakkallakokkan",
+    "name": "Anchakkallakokkan",
+    "originalName": "അഞ്ചക്കള്ളക്കോക്കാൻ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/ullas-jose-chemban/": "Ullas Jose Chemban"
+    },
+    "genre": [
+      "Action",
+      "Thriller",
+      "Drama"
+    ],
+    "average": 3.14,
+    "total": 2898,
+    "half": 30,
+    "one": 61,
+    "one_half": 97,
+    "two": 353,
+    "two_half": 485,
+    "three": 885,
+    "three_half": 551,
+    "four": 351,
+    "four_half": 43,
+    "five": 42
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:15+05:30",
+    "letterboxd_slug": "jananam-1947-pranayam-thudarunnu",
+    "name": "Jananam 1947 Pranayam Thudarunnu",
+    "releaseYear": 2024,
+    "director": {
+      "/director/abijith-asokan/": "Abijith Asokan"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "one": 2,
+    "one_half": 2,
+    "two": 16,
+    "two_half": 17,
+    "three": 41,
+    "three_half": 44,
+    "four": 51,
+    "four_half": 11,
+    "five": 9
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:15+05:30",
+    "letterboxd_slug": "matinee-2024",
+    "name": "Matinee",
+    "originalName": "മാറ്റിനി",
+    "releaseYear": 2024,
+    "director": {
+      "/director/hazmil-hussain/": "Hazmil Hussain"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 2,
+    "two_half": 1,
+    "three": 4,
+    "three_half": 1,
+    "four": 10,
+    "five": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:15+05:30",
+    "letterboxd_slug": "enigma-shattered-reality",
+    "name": "ENIGMA - shattered reality",
+    "releaseYear": 2024,
+    "director": {
+      "/director/fleming-christy/": "Fleming christy"
+    },
+    "genre": [
+      "Thriller",
+      "Drama"
+    ],
+    "five": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:15+05:30",
+    "letterboxd_slug": "whispers-of-the-lost",
+    "name": "Whispers Of The Lost",
+    "releaseYear": 2024,
+    "director": {
+      "/director/ramesh-menon-1/": "Ramesh Menon"
+    },
+    "genre": [
+      "Action"
+    ],
+    "two": 1,
+    "two_half": 1,
+    "three": 18,
+    "three_half": 8,
+    "four": 16,
+    "four_half": 3,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:15+05:30",
+    "letterboxd_slug": "agathokakological",
+    "name": "Agathokakological",
+    "originalName": "അഗതോകകോളജിക്കൽ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/c-d-venkitesh/": "C D Venkitesh"
+    },
+    "genre": [
+      "Thriller",
+      "Crime"
+    ],
+    "half": 8,
+    "one": 8,
+    "one_half": 10,
+    "two": 10,
+    "two_half": 3,
+    "three": 8,
+    "three_half": 3,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:15+05:30",
+    "letterboxd_slug": "oru-sarkar-ulpannam",
+    "name": "Oru Sarkar Ulpannam",
+    "originalName": "ഒരു  സർക്കാർ ഉൽപ്പന്നം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/t-v-renjith/": "T V Renjith"
+    },
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "one": 4,
+    "one_half": 2,
+    "two": 6,
+    "two_half": 4,
+    "three": 8,
+    "three_half": 1,
+    "four": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:15+05:30",
+    "letterboxd_slug": "exit-2024",
+    "name": "Exit",
+    "releaseYear": 2024,
+    "director": {
+      "/director/shaheen-mohammed/": "Shaheen Mohammed"
+    },
+    "genre": [
+      "Thriller"
+    ],
+    "half": 1,
+    "one": 2,
+    "two": 3,
+    "three": 3,
+    "three_half": 1,
+    "four": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:15+05:30",
+    "letterboxd_slug": "manasa-vacha",
+    "name": "Manasa Vacha",
+    "originalName": "മനസാ വാചാ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/sreekumar-podiyan/": "Sreekumar Podiyan"
+    },
+    "genre": [],
+    "half": 1,
+    "one": 1,
+    "one_half": 2,
+    "two_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:15+05:30",
+    "letterboxd_slug": "thankamani",
+    "name": "Thankamani",
+    "originalName": "തങ്കമണി",
+    "releaseYear": 2024,
+    "director": {
+      "/director/ratheesh-reghunandan/": "Ratheesh Reghunandan"
+    },
+    "genre": [
+      "Crime",
+      "Drama"
+    ],
+    "half": 18,
+    "one": 25,
+    "one_half": 22,
+    "two": 18,
+    "two_half": 15,
+    "three": 5,
+    "three_half": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:15+05:30",
+    "letterboxd_slug": "roots-2024",
+    "name": "Roots",
+    "originalName": "വേരുകൾ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/sai-challenge-lal/": "Sai Challenge Lal"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "three": 4,
+    "three_half": 1,
+    "four": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:15+05:30",
+    "letterboxd_slug": "anandapuram-diaries",
+    "name": "Anandapuram Diaries",
+    "originalName": "ആനന്ദപുരം ഡയറീസ്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/jaya-jose-raj/": "Jaya Jose Raj"
+    },
+    "genre": [
+      "Drama",
+      "Thriller"
+    ],
+    "half": 35,
+    "one": 9,
+    "one_half": 4,
+    "two": 1,
+    "two_half": 1,
+    "three": 3,
+    "three_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:15+05:30",
+    "letterboxd_slug": "kadakan",
+    "name": "Kadakan",
+    "originalName": "കടകൻ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/sajil-mampad/": "Sajil Mampad"
+    },
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "half": 1,
+    "one": 3,
+    "one_half": 6,
+    "two": 2,
+    "two_half": 1,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:15+05:30",
+    "letterboxd_slug": "prem-lekhan",
+    "name": "PREM LEKHAN",
+    "releaseYear": 2024,
+    "director": {
+      "/director/akshay-t-shaji/": "Akshay t Shaji",
+      "/director/suhas-r-varma/": "Suhas R Varma"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 1,
+    "one": 1,
+    "one_half": 1,
+    "two": 1,
+    "three_half": 1,
+    "four": 2,
+    "five": 6
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:13+05:30",
+    "letterboxd_slug": "the-spoils-2024",
+    "name": "The SpOils",
+    "releaseYear": 2024,
+    "director": {
+      "/director/manjith-divakar/": "Manjith Divakar"
+    },
+    "genre": []
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:16+05:30",
+    "letterboxd_slug": "sasneham-suhra",
+    "name": "Sasneham Suhra",
+    "originalName": "സസ്നേഹം സുഹ്‌റ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/sreehari-gadha/": "Sreehari Gadha"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "one": 2,
+    "two_half": 1,
+    "three": 2,
+    "three_half": 4,
+    "four": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:14+05:30",
+    "letterboxd_slug": "or-2024",
+    "name": "OR",
+    "releaseYear": 2024,
+    "director": {
+      "/director/madhavendra/": "Madhavendra"
+    },
+    "genre": [
+      "Drama",
+      "Science Fiction",
+      "Fantasy",
+      "Crime"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:16+05:30",
+    "letterboxd_slug": "poacher-2024-1",
+    "name": "Poacher",
+    "releaseYear": 2024,
+    "director": {
+      "/director/richie-mehta/": "Richie Mehta"
+    },
+    "genre": [
+      "Crime",
+      "Drama"
+    ],
+    "average": 3.51,
+    "total": 496,
+    "half": 2,
+    "one": 3,
+    "one_half": 3,
+    "two": 13,
+    "two_half": 27,
+    "three": 101,
+    "three_half": 122,
+    "four": 144,
+    "four_half": 39,
+    "five": 42
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:16+05:30",
+    "letterboxd_slug": "manjummel-boys",
+    "name": "Manjummel Boys",
+    "originalName": "മഞ്ഞുമ്മല്‍ BOYS",
+    "releaseYear": 2024,
+    "director": {
+      "/director/chidambaram-1/": "Chidambaram"
+    },
+    "genre": [
+      "Drama",
+      "Thriller",
+      "Adventure"
+    ],
+    "average": 3.97,
+    "total": 32708,
+    "half": 20,
+    "one": 45,
+    "one_half": 48,
+    "two": 211,
+    "two_half": 508,
+    "three": 2879,
+    "three_half": 5415,
+    "four": 12249,
+    "four_half": 5258,
+    "five": 6075
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:16+05:30",
+    "letterboxd_slug": "the-suspect-list",
+    "name": "The Suspect List",
+    "originalName": "ദി സസ്‌പെക്ട ലിസ്റ്റ്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/irfan-kamal-1/": "Irfan Kamal"
+    },
+    "genre": [
+      "Thriller"
+    ],
+    "half": 1,
+    "one": 4,
+    "one_half": 2,
+    "two": 3,
+    "two_half": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:16+05:30",
+    "letterboxd_slug": "thundu",
+    "name": "Thundu",
+    "originalName": "തുണ്ട്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/riyas-shereef/": "Riyas Shereef"
+    },
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "average": 2.72,
+    "total": 2002,
+    "half": 92,
+    "one": 250,
+    "one_half": 232,
+    "two": 488,
+    "two_half": 357,
+    "three": 320,
+    "three_half": 106,
+    "four": 48,
+    "four_half": 5,
+    "five": 104
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:16+05:30",
+    "letterboxd_slug": "andhakaara",
+    "name": "Andhakaara",
+    "originalName": "അന്ധകാരാ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/vasudev-sanal/": "Vasudev Sanal"
+    },
+    "genre": [
+      "Thriller",
+      "Crime"
+    ],
+    "half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:16+05:30",
+    "letterboxd_slug": "manas-2024",
+    "name": "Manas",
+    "originalName": "മനസ്സ്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/babu-thiruvalla/": "Babu Thiruvalla"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "two": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:16+05:30",
+    "letterboxd_slug": "bramayugam",
+    "name": "Bramayugam",
+    "originalName": "ഭ്രമയുഗം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/rahul-sadasivan/": "Rahul Sadasivan"
+    },
+    "genre": [
+      "Horror",
+      "Thriller",
+      "Drama"
+    ],
+    "average": 3.8,
+    "total": 21998,
+    "half": 20,
+    "one": 70,
+    "one_half": 74,
+    "two": 313,
+    "two_half": 584,
+    "three": 2505,
+    "three_half": 4252,
+    "four": 8531,
+    "four_half": 3216,
+    "five": 2433
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:16+05:30",
+    "letterboxd_slug": "romeo-laiju",
+    "name": "Romeo Laiju",
+    "originalName": "റോമിയോ ലൈജു",
+    "releaseYear": 2024,
+    "director": {
+      "/director/akhil-abdulkhader/": "Akhil Abdulkhader"
+    },
+    "genre": [
+      "Romance",
+      "Comedy"
+    ],
+    "one": 2,
+    "one_half": 1,
+    "two": 1,
+    "two_half": 3,
+    "three": 3,
+    "three_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:16+05:30",
+    "letterboxd_slug": "premalu",
+    "name": "Premalu",
+    "originalName": "പ്രേമലു",
+    "releaseYear": 2024,
+    "director": {
+      "/director/girish-a-d/": "Girish A D"
+    },
+    "genre": [
+      "Comedy",
+      "Romance"
+    ],
+    "average": 3.67,
+    "total": 25727,
+    "half": 72,
+    "one": 118,
+    "one_half": 98,
+    "two": 501,
+    "two_half": 975,
+    "three": 3975,
+    "three_half": 5840,
+    "four": 8800,
+    "four_half": 2477,
+    "five": 2871
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:16+05:30",
+    "letterboxd_slug": "anweshippin-kandethum",
+    "name": "Anweshippin Kandethum",
+    "originalName": "അന്വേഷിപ്പിൻ കണ്ടെത്തും",
+    "releaseYear": 2024,
+    "director": {
+      "/director/darwin-kuriakose/": "Darwin Kuriakose"
+    },
+    "genre": [
+      "Thriller",
+      "Crime",
+      "Drama"
+    ],
+    "average": 3.29,
+    "total": 12037,
+    "half": 15,
+    "one": 53,
+    "one_half": 57,
+    "two": 397,
+    "two_half": 1014,
+    "three": 3927,
+    "three_half": 3665,
+    "four": 2206,
+    "four_half": 338,
+    "five": 365
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:16+05:30",
+    "letterboxd_slug": "jerry-2024",
+    "name": "Jerry",
+    "releaseYear": 2024,
+    "director": {
+      "/director/anish-uday/": "Anish Uday"
+    },
+    "genre": [],
+    "half": 1,
+    "two": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:21+05:30",
+    "letterboxd_slug": "menu-2024",
+    "name": "Menu",
+    "releaseYear": 2024,
+    "director": {
+      "/director/christon-joseph/": "Christon Joseph"
+    },
+    "genre": []
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T20:35+05:30",
+    "letterboxd_slug": "iyer-in-arabia",
+    "name": "Iyer In Arabia",
+    "originalName": "അയ്യർ ഇൻ അറേബ്യ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/nishad-m-a/": "Nishad M A"
+    },
+    "genre": [
+      "Drama",
+      "Family",
+      "Comedy"
+    ],
+    "half": 4,
+    "one": 5,
+    "one_half": 6,
+    "two": 5,
+    "two_half": 2,
+    "three": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:16+05:30",
+    "letterboxd_slug": "songs-from-eternity",
+    "name": "Songs from Eternity",
+    "releaseYear": 2024,
+    "director": {
+      "/director/arundev/": "Arundev"
+    },
+    "genre": [
+      "Fantasy",
+      "Drama"
+    ],
+    "two": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:16+05:30",
+    "letterboxd_slug": "llb-life-line-of-bachelors",
+    "name": "LLB (Life Line of Bachelors)",
+    "originalName": "എൽഎൽബി (ലൈഫ് ലൈൻ ഓഫ് ബാച്ചിലേഴ്സ്)",
+    "releaseYear": 2024,
+    "director": {
+      "/director/am-sidhique/": "A.M. Sidhique"
+    },
+    "genre": [
+      "Drama",
+      "Thriller"
+    ],
+    "half": 6,
+    "one": 2,
+    "two_half": 1,
+    "three_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:16+05:30",
+    "letterboxd_slug": "malaikottai-vaaliban",
+    "name": "Malaikottai Vaaliban",
+    "originalName": "മലൈക്കോട്ടൈ വാലിബന്‍",
+    "releaseYear": 2024,
+    "director": {
+      "/director/lijo-jose-pellissery/": "Lijo Jose Pellissery"
+    },
+    "genre": [
+      "Action",
+      "Drama",
+      "Fantasy"
+    ],
+    "average": 3.03,
+    "total": 6802,
+    "half": 103,
+    "one": 225,
+    "one_half": 279,
+    "two": 934,
+    "two_half": 1086,
+    "three": 1657,
+    "three_half": 1129,
+    "four": 994,
+    "four_half": 191,
+    "five": 204
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:16+05:30",
+    "letterboxd_slug": "kiss-wagon",
+    "name": "Kiss Wagon",
+    "originalName": "കിസ് വാഗൺ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/midhun-murali/": "Midhun Murali"
+    },
+    "genre": [
+      "Animation"
+    ],
+    "half": 1,
+    "one": 7,
+    "one_half": 5,
+    "two": 10,
+    "two_half": 10,
+    "three": 10,
+    "three_half": 11,
+    "four": 13,
+    "four_half": 8,
+    "five": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:16+05:30",
+    "letterboxd_slug": "riptide-2024",
+    "name": "Riptide",
+    "releaseYear": 2024,
+    "director": {
+      "/director/afrad-vk/": "Afrad Vk"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 1,
+    "one": 5,
+    "one_half": 7,
+    "two": 13,
+    "two_half": 4,
+    "three": 8,
+    "three_half": 6,
+    "four": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:17+05:30",
+    "letterboxd_slug": "vivekanandan-viralanu",
+    "name": "Vivekanandan Viralanu",
+    "originalName": "വിവേകാനന്ദന്‍ വൈറലാണ്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/kamal/": "Kamal"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "average": 2.52,
+    "total": 264,
+    "half": 103,
+    "one": 60,
+    "one_half": 35,
+    "two": 40,
+    "two_half": 13,
+    "three": 9,
+    "three_half": 3,
+    "four": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:17+05:30",
+    "letterboxd_slug": "mayavanam",
+    "name": "Mayavanam",
+    "releaseYear": 2024,
+    "director": {
+      "/director/jagathlal-chandrashekharan/": "Jagathlal Chandrashekharan"
+    },
+    "genre": [],
+    "half": 9,
+    "one": 3,
+    "one_half": 2,
+    "two": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:17+05:30",
+    "letterboxd_slug": "hodu",
+    "name": "Hodu",
+    "releaseYear": 2024,
+    "genre": [],
+    "one": 1,
+    "two": 1,
+    "two_half": 1,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/1/9/2/2/1/1119221-hodu-0-230-0-345-crop.jpg?v=2614c13ace"
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:17+05:30",
+    "letterboxd_slug": "qalb",
+    "name": "Qalb",
+    "originalName": "ഖല്ബ്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/sajid-yahiya/": "Sajid Yahiya"
+    },
+    "genre": [
+      "Family",
+      "Romance",
+      "Drama"
+    ],
+    "average": 2.92,
+    "total": 772,
+    "half": 72,
+    "one": 101,
+    "one_half": 90,
+    "two": 137,
+    "two_half": 101,
+    "three": 108,
+    "three_half": 67,
+    "four": 53,
+    "four_half": 17,
+    "five": 26
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:17+05:30",
+    "letterboxd_slug": "roshan",
+    "name": "Roshan",
+    "releaseYear": 2024,
+    "director": {
+      "/director/adarsh-radhakrishnan/": "Adarsh Radhakrishnan"
+    },
+    "genre": [],
+    "three_half": 1,
+    "four": 5,
+    "four_half": 1,
+    "five": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:17+05:30",
+    "letterboxd_slug": "abraham-ozler",
+    "name": "Abraham Ozler",
+    "originalName": "എബ്രഹാം ഓസ്ലർ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/midhun-manuel-thomas/": "Midhun Manuel Thomas"
+    },
+    "genre": [
+      "Drama",
+      "Thriller",
+      "Crime"
+    ],
+    "average": 2.77,
+    "total": 6710,
+    "half": 125,
+    "one": 370,
+    "one_half": 419,
+    "two": 1099,
+    "two_half": 1422,
+    "three": 1900,
+    "three_half": 816,
+    "four": 416,
+    "four_half": 69,
+    "five": 74
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:23+05:30",
+    "letterboxd_slug": "prethangalude-koottam",
+    "name": "Prethangalude Koottam",
+    "releaseYear": 2024,
+    "director": {
+      "/director/sudheer-saali/": "Sudheer Saali"
+    },
+    "genre": [
+      "Horror"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:17+05:30",
+    "letterboxd_slug": "perilloor-premier-league",
+    "name": "Perilloor Premier League",
+    "originalName": "പേരില്ലൂർ പ്രീമിയർ ലീഗ്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/praveen-chandran/": "Praveen Chandran"
+    },
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "average": 3.35,
+    "total": 1049,
+    "half": 2,
+    "one": 3,
+    "one_half": 18,
+    "two": 72,
+    "two_half": 103,
+    "three": 371,
+    "three_half": 262,
+    "four": 169,
+    "four_half": 27,
+    "five": 22
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:17+05:30",
+    "letterboxd_slug": "raastha",
+    "name": "Raastha",
+    "originalName": "രാസ്ത",
+    "releaseYear": 2024,
+    "director": {
+      "/director/aneesh-anwar/": "Aneesh Anwar"
+    },
+    "genre": [
+      "Drama",
+      "Action",
+      "Thriller"
+    ],
+    "half": 2,
+    "one": 1,
+    "one_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T20:33+05:30",
+    "letterboxd_slug": "palayam-pc",
+    "name": "Palayam PC",
+    "originalName": "പാളയം പി സി",
+    "releaseYear": 2024,
+    "director": {
+      "/director/v-m-anil/": "V. M. Anil"
+    },
+    "genre": [
+      "Crime",
+      "Thriller"
+    ],
+    "half": 2,
+    "two_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T21:18+05:30",
+    "letterboxd_slug": "poyyamozhi",
+    "name": "POYYAMOZHI",
+    "releaseYear": 2024,
+    "director": {
+      "/director/sudhi-anna/": "Sudhi Anna"
+    },
+    "genre": [],
+    "one": 1,
+    "two": 2,
+    "four": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:23+05:30",
+    "letterboxd_slug": "the-awakening-2023-1",
+    "name": "The Awakening",
+    "originalName": "Ullarivu",
+    "releaseYear": 2023,
+    "director": {
+      "/director/sumi-mathai/": "Sumi Mathai"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "two": 1,
+    "two_half": 1,
+    "three": 4,
+    "four": 1,
+    "four_half": 1,
+    "five": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:23+05:30",
+    "letterboxd_slug": "queen-elizabeth-2023",
+    "name": "Queen Elizabeth",
+    "releaseYear": 2023,
+    "director": {
+      "/director/padmakumar-m/": "Padmakumar M"
+    },
+    "genre": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "average": 2.66,
+    "total": 312,
+    "half": 72,
+    "one": 62,
+    "one_half": 60,
+    "two": 51,
+    "two_half": 29,
+    "three": 22,
+    "three_half": 10,
+    "four": 4,
+    "five": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:23+05:30",
+    "letterboxd_slug": "curry-cyanide-the-jolly-joseph-case",
+    "name": "Curry & Cyanide: The Jolly Joseph Case",
+    "releaseYear": 2023,
+    "director": {
+      "/director/christo-tomy/": "Christo Tomy"
+    },
+    "genre": [
+      "Crime",
+      "Documentary"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:23+05:30",
+    "letterboxd_slug": "adiyantharavasthakalathe-anuragam",
+    "name": "Adiyantharavasthakalathe Anuragam",
+    "originalName": "അടിയന്തരവസ്ഥകളത്തെ അനുരാഗം",
+    "releaseYear": 2023,
+    "director": {
+      "/director/alleppey-ashraf/": "Alleppey Ashraf"
+    },
+    "genre": [
+      "Romance",
+      "Thriller",
+      "Drama"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:23+05:30",
+    "letterboxd_slug": "neru",
+    "name": "Neru",
+    "originalName": "നേര്",
+    "releaseYear": 2023,
+    "director": {
+      "/director/jeethu-joseph/": "Jeethu Joseph"
+    },
+    "genre": [
+      "Thriller",
+      "Drama"
+    ],
+    "average": 3.23,
+    "total": 10062,
+    "half": 37,
+    "one": 107,
+    "one_half": 114,
+    "two": 525,
+    "two_half": 1043,
+    "three": 2954,
+    "three_half": 2589,
+    "four": 1969,
+    "four_half": 333,
+    "five": 391
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:24+05:30",
+    "letterboxd_slug": "viral-sebi",
+    "name": "Viral Sebi",
+    "originalName": "വൈറല്‍ സെബി",
+    "releaseYear": 2023,
+    "director": {
+      "/director/vidhu-vincent/": "Vidhu Vincent"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "one": 1,
+    "one_half": 4,
+    "two": 5,
+    "two_half": 5,
+    "three": 6,
+    "three_half": 1,
+    "four": 4
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:24+05:30",
+    "letterboxd_slug": "oru-kadath-naadan-katha",
+    "name": "Oru Kadath Naadan Katha",
+    "releaseYear": 2023,
+    "director": {
+      "/director/peter-sajan/": "Peter Sajan"
+    },
+    "genre": [
+      "Drama",
+      "Crime",
+      "Action"
+    ],
+    "half": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:24+05:30",
+    "letterboxd_slug": "ithuvare",
+    "name": "Ithuvare",
+    "originalName": "ഇതുവരെ",
+    "releaseYear": 2023,
+    "director": {
+      "/director/anil-thomas/": "Anil Thomas"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "one": 6,
+    "one_half": 1,
+    "two": 6,
+    "two_half": 4,
+    "three": 5,
+    "three_half": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:24+05:30",
+    "letterboxd_slug": "blue-hair",
+    "name": "Blue Hair",
+    "originalName": "നീലമുടി",
+    "releaseYear": 2023,
+    "director": {
+      "/director/sarathkumar-v/": "Sarathkumar V"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 1,
+    "one": 3,
+    "one_half": 2,
+    "two": 8,
+    "two_half": 4,
+    "three": 8,
+    "three_half": 7,
+    "four": 11,
+    "four_half": 1,
+    "five": 5
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:24+05:30",
+    "letterboxd_slug": "scheherazade-2023",
+    "name": "Scheherazade",
+    "originalName": "ഷഹറസാദ്",
+    "releaseYear": 2023,
+    "director": {
+      "/director/vignesh-p-sasidharan/": "Vignesh P Sasidharan"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "one": 4,
+    "one_half": 2,
+    "two": 4,
+    "three": 1,
+    "three_half": 3,
+    "four": 4,
+    "five": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:24+05:30",
+    "letterboxd_slug": "anand-monalisa-waits-for-death",
+    "name": "Anand Monalisa Waits for Death",
+    "originalName": "ആനന്ദ് മോണാലിസ മരണവും കാത്ത്",
+    "releaseYear": 2023,
+    "director": {
+      "/director/santosh-babusenan/": "Santosh Babusenan",
+      "/director/satish-babusenan/": "Satish Babusenan"
+    },
+    "genre": [],
+    "half": 2,
+    "two": 5,
+    "two_half": 1,
+    "three": 3,
+    "five": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:24+05:30",
+    "letterboxd_slug": "now-and-forever-2023",
+    "name": "Now and Forever",
+    "originalName": "എന്നെന്നും",
+    "releaseYear": 2023,
+    "director": {
+      "/director/shalini-usha-devi/": "Shalini Usha Devi"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 1,
+    "one": 3,
+    "one_half": 2,
+    "two": 12,
+    "two_half": 22,
+    "three": 19,
+    "three_half": 19,
+    "four": 16,
+    "four_half": 4,
+    "five": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:24+05:30",
+    "letterboxd_slug": "applechedikal",
+    "name": "applechedikal",
+    "originalName": "ആപ്പിൾച്ചെടികൾ",
+    "releaseYear": 2023,
+    "director": {
+      "/director/gagan-dev-2/": "Gagan Dev"
+    },
+    "genre": [
+      "Comedy"
+    ],
+    "one": 2,
+    "two": 5,
+    "two_half": 11,
+    "three": 25,
+    "three_half": 10,
+    "four": 15,
+    "four_half": 1,
+    "five": 16
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:24+05:30",
+    "letterboxd_slug": "five-first-dates",
+    "name": "Five First Dates",
+    "releaseYear": 2023,
+    "director": {
+      "/director/rinoshun-k/": "Rinoshun K"
+    },
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "half": 4,
+    "one": 5,
+    "one_half": 4,
+    "two": 8,
+    "two_half": 5,
+    "three": 10,
+    "three_half": 3,
+    "four": 6,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:24+05:30",
+    "letterboxd_slug": "valassai-paravakal",
+    "name": "Valassai Paravakal",
+    "originalName": "വലസൈ പറവകൾ",
+    "releaseYear": 2023,
+    "half": 1,
+    "one": 2,
+    "one_half": 1,
+    "two_half": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:25+05:30",
+    "letterboxd_slug": "a-ranjith-cinema",
+    "name": "A Ranjith Cinema",
+    "releaseYear": 2023,
+    "director": {
+      "/director/nishanth-sattu/": "Nishanth Sattu"
+    },
+    "genre": [
+      "Thriller"
+    ],
+    "average": 2.69,
+    "total": 533,
+    "half": 100,
+    "one": 108,
+    "one_half": 63,
+    "two": 91,
+    "two_half": 79,
+    "three": 60,
+    "three_half": 17,
+    "four": 13,
+    "five": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:25+05:30",
+    "letterboxd_slug": "rajni",
+    "name": "Rajni",
+    "originalName": "രജനി",
+    "releaseYear": 2023,
+    "director": {
+      "/director/vinil-scariah-varghese/": "Vinil Scariah Varghese"
+    },
+    "genre": [
+      "Thriller",
+      "Action"
+    ],
+    "average": 2.86,
+    "total": 247,
+    "half": 11,
+    "one": 27,
+    "one_half": 39,
+    "two": 70,
+    "two_half": 55,
+    "three": 38,
+    "three_half": 5,
+    "four": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:25+05:30",
+    "letterboxd_slug": "cheena-trophy",
+    "name": "Cheena Trophy",
+    "originalName": "ചീന ട്രോഫി",
+    "releaseYear": 2023,
+    "director": {
+      "/director/anil-lal-1/": "Anil Lal"
+    },
+    "genre": [
+      "Drama",
+      "Comedy",
+      "Family"
+    ],
+    "half": 20,
+    "one": 25,
+    "one_half": 20,
+    "two": 25,
+    "two_half": 13,
+    "three": 9,
+    "three_half": 3,
+    "four": 3,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:25+05:30",
+    "letterboxd_slug": "pulli",
+    "name": "Pulli",
+    "originalName": "പുള്ളി",
+    "releaseYear": 2023,
+    "director": {
+      "/director/jiju-asokan/": "Jiju Asokan"
+    },
+    "genre": [
+      "Thriller"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:25+05:30",
+    "letterboxd_slug": "thaal",
+    "name": "Thaal",
+    "releaseYear": 2023,
+    "director": {
+      "/director/rajasaagar/": "Rajasaagar"
+    },
+    "genre": [
+      "Romance",
+      "Thriller"
+    ],
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:25+05:30",
+    "letterboxd_slug": "ohh-cinderella",
+    "name": "Ohh.. Cinderella",
+    "releaseYear": 2023,
+    "director": {
+      "/director/renolze-rehman/": "Renolze Rehman"
+    },
+    "genre": []
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:25+05:30",
+    "letterboxd_slug": "woodpeckers-were-the-first-to-know",
+    "name": "Woodpeckers were the first to know",
+    "originalName": "കാട് വെട്ടിയ വിവരം ആദ്യം അറിഞ്ഞത് മരംകൊത്തികളായിരുന്നു",
+    "releaseYear": 2023,
+    "director": {
+      "/director/ashin-jose/": "Ashin Jose"
+    },
+    "genre": [
+      "Fantasy",
+      "Drama"
+    ],
+    "two": 1,
+    "three": 3,
+    "three_half": 2,
+    "four": 2,
+    "five": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:25+05:30",
+    "letterboxd_slug": "philips",
+    "name": "Philip's",
+    "originalName": "ഫിലിപ്സ്",
+    "releaseYear": 2023,
+    "director": {
+      "/director/alfred-kurian-joseph/": "Alfred Kurian Joseph"
+    },
+    "genre": [
+      "Family",
+      "Drama"
+    ],
+    "average": 3.22,
+    "total": 2333,
+    "half": 12,
+    "one": 35,
+    "one_half": 46,
+    "two": 168,
+    "two_half": 343,
+    "three": 810,
+    "three_half": 543,
+    "four": 276,
+    "four_half": 40,
+    "five": 60
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:25+05:30",
+    "letterboxd_slug": "antony-2023",
+    "name": "Antony",
+    "originalName": "ആന്റണി",
+    "releaseYear": 2023,
+    "director": {
+      "/director/joshiy-1/": "Joshiy"
+    },
+    "genre": [
+      "Action",
+      "Adventure",
+      "Thriller"
+    ],
+    "average": 2.96,
+    "total": 1642,
+    "half": 37,
+    "one": 134,
+    "one_half": 138,
+    "two": 353,
+    "two_half": 337,
+    "three": 387,
+    "three_half": 147,
+    "four": 77,
+    "four_half": 16,
+    "five": 16
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:25+05:30",
+    "letterboxd_slug": "bullet-diaries",
+    "name": "Bullet Diaries",
+    "releaseYear": 2023,
+    "director": {
+      "/director/santosh-mandoor/": "Santosh Mandoor"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 20,
+    "one": 17,
+    "one_half": 18,
+    "two": 15,
+    "two_half": 7,
+    "three": 4,
+    "three_half": 2,
+    "four": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:26+05:30",
+    "letterboxd_slug": "dance-party",
+    "name": "Dance Party",
+    "originalName": "ഡാൻസ് പാർട്ടി",
+    "releaseYear": 2023,
+    "director": {
+      "/director/sohan-seenulal/": "Sohan Seenulal"
+    },
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "four": 1,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:26+05:30",
+    "letterboxd_slug": "kadhikan",
+    "name": "Kadhikan",
+    "releaseYear": 2023,
+    "director": {
+      "/director/jayaraj/": "Jayaraj"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "three": 1,
+    "four": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:26+05:30",
+    "letterboxd_slug": "asthra",
+    "name": "Asthra",
+    "originalName": "അസ്ത്രാ",
+    "releaseYear": 2023,
+    "director": {
+      "/director/azad-alavil/": "Azad Alavil"
+    },
+    "genre": [],
+    "half": 1,
+    "one": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:26+05:30",
+    "letterboxd_slug": "khadhikan",
+    "name": "Khadhikan",
+    "releaseYear": 2023,
+    "director": {
+      "/director/jayaraj/": "Jayaraj"
+    },
+    "genre": []
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:26+05:30",
+    "letterboxd_slug": "the-legend-of-arana",
+    "name": "The Legend of Arana",
+    "originalName": "അരണ പുരാണം",
+    "releaseYear": 2023,
+    "director": {
+      "/director/adithi-krishnadas/": "Adithi Krishnadas"
+    },
+    "genre": [
+      "Animation"
+    ],
+    "average": 3.73,
+    "total": 298,
+    "two": 1,
+    "two_half": 2,
+    "three": 17,
+    "three_half": 29,
+    "four": 123,
+    "four_half": 37,
+    "five": 89
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:26+05:30",
+    "letterboxd_slug": "pazhanjan-pranayam",
+    "name": "Pazhanjan Pranayam",
+    "originalName": "പഴഞ്ചൻ പ്രണയം",
+    "releaseYear": 2023,
+    "director": {
+      "/director/bineesh-kalarikkal/": "Bineesh Kalarikkal"
+    },
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "one": 4,
+    "one_half": 5,
+    "two": 13,
+    "two_half": 17,
+    "three": 24,
+    "three_half": 10,
+    "four": 5,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:26+05:30",
+    "letterboxd_slug": "maharani",
+    "name": "Maharani",
+    "originalName": "മഹാറാണി",
+    "releaseYear": 2023,
+    "director": {
+      "/director/g-marthandan/": "G. Marthandan"
+    },
+    "genre": [
+      "Drama",
+      "Comedy"
+    ],
+    "half": 4,
+    "one": 3,
+    "one_half": 3,
+    "two": 8,
+    "two_half": 4,
+    "three_half": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:26+05:30",
+    "letterboxd_slug": "sheltering-skies",
+    "name": "Sheltering Skies",
+    "releaseYear": 2023,
+    "director": {
+      "/director/jayakrishnan-m-s-2/": "Jayakrishnan M S"
+    },
+    "genre": [
+      "Documentary"
+    ],
+    "four_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:26+05:30",
+    "letterboxd_slug": "kaathal-the-core",
+    "name": "Kaathal - The Core",
+    "originalName": "കാതൽ - The Core",
+    "releaseYear": 2023,
+    "director": {
+      "/director/jeo-baby/": "Jeo Baby"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "average": 3.7,
+    "total": 10484,
+    "half": 40,
+    "one": 67,
+    "one_half": 55,
+    "two": 275,
+    "two_half": 416,
+    "three": 1701,
+    "three_half": 2352,
+    "four": 3535,
+    "four_half": 980,
+    "five": 1063
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:26+05:30",
+    "letterboxd_slug": "falimy",
+    "name": "Falimy",
+    "originalName": "ഫാലിമി",
+    "releaseYear": 2023,
+    "average": 3.39,
+    "total": 6922,
+    "half": 6,
+    "one": 21,
+    "one_half": 34,
+    "two": 211,
+    "two_half": 506,
+    "three": 2082,
+    "three_half": 2058,
+    "four": 1526,
+    "four_half": 227,
+    "five": 251
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:27+05:30",
+    "letterboxd_slug": "sesham-mike-il-fathima",
+    "name": "Sesham Mike-il Fathima",
+    "originalName": "ശേഷം മൈക്കിൽ ഫാത്തിമ",
+    "releaseYear": 2023,
+    "director": {
+      "/director/manu-c-kumar/": "Manu C Kumar"
+    },
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "average": 3,
+    "total": 1380,
+    "half": 77,
+    "one": 90,
+    "one_half": 82,
+    "two": 234,
+    "two_half": 275,
+    "three": 362,
+    "three_half": 141,
+    "four": 86,
+    "four_half": 9,
+    "five": 24
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:27+05:30",
+    "letterboxd_slug": "phoenix-2023-1",
+    "name": "Phoenix",
+    "releaseYear": 2023,
+    "director": {
+      "/director/vishnu-bharathan/": "Vishnu Bharathan"
+    },
+    "genre": [
+      "Horror",
+      "Thriller"
+    ],
+    "average": 2.89,
+    "total": 1160,
+    "half": 48,
+    "one": 85,
+    "one_half": 111,
+    "two": 289,
+    "two_half": 257,
+    "three": 261,
+    "three_half": 64,
+    "four": 37,
+    "four_half": 2,
+    "five": 6
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:27+05:30",
+    "letterboxd_slug": "adrishya-jalakangal",
+    "name": "Adrishya Jalakangal",
+    "releaseYear": 2023,
+    "director": {
+      "/director/bijukumar-damodaran/": "Bijukumar Damodaran"
+    },
+    "genre": [
+      "Drama",
+      "Thriller"
+    ],
+    "average": 2.95,
+    "total": 515,
+    "half": 18,
+    "one": 51,
+    "one_half": 52,
+    "two": 106,
+    "two_half": 78,
+    "three": 112,
+    "three_half": 49,
+    "four": 37,
+    "four_half": 2,
+    "five": 10
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:27+05:30",
+    "letterboxd_slug": "made-in-caravan",
+    "name": "Made in Caravan",
+    "releaseYear": 2023,
+    "director": {
+      "/director/jomy-kuriakose/": "Jomy Kuriakose"
+    },
+    "genre": [
+      "Adventure",
+      "Comedy",
+      "Drama"
+    ],
+    "half": 5,
+    "one": 8,
+    "one_half": 5,
+    "two": 8,
+    "two_half": 4,
+    "three": 4
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:27+05:30",
+    "letterboxd_slug": "moonamghattam",
+    "name": "Moonamghattam",
+    "releaseYear": 2023,
+    "director": {
+      "/director/rani-vijayan/": "Rani Vijayan"
+    },
+    "genre": [
+      "Mystery",
+      "Drama"
+    ],
+    "one": 1,
+    "one_half": 1,
+    "three": 1,
+    "four": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:27+05:30",
+    "letterboxd_slug": "bandra",
+    "name": "Bandra",
+    "originalName": "ബാന്ദ്ര",
+    "releaseYear": 2023,
+    "director": {
+      "/director/arun-gopy/": "Arun Gopy"
+    },
+    "genre": [
+      "Action",
+      "Drama",
+      "Thriller"
+    ],
+    "half": 30,
+    "one": 28,
+    "one_half": 24,
+    "two": 24,
+    "two_half": 8,
+    "three": 3,
+    "three_half": 3,
+    "four": 1,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:27+05:30",
+    "letterboxd_slug": "vela-2023",
+    "name": "Vela",
+    "originalName": "വേല",
+    "releaseYear": 2023,
+    "director": {
+      "/director/syam-sasi/": "Syam Sasi"
+    },
+    "genre": [
+      "Crime",
+      "Drama"
+    ],
+    "half": 1,
+    "one": 1,
+    "one_half": 3,
+    "two": 12,
+    "two_half": 8,
+    "three": 7,
+    "three_half": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:27+05:30",
+    "letterboxd_slug": "garudan",
+    "name": "Garudan",
+    "originalName": "ഗരുഡൻ",
+    "releaseYear": 2023,
+    "director": {
+      "/director/arun-raj-varma/": "Arun Raj Varma"
+    },
+    "genre": [
+      "Drama",
+      "Thriller",
+      "Crime"
+    ],
+    "average": 3.16,
+    "total": 3321,
+    "half": 18,
+    "one": 66,
+    "one_half": 74,
+    "two": 313,
+    "two_half": 501,
+    "three": 1169,
+    "three_half": 717,
+    "four": 377,
+    "four_half": 44,
+    "five": 42
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:27+05:30",
+    "letterboxd_slug": "tholvi-fc",
+    "name": "Tholvi F.C.",
+    "originalName": "തോൽവി F.C.",
+    "releaseYear": 2023,
+    "director": {
+      "/director/george-kora/": "George Kora"
+    },
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "average": 3.03,
+    "total": 1134,
+    "half": 25,
+    "one": 94,
+    "one_half": 90,
+    "two": 205,
+    "two_half": 219,
+    "three": 298,
+    "three_half": 110,
+    "four": 71,
+    "four_half": 12,
+    "five": 10
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:28+05:30",
+    "letterboxd_slug": "oru-sadhachara-premakadha",
+    "name": "Oru Sadhachara Premakadha",
+    "releaseYear": 2023,
+    "director": {
+      "/director/jayaraaj-vijay/": "Jayaraaj Vijay"
+    },
+    "genre": [
+      "Comedy"
+    ],
+    "half": 2,
+    "one_half": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:28+05:30",
+    "letterboxd_slug": "inheritance-2023",
+    "name": "Inheritance",
+    "originalName": "ദായം",
+    "releaseYear": 2023,
+    "director": {
+      "/director/prasanth-vijay/": "Prasanth Vijay"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "one": 2,
+    "two": 6,
+    "two_half": 4,
+    "three": 11,
+    "three_half": 7,
+    "four": 9,
+    "four_half": 1,
+    "five": 4
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:28+05:30",
+    "letterboxd_slug": "the-sentence-2023",
+    "name": "The Sentence",
+    "originalName": "തടവ്",
+    "releaseYear": 2023,
+    "director": {
+      "/director/fazil-razak/": "Fazil Razak"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 2,
+    "one": 1,
+    "one_half": 5,
+    "two": 8,
+    "two_half": 7,
+    "three": 34,
+    "three_half": 34,
+    "four": 32,
+    "four_half": 10,
+    "five": 11
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:28+05:30",
+    "letterboxd_slug": "otta",
+    "name": "Otta",
+    "originalName": "ഒറ്റ",
+    "releaseYear": 2023,
+    "director": {
+      "/director/resul-pookutty/": "Resul Pookutty"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 5,
+    "one": 5,
+    "one_half": 2,
+    "two": 1,
+    "two_half": 8,
+    "three": 1,
+    "three_half": 1,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:28+05:30",
+    "letterboxd_slug": "rani-chithira-marthanda",
+    "name": "Rani Chithira Marthanda",
+    "originalName": "റാണി ചിത്തിര മാർത്താണ്ഡ",
+    "releaseYear": 2023,
+    "director": {
+      "/director/pinku-peter/": "Pinku Peter"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "one": 3,
+    "one_half": 2,
+    "two": 8,
+    "two_half": 11,
+    "three": 10,
+    "three_half": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:28+05:30",
+    "letterboxd_slug": "kasiminte-kadal",
+    "name": "Kasiminte Kadal",
+    "releaseYear": 2023,
+    "director": {
+      "/director/shyamaprasad/": "Shyamaprasad"
+    },
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:28+05:30",
+    "letterboxd_slug": "imbam",
+    "name": "Imbam",
+    "releaseYear": 2023,
+    "director": {
+      "/director/sreejith-chandran/": "Sreejith Chandran"
+    },
+    "genre": [],
+    "half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:28+05:30",
+    "letterboxd_slug": "pulimada",
+    "name": "Pulimada",
+    "releaseYear": 2023,
+    "average": 2.76,
+    "total": 563,
+    "half": 55,
+    "one": 94,
+    "one_half": 86,
+    "two": 128,
+    "two_half": 92,
+    "three": 73,
+    "three_half": 22,
+    "four": 13
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:28+05:30",
+    "letterboxd_slug": "oru-thulli-thaappa",
+    "name": "Oru Thulli Thaappa",
+    "originalName": "ഒരു തുള്ളി താപ്പാ",
+    "releaseYear": 2023,
+    "director": {
+      "/director/vivek-ramachandran/": "Vivek Ramachandran"
+    },
+    "genre": [
+      "Drama",
+      "Comedy",
+      "Horror"
+    ],
+    "half": 1,
+    "two": 1,
+    "two_half": 1,
+    "three": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:28+05:30",
+    "letterboxd_slug": "aattam",
+    "name": "Aattam",
+    "originalName": "ആട്ടം",
+    "releaseYear": 2023,
+    "director": {
+      "/director/anand-ekarshi/": "Anand Ekarshi"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "average": 4.04,
+    "total": 10223,
+    "half": 3,
+    "one": 10,
+    "one_half": 22,
+    "two": 60,
+    "two_half": 132,
+    "three": 714,
+    "three_half": 1362,
+    "four": 4275,
+    "four_half": 2027,
+    "five": 1618
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:28+05:30",
+    "letterboxd_slug": "rahel-makan-kora",
+    "name": "Rahel Makan Kora",
+    "originalName": "റാഹേൽ മകൻ കോര",
+    "releaseYear": 2023,
+    "director": {
+      "/director/ubaini/": "Ubaini"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 31,
+    "one": 24,
+    "one_half": 13,
+    "two": 16,
+    "two_half": 4,
+    "three": 2,
+    "three_half": 3,
+    "four": 1,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:29+05:30",
+    "letterboxd_slug": "little-miss-rawther",
+    "name": "Little Miss Rawther",
+    "originalName": "ലിറ്റില്‍ മിസ്സ് റാവുത്തര്‍",
+    "releaseYear": 2023,
+    "director": {
+      "/director/vishnu-dev/": "Vishnu Dev"
+    },
+    "genre": [
+      "Comedy",
+      "Romance",
+      "Drama"
+    ],
+    "average": 2.82,
+    "total": 317,
+    "half": 36,
+    "one": 57,
+    "one_half": 35,
+    "two": 63,
+    "two_half": 49,
+    "three": 42,
+    "three_half": 16,
+    "four": 15,
+    "four_half": 3,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:29+05:30",
+    "letterboxd_slug": "somante-krithavu",
+    "name": "Somante Krithavu",
+    "originalName": "സോമന്റെ കൃതാവു",
+    "releaseYear": 2023,
+    "director": {
+      "/director/rohith-narayanan/": "Rohith Narayanan"
+    },
+    "genre": [
+      "Comedy"
+    ],
+    "average": 2.9,
+    "total": 404,
+    "half": 43,
+    "one": 54,
+    "one_half": 41,
+    "two": 98,
+    "two_half": 58,
+    "three": 70,
+    "three_half": 18,
+    "four": 19,
+    "four_half": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:29+05:30",
+    "letterboxd_slug": "kuruthipunal-2023",
+    "name": "Kuruthipunal",
+    "releaseYear": 2023,
+    "director": {
+      "/director/ajay-ashok/": "Ajay Ashok"
+    },
+    "genre": [
+      "Action"
+    ],
+    "two_half": 1,
+    "three": 1,
+    "three_half": 3,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:29+05:30",
+    "letterboxd_slug": "aaromalinte-adyathe-pranayam",
+    "name": "Aaromalinte Adyathe Pranayam",
+    "originalName": "ആരോമലിൻ്റെ ആദ്യത്തേ പ്രണയം",
+    "releaseYear": 2023,
+    "director": {
+      "/director/mubeen-rouf/": "Mubeen Rouf"
+    },
+    "genre": [
+      "Romance",
+      "Drama"
+    ],
+    "half": 2,
+    "two_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:29+05:30",
+    "letterboxd_slug": "return-2023-3",
+    "name": "Return",
+    "originalName": "Thirike",
+    "releaseYear": 2023,
+    "director": {
+      "/director/badusha-mohammed-buhari/": "Badusha Mohammed Buhari"
+    },
+    "genre": [
+      "Music"
+    ],
+    "three": 1,
+    "three_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:29+05:30",
+    "letterboxd_slug": "ettu-2023",
+    "name": "Ettu",
+    "originalName": "എട്ട്",
+    "releaseYear": 2023,
+    "director": {
+      "/director/roshin-a-rahman/": "Roshin A. Rahman"
+    },
+    "genre": [
+      "Crime",
+      "Thriller"
+    ],
+    "one_half": 3,
+    "two": 1,
+    "two_half": 4,
+    "three": 1,
+    "three_half": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:29+05:30",
+    "letterboxd_slug": "kannur-squad",
+    "name": "Kannur Squad",
+    "originalName": "കണ്ണൂർ സ്‌ക്വാഡ്",
+    "releaseYear": 2023,
+    "director": {
+      "/director/roby-varghese-raj/": "Roby Varghese Raj"
+    },
+    "genre": [
+      "Crime",
+      "Thriller"
+    ],
+    "average": 3.46,
+    "total": 9453,
+    "half": 22,
+    "one": 27,
+    "one_half": 53,
+    "two": 229,
+    "two_half": 551,
+    "three": 2116,
+    "three_half": 2916,
+    "four": 2695,
+    "four_half": 460,
+    "five": 384
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:29+05:30",
+    "letterboxd_slug": "janvi",
+    "name": "Janvi",
+    "releaseYear": 2023,
+    "director": {
+      "/director/rajendran-thevassery/": "Rajendran Thevassery"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 2,
+    "one_half": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:29+05:30",
+    "letterboxd_slug": "chaaver",
+    "name": "Chaaver",
+    "originalName": "ചാവേർ",
+    "releaseYear": 2023,
+    "director": {
+      "/director/tinu-pappachan/": "Tinu Pappachan"
+    },
+    "genre": [
+      "Crime",
+      "Action",
+      "Thriller"
+    ],
+    "average": 3.03,
+    "total": 1498,
+    "half": 28,
+    "one": 103,
+    "one_half": 115,
+    "two": 326,
+    "two_half": 275,
+    "three": 359,
+    "three_half": 154,
+    "four": 101,
+    "four_half": 20,
+    "five": 17
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:30+05:30",
+    "letterboxd_slug": "theeppori-benny",
+    "name": "Theeppori Benny",
+    "originalName": "തീപ്പൊരി ബെന്നി",
+    "releaseYear": 2023,
+    "director": {
+      "/director/raajesh-mohan/": "Raajesh Mohan",
+      "/director/joji-thomas/": "Joji Thomas"
+    },
+    "genre": [
+      "Comedy"
+    ],
+    "average": 2.8,
+    "total": 379,
+    "half": 46,
+    "one": 62,
+    "one_half": 59,
+    "two": 79,
+    "two_half": 52,
+    "three": 61,
+    "three_half": 10,
+    "four": 8,
+    "four_half": 1,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:30+05:30",
+    "letterboxd_slug": "vaathil",
+    "name": "Vaathil",
+    "originalName": "വാതില്‍",
+    "releaseYear": 2023,
+    "director": {
+      "/director/sarju-ramakanth/": "Sarju Ramakanth"
+    },
+    "genre": [
+      "Thriller",
+      "Drama"
+    ],
+    "half": 2,
+    "one": 2,
+    "two": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:30+05:30",
+    "letterboxd_slug": "thirayattam",
+    "name": "Thirayattam",
+    "releaseYear": 2023,
+    "director": {
+      "/director/sajeev-kilikulam/": "Sajeev Kilikulam"
+    },
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "one": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:30+05:30",
+    "letterboxd_slug": "akkuvinte-padachon",
+    "name": "Akkuvinte Padachon",
+    "releaseYear": 2023,
+    "director": {
+      "/director/murukan-melery/": "Murukan Melery"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "two": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:30+05:30",
+    "letterboxd_slug": "oruvattam-koodi",
+    "name": "Oruvattam Koodi",
+    "releaseYear": 2023,
+    "director": {
+      "/director/sabu-james/": "Sabu James"
+    },
+    "genre": [
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:30+05:30",
+    "letterboxd_slug": "rani-the-real-story",
+    "name": "Rani: The Real Story",
+    "originalName": "റാണി",
+    "releaseYear": 2023,
+    "director": {
+      "/director/shankar-ramakrishnan/": "Shankar Ramakrishnan"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 25,
+    "one": 20,
+    "one_half": 15,
+    "two": 24,
+    "two_half": 7,
+    "three": 12,
+    "three_half": 2,
+    "four": 3,
+    "five": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:30+05:30",
+    "letterboxd_slug": "anuragam-2023",
+    "name": "Anuragam",
+    "releaseYear": 2023,
+    "director": {
+      "/director/ankith-j-therambil/": "Ankith J Therambil"
+    },
+    "genre": []
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:30+05:30",
+    "letterboxd_slug": "thottampatturayunna-malepothi",
+    "name": "Thottampatturayunna Malepothi",
+    "releaseYear": 2023,
+    "director": {
+      "/director/firose/": "Firose"
+    },
+    "genre": []
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:30+05:30",
+    "letterboxd_slug": "kasargold",
+    "name": "Kasargold",
+    "originalName": "കാസർഗോൾഡ്",
+    "releaseYear": 2023,
+    "director": {
+      "/director/mridul-nair/": "Mridul Nair"
+    },
+    "genre": [
+      "Crime",
+      "Action",
+      "Drama"
+    ],
+    "average": 2.76,
+    "total": 957,
+    "half": 83,
+    "one": 165,
+    "one_half": 155,
+    "two": 220,
+    "two_half": 167,
+    "three": 117,
+    "three_half": 32,
+    "four": 13,
+    "four_half": 3,
+    "five": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:30+05:30",
+    "letterboxd_slug": "nadhikalil-sundari-yamuna",
+    "name": "Nadhikalil Sundari Yamuna",
+    "originalName": "നദികളിൽ സുന്ദരി യമുന",
+    "releaseYear": 2023,
+    "director": {
+      "/director/vijesh-panathur/": "Vijesh Panathur",
+      "/director/unni-vellora/": "Unni Vellora"
+    },
+    "genre": [
+      "Drama",
+      "Comedy"
+    ],
+    "average": 2.86,
+    "total": 418,
+    "half": 29,
+    "one": 53,
+    "one_half": 56,
+    "two": 117,
+    "two_half": 83,
+    "three": 68,
+    "three_half": 9,
+    "four": 1,
+    "four_half": 1,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:31+05:30",
+    "letterboxd_slug": "pappachan-olivilaanu",
+    "name": "Pappachan Olivilaanu",
+    "originalName": "പാപ്പച്ചൻ ഒളിവിലാണ്",
+    "releaseYear": 2023,
+    "director": {
+      "/director/sinto-sunny/": "Sinto Sunny"
+    },
+    "genre": [
+      "Drama",
+      "Comedy",
+      "Family"
+    ],
+    "half": 50,
+    "one": 38,
+    "one_half": 20,
+    "two": 39,
+    "two_half": 14,
+    "three": 15,
+    "three_half": 4,
+    "four": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:31+05:30",
+    "letterboxd_slug": "escalator-2023",
+    "name": "ESCALATOR",
+    "releaseYear": 2023,
+    "director": {
+      "/director/eaza-fairooz/": "Eaza Fairooz"
+    },
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:31+05:30",
+    "letterboxd_slug": "njanum-pinnoru-njanum",
+    "name": "Njanum Pinnoru Njanum",
+    "originalName": "ഞാനും പിന്നൊരു ഞാനും",
+    "releaseYear": 2023,
+    "director": {
+      "/director/rajasenan/": "Rajasenan"
+    },
+    "genre": [
+      "Family",
+      "Drama"
+    ],
+    "half": 21,
+    "one": 8,
+    "one_half": 1,
+    "two": 3,
+    "two_half": 1,
+    "five": 4
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:31+05:30",
+    "letterboxd_slug": "achanoru-vazha-vechu",
+    "name": "Achanoru Vazha Vechu",
+    "originalName": "അച്ഛന്‍ ഒരു വാഴ വെച്ചു",
+    "releaseYear": 2023,
+    "director": {
+      "/director/saandeep/": "Saandeep"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 23,
+    "one": 12,
+    "one_half": 2,
+    "two": 2,
+    "two_half": 1,
+    "three": 1,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:31+05:30",
+    "letterboxd_slug": "rdx-robert-dony-xavier",
+    "name": "RDX: Robert Dony Xavier",
+    "originalName": "ആര്‍ഡിഎക്സ്: റോബര്‍ട്ട് ഡോണി സേവ്യര്‍",
+    "releaseYear": 2023,
+    "director": {
+      "/director/nahas-hidayath/": "Nahas Hidayath"
+    },
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "average": 3.13,
+    "total": 8181,
+    "half": 64,
+    "one": 150,
+    "one_half": 159,
+    "two": 570,
+    "two_half": 1002,
+    "three": 2408,
+    "three_half": 2084,
+    "four": 1355,
+    "four_half": 187,
+    "five": 202
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:31+05:30",
+    "letterboxd_slug": "ramachandra-boss-co",
+    "name": "Ramachandra Boss & Co",
+    "originalName": "രാമചന്ദ്രബോസ്& കോ",
+    "releaseYear": 2023,
+    "director": {
+      "/director/haneef-adeni/": "Haneef Adeni"
+    },
+    "genre": [
+      "Comedy"
+    ],
+    "average": 2.61,
+    "total": 245,
+    "half": 80,
+    "one": 62,
+    "one_half": 38,
+    "two": 34,
+    "two_half": 16,
+    "three": 12,
+    "three_half": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:31+05:30",
+    "letterboxd_slug": "onnam-sakshi-parethan",
+    "name": "Onnam Sakshi Parethan",
+    "originalName": "ഒന്നാം സാക്ഷി പരേതൻ",
+    "releaseYear": 2023,
+    "director": {
+      "/director/arun-vanaja-raju/": "Arun Vanaja Raju"
+    },
+    "genre": [
+      "Drama",
+      "Crime"
+    ],
+    "half": 1,
+    "one": 1,
+    "one_half": 1,
+    "two": 2,
+    "three": 2,
+    "three_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:31+05:30",
+    "letterboxd_slug": "king-of-kotha",
+    "name": "King of Kotha",
+    "originalName": "King of കൊത്ത",
+    "releaseYear": 2023,
+    "director": {
+      "/director/abhilash-joshiy/": "Abhilash Joshiy"
+    },
+    "genre": [
+      "Crime",
+      "Drama",
+      "Action"
+    ],
+    "average": 2.48,
+    "total": 5518,
+    "half": 393,
+    "one": 620,
+    "one_half": 552,
+    "two": 1253,
+    "two_half": 1062,
+    "three": 1013,
+    "three_half": 330,
+    "four": 214,
+    "four_half": 33,
+    "five": 48
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:31+05:30",
+    "letterboxd_slug": "digital-village",
+    "name": "Digital Village",
+    "releaseYear": 2023,
+    "director": {
+      "/director/fahad-nandu/": "Fahad Nandu",
+      "/director/ulsav-rajeev/": "Ulsav Rajeev"
+    },
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "half": 1,
+    "one": 7,
+    "one_half": 7,
+    "two": 19,
+    "two_half": 23,
+    "three": 34,
+    "three_half": 9,
+    "four": 10,
+    "five": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:32+05:30",
+    "letterboxd_slug": "jailer-2023",
+    "name": "Jailer",
+    "originalName": "ജയിലര്‍",
+    "releaseYear": 2023,
+    "director": {
+      "/director/sakkir-madathil/": "Sakkir Madathil"
+    },
+    "genre": [],
+    "half": 3,
+    "one": 3,
+    "two": 1,
+    "two_half": 2,
+    "three": 1,
+    "three_half": 3,
+    "four": 5,
+    "five": 4
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:32+05:30",
+    "letterboxd_slug": "sashiyum-sakunthalayum",
+    "name": "Sashiyum Sakunthalayum",
+    "originalName": "ശശിയും ശകുന്തളയും",
+    "releaseYear": 2023,
+    "director": {
+      "/director/bichal-muhammed/": "Bichal Muhammed"
+    },
+    "genre": [
+      "Drama",
+      "Comedy"
+    ],
+    "half": 4,
+    "one": 8,
+    "two": 1,
+    "two_half": 1,
+    "three": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:32+05:30",
+    "letterboxd_slug": "avakasikal",
+    "name": "Avakasikal",
+    "originalName": "അവകാശികൾ",
+    "releaseYear": 2023,
+    "director": {
+      "/director/n-arun/": "N Arun"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:32+05:30",
+    "letterboxd_slug": "jaladhara-pumpset-since-1962",
+    "name": "Jaladhara Pumpset Since 1962",
+    "originalName": "ജലധാര പമ്പ്സെറ്റ് 1962",
+    "releaseYear": 2023,
+    "director": {
+      "/director/ashish-chinnappa/": "Ashish Chinnappa"
+    },
+    "genre": [
+      "Drama",
+      "Comedy"
+    ],
+    "half": 17,
+    "one": 22,
+    "one_half": 15,
+    "two": 22,
+    "two_half": 15,
+    "three": 17,
+    "three_half": 8,
+    "four": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:32+05:30",
+    "letterboxd_slug": "kunjamminis-hospital",
+    "name": "Kunjamminis Hospital",
+    "originalName": "കുഞ്ഞമ്മിണീസ് ഹോസ്പിറ്റൽ",
+    "releaseYear": 2023,
+    "director": {
+      "/director/sanal-v-devan/": "Sanal V Devan"
+    },
+    "genre": [
+      "Fantasy",
+      "Comedy"
+    ],
+    "half": 1,
+    "one": 3,
+    "one_half": 1,
+    "two_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:32+05:30",
+    "letterboxd_slug": "olam",
+    "name": "Olam",
+    "originalName": "ഓളം",
+    "releaseYear": 2023,
+    "director": {
+      "/director/v-s-abhilash/": "V S Abhilash"
+    },
+    "genre": [],
+    "half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:32+05:30",
+    "letterboxd_slug": "hey-googly",
+    "name": "Hey Googly",
+    "releaseYear": 2023,
+    "director": {
+      "/director/abhay-krishna-u/": "Abhay Krishna U"
+    },
+    "genre": [
+      "Romance",
+      "Music",
+      "Family",
+      "Drama",
+      "Comedy"
+    ],
+    "three": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:32+05:30",
+    "letterboxd_slug": "dancing-girl-2023",
+    "name": "Dancing Girl",
+    "releaseYear": 2023,
+    "director": {
+      "/director/ananthu-s/": "Ananthu S"
+    },
+    "genre": [
+      "Fantasy",
+      "Drama",
+      "Comedy"
+    ],
+    "one": 1,
+    "three_half": 1,
+    "four": 1,
+    "four_half": 1,
+    "five": 5
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:32+05:30",
+    "letterboxd_slug": "samara-2023",
+    "name": "Samara",
+    "originalName": "സമാറ",
+    "releaseYear": 2023,
+    "director": {
+      "/director/charles-joseph-1/": "Charles Joseph"
+    },
+    "genre": [
+      "Science Fiction",
+      "Thriller"
+    ],
+    "half": 7,
+    "one": 9,
+    "one_half": 7,
+    "two": 10,
+    "two_half": 5,
+    "three": 2,
+    "three_half": 1,
+    "four": 4,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:32+05:30",
+    "letterboxd_slug": "deshakkaran",
+    "name": "Deshakkaran",
+    "originalName": "ദേശക്കാരൻ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/ajay-kumar-babu/": "Ajay Kumar Babu"
+    },
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:33+05:30",
+    "letterboxd_slug": "anakku-enthinte-keda",
+    "name": "Anakku Enthinte Keda",
+    "releaseYear": 2023,
+    "director": {
+      "/director/shameer-bharathannoor/": "Shameer Bharathannoor"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 2,
+    "one": 4,
+    "one_half": 4,
+    "two": 1,
+    "two_half": 1,
+    "three": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:33+05:30",
+    "letterboxd_slug": "dark-shades-of-a-secret",
+    "name": "Dark Shades Of A Secret",
+    "releaseYear": 2023,
+    "director": {
+      "/director/vidya-mukundan/": "Vidya Mukundan"
+    },
+    "genre": [],
+    "half": 5,
+    "one_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:33+05:30",
+    "letterboxd_slug": "iyaan-paatta",
+    "name": "Iyaan Paatta",
+    "releaseYear": 2023,
+    "director": {
+      "/director/fabin-thomas/": "Fabin Thomas"
+    },
+    "genre": [],
+    "two_half": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:33+05:30",
+    "letterboxd_slug": "laala",
+    "name": "Laala",
+    "originalName": "ലാലാ",
+    "releaseYear": 2023,
+    "director": {
+      "/director/satish-p-babu/": "Satish P Babu"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 2,
+    "one": 1,
+    "one_half": 1,
+    "two_half": 1,
+    "three": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:33+05:30",
+    "letterboxd_slug": "corona-dhavan",
+    "name": "Corona Dhavan",
+    "originalName": "കൊറോണ ധവാന്‍",
+    "releaseYear": 2023,
+    "director": {
+      "/director/nithin-c-c-aloor/": "Nithin C C Aloor"
+    },
+    "genre": [
+      "Comedy"
+    ],
+    "average": 2.99,
+    "total": 670,
+    "half": 21,
+    "one": 56,
+    "one_half": 58,
+    "two": 162,
+    "two_half": 136,
+    "three": 171,
+    "three_half": 36,
+    "four": 28,
+    "four_half": 1,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:33+05:30",
+    "letterboxd_slug": "njaan-ippo-entha-cheyya",
+    "name": "Njaan Ippo Entha Cheyya?",
+    "releaseYear": 2023,
+    "director": {
+      "/director/vijay-menon/": "Vijay Menon"
+    },
+    "genre": [],
+    "half": 13,
+    "one": 3,
+    "two": 2,
+    "two_half": 2,
+    "three": 1,
+    "three_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:33+05:30",
+    "letterboxd_slug": "shashiyum-shakundhalayum",
+    "name": "Shashiyum Shakundhalayum",
+    "originalName": "ശശിയും ശകുന്തളയും",
+    "releaseYear": 2023,
+    "director": {
+      "/director/bichal-muhammed/": "Bichal Muhammed"
+    },
+    "genre": [
+      "Comedy"
+    ],
+    "half": 6,
+    "one": 1,
+    "two": 1,
+    "two_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:33+05:30",
+    "letterboxd_slug": "article-21",
+    "name": "Article 21",
+    "releaseYear": 2023,
+    "director": {
+      "/director/lenin-balakrishnan/": "Lenin Balakrishnan"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "two": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:33+05:30",
+    "letterboxd_slug": "nerchappetty",
+    "name": "Nerchappetty",
+    "originalName": "നേർച്ചപ്പെട്ടി",
+    "releaseYear": 2023,
+    "director": {
+      "/director/babu-john-kockavayal/": "Babu John Kockavayal"
+    },
+    "genre": []
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:33+05:30",
+    "letterboxd_slug": "kurukkan",
+    "name": "Kurukkan",
+    "originalName": "കുറുക്കന്‍",
+    "releaseYear": 2023,
+    "director": {
+      "/director/jayalal-divakaran/": "Jayalal Divakaran"
+    },
+    "genre": [
+      "Comedy",
+      "Crime"
+    ],
+    "average": 2.79,
+    "total": 650,
+    "half": 54,
+    "one": 104,
+    "one_half": 93,
+    "two": 151,
+    "two_half": 108,
+    "three": 102,
+    "three_half": 24,
+    "four": 9,
+    "four_half": 2,
+    "five": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:34+05:30",
+    "letterboxd_slug": "the-alpha",
+    "name": "The Alpha",
+    "releaseYear": 2023,
+    "director": {
+      "/director/niranjan-1/": "Niranjan"
+    },
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:34+05:30",
+    "letterboxd_slug": "valatty",
+    "name": "Valatty",
+    "originalName": "വാലാട്ടി",
+    "releaseYear": 2023,
+    "director": {
+      "/director/devan-jayakumar/": "Devan Jayakumar"
+    },
+    "genre": [
+      "Drama",
+      "Comedy"
+    ],
+    "average": 3.15,
+    "total": 454,
+    "half": 11,
+    "one": 21,
+    "one_half": 17,
+    "two": 42,
+    "two_half": 104,
+    "three": 144,
+    "three_half": 52,
+    "four": 44,
+    "four_half": 3,
+    "five": 16
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:34+05:30",
+    "letterboxd_slug": "bhagavan-dasante-ramrajyam",
+    "name": "Bhagavan Dasante Ramrajyam",
+    "releaseYear": 2023,
+    "director": {
+      "/director/rasheed-parambil/": "Rasheed Parambil"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 4,
+    "one": 7,
+    "one_half": 8,
+    "two": 5,
+    "two_half": 6,
+    "three": 4
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:34+05:30",
+    "letterboxd_slug": "abhyuham",
+    "name": "Abhyuham",
+    "originalName": "അഭ്യൂഹം",
+    "releaseYear": 2023,
+    "director": {
+      "/director/akhil-sreenivas/": "Akhil Sreenivas"
+    },
+    "genre": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
+    "one": 1,
+    "three": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:34+05:30",
+    "letterboxd_slug": "voice-of-sathyanathan",
+    "name": "Voice of Sathyanathan",
+    "originalName": "Voice of സത്യനാഥൻ",
+    "releaseYear": 2023,
+    "director": {
+      "/director/raffi/": "Raffi"
+    },
+    "genre": [
+      "Drama",
+      "Comedy"
+    ],
+    "average": 2.78,
+    "total": 1000,
+    "half": 77,
+    "one": 115,
+    "one_half": 112,
+    "two": 287,
+    "two_half": 182,
+    "three": 162,
+    "three_half": 44,
+    "four": 17,
+    "four_half": 1,
+    "five": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:34+05:30",
+    "letterboxd_slug": "journey-of-love-18",
+    "name": "Journey of Love 18+",
+    "releaseYear": 2023,
+    "director": {
+      "/director/arun-d-jose/": "Arun D Jose"
+    },
+    "genre": [
+      "Comedy",
+      "Romance",
+      "Drama"
+    ],
+    "average": 3.02,
+    "total": 2165,
+    "half": 36,
+    "one": 111,
+    "one_half": 140,
+    "two": 266,
+    "two_half": 417,
+    "three": 707,
+    "three_half": 309,
+    "four": 140,
+    "four_half": 13,
+    "five": 26
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:34+05:30",
+    "letterboxd_slug": "padmini",
+    "name": "Padmini",
+    "originalName": "പത്മിനി",
+    "releaseYear": 2023,
+    "director": {
+      "/director/senna-hegde/": "Senna Hegde"
+    },
+    "genre": [
+      "Drama",
+      "Comedy",
+      "Romance"
+    ],
+    "average": 2.98,
+    "total": 1758,
+    "half": 18,
+    "one": 73,
+    "one_half": 97,
+    "two": 308,
+    "two_half": 357,
+    "three": 632,
+    "three_half": 165,
+    "four": 92,
+    "four_half": 2,
+    "five": 14
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:34+05:30",
+    "letterboxd_slug": "nalla-nilavulla-rathri",
+    "name": "Nalla Nilavulla Rathri",
+    "originalName": "നല്ല നിലാവുള്ള രാത്രി",
+    "releaseYear": 2023,
+    "director": {
+      "/director/murphy-devasy/": "Murphy Devasy"
+    },
+    "genre": [
+      "Comedy",
+      "Action",
+      "Thriller"
+    ],
+    "average": 2.9,
+    "total": 440,
+    "half": 28,
+    "one": 55,
+    "one_half": 75,
+    "two": 90,
+    "two_half": 92,
+    "three": 78,
+    "three_half": 16,
+    "four": 5,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:34+05:30",
+    "letterboxd_slug": "salmon-3d",
+    "name": "Salmon 3D",
+    "releaseYear": 2023,
+    "director": {
+      "/director/shalil-kallur/": "Shalil Kallur"
+    },
+    "genre": [
+      "Thriller",
+      "Romance"
+    ],
+    "half": 26,
+    "one": 3,
+    "one_half": 1,
+    "four": 1,
+    "five": 8
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:43+05:30",
+    "letterboxd_slug": "dhoomam",
+    "name": "Dhoomam",
+    "originalName": "ധൂമം",
+    "releaseYear": 2023,
+    "director": {
+      "/director/pawan-kumar/": "Pawan Kumar"
+    },
+    "genre": [
+      "Thriller",
+      "Drama"
+    ],
+    "average": 2.8,
+    "total": 1465,
+    "half": 103,
+    "one": 150,
+    "one_half": 144,
+    "two": 332,
+    "two_half": 290,
+    "three": 280,
+    "three_half": 96,
+    "four": 54,
+    "four_half": 4,
+    "five": 12
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:43+05:30",
+    "letterboxd_slug": "kerala-crime-files-shiju-parayil-veedu-neendakara-2023",
+    "name": "Kerala Crime Files: Shiju, Parayil Veedu, Neendakara",
+    "originalName": "കേരളാ  ക്രൈം ഫയല്സ്: ഷിജു, പാറയിൽ വീട്, നീണ്ടകര",
+    "releaseYear": 2023,
+    "director": {
+      "/director/ahammed-khabeer/": "Ahammed Khabeer"
+    },
+    "genre": [
+      "Drama",
+      "Mystery",
+      "Crime"
+    ],
+    "average": 3.35,
+    "total": 1229,
+    "half": 1,
+    "one": 18,
+    "one_half": 13,
+    "two": 73,
+    "two_half": 119,
+    "three": 404,
+    "three_half": 352,
+    "four": 193,
+    "four_half": 27,
+    "five": 29
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:43+05:30",
+    "letterboxd_slug": "madhura-manohara-moham",
+    "name": "Madhura Manohara Moham",
+    "originalName": "മധുര മനോഹര മോഹം",
+    "releaseYear": 2023,
+    "director": {
+      "/director/stephy-zaviour/": "Stephy Zaviour"
+    },
+    "genre": [
+      "Family",
+      "Comedy"
+    ],
+    "average": 3.09,
+    "total": 1528,
+    "half": 33,
+    "one": 46,
+    "one_half": 69,
+    "two": 242,
+    "two_half": 301,
+    "three": 502,
+    "three_half": 207,
+    "four": 105,
+    "four_half": 13,
+    "five": 10
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:43+05:30",
+    "letterboxd_slug": "pendulum-2023-2",
+    "name": "Pendulum",
+    "originalName": "പെൻഡുലം",
+    "releaseYear": 2023,
+    "director": {
+      "/director/rejin-s-babu/": "Rejin S Babu"
+    },
+    "genre": [
+      "Thriller",
+      "Fantasy"
+    ],
+    "average": 3.21,
+    "total": 419,
+    "half": 1,
+    "one": 11,
+    "one_half": 8,
+    "two": 48,
+    "two_half": 70,
+    "three": 163,
+    "three_half": 71,
+    "four": 41,
+    "four_half": 3,
+    "five": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:43+05:30",
+    "letterboxd_slug": "amala",
+    "name": "Amala",
+    "originalName": "അമല",
+    "releaseYear": 2023,
+    "director": {
+      "/director/safeer-thailan/": "Safeer Thailan"
+    },
+    "genre": [
+      "Thriller",
+      "Drama"
+    ],
+    "half": 38,
+    "one": 13,
+    "one_half": 15,
+    "two": 9,
+    "two_half": 4,
+    "three": 2,
+    "three_half": 2,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:43+05:30",
+    "letterboxd_slug": "obaby",
+    "name": "O.Baby",
+    "originalName": "ഒ.ബേബി",
+    "releaseYear": 2023,
+    "director": {
+      "/director/ranjan-pramod/": "Ranjan Pramod"
+    },
+    "genre": [
+      "Thriller",
+      "Drama",
+      "Action"
+    ],
+    "average": 3.28,
+    "total": 1029,
+    "half": 9,
+    "one": 20,
+    "one_half": 25,
+    "two": 80,
+    "two_half": 173,
+    "three": 324,
+    "three_half": 228,
+    "four": 140,
+    "four_half": 16,
+    "five": 14
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:44+05:30",
+    "letterboxd_slug": "kolla",
+    "name": "Kolla",
+    "originalName": "കൊള്ള",
+    "releaseYear": 2023,
+    "director": {
+      "/director/suraj-varma/": "Suraj Varma"
+    },
+    "genre": [
+      "Drama",
+      "Thriller"
+    ],
+    "average": 2.83,
+    "total": 248,
+    "half": 28,
+    "one": 33,
+    "one_half": 31,
+    "two": 60,
+    "two_half": 40,
+    "three": 41,
+    "three_half": 9,
+    "four": 5,
+    "four_half": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:44+05:30",
+    "letterboxd_slug": "mea-culpa-2023",
+    "name": "Mea Culpa",
+    "originalName": "മിയ കുൽപ",
+    "releaseYear": 2023,
+    "director": {
+      "/director/navaz-ali/": "Navaz Ali"
+    },
+    "genre": [
+      "Crime",
+      "Thriller"
+    ],
+    "half": 2,
+    "one": 2,
+    "two": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:44+05:30",
+    "letterboxd_slug": "thrishanku",
+    "name": "Thrishanku",
+    "originalName": "ത്രിശങ്കു",
+    "releaseYear": 2023,
+    "director": {
+      "/director/achyuth-vinayak/": "Achyuth Vinayak"
+    },
+    "genre": [
+      "Comedy",
+      "Romance"
+    ],
+    "average": 3.15,
+    "total": 1512,
+    "half": 8,
+    "one": 24,
+    "one_half": 46,
+    "two": 170,
+    "two_half": 320,
+    "three": 542,
+    "three_half": 271,
+    "four": 109,
+    "four_half": 10,
+    "five": 12
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:44+05:30",
+    "letterboxd_slug": "live-2023-1",
+    "name": "Live",
+    "releaseYear": 2023,
+    "director": {
+      "/director/v-k-prakash/": "V. K. Prakash"
+    },
+    "genre": [
+      "Thriller"
+    ],
+    "half": 15,
+    "one": 33,
+    "one_half": 43,
+    "two": 40,
+    "two_half": 16,
+    "three": 17,
+    "three_half": 6,
+    "five": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:44+05:30",
+    "letterboxd_slug": "missing-girl-2023",
+    "name": "Missing Girl",
+    "releaseYear": 2023,
+    "director": {
+      "/director/abdul-rasheed-1/": "Abdul Rasheed"
+    },
+    "genre": [
+      "Horror"
+    ],
+    "half": 7,
+    "one": 1,
+    "one_half": 2,
+    "two": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:44+05:30",
+    "letterboxd_slug": "life-sucks",
+    "name": "Life Sucks",
+    "releaseYear": 2023,
+    "director": {
+      "/director/ibrahim-2/": "Ibrahim"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "one": 1,
+    "three_half": 1,
+    "four": 1,
+    "five": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:44+05:30",
+    "letterboxd_slug": "whats-the-price",
+    "name": "What's the price?",
+    "releaseYear": 2023,
+    "director": {
+      "/director/sharik/": "Sharik"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "one_half": 1,
+    "two_half": 1,
+    "three": 4,
+    "three_half": 1,
+    "four": 5,
+    "four_half": 1,
+    "five": 9
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:44+05:30",
+    "letterboxd_slug": "jackson-bazaar-youth",
+    "name": "Jackson Bazaar Youth",
+    "originalName": "ജാക്സൺ ബസാർ യൂത്ത്",
+    "releaseYear": 2023,
+    "director": {
+      "/director/shamal-sulaiman/": "Shamal Sulaiman"
+    },
+    "genre": [
+      "Family",
+      "Drama",
+      "Comedy"
+    ],
+    "average": 2.91,
+    "total": 297,
+    "half": 21,
+    "one": 33,
+    "one_half": 32,
+    "two": 87,
+    "two_half": 52,
+    "three": 49,
+    "three_half": 14,
+    "four": 6,
+    "four_half": 1,
+    "five": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:44+05:30",
+    "letterboxd_slug": "charles-enterprises",
+    "name": "Charles Enterprises",
+    "originalName": "ചാൾസ് എന്റർപ്രൈസസ്",
+    "releaseYear": 2023,
+    "director": {
+      "/director/subhash-lalitha-subrahmanian/": "Subhash Lalitha Subrahmanian"
+    },
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "half": 25,
+    "one": 36,
+    "one_half": 26,
+    "two": 40,
+    "two_half": 20,
+    "three": 19,
+    "three_half": 1,
+    "four": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:44+05:30",
+    "letterboxd_slug": "neeraja",
+    "name": "Neeraja",
+    "originalName": "നീരജ",
+    "releaseYear": 2023,
+    "director": {
+      "/director/rajesh-k-raman/": "Rajesh K Raman"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 2,
+    "one": 17,
+    "one_half": 9,
+    "two": 10,
+    "two_half": 9,
+    "three": 10,
+    "three_half": 2,
+    "four": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:45+05:30",
+    "letterboxd_slug": "neymar",
+    "name": "Neymar",
+    "originalName": "നെയ്മർ",
+    "releaseYear": 2023,
+    "director": {
+      "/director/sudhi-maddison/": "Sudhi Maddison"
+    },
+    "genre": [
+      "Family",
+      "Comedy"
+    ],
+    "average": 3.04,
+    "total": 1964,
+    "half": 44,
+    "one": 90,
+    "one_half": 109,
+    "two": 279,
+    "two_half": 354,
+    "three": 606,
+    "three_half": 278,
+    "four": 132,
+    "four_half": 27,
+    "five": 45
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:45+05:30",
+    "letterboxd_slug": "janaki-jaane",
+    "name": "Janaki Jaane",
+    "originalName": "ജാനകി ജാനേ",
+    "releaseYear": 2023,
+    "director": {
+      "/director/aneesh-upasana/": "Aneesh Upasana"
+    },
+    "genre": [
+      "Drama",
+      "Family",
+      "Comedy"
+    ],
+    "average": 2.98,
+    "total": 474,
+    "half": 13,
+    "one": 32,
+    "one_half": 46,
+    "two": 116,
+    "two_half": 91,
+    "three": 120,
+    "three_half": 32,
+    "four": 20,
+    "four_half": 3,
+    "five": 1
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:45+05:30",
+    "letterboxd_slug": "alone-but-not-forever",
+    "name": "Alone, But Not Forever",
+    "releaseYear": 2023,
+    "director": {
+      "/director/ibrahim-2/": "Ibrahim"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 2,
+    "three": 2,
+    "four": 2,
+    "five": 3
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:45+05:30",
+    "letterboxd_slug": "2018-2023",
+    "name": "2018",
+    "releaseYear": 2023,
+    "director": {
+      "/director/jude-anthany-joseph/": "Jude Anthany Joseph"
+    },
+    "genre": [
+      "Adventure",
+      "Thriller",
+      "Action"
+    ],
+    "average": 3.65,
+    "total": 10020,
+    "half": 26,
+    "one": 58,
+    "one_half": 71,
+    "two": 278,
+    "two_half": 475,
+    "three": 1695,
+    "three_half": 2186,
+    "four": 3056,
+    "four_half": 1041,
+    "five": 1134
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:45+05:30",
+    "letterboxd_slug": "anuragam",
+    "name": "Anuragam",
+    "originalName": "അനുരാഗം",
+    "releaseYear": 2023,
+    "director": {
+      "/director/shahad-nilambur/": "Shahad Nilambur"
+    },
+    "genre": [
+      "Family",
+      "Drama"
+    ],
+    "average": 2.98,
+    "total": 225,
+    "half": 17,
+    "one": 20,
+    "one_half": 25,
+    "two": 42,
+    "two_half": 41,
+    "three": 55,
+    "three_half": 11,
+    "four": 7,
+    "four_half": 2,
+    "five": 5
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:45+05:30",
+    "letterboxd_slug": "pachuvum-athbhuthavilakkum",
+    "name": "Pachuvum Athbhuthavilakkum",
+    "originalName": "പാച്ചുവും അത്ഭുതവിളക്കും",
+    "releaseYear": 2023,
+    "director": {
+      "/director/akhil-sathyan/": "Akhil Sathyan"
+    },
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "average": 3.28,
+    "total": 6635,
+    "half": 19,
+    "one": 68,
+    "one_half": 75,
+    "two": 346,
+    "two_half": 619,
+    "three": 1961,
+    "three_half": 1734,
+    "four": 1368,
+    "four_half": 219,
+    "five": 226
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:45+05:30",
+    "letterboxd_slug": "makkottan",
+    "name": "Makkottan",
+    "originalName": "മാക്കോട്ടൻ",
+    "releaseYear": 2023,
+    "director": {
+      "/director/rajeev-naduvanad/": "Rajeev Naduvanad"
+    },
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:45+05:30",
+    "letterboxd_slug": "sulaikha-manzil",
+    "name": "Sulaikha Manzil",
+    "originalName": "സുലൈഖ മന്‍സില്‍",
+    "releaseYear": 2023,
+    "director": {
+      "/director/ashraf-hamsa/": "Ashraf Hamsa"
+    },
+    "genre": [
+      "Drama",
+      "Romance",
+      "Comedy"
+    ],
+    "average": 3.06,
+    "total": 1577,
+    "half": 36,
+    "one": 73,
+    "one_half": 84,
+    "two": 269,
+    "two_half": 297,
+    "three": 484,
+    "three_half": 189,
+    "four": 115,
+    "four_half": 13,
+    "five": 17
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:45+05:30",
+    "letterboxd_slug": "ayalvaashi",
+    "name": "Ayalvaashi",
+    "originalName": "അയൽവാശി",
+    "releaseYear": 2023,
+    "director": {
+      "/director/irshad-parari/": "Irshad Parari"
+    },
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "average": 2.95,
+    "total": 1254,
+    "half": 37,
+    "one": 87,
+    "one_half": 90,
+    "two": 283,
+    "two_half": 266,
+    "three": 323,
+    "three_half": 104,
+    "four": 50,
+    "four_half": 5,
+    "five": 9
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-21T10:46+05:30",
+    "letterboxd_slug": "kadina-kadoramee-andakadaham",
+    "name": "Kadina Kadoramee Andakadaham",
+    "originalName": "കഠിന കഠോരമീ അണ്ഡകടാഹം",
+    "releaseYear": 2023,
+    "director": {
+      "/director/muhashin/": "Muhashin"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "average": 3.22,
+    "total": 1089,
+    "half": 13,
+    "one": 26,
+    "one_half": 33,
+    "two": 117,
+    "two_half": 206,
+    "three": 366,
+    "three_half": 187,
+    "four": 105,
+    "four_half": 11,
+    "five": 25
+  }
+]
