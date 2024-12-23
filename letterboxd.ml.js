@@ -31,7 +31,9 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
       }).then((r) => r.text())
     );
 
-    $1("[data-film-slug]").each((i, e) => {
+    if (!$1("[data-film-slug]").length) break;
+
+    $1("[data-film-slug]").each((_i, e) => {
       const letterboxd_slug = $1(e).attr("data-film-slug");
       if (
         !configs.filter((i) => letterboxd_slug === i.letterboxd_slug).length
@@ -53,21 +55,25 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
   for (const config of configs.filter(
     (i) => i.enable && /*!i.originalName ||*/ !i.releaseYear
   )) {
-    const { originalName, releaseYear } = await fetch(
-      `https://letterboxd.com/film/${config.letterboxd_slug}/json`,
-      {
-        ...(proxy ? { agent: new HttpsProxyAgent(proxy) } : {}),
-        headers: { "user-agent": "curl/1.0" },
-      }
-    ).then((r) => r.json());
+    try {
+      const { originalName, releaseYear } = await fetch(
+        `https://letterboxd.com/film/${config.letterboxd_slug}/json`,
+        {
+          ...(proxy ? { agent: new HttpsProxyAgent(proxy) } : {}),
+          headers: { "user-agent": "curl/1.0" },
+        }
+      ).then((r) => r.json());
 
-    if (originalName) config.originalName = originalName;
-    if (releaseYear) config.releaseYear = releaseYear;
+      if (originalName) config.originalName = originalName;
+      if (releaseYear) config.releaseYear = releaseYear;
 
-    console.log(config);
+      console.log(config);
 
-    config.last_updated_at = moment().format("YYYY-MM-DDTHH:mmZ");
-    fs.writeFileSync(config_path, JSON.stringify(configs, undefined, 2));
+      config.last_updated_at = moment().format("YYYY-MM-DDTHH:mmZ");
+      fs.writeFileSync(config_path, JSON.stringify(configs, undefined, 2));
+    } catch (e) {
+      console.error(e);
+    }
   }
 
   // letterboxd fetch
