@@ -15,46 +15,47 @@ const config_path = path.resolve(__dirname, "./letterboxd.ml.json");
 const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
 
 (async () => {
-  const reddit_post_id = "1hio2ju";
+  // const reddit_post_id = "1hio2ju"; // 2024 year-in-review
+  const reddit_post_id = "1hl4vy1"; // top100
 
-  // lang:ml
-  for (let i = 0; i < 5; i++) {
-    const url = `https://letterboxd.com/films/ajax/language/malayalam/by/release/page/${
-      i + 1
-    }`;
-    console.log(url);
+  // // lang:ml
+  // for (let i = 0; i < 5; i++) {
+  //   const url = `https://letterboxd.com/films/ajax/language/malayalam/by/release/page/${
+  //     i + 1
+  //   }`;
+  //   console.log(url);
 
-    const $1 = cheerio.load(
-      await fetch(url, {
-        ...(proxy ? { agent: new HttpsProxyAgent(proxy) } : {}),
-        headers: { "user-agent": "curl/1.0" },
-      }).then((r) => r.text())
-    );
+  //   const $1 = cheerio.load(
+  //     await fetch(url, {
+  //       ...(proxy ? { agent: new HttpsProxyAgent(proxy) } : {}),
+  //       headers: { "user-agent": "curl/1.0" },
+  //     }).then((r) => r.text())
+  //   );
 
-    if (!$1("[data-film-slug]").length) break;
+  //   if (!$1("[data-film-slug]").length) break;
 
-    $1("[data-film-slug]").each((_i, e) => {
-      const letterboxd_slug = $1(e).attr("data-film-slug");
-      if (
-        !configs.filter((i) => letterboxd_slug === i.letterboxd_slug).length
-      ) {
-        console.log(i + 1, letterboxd_slug);
-        configs.push({
-          enable: true,
-          last_updated_at: moment().format("YYYY-MM-DDTHH:mmZ"),
-          letterboxd_slug,
-          name: $1(e).find("img").attr("alt"),
-        });
-      }
-    });
+  //   $1("[data-film-slug]").each((_i, e) => {
+  //     const letterboxd_slug = $1(e).attr("data-film-slug");
+  //     if (
+  //       !configs.filter((i) => letterboxd_slug === i.letterboxd_slug).length
+  //     ) {
+  //       console.log(i + 1, letterboxd_slug);
+  //       configs.push({
+  //         enable: true,
+  //         last_updated_at: moment().format("YYYY-MM-DDTHH:mmZ"),
+  //         letterboxd_slug,
+  //         name: $1(e).find("img").attr("alt"),
+  //       });
+  //     }
+  //   });
 
-    fs.writeFileSync(config_path, JSON.stringify(configs, undefined, 2));
-  }
+  //   fs.writeFileSync(config_path, JSON.stringify(configs, undefined, 2));
+  // }
 
   // lang:ml metadata
   for (const config of configs.filter(
     (i) => i.enable && /*!i.originalName ||*/ !i.releaseYear
-  )) {
+  ))
     try {
       const { originalName, releaseYear } = await fetch(
         `https://letterboxd.com/film/${config.letterboxd_slug}/json`,
@@ -74,39 +75,52 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
     } catch (e) {
       console.error(e);
     }
-  }
 
   // letterboxd fetch
   for (const config of orderBy(
-    configs.filter((i) => i.enable && i.releaseYear === 2024),
+    configs.filter((i) => i.enable),
     [(i) => i.last_updated_at || ""], // last updated first
     ["asc"]
   )) {
     console.log(config);
 
-    // metadata
-    if (!(config.director && config.genre)) {
-      const metadata = (
-        await fetch(`https://letterboxd.com/film/${config.letterboxd_slug}`, {
-          ...(proxy ? { agent: new HttpsProxyAgent(proxy) } : {}),
-          headers: { "user-agent": "curl/1.0" },
-        }).then((r) => r.text())
-      ).match(/\/\*.*<\!\[CDATA\[.*\*\/([\s+\S+]*)\/\*.*\]\]>.*\*\//);
+    const $1 = cheerio.load(
+      await fetch(`https://letterboxd.com/film/${config.letterboxd_slug}`, {
+        ...(proxy ? { agent: new HttpsProxyAgent(proxy) } : {}),
+        headers: { "user-agent": "curl/1.0" },
+      }).then((r) => r.text())
+    );
 
-      if (metadata && isJSON(metadata[1])) {
-        const { director = [], genre = [], image } = JSON.parse(metadata[1]);
+    const metadata = $1('script:contains("<![CDATA[")')
+      .text()
+      .match(/\/\*.*<\!\[CDATA\[.*\*\/([\s+\S+]*)\/\*.*\]\]>.*\*\//);
+    if (metadata && isJSON(metadata[1])) {
+      const { director = [], genre = [], image } = JSON.parse(metadata[1]);
 
-        // director
-        for (const { name, sameAs } of director) {
-          if (!config.director) config.director = {};
-          config.director[sameAs] = name;
-        }
-        if (genre.length) config.genre = genre; // genre
-        if (image) config.image = image; // image
-
-        config.last_updated_at = moment().format("YYYY-MM-DDTHH:mmZ");
-        fs.writeFileSync(config_path, JSON.stringify(configs, undefined, 2));
+      // director
+      for (const { name, sameAs } of director) {
+        if (!config.director) config.director = {};
+        config.director[sameAs] = name;
       }
+      if (genre.length) config.genre = genre; // genre
+      if (image) config.image = image; // image
+
+      config.last_updated_at = moment().format("YYYY-MM-DDTHH:mmZ");
+      fs.writeFileSync(config_path, JSON.stringify(configs, undefined, 2));
+    }
+
+    // releaseDate
+    const releaseDate = $1('.-bycountry > .listitem:contains("India")')
+      .find('.release-date-list:contains("Theatrical")')
+      .find(".date")
+      .text();
+    if (releaseDate && moment(releaseDate, ["DD MMM YYYY"]).isValid()) {
+      config.releaseDate = moment(releaseDate, ["DD MMM YYYY"]).format(
+        "YYYY-MM-DD"
+      );
+
+      config.last_updated_at = moment().format("YYYY-MM-DDTHH:mmZ");
+      fs.writeFileSync(config_path, JSON.stringify(configs, undefined, 2));
     }
 
     // ratings
@@ -159,7 +173,9 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
   let rank = 1;
   let text = `| Rank | Movie | Reviews | Average | Director | Genre | Last Updated At |\n| -: | :- | -: | -: | :- | :- | :- |`;
   for (const config of orderBy(
-    configs.filter((i) => i.enable && i.releaseYear === 2024),
+    configs.filter(
+      (i) => i.enable && i.releaseDate // && i.releaseDate.startsWith("2024") // top100
+    ),
     [
       (i) => i.average || 0,
       (i) =>
@@ -175,7 +191,8 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
         (i.five || 0),
     ],
     ["desc", "desc"]
-  )) {
+  ).slice(0, 100)) {
+    // top100
     const total =
       config.total ||
       (config.half || 0) +

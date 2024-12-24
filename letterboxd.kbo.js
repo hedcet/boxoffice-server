@@ -25,29 +25,43 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
   )) {
     console.log(config);
 
-    // metadata
-    if (!(config.director && config.genre && config.image)) {
-      const metadata = (
-        await fetch(`https://letterboxd.com/film/${config.letterboxd_slug}`, {
-          ...(proxy ? { agent: new HttpsProxyAgent(proxy) } : {}),
-          headers: { "user-agent": "curl/1.0" },
-        }).then((r) => r.text())
-      ).match(/\/\*.*<\!\[CDATA\[.*\*\/([\s+\S+]*)\/\*.*\]\]>.*\*\//);
+    const $1 = cheerio.load(
+      await fetch(`https://letterboxd.com/film/${config.letterboxd_slug}`, {
+        ...(proxy ? { agent: new HttpsProxyAgent(proxy) } : {}),
+        headers: { "user-agent": "curl/1.0" },
+      }).then((r) => r.text())
+    );
 
-      if (metadata && isJSON(metadata[1])) {
-        const { director = [], genre = [], image } = JSON.parse(metadata[1]);
+    const metadata = $1('script:contains("<![CDATA[")')
+      .text()
+      .match(/\/\*.*<\!\[CDATA\[.*\*\/([\s+\S+]*)\/\*.*\]\]>.*\*\//);
+    if (metadata && isJSON(metadata[1])) {
+      const { director = [], genre = [], image } = JSON.parse(metadata[1]);
 
-        // director
-        for (const { name, sameAs } of director) {
-          if (!config.director) config.director = {};
-          config.director[sameAs] = name;
-        }
-        if (genre.length) config.genre = genre; // genre
-        if (image) config.image = image; // image
-
-        config.last_updated_at = moment().format("YYYY-MM-DDTHH:mmZ");
-        fs.writeFileSync(config_path, JSON.stringify(configs, undefined, 2));
+      // director
+      for (const { name, sameAs } of director) {
+        if (!config.director) config.director = {};
+        config.director[sameAs] = name;
       }
+      if (genre.length) config.genre = genre; // genre
+      if (image) config.image = image; // image
+
+      config.last_updated_at = moment().format("YYYY-MM-DDTHH:mmZ");
+      fs.writeFileSync(config_path, JSON.stringify(configs, undefined, 2));
+    }
+
+    // releaseDate
+    const releaseDate = $1('.-bycountry > .listitem:contains("India")')
+      .find('.release-date-list:contains("Theatrical")')
+      .find(".date")
+      .text();
+    if (releaseDate && moment(releaseDate, ["DD MMM YYYY"]).isValid()) {
+      config.releaseDate = moment(releaseDate, ["DD MMM YYYY"]).format(
+        "YYYY-MM-DD"
+      );
+
+      config.last_updated_at = moment().format("YYYY-MM-DDTHH:mmZ");
+      fs.writeFileSync(config_path, JSON.stringify(configs, undefined, 2));
     }
 
     // ratings
