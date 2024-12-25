@@ -19,7 +19,7 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
 
   // letterboxd fetch
   for (const config of orderBy(
-    configs.filter((i) => i.enable),
+    configs.filter((i) => i.enable && moment().diff(i.last_updated_at, "day")),
     [(i) => i.last_updated_at || ""], // last updated first
     ["asc"]
   )) {
