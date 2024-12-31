@@ -5,7 +5,7 @@ const fetch = require("node-fetch");
 const path = require("path");
 const sharp = require("sharp");
 
-const { csvPath, proxy, qc } = require("./config/env.js");
+const { csvPath, local, proxy, qc } = require("./config/env.js");
 const { textWidth, toEnIn } = require("./config/misc.js");
 const { sync } = require("./config/git.js");
 const { moment } = require("./config/moment.js");
@@ -206,6 +206,6 @@ const collageItemWidth = 96;
         { input: tableBuffer, left: collageItemWidth, top: 0 },
       ])
       .jpeg({ mozjpeg: true })
-      .toFile(path.resolve(__dirname, "./store/weekly.individual.jpg"));
+      .toFile(path.resolve(local, "weekly.individual.jpg"));
   } else console.log(table);
 })();

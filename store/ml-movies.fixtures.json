@@ -1,0 +1,768 @@
+[
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:45+05:30",
+    "letterboxd_slug": "barroz",
+    "name": "Barroz",
+    "originalName": "ബറോസ്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/mohanlal/": "Mohanlal"
+    },
+    "genre": [
+      "Fantasy",
+      "Action",
+      "Adventure",
+      "Thriller"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/5/5/3/7/6/4/553764-barroz-guardian-of-d-gama-s-treasure-0-230-0-345-crop.jpg?v=b1a62a6bb4",
+    "releaseDate": "2024-12-25",
+    "duration": 154,
+    "half": 63,
+    "one": 88,
+    "one_half": 69,
+    "two": 108,
+    "two_half": 75,
+    "three": 42,
+    "three_half": 7,
+    "four": 9,
+    "five": 4
+  },
+  {
+    "enable": true,
+    "letterboxd_slug": "marco-2024",
+    "name": "Marco",
+    "originalName": "മാർക്കോ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/haneef-adeni/": "Haneef Adeni"
+    },
+    "genre": [
+      "Action"
+    ],
+    "half": 112,
+    "one": 153,
+    "one_half": 201,
+    "two": 483,
+    "two_half": 598,
+    "three": 1142,
+    "three_half": 977,
+    "four": 865,
+    "four_half": 207,
+    "five": 259,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/0/7/2/6/0/1/1072601-marco-0-230-0-345-crop.jpg?v=3b097c9a16",
+    "last_updated_at": "2024-12-30T19:42+05:30",
+    "releaseDate": "2024-12-20",
+    "duration": 141,
+    "average": 3.14,
+    "total": 4997
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T20:12+05:30",
+    "letterboxd_slug": "e-d-extra-decent",
+    "name": "E D - Extra Decent",
+    "releaseYear": 2024,
+    "director": {
+      "/director/aamir-pallikkal/": "Aamir Pallikkal"
+    },
+    "genre": [
+      "Drama",
+      "Comedy"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/7/9/0/3/9/1179039-e-d-extra-decent-0-230-0-345-crop.jpg?v=eab79ea1b7",
+    "one": 10,
+    "one_half": 10,
+    "two": 18,
+    "two_half": 44,
+    "three": 75,
+    "three_half": 60,
+    "four": 24,
+    "four_half": 8,
+    "five": 4,
+    "releaseDate": "2024-12-20",
+    "duration": 122
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:30+05:30",
+    "letterboxd_slug": "rifle-club",
+    "name": "Rifle Club",
+    "originalName": "റൈഫിൾ ക്ലബ്ബ്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/aashiq-abu/": "Aashiq Abu"
+    },
+    "genre": [
+      "Thriller",
+      "Action"
+    ],
+    "half": 5,
+    "one": 15,
+    "one_half": 13,
+    "two": 69,
+    "two_half": 177,
+    "three": 594,
+    "three_half": 1008,
+    "four": 1450,
+    "four_half": 321,
+    "five": 226,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/0/6/4/4/6/8/1064468-rifle-club-0-230-0-345-crop.jpg?v=ae3f2da0e3",
+    "releaseDate": "2024-12-19",
+    "duration": 113,
+    "average": 3.54,
+    "total": 3878
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:36+05:30",
+    "letterboxd_slug": "rudhiram",
+    "name": "Rudhiram",
+    "originalName": "രുധിരം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/jisho-lon-antony/": "Jisho Lon Antony"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 3,
+    "one": 5,
+    "one_half": 5,
+    "two": 16,
+    "two_half": 14,
+    "three": 14,
+    "four": 1,
+    "four_half": 1,
+    "five": 1,
+    "three_half": 3,
+    "image": "https://a.ltrbxd.com/resized/film-poster/9/4/0/6/4/4/940644-rudhiram-0-230-0-345-crop.jpg?v=4259148f04",
+    "releaseDate": "2024-12-13",
+    "duration": 124
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:38+05:30",
+    "letterboxd_slug": "sthanarthi-sreekuttan",
+    "name": "Sthanarthi Sreekuttan",
+    "originalName": "സ്ഥാനാർത്ഥി ശ്രീക്കുട്ടൻ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/vinesh-viswanath/": "Vinesh Viswanath"
+    },
+    "genre": [
+      "Drama",
+      "Comedy"
+    ],
+    "half": 2,
+    "one_half": 3,
+    "two_half": 2,
+    "three": 13,
+    "three_half": 7,
+    "four": 9,
+    "five": 3,
+    "image": "https://a.ltrbxd.com/resized/film-poster/9/1/2/6/4/3/912643-sthanarthi-sreekuttan-0-230-0-345-crop.jpg?v=0ea3ea91a9",
+    "releaseDate": "2024-11-29",
+    "duration": 135
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:38+05:30",
+    "letterboxd_slug": "sookshmadarshini",
+    "name": "Sookshmadarshini",
+    "originalName": "സൂക്ഷ്മദര്‍ശിനി",
+    "releaseYear": 2024,
+    "director": {
+      "/director/mc-jithin/": "MC Jithin"
+    },
+    "genre": [
+      "Thriller",
+      "Mystery"
+    ],
+    "average": 3.63,
+    "total": 10459,
+    "half": 12,
+    "one": 29,
+    "one_half": 31,
+    "two": 165,
+    "two_half": 380,
+    "three": 1504,
+    "three_half": 2800,
+    "four": 3920,
+    "four_half": 935,
+    "five": 683,
+    "image": "https://a.ltrbxd.com/resized/film-poster/8/5/4/8/8/7/854887-sookshmadarshini-0-230-0-345-crop.jpg?v=dae4514406",
+    "releaseDate": "2024-11-22",
+    "duration": 142
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T20:00+05:30",
+    "letterboxd_slug": "turkish-tharkkam",
+    "name": "Turkish Tharkkam",
+    "originalName": "ടർക്കിഷ് തർക്കം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/nawaz-sulaiman/": "Nawaz Sulaiman"
+    },
+    "genre": [
+      "Thriller"
+    ],
+    "one_half": 1,
+    "two": 5,
+    "two_half": 2,
+    "three_half": 1,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/0/6/3/3/2/0/1063320-turkish-tharkkam-0-230-0-345-crop.jpg?v=f38e84aea7",
+    "releaseDate": "2024-11-22",
+    "duration": 108
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:38+05:30",
+    "letterboxd_slug": "parakramam",
+    "name": "Parakramam",
+    "originalName": "പരാക്രമം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/arjun-ramesh/": "Arjun Ramesh"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 1,
+    "one": 1,
+    "one_half": 1,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/0/5/4/6/4/3/1054643-parakramam-0-230-0-345-crop.jpg?v=415854f2cb",
+    "releaseDate": "2024-11-22",
+    "duration": 100
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T20:01+05:30",
+    "letterboxd_slug": "njan-kandatha-sare",
+    "name": "Njan Kandatha Sare",
+    "originalName": "ഞാൻ കണ്ടതാ സാറേ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/varun-g-panicker/": "Varun G Panicker"
+    },
+    "genre": [
+      "Thriller",
+      "Comedy"
+    ],
+    "two_half": 1,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/0/0/5/6/8/7/1005687-njan-kandatha-sare-0-230-0-345-crop.jpg?v=ddc3604b19",
+    "releaseDate": "2024-11-22",
+    "duration": 119
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:31+05:30",
+    "letterboxd_slug": "hello-mummy",
+    "name": "Hello Mummy",
+    "originalName": "ഹലോ മമ്മി",
+    "releaseYear": 2024,
+    "director": {
+      "/director/vaishakh-elans/": "Vaishakh Elans"
+    },
+    "genre": [
+      "Fantasy",
+      "Comedy"
+    ],
+    "average": 3.02,
+    "total": 661,
+    "half": 14,
+    "one": 37,
+    "one_half": 50,
+    "two": 136,
+    "two_half": 155,
+    "three": 172,
+    "three_half": 61,
+    "four": 27,
+    "four_half": 6,
+    "five": 3,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/2/3/3/1/8/1123318-hello-mummy-0-230-0-345-crop.jpg?v=7bd4d6b2f0",
+    "releaseDate": "2024-11-21",
+    "duration": 136
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:38+05:30",
+    "letterboxd_slug": "anand-sreebala",
+    "name": "Anand Sreebala",
+    "originalName": "ആനന്ദ് ശ്രീബാല",
+    "releaseYear": 2024,
+    "director": {
+      "/director/vishnu-vinay/": "Vishnu Vinay"
+    },
+    "genre": [
+      "Thriller",
+      "Crime"
+    ],
+    "half": 2,
+    "one": 2,
+    "one_half": 6,
+    "two": 27,
+    "two_half": 43,
+    "three": 71,
+    "three_half": 28,
+    "four": 13,
+    "four_half": 2,
+    "five": 1,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/2/7/2/8/8/1127288-anand-sreebala-0-230-0-345-crop.jpg?v=1796923ec4",
+    "releaseDate": "2024-11-15",
+    "duration": 134
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:39+05:30",
+    "letterboxd_slug": "mura-2024",
+    "name": "Mura",
+    "originalName": "മുറ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/muhammad-musthafa/": "Muhammad Musthafa"
+    },
+    "genre": [
+      "Action",
+      "Thriller"
+    ],
+    "average": 3.22,
+    "total": 1445,
+    "half": 6,
+    "one": 26,
+    "one_half": 54,
+    "two": 161,
+    "two_half": 247,
+    "three": 463,
+    "three_half": 287,
+    "four": 159,
+    "four_half": 22,
+    "five": 20,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/1/2/2/0/2/1112202-mura-2024-0-230-0-345-crop.jpg?v=26d836867c",
+    "releaseDate": "2024-11-08",
+    "duration": 129
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:39+05:30",
+    "letterboxd_slug": "swargam",
+    "name": "Swargam",
+    "originalName": "സ്വർഗം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/rejis-antony/": "Rejis Antony"
+    },
+    "genre": [
+      "Drama",
+      "Family"
+    ],
+    "half": 8,
+    "one": 4,
+    "one_half": 1,
+    "two": 2,
+    "two_half": 2,
+    "three": 1,
+    "five": 1,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/2/5/9/5/9/7/1259597-swargam-0-230-0-345-crop.jpg?v=ff8a358768",
+    "releaseDate": "2024-11-08",
+    "duration": 108
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:39+05:30",
+    "letterboxd_slug": "oru-anweshanathinte-thudakkam",
+    "name": "Oru Anweshanathinte Thudakkam",
+    "originalName": "ഒരു  അന്വേഷണത്തിന്റ്റെ തുടക്കം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/nishad-m-a/": "Nishad M A"
+    },
+    "genre": [
+      "Crime",
+      "Thriller"
+    ],
+    "half": 3,
+    "one": 4,
+    "one_half": 1,
+    "two": 2,
+    "two_half": 1,
+    "three": 1,
+    "three_half": 1,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/5/7/8/5/8/1157858-oru-anweshanathinte-thudakkam-0-230-0-345-crop.jpg?v=8f1f8b1eb9",
+    "releaseDate": "2024-11-08",
+    "duration": 181
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:39+05:30",
+    "letterboxd_slug": "i-am-kathalan",
+    "name": "I Am Kathalan",
+    "originalName": "I Am കാതലൻ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/girish-a-d/": "Girish A D"
+    },
+    "genre": [
+      "Thriller"
+    ],
+    "average": 3.26,
+    "total": 1009,
+    "half": 2,
+    "one": 8,
+    "one_half": 16,
+    "two": 83,
+    "two_half": 165,
+    "three": 412,
+    "three_half": 214,
+    "four": 86,
+    "four_half": 13,
+    "five": 10,
+    "image": "https://a.ltrbxd.com/resized/film-poster/9/4/3/7/0/8/943708-i-am-kathalan-0-230-0-345-crop.jpg?v=1e9d0032c1",
+    "releaseDate": "2024-11-07",
+    "duration": 111
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:40+05:30",
+    "letterboxd_slug": "oshana",
+    "name": "Oshana",
+    "originalName": "ഓശാന",
+    "releaseYear": 2024,
+    "director": {
+      "/director/nv-manoj/": "N.V. Manoj"
+    },
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "half": 1,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/2/5/9/5/9/5/1259595-oshana-0-230-0-345-crop.jpg?v=c5fe72d0aa",
+    "releaseDate": "2024-11-01",
+    "duration": 149
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:40+05:30",
+    "letterboxd_slug": "pallotty-90s-kids",
+    "name": "Pallotty 90's Kids",
+    "originalName": "പല്ലൊട്ടി 90's കിഡ്സ്‌",
+    "releaseYear": 2024,
+    "director": {
+      "/director/jithin-raj-2/": "Jithin Raj"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "average": 3.4,
+    "total": 700,
+    "half": 6,
+    "one": 11,
+    "one_half": 5,
+    "two": 42,
+    "two_half": 71,
+    "three": 167,
+    "three_half": 163,
+    "four": 173,
+    "four_half": 37,
+    "five": 25,
+    "image": "https://a.ltrbxd.com/resized/film-poster/9/2/2/0/4/4/922044-pallotty-90-s-kids-0-230-0-345-crop.jpg?v=37ebdf35e9",
+    "releaseDate": "2024-10-25",
+    "duration": 126
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:40+05:30",
+    "letterboxd_slug": "laggam",
+    "name": "Laggam",
+    "originalName": "ലഗ്ഗാം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/ramesh-cheppala/": "Ramesh Cheppala"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 4,
+    "one": 9,
+    "one_half": 12,
+    "two": 16,
+    "two_half": 7,
+    "three": 8,
+    "four": 1,
+    "four_half": 1,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/2/6/1/8/6/0/1261860-laggam-0-230-0-345-crop.jpg?v=1eaa9c7e36",
+    "releaseDate": "2024-10-25",
+    "duration": 127
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:40+05:30",
+    "letterboxd_slug": "thrayam",
+    "name": "Thrayam",
+    "originalName": "ത്രയം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/sanjith-chandrasenan/": "Sanjith Chandrasenan"
+    },
+    "genre": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "half": 4,
+    "one": 1,
+    "one_half": 1,
+    "image": "https://a.ltrbxd.com/resized/film-poster/7/8/6/6/3/7/786637-thrayam-0-230-0-345-crop.jpg?v=73537ed22e",
+    "releaseDate": "2024-10-25",
+    "duration": 120
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:40+05:30",
+    "letterboxd_slug": "pani",
+    "name": "Pani",
+    "originalName": "പണി",
+    "releaseYear": 2024,
+    "director": {
+      "/director/joju-george/": "Joju George"
+    },
+    "genre": [
+      "Thriller",
+      "Drama"
+    ],
+    "average": 3.09,
+    "total": 1255,
+    "half": 45,
+    "one": 52,
+    "one_half": 73,
+    "two": 187,
+    "two_half": 235,
+    "three": 327,
+    "three_half": 202,
+    "four": 99,
+    "four_half": 15,
+    "five": 20,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/0/8/0/3/0/5/1080305-pani-0-230-0-345-crop.jpg?v=78c9890063",
+    "releaseDate": "2024-10-24",
+    "duration": 141
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:41+05:30",
+    "letterboxd_slug": "kundannoorile-kulsitha-lahala",
+    "name": "Kundannoorile Kulsitha Lahala",
+    "originalName": "കുണ്ടന്നൂരിലെ കുത്സിതലഹള",
+    "releaseYear": 2024,
+    "director": {
+      "/director/akshay-ashok/": "Akshay Ashok"
+    },
+    "genre": [
+      "Action"
+    ],
+    "one": 1,
+    "one_half": 1,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/0/9/6/3/1/0/1096310-kundannoorile-kulsitha-lahala-0-230-0-345-crop.jpg?v=53faf78480",
+    "releaseDate": "2024-10-24",
+    "duration": 146
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:41+05:30",
+    "letterboxd_slug": "porattu-nadakam",
+    "name": "Porattu Nadakam",
+    "originalName": "പൊറാട്ടു നാടകം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/naushad-saffron/": "Naushad Saffron"
+    },
+    "genre": [
+      "Comedy"
+    ],
+    "half": 27,
+    "one": 30,
+    "one_half": 13,
+    "two": 20,
+    "two_half": 5,
+    "three": 2,
+    "three_half": 2,
+    "four": 1,
+    "five": 1,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/2/0/3/3/6/5/1203365-porattu-nadakam-0-230-0-345-crop.jpg?v=909e77ae34",
+    "releaseDate": "2024-10-18",
+    "duration": 125
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:41+05:30",
+    "letterboxd_slug": "bougainvillea",
+    "name": "Bougainvillea",
+    "originalName": "ബോഗയ്ൻവില്ല",
+    "releaseYear": 2024,
+    "director": {
+      "/director/amal-neerad-1/": "Amal Neerad"
+    },
+    "genre": [
+      "Mystery",
+      "Thriller"
+    ],
+    "average": 3.04,
+    "total": 6933,
+    "half": 38,
+    "one": 114,
+    "one_half": 209,
+    "two": 746,
+    "two_half": 1175,
+    "three": 2322,
+    "three_half": 1361,
+    "four": 756,
+    "four_half": 108,
+    "five": 104,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/0/6/4/1/5/1/1064151-bougainvillea-0-230-0-345-crop.jpg?v=9c6b778e09",
+    "releaseDate": "2024-10-17",
+    "duration": 138
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:42+05:30",
+    "letterboxd_slug": "thekku-vadakku",
+    "name": "Thekku Vadakku",
+    "originalName": "തെക്കു വടക്ക്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/prem-shankar/": "Prem Shankar"
+    },
+    "genre": [
+      "Drama",
+      "Comedy"
+    ],
+    "average": 2.69,
+    "total": 414,
+    "half": 82,
+    "one": 92,
+    "one_half": 62,
+    "two": 93,
+    "two_half": 36,
+    "three": 30,
+    "three_half": 10,
+    "four": 7,
+    "five": 2,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/2/7/3/2/2/1127322-thekku-vadakku-0-230-0-345-crop.jpg?v=fb331c95dc",
+    "releaseDate": "2024-10-04",
+    "duration": 129
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:42+05:30",
+    "letterboxd_slug": "thanupp",
+    "name": "Thanupp",
+    "originalName": "തണുപ്പ്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/ragesh-narayanan/": "Ragesh Narayanan"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 2,
+    "two": 1,
+    "two_half": 2,
+    "three": 2,
+    "three_half": 5,
+    "four": 1,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/2/5/3/0/3/0/1253030-thanupp-0-230-0-345-crop.jpg?v=d4d4f40f82",
+    "releaseDate": "2024-10-04",
+    "duration": 110
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:42+05:30",
+    "letterboxd_slug": "pushpaka-vimanam-2024",
+    "name": "Pushpaka Vimanam",
+    "originalName": "പുഷ്പക വിമാനം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/ullas-krishna/": "Ullas Krishna"
+    },
+    "genre": [
+      "Fantasy",
+      "Comedy",
+      "Action"
+    ],
+    "half": 2,
+    "one": 1,
+    "two": 2,
+    "two_half": 2,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/4/4/3/4/5/1144345-pushpaka-vimanam-2024-0-230-0-345-crop.jpg?v=15435ff030",
+    "releaseDate": "2024-10-04",
+    "duration": 136
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:43+05:30",
+    "letterboxd_slug": "oru-kattil-oru-muri",
+    "name": "Oru Kattil Oru Muri",
+    "originalName": "ഒരു കട്ടിൽ ഒരു മുറി",
+    "releaseYear": 2024,
+    "director": {
+      "/director/shanavas-k-bavakkutty/": "Shanavas K Bavakkutty"
+    },
+    "genre": [
+      "Romance",
+      "Drama"
+    ],
+    "half": 3,
+    "one": 1,
+    "one_half": 2,
+    "two": 1,
+    "four_half": 1,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/0/5/6/9/9/1105699-oru-kattil-oru-muri-0-230-0-345-crop.jpg?v=b6cef70590",
+    "releaseDate": "2024-10-04"
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:43+05:30",
+    "letterboxd_slug": "kummatikali",
+    "name": "Kummatikali",
+    "originalName": "കുമ്മാട്ടിക്കളി",
+    "releaseYear": 2024,
+    "director": {
+      "/director/vincent-selva/": "Vincent Selva"
+    },
+    "genre": [],
+    "half": 1,
+    "three_half": 1,
+    "image": "https://a.ltrbxd.com/resized/film-poster/9/9/7/9/5/1/997951-kummatikali-0-230-0-345-crop.jpg?v=edc4718fbc",
+    "releaseDate": "2024-10-02"
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:43+05:30",
+    "letterboxd_slug": "gumasthan",
+    "name": "Gumasthan",
+    "originalName": "ഗുമസ്ഥൻ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/amal-k-joby/": "Amal K Joby"
+    },
+    "genre": [
+      "Crime",
+      "Thriller"
+    ],
+    "average": 2.9,
+    "total": 444,
+    "half": 41,
+    "one": 44,
+    "one_half": 53,
+    "two": 107,
+    "two_half": 73,
+    "three": 76,
+    "three_half": 22,
+    "four": 21,
+    "four_half": 5,
+    "five": 2,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/2/4/6/1/5/8/1246158-gumasthan-0-230-0-345-crop.jpg?v=261c1ee6bd",
+    "releaseDate": "2024-09-27",
+    "duration": 145
+  }
+]

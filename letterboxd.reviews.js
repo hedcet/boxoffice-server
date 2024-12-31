@@ -6,7 +6,7 @@ const path = require("path");
 const puppeteer = require("puppeteer");
 const sharp = require("sharp");
 
-const { executablePath, proxy } = require("./config/env.js");
+const { executablePath, local, proxy } = require("./config/env.js");
 const { getOrdinalSuffix } = require("./config/misc.js");
 const { db } = require("./config/nedb.js");
 
@@ -17,9 +17,9 @@ const json = fs.existsSync(json_path)
 
 (async () => {
   let image = "";
-  const github_folder = "EDExtraDecent";
+  const github_folder = "barroz";
   const letterboxd_page = 1;
-  const letterboxd_slug = "e-d-extra-decent";
+  const letterboxd_slug = "barroz";
 
   const images = [];
   for (const { id } of await db.find({ name: github_folder }))
@@ -60,8 +60,8 @@ const json = fs.existsSync(json_path)
   const elements = await page.$$(".film-detail-content");
   for (const element of elements) {
     const filePath = path.resolve(
-      __dirname,
-      `./store/letterboxd/${uniqueId(`${letterboxd_page}.`)}.png`
+      local,
+      `letterboxd/${uniqueId(`${letterboxd_page}.`)}.png`
     );
     console.log(filePath);
 

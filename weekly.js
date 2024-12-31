@@ -7,7 +7,7 @@ const path = require("path");
 const { launch } = require("puppeteer");
 const sharp = require("sharp");
 
-const { csvPath, executablePath, proxy } = require("./config/env.js");
+const { csvPath, executablePath, local, proxy } = require("./config/env.js");
 const { toEnIn } = require("./config/misc.js");
 const { sync } = require("./config/git.js");
 const { moment } = require("./config/moment.js");
@@ -21,7 +21,7 @@ const json = fs.existsSync(json_path)
 const collageMax = 6;
 
 (async () => {
-  const start_date = moment("2024-12-16", ["YYYY-MM-DD"]).startOf("day");
+  const start_date = moment("2024-12-23", ["YYYY-MM-DD"]).startOf("day");
   const end_date = start_date.clone().add(7, "day").startOf("day");
 
   await sync(csvPath); // git clone/pull
@@ -180,7 +180,7 @@ const collageMax = 6;
   await (
     await page.$("#screenshot")
   ).screenshot({
-    path: path.resolve(__dirname, "./store/weekly.png"),
+    path: path.resolve(local, "weekly.png"),
   });
   await browser.close();
 

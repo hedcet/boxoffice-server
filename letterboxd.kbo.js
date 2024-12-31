@@ -64,6 +64,16 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
       fs.writeFileSync(config_path, JSON.stringify(configs, undefined, 2));
     }
 
+    // duration
+    const footer = unescape($1(".text-footer").text());
+    const duration = footer.trim().match(/^([0-9]*)/)?.[1];
+    if (duration) {
+      config.duration = +duration;
+
+      config.last_updated_at = moment().format("YYYY-MM-DDTHH:mmZ");
+      fs.writeFileSync(config_path, JSON.stringify(configs, undefined, 2));
+    }
+
     // ratings
     const $10 = cheerio.load(
       await fetch(
