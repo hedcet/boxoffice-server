@@ -32,7 +32,7 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
     ),
     ["releaseDate"],
     ["desc"]
-  ).slice(0, 30); // top100
+  ).slice(0, 60); // top60
 
   fs.writeFileSync(
     path.resolve(local, "ml-movies.fixtures.json"),

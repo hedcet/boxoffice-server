@@ -764,5 +764,791 @@
     "image": "https://a.ltrbxd.com/resized/film-poster/1/2/4/6/1/5/8/1246158-gumasthan-0-230-0-345-crop.jpg?v=261c1ee6bd",
     "releaseDate": "2024-09-27",
     "duration": 145
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:43+05:30",
+    "letterboxd_slug": "cup",
+    "name": "Cup",
+    "originalName": "കപ്പ്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/sanju-v-samuel/": "Sanju V Samuel"
+    },
+    "genre": [
+      "Family",
+      "Drama"
+    ],
+    "half": 3,
+    "one": 2,
+    "one_half": 3,
+    "two": 2,
+    "two_half": 1,
+    "three_half": 2,
+    "image": "https://a.ltrbxd.com/resized/film-poster/8/3/8/9/5/3/838953-cup-0-230-0-345-crop.jpg?v=0e93bc8a81",
+    "releaseDate": "2024-09-27"
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:44+05:30",
+    "letterboxd_slug": "chithini",
+    "name": "Chithini",
+    "originalName": "ചിത്തിനി",
+    "releaseYear": 2024,
+    "director": {
+      "/director/east-coast-vijayan/": "East Coast Vijayan"
+    },
+    "genre": [
+      "Horror"
+    ],
+    "half": 2,
+    "two_half": 1,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/2/4/3/0/6/0/1243060-chithini-0-230-0-345-crop.jpg?v=e8b53ae6f8",
+    "releaseDate": "2024-09-27",
+    "duration": 151
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:29+05:30",
+    "letterboxd_slug": "all-we-imagine-as-light",
+    "name": "All We Imagine as Light",
+    "originalName": "പ്രഭയായ് നിനച്ചതെല്ലാം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/payal-kapadia/": "Payal Kapadia"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "average": 3.88,
+    "total": 30935,
+    "half": 44,
+    "one": 132,
+    "one_half": 142,
+    "two": 658,
+    "two_half": 1166,
+    "three": 3915,
+    "three_half": 5903,
+    "four": 10641,
+    "four_half": 4659,
+    "five": 3675,
+    "image": "https://a.ltrbxd.com/resized/film-poster/8/3/3/0/6/2/833062-all-we-imagine-as-light-0-230-0-345-crop.jpg?v=7cd94c55ea",
+    "releaseDate": "2024-09-21",
+    "duration": 118
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:44+05:30",
+    "letterboxd_slug": "kadha-innuvare",
+    "name": "Kadha Innuvare",
+    "originalName": "കഥ ഇന്നുവരെ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/vishnu-mohan-1/": "Vishnu Mohan"
+    },
+    "genre": [
+      "Romance",
+      "Drama",
+      "Family"
+    ],
+    "average": 2.98,
+    "total": 371,
+    "half": 19,
+    "one": 30,
+    "one_half": 38,
+    "two": 82,
+    "two_half": 66,
+    "three": 80,
+    "three_half": 22,
+    "four": 26,
+    "four_half": 2,
+    "five": 6,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/0/3/8/0/7/9/1038079-kadha-innuvare-0-230-0-345-crop.jpg?v=0e94b7fa1a",
+    "releaseDate": "2024-09-20",
+    "duration": 129
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:44+05:30",
+    "letterboxd_slug": "kondal",
+    "name": "Kondal",
+    "originalName": "കൊണ്ടല്‍",
+    "releaseYear": 2024,
+    "director": {
+      "/director/ajith-mampally/": "Ajith Mampally"
+    },
+    "genre": [
+      "Drama",
+      "Action"
+    ],
+    "average": 2.86,
+    "total": 1069,
+    "half": 49,
+    "one": 129,
+    "one_half": 129,
+    "two": 255,
+    "two_half": 210,
+    "three": 221,
+    "three_half": 44,
+    "four": 27,
+    "four_half": 2,
+    "five": 3,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/0/6/5/9/0/2/1065902-kondal-0-230-0-345-crop.jpg?v=897dfaf855",
+    "releaseDate": "2024-09-13",
+    "duration": 144
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T20:01+05:30",
+    "letterboxd_slug": "bad-boyz",
+    "name": "Bad Boyz",
+    "releaseYear": 2024,
+    "director": {
+      "/director/omar-lulu/": "Omar Lulu"
+    },
+    "genre": [
+      "Action",
+      "Comedy"
+    ],
+    "half": 32,
+    "one": 13,
+    "one_half": 11,
+    "two": 13,
+    "two_half": 8,
+    "three": 3,
+    "five": 1,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/6/1/0/1/7/1161017-bad-boyz-0-230-0-345-crop.jpg?v=73b0cdfe96",
+    "releaseDate": "2024-09-13",
+    "duration": 148
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T20:02+05:30",
+    "letterboxd_slug": "prathibha-tutorials",
+    "name": "Prathibha Tutorials",
+    "releaseYear": 2024,
+    "director": {
+      "/director/abhilash-raghavan/": "Abhilash Raghavan"
+    },
+    "genre": [
+      "Comedy"
+    ],
+    "half": 16,
+    "one": 4,
+    "one_half": 1,
+    "two": 1,
+    "two_half": 1,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/2/5/6/8/6/9/1256869-prathibha-tutorials-0-230-0-345-crop.jpg?v=79dea4ad23",
+    "releaseDate": "2024-09-13",
+    "duration": 111
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T20:02+05:30",
+    "letterboxd_slug": "kishkindha-kaandam",
+    "name": "Kishkindha Kaandam",
+    "originalName": "കിഷ്കിന്ധാ കാണ്ഡം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/dinjith-ayyathan/": "Dinjith Ayyathan"
+    },
+    "genre": [
+      "Drama",
+      "Thriller",
+      "Mystery"
+    ],
+    "average": 3.96,
+    "total": 17912,
+    "half": 13,
+    "one": 34,
+    "one_half": 42,
+    "two": 156,
+    "two_half": 387,
+    "three": 1502,
+    "three_half": 2786,
+    "four": 6815,
+    "four_half": 3193,
+    "five": 2984,
+    "image": "https://a.ltrbxd.com/resized/film-poster/9/2/4/0/2/8/924028-kishkindha-kaandam-0-230-0-345-crop.jpg?v=acfeca0857",
+    "releaseDate": "2024-09-12",
+    "duration": 125
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T20:03+05:30",
+    "letterboxd_slug": "arm-2024",
+    "name": "A.R.M",
+    "originalName": "അജയന്റെ രണ്ടാം മോഷണം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/jithin-laal/": "Jithin Laal"
+    },
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "average": 3.21,
+    "total": 8650,
+    "half": 19,
+    "one": 75,
+    "one_half": 110,
+    "two": 451,
+    "two_half": 1071,
+    "three": 2687,
+    "three_half": 2183,
+    "four": 1491,
+    "four_half": 287,
+    "five": 276,
+    "image": "https://a.ltrbxd.com/resized/film-poster/8/0/1/2/4/3/801243-ajayante-randam-moshanam-0-230-0-345-crop.jpg?v=d581959423",
+    "releaseDate": "2024-09-12",
+    "duration": 147
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T20:03+05:30",
+    "letterboxd_slug": "bharathanatyam-2024",
+    "name": "Bharathanatyam",
+    "originalName": "ഭരതനാട്യം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/krishnadas-murali/": "Krishnadas Murali"
+    },
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "average": 3.22,
+    "total": 1796,
+    "half": 8,
+    "one": 14,
+    "one_half": 41,
+    "two": 126,
+    "two_half": 321,
+    "three": 770,
+    "three_half": 346,
+    "four": 141,
+    "four_half": 12,
+    "five": 17,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/2/0/2/4/9/0/1202490-bharathanatyam-2024-0-230-0-345-crop.jpg?v=e8daddeffe",
+    "releaseDate": "2024-08-30",
+    "duration": 121
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T20:03+05:30",
+    "letterboxd_slug": "virunnu",
+    "name": "Virunnu",
+    "originalName": "വിരുന്ന്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/kannan-thamarakkulam/": "Kannan Thamarakkulam"
+    },
+    "genre": [
+      "Drama",
+      "Thriller"
+    ],
+    "half": 5,
+    "one": 5,
+    "one_half": 5,
+    "two": 4,
+    "two_half": 2,
+    "three": 1,
+    "four": 1,
+    "five": 1,
+    "image": "https://a.ltrbxd.com/resized/film-poster/9/7/2/3/8/5/972385-virunnu-0-230-0-345-crop.jpg?v=a4b6d63b7c",
+    "releaseDate": "2024-08-29",
+    "duration": 124
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T20:04+05:30",
+    "letterboxd_slug": "footage-2024",
+    "name": "Footage",
+    "originalName": "ഫൂട്ടേജ്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/saiju-sreedharan/": "Saiju Sreedharan"
+    },
+    "genre": [
+      "Thriller"
+    ],
+    "half": 3,
+    "one": 16,
+    "one_half": 12,
+    "two": 22,
+    "two_half": 18,
+    "three": 18,
+    "three_half": 9,
+    "four": 11,
+    "four_half": 2,
+    "five": 3,
+    "image": "https://a.ltrbxd.com/resized/film-poster/9/9/5/2/6/1/995261-footage-0-230-0-345-crop.jpg?v=bb7aea20b5",
+    "releaseDate": "2024-08-23",
+    "duration": 124
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T20:04+05:30",
+    "letterboxd_slug": "paalum-pazhavum",
+    "name": "Paalum Pazhavum",
+    "originalName": "പാലും പഴവും",
+    "releaseYear": 2024,
+    "director": {
+      "/director/v-k-prakash/": "V. K. Prakash"
+    },
+    "genre": [
+      "Romance",
+      "Comedy"
+    ],
+    "half": 16,
+    "one": 24,
+    "one_half": 37,
+    "two": 30,
+    "two_half": 23,
+    "three": 26,
+    "three_half": 5,
+    "four": 6,
+    "five": 1,
+    "four_half": 1,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/2/8/7/1/7/1128717-paalum-pazhavum-0-230-0-345-crop.jpg?v=1d237e97a6",
+    "releaseDate": "2024-08-23",
+    "duration": 145
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T20:04+05:30",
+    "letterboxd_slug": "hunt-2024",
+    "name": "Hunt",
+    "releaseYear": 2024,
+    "director": {
+      "/director/shaji-kailas/": "Shaji Kailas"
+    },
+    "genre": [
+      "Horror",
+      "Thriller"
+    ],
+    "half": 4,
+    "one": 5,
+    "one_half": 2,
+    "two": 1,
+    "two_half": 1,
+    "three": 2,
+    "image": "https://a.ltrbxd.com/resized/film-poster/9/6/0/7/6/3/960763-hunt-0-230-0-345-crop.jpg?v=f4f4229c1a",
+    "releaseDate": "2024-08-23"
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T20:04+05:30",
+    "letterboxd_slug": "thaanara",
+    "name": "Thaanara",
+    "originalName": "താനാരാ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/haridas-1/": "Haridas"
+    },
+    "genre": [
+      "Drama",
+      "Comedy"
+    ],
+    "half": 23,
+    "one": 12,
+    "one_half": 7,
+    "two": 10,
+    "two_half": 5,
+    "three": 8,
+    "three_half": 3,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/0/1/1/5/6/0/1011560-thaanara-0-230-0-345-crop.jpg?v=e25486affe",
+    "releaseDate": "2024-08-23",
+    "duration": 118,
+    "four": 2
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T20:04+05:30",
+    "letterboxd_slug": "vaazha-biopic-of-a-billion-boys",
+    "name": "Vaazha: Biopic of a Billion Boys",
+    "originalName": "വാഴ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/anand-menen/": "Anand Menen"
+    },
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "average": 3.15,
+    "total": 9509,
+    "half": 66,
+    "one": 178,
+    "one_half": 235,
+    "two": 742,
+    "two_half": 1155,
+    "three": 2578,
+    "three_half": 2010,
+    "four": 1735,
+    "four_half": 390,
+    "five": 420,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/0/7/5/5/1/2/1075512-vaazha-biopic-of-a-billion-boys-0-230-0-345-crop.jpg?v=a6861db2cd",
+    "releaseDate": "2024-08-15",
+    "duration": 125
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T20:05+05:30",
+    "letterboxd_slug": "nunakkuzhi",
+    "name": "Nunakkuzhi",
+    "originalName": "നുണക്കുഴി",
+    "releaseYear": 2024,
+    "director": {
+      "/director/jeethu-joseph/": "Jeethu Joseph"
+    },
+    "genre": [
+      "Comedy",
+      "Crime"
+    ],
+    "average": 3.11,
+    "total": 4237,
+    "half": 39,
+    "one": 102,
+    "one_half": 130,
+    "two": 516,
+    "two_half": 818,
+    "three": 1395,
+    "three_half": 710,
+    "four": 396,
+    "four_half": 56,
+    "five": 75,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/0/6/7/1/2/0/1067120-nunakkuzhi-0-230-0-345-crop.jpg?v=cbc52fec9b",
+    "releaseDate": "2024-08-15",
+    "duration": 125
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T20:05+05:30",
+    "letterboxd_slug": "adios-amigo-2024",
+    "name": "Adios Amigo",
+    "originalName": "അഡിയോസ് അമിഗോ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/nahas-nazar/": "Nahas Nazar"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "average": 2.91,
+    "total": 2874,
+    "half": 62,
+    "one": 156,
+    "one_half": 191,
+    "two": 506,
+    "two_half": 604,
+    "three": 796,
+    "three_half": 308,
+    "four": 181,
+    "four_half": 32,
+    "five": 38,
+    "image": "https://a.ltrbxd.com/resized/film-poster/9/7/5/7/7/8/975778-adios-amigo-0-230-0-345-crop.jpg?v=3a6a7b17bf",
+    "releaseDate": "2024-08-09",
+    "duration": 156
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T20:05+05:30",
+    "letterboxd_slug": "super-zindagi",
+    "name": "Super Zindagi",
+    "originalName": "സൂപ്പർ Zindagi",
+    "releaseYear": 2024,
+    "director": {
+      "/director/vintesh/": "Vintesh"
+    },
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "half": 4,
+    "one": 2,
+    "two": 1,
+    "two_half": 2,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/0/6/4/4/6/1106446-super-zindagi-0-230-0-345-crop.jpg?v=d119029334",
+    "releaseDate": "2024-08-09",
+    "duration": 131
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T20:05+05:30",
+    "letterboxd_slug": "checkmate-2024",
+    "name": "Checkmate",
+    "originalName": "ചെക്ക്മേറ്റ്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/ratish-sekhar/": "Ratish Sekhar"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "half": 2,
+    "one": 1,
+    "one_half": 1,
+    "three": 1,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/3/4/2/0/0/1134200-checkmate-0-230-0-345-crop.jpg?v=7331dbfa4b",
+    "releaseDate": "2024-08-09",
+    "duration": 125
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T20:05+05:30",
+    "letterboxd_slug": "cicada-2024-1",
+    "name": "CICADA",
+    "originalName": "സിക്കാഡ",
+    "releaseYear": 2024,
+    "director": {
+      "/director/sreejith-edavana/": "Sreejith Edavana"
+    },
+    "genre": [
+      "Thriller"
+    ],
+    "half": 1,
+    "two": 1,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/2/0/3/3/5/9/1203359-cicada-0-230-0-345-crop.jpg?v=84bbe028fe",
+    "releaseDate": "2024-08-09",
+    "duration": 120
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T19:11+05:30",
+    "letterboxd_slug": "level-cross",
+    "name": "Level Cross",
+    "originalName": "ലെവെൽ ക്രോസ്",
+    "releaseYear": 2024,
+    "director": {
+      "/director/arfaz-ayub/": "Arfaz Ayub"
+    },
+    "genre": [
+      "Thriller",
+      "Drama"
+    ],
+    "average": 3.21,
+    "total": 2674,
+    "half": 7,
+    "one": 35,
+    "one_half": 67,
+    "two": 203,
+    "two_half": 376,
+    "three": 778,
+    "three_half": 629,
+    "four": 426,
+    "four_half": 77,
+    "five": 76,
+    "image": "https://a.ltrbxd.com/resized/film-poster/9/9/7/0/4/3/997043-level-cross-0-230-0-345-crop.jpg?v=c6c84f4885",
+    "releaseDate": "2024-07-26",
+    "duration": 114
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T20:06+05:30",
+    "letterboxd_slug": "secret-2024",
+    "name": "Secret",
+    "releaseYear": 2024,
+    "director": {
+      "/director/s-n-swamy/": "S. N. Swamy"
+    },
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Thriller",
+      "Mystery"
+    ],
+    "half": 67,
+    "one": 38,
+    "one_half": 22,
+    "two": 10,
+    "two_half": 10,
+    "three": 1,
+    "three_half": 3,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/2/6/1/1/9/1126119-secret-0-230-0-345-crop.jpg?v=8ff649666e",
+    "releaseDate": "2024-07-26",
+    "duration": 117
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T20:06+05:30",
+    "letterboxd_slug": "panchayat-jetty",
+    "name": "Panchayat Jetty",
+    "originalName": "പഞ്ചായത്ത് ജെട്ടി",
+    "releaseYear": 2024,
+    "director": {
+      "/director/salim-hassan/": "Salim Hassan",
+      "/director/manikandan-pattambi-1/": "Manikandan Pattambi"
+    },
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "half": 19,
+    "one": 13,
+    "one_half": 9,
+    "two": 16,
+    "three": 8,
+    "four": 1,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/9/7/7/3/9/1197739-panchayat-jetty-0-230-0-345-crop.jpg?v=c306e9b141",
+    "releaseDate": "2024-07-26",
+    "two_half": 6,
+    "duration": 139
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T20:06+05:30",
+    "letterboxd_slug": "grow-vasu",
+    "name": "GROW VASU",
+    "releaseYear": 2024,
+    "director": {
+      "/director/arshaq/": "Arshaq"
+    },
+    "genre": [
+      "History",
+      "Documentary"
+    ],
+    "three": 1,
+    "three_half": 1,
+    "four": 1,
+    "five": 8,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/9/6/6/2/7/1196627-grow-vasu-0-230-0-345-crop.jpg?v=d042d2cadd",
+    "releaseDate": "2024-07-20",
+    "duration": 60
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T20:06+05:30",
+    "letterboxd_slug": "vishesham",
+    "name": "Vishesham",
+    "originalName": "വിശേഷം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/sooraj-tom/": "Sooraj Tom"
+    },
+    "genre": [
+      "Comedy",
+      "Family",
+      "Drama"
+    ],
+    "average": 3.1,
+    "total": 955,
+    "half": 17,
+    "one": 46,
+    "one_half": 57,
+    "two": 157,
+    "two_half": 207,
+    "three": 245,
+    "three_half": 127,
+    "four": 65,
+    "four_half": 18,
+    "five": 16,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/1/4/8/4/7/1114847-vishesham-0-230-0-345-crop.jpg?v=71e154f84e",
+    "releaseDate": "2024-07-19",
+    "duration": 136
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T20:06+05:30",
+    "letterboxd_slug": "idiyan-chandhu",
+    "name": "Idiyan Chandhu",
+    "originalName": "ഇടിയൻ ചന്തു",
+    "releaseYear": 2024,
+    "director": {
+      "/director/sreejith-vijayan/": "Sreejith Vijayan"
+    },
+    "genre": [
+      "Action",
+      "Drama"
+    ],
+    "average": 2.67,
+    "total": 461,
+    "half": 106,
+    "one": 113,
+    "one_half": 77,
+    "two": 81,
+    "two_half": 33,
+    "three": 36,
+    "three_half": 6,
+    "four": 7,
+    "five": 2,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/0/7/5/5/7/9/1075579-idiyan-chandhu-0-230-0-345-crop.jpg?v=5808c8c11f",
+    "releaseDate": "2024-07-19",
+    "duration": 120
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T20:06+05:30",
+    "letterboxd_slug": "samadhana-pusthakam",
+    "name": "Samadhana Pusthakam",
+    "originalName": "സമാധാന പുസ്തകം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/raveesh-nath/": "Raveesh Nath"
+    },
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Family"
+    ],
+    "half": 12,
+    "one": 19,
+    "one_half": 12,
+    "two": 17,
+    "two_half": 16,
+    "three": 11,
+    "three_half": 1,
+    "four": 2,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/1/5/3/9/2/1115392-samadhana-pusthakam-0-230-0-345-crop.jpg?v=017742ab40",
+    "releaseDate": "2024-07-19",
+    "duration": 123
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T20:07+05:30",
+    "letterboxd_slug": "mazhayude-varavu",
+    "name": "Mazhayude Varavu",
+    "releaseYear": 2024,
+    "director": {
+      "/director/arjun-ajith-nair/": "Arjun Ajith Nair"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "three_half": 1,
+    "four": 2,
+    "four_half": 2,
+    "five": 3,
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/9/4/7/2/0/1194720-mazhayude-varavu-0-230-0-345-crop.jpg?v=5bbc0c4adf",
+    "releaseDate": "2024-07-06",
+    "duration": 6
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2024-12-30T20:07+05:30",
+    "letterboxd_slug": "kanakarajyam",
+    "name": "Kanakarajyam",
+    "originalName": "കനകരാജ്യം",
+    "releaseYear": 2024,
+    "director": {
+      "/director/sagar-hari/": "Sagar Hari"
+    },
+    "genre": [
+      "Drama"
+    ],
+    "one": 8,
+    "one_half": 16,
+    "two": 19,
+    "two_half": 19,
+    "three": 23,
+    "three_half": 9,
+    "four": 7,
+    "four_half": 1,
+    "five": 1,
+    "image": "https://a.ltrbxd.com/resized/film-poster/9/3/9/2/2/2/939222-kanakarajyam-0-230-0-345-crop.jpg?v=aa9db6f9e1",
+    "releaseDate": "2024-07-05",
+    "duration": 124,
+    "half": 1
   }
 ]
