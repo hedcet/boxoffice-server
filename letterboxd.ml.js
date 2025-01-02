@@ -18,7 +18,7 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
   // const reddit_post_id = "1hio2ju"; // 2024 year-in-review
   const reddit_post_id = "1hl4vy1"; // top100
 
-  // lang:ml
+  // // lang:ml
   // for (let i = 0; i < 5; i++) {
   //   const url = `https://letterboxd.com/films/ajax/language/malayalam/by/release/page/${
   //     i + 1
