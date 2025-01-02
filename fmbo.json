@@ -49266,1086 +49266,2479 @@
     "reddit": true
   },
   "540": {
+    "reddit": true,
     "title": "Kill",
-    "image": "https://i.imgur.com/SLyuLPq.jpeg",
+    "image": "https://fridaymatinee.in/fmbo/images/posters/Kill-540.webp",
     "data": [
       {
-        "name": "Jul12Fri D1",
+        "name": "Jul12Sat D1",
         "shows": 232,
         "booked": 10214,
         "occupancy": "22.62%",
         "sum": 1605945
       },
       {
-        "name": "Jul13Sat D2",
+        "name": "Jul13Sun D2",
         "shows": 252,
         "booked": 12864,
         "occupancy": "25.51%",
         "sum": 2065676
       },
       {
-        "name": "Jul14Sun D3",
+        "name": "Jul14Mon D3",
         "shows": 258,
         "booked": 17278,
         "occupancy": "33.79%",
         "sum": 2739903
       },
       {
-        "name": "Jul15Mon D4",
+        "name": "Jul15Tue D4",
         "shows": 253,
         "booked": 9579,
         "occupancy": "17.96%",
         "sum": 1493834
       },
       {
-        "name": "Jul16Tue D5",
+        "name": "Jul16Wed D5",
         "shows": 253,
         "booked": 11059,
         "occupancy": "20.95%",
         "sum": 1733979
       },
       {
-        "name": "Jul17Wed D6",
+        "name": "Jul17Thu D6",
         "shows": 255,
         "booked": 10103,
         "occupancy": "18.75%",
         "sum": 1487444
       },
       {
-        "name": "Jul18Thu D7",
+        "name": "Jul18Fri D7",
         "shows": 242,
         "booked": 8714,
         "occupancy": "17.55%",
         "sum": 1375231
       },
       {
-        "name": "Jul19Fri D8",
+        "name": "Jul19Sat D8",
         "shows": 242,
         "booked": 8325,
         "occupancy": "14.3%",
         "sum": 1292887
       },
       {
-        "name": "Jul20Sat D9",
+        "name": "Jul20Sun D9",
         "shows": 265,
         "booked": 11824,
         "occupancy": "18.54%",
         "sum": 1860137
       },
       {
-        "name": "Jul21Sun D10",
+        "name": "Jul21Mon D10",
         "shows": 284,
         "booked": 13571,
         "occupancy": "20%",
         "sum": 2137238
       },
       {
-        "name": "Jul22Mon D11",
+        "name": "Jul22Tue D11",
         "shows": 273,
         "booked": 6456,
         "occupancy": "10.13%",
         "sum": 1001831
       },
       {
-        "name": "Jul23Tue D12",
+        "name": "Jul23Wed D12",
         "shows": 278,
         "booked": 6986,
         "occupancy": "10.68%",
         "sum": 993410
       },
       {
-        "name": "Jul24Wed D13",
+        "name": "Jul24Thu D13",
         "shows": 268,
         "booked": 5772,
         "occupancy": "9.32%",
         "sum": 839283
       },
       {
-        "name": "Jul25Thu D14",
+        "name": "Jul25Fri D14",
         "shows": 213,
         "booked": 4684,
         "occupancy": "9.54%",
         "sum": 746715
       },
       {
-        "name": "Jul26Fri D15",
+        "name": "Jul26Sat D15",
         "shows": 54,
         "booked": 1352,
         "occupancy": "14.01%",
         "sum": 237199
       },
       {
-        "name": "Jul27Sat D16",
+        "name": "Jul27Sun D16",
         "shows": 51,
         "booked": 1591,
         "occupancy": "17.25%",
         "sum": 281415
       },
       {
-        "name": "Jul28Sun D17",
+        "name": "Jul28Mon D17",
         "shows": 48,
         "booked": 1623,
         "occupancy": "18.92%",
         "sum": 281440
       },
       {
-        "name": "Jul29Mon D18",
+        "name": "Jul29Tue D18",
         "shows": 46,
         "booked": 704,
         "occupancy": "8.91%",
         "sum": 122474
       },
       {
-        "name": "Jul30Tue D19",
+        "name": "Jul30Wed D19",
         "shows": 43,
         "booked": 661,
         "occupancy": "8.56%",
         "sum": 96368
       },
       {
-        "name": "Jul31Wed D20",
+        "name": "Jul31Thu D20",
         "shows": 41,
         "booked": 570,
         "occupancy": "7.81%",
         "sum": 91008
       },
       {
-        "name": "Aug1Thu D21",
+        "name": "Aug1Fri D21",
         "shows": 38,
         "booked": 656,
         "occupancy": "10.14%",
         "sum": 109169
       },
       {
-        "name": "Aug2Fri D22",
+        "name": "Aug2Sat D22",
         "shows": 29,
         "booked": 548,
         "occupancy": "9.76%",
         "sum": 91464
       },
       {
-        "name": "Aug3Sat D23",
+        "name": "Aug3Sun D23",
         "shows": 31,
         "booked": 1018,
         "occupancy": "17.23%",
         "sum": 198948
       },
       {
-        "name": "Aug4Sun D24",
+        "name": "Aug4Mon D24",
         "shows": 33,
         "booked": 1060,
         "occupancy": "17.07%",
         "sum": 202753
       },
       {
-        "name": "Aug5Mon D25",
+        "name": "Aug5Tue D25",
         "shows": 26,
         "booked": 368,
         "occupancy": "7.23%",
         "sum": 62121
       },
       {
-        "name": "Aug6Tue D26",
+        "name": "Aug6Wed D26",
         "shows": 24,
         "booked": 613,
         "occupancy": "14.34%",
         "sum": 85062
       },
       {
-        "name": "Aug7Wed D27",
+        "name": "Aug7Thu D27",
         "shows": 25,
         "booked": 468,
         "occupancy": "10.55%",
         "sum": 78326
       },
       {
-        "name": "Aug8Thu D28",
+        "name": "Aug8Fri D28",
         "shows": 25,
         "booked": 318,
         "occupancy": "7.37%",
         "sum": 58996
       },
       {
-        "name": "Aug9Fri D29",
+        "name": "Aug9Sat D29",
         "shows": 11,
         "booked": 447,
         "occupancy": "34.76%",
         "sum": 49750
       },
       {
-        "name": "Aug10Sat D30",
+        "name": "Aug10Sun D30",
         "shows": 11,
         "booked": 315,
         "occupancy": "24.46%",
         "sum": 59323
       },
       {
-        "name": "Aug11Sun D31",
+        "name": "Aug11Mon D31",
         "shows": 12,
         "booked": 334,
         "occupancy": "23.16%",
         "sum": 62574
       },
       {
-        "name": "Aug12Mon D32",
+        "name": "Aug12Tue D32",
         "shows": 11,
         "booked": 163,
         "occupancy": "11.65%",
         "sum": 30610
       },
       {
-        "name": "Aug13Tue D33",
+        "name": "Aug13Wed D33",
         "shows": 11,
         "booked": 213,
         "occupancy": "15.24%",
         "sum": 30429
       },
       {
-        "name": "Aug14Wed D34",
-        "shows": 10,
-        "booked": 162,
-        "occupancy": "12.93%",
-        "sum": 25163
+        "name": "Aug14Thu D34",
+        "shows": 1,
+        "booked": 2,
+        "occupancy": "5.56%",
+        "sum": 600
       },
       {
         "name": "",
-        "shows": 4148,
-        "booked": 150613,
+        "shows": 4139,
+        "booked": 150453,
         "occupancy": "16.98%",
-        "sum": 23628106
+        "sum": 23603543
       }
-    ],
-    "reddit": true
+    ]
   },
   "544": {
+    "reddit": true,
     "title": "LevelCross",
-    "image": "https://i.imgur.com/HGOgwtM.jpeg",
+    "image": "https://fridaymatinee.in/fmbo/images/posters/Level Cross-544.webp",
     "data": [
       {
-        "name": "Jul26Fri D1",
-        "shows": 421,
-        "booked": 14633,
-        "occupancy": "13.57%",
-        "sum": 2348861
+        "name": "Jul26Sat D1",
+        "shows": 418,
+        "booked": 14630,
+        "occupancy": "13.74%",
+        "sum": 2348321
       },
       {
-        "name": "Jul27Sat D2",
+        "name": "Jul27Sun D2",
         "shows": 399,
         "booked": 15676,
         "occupancy": "15.79%",
         "sum": 2518171
       },
       {
-        "name": "Jul28Sun D3",
+        "name": "Jul28Mon D3",
         "shows": 357,
         "booked": 16826,
         "occupancy": "18.52%",
         "sum": 2654796
       },
       {
-        "name": "Jul29Mon D4",
+        "name": "Jul29Tue D4",
         "shows": 348,
         "booked": 8748,
         "occupancy": "10%",
         "sum": 1289636
       },
       {
-        "name": "Jul30Tue D5",
+        "name": "Jul30Wed D5",
         "shows": 300,
         "booked": 6413,
         "occupancy": "8.46%",
         "sum": 955550
       },
       {
-        "name": "Jul31Wed D6",
+        "name": "Jul31Thu D6",
         "shows": 286,
         "booked": 9401,
         "occupancy": "12.93%",
         "sum": 1335266
       },
       {
-        "name": "Aug1Thu D7",
+        "name": "Aug1Fri D7",
         "shows": 290,
         "booked": 9148,
         "occupancy": "12.35%",
         "sum": 1292664
       },
       {
-        "name": "Aug2Fri D8",
+        "name": "Aug2Sat D8",
         "shows": 165,
         "booked": 5452,
         "occupancy": "15.28%",
         "sum": 814733
       },
       {
-        "name": "Aug3Sat D9",
+        "name": "Aug3Sun D9",
         "shows": 169,
         "booked": 6864,
         "occupancy": "18.88%",
         "sum": 1112019
       },
       {
-        "name": "Aug4Sun D10",
+        "name": "Aug4Mon D10",
         "shows": 174,
         "booked": 7864,
         "occupancy": "20.65%",
         "sum": 1240249
       },
       {
-        "name": "Aug5Mon D11",
+        "name": "Aug5Tue D11",
         "shows": 170,
         "booked": 4896,
         "occupancy": "13.2%",
         "sum": 722591
       },
       {
-        "name": "Aug6Tue D12",
+        "name": "Aug6Wed D12",
         "shows": 180,
         "booked": 4856,
         "occupancy": "12.1%",
         "sum": 657787
       },
       {
-        "name": "Aug7Wed D13",
+        "name": "Aug7Thu D13",
         "shows": 169,
         "booked": 4782,
         "occupancy": "13.01%",
         "sum": 661492
       },
       {
-        "name": "Aug8Thu D14",
+        "name": "Aug8Fri D14",
         "shows": 164,
         "booked": 4753,
         "occupancy": "13.13%",
         "sum": 665759
       },
       {
-        "name": "Aug9Fri D15",
+        "name": "Aug9Sat D15",
         "shows": 51,
         "booked": 2394,
         "occupancy": "19.85%",
         "sum": 266240
       },
       {
-        "name": "Aug10Sat D16",
+        "name": "Aug10Sun D16",
         "shows": 50,
         "booked": 2107,
         "occupancy": "17.25%",
         "sum": 290802
       },
       {
-        "name": "Aug11Sun D17",
+        "name": "Aug11Mon D17",
         "shows": 53,
         "booked": 2699,
         "occupancy": "20.31%",
         "sum": 361371
       },
       {
-        "name": "Aug12Mon D18",
+        "name": "Aug12Tue D18",
         "shows": 51,
         "booked": 2042,
         "occupancy": "16.54%",
         "sum": 254656
       },
       {
-        "name": "Aug13Tue D19",
+        "name": "Aug13Wed D19",
         "shows": 37,
         "booked": 1660,
         "occupancy": "18.76%",
         "sum": 194267
       },
       {
-        "name": "Aug14Wed D20",
+        "name": "Aug14Thu D20",
         "shows": 39,
         "booked": 1948,
         "occupancy": "18.84%",
         "sum": 232338
       },
       {
-        "name": "Aug15Thu D21",
-        "shows": 1,
-        "booked": 19,
-        "occupancy": "17.76%",
-        "sum": 3340
-      },
-      {
         "name": "",
-        "shows": 3874,
-        "booked": 133181,
-        "occupancy": "14.21%",
-        "sum": 19872587
+        "shows": 3870,
+        "booked": 133159,
+        "occupancy": "14.23%",
+        "sum": 19868707
       }
-    ],
-    "reddit": true
+    ]
   },
   "545": {
+    "reddit": true,
     "title": "Secret",
-    "image": "https://i.imgur.com/vYLpbD0.jpeg",
+    "image": "https://fridaymatinee.in/fmbo/images/posters/Secret-545.webp",
     "data": [
       {
-        "name": "Jul26Fri D1",
+        "name": "Jul26Sat D1",
         "shows": 242,
         "booked": 3639,
         "occupancy": "7.03%",
         "sum": 568899
       },
       {
-        "name": "Jul27Sat D2",
+        "name": "Jul27Sun D2",
         "shows": 224,
         "booked": 3463,
         "occupancy": "7.22%",
         "sum": 516193
       },
       {
-        "name": "Jul28Sun D3",
+        "name": "Jul28Mon D3",
         "shows": 175,
         "booked": 3095,
         "occupancy": "8.07%",
         "sum": 462933
       },
       {
-        "name": "Jul29Mon D4",
+        "name": "Jul29Tue D4",
         "shows": 11,
         "booked": 95,
         "occupancy": "4.36%",
         "sum": 12535
       },
       {
-        "name": "Jul30Tue D5",
+        "name": "Jul30Wed D5",
         "shows": 1,
         "booked": 0,
         "occupancy": "0%",
         "sum": 0
       },
       {
-        "name": "Jul31Wed D6",
-        "shows": 1,
-        "booked": 1,
-        "occupancy": "0.31%",
-        "sum": 110
-      },
-      {
         "name": "",
-        "shows": 654,
-        "booked": 10293,
-        "occupancy": "7.3%",
-        "sum": 1560671
+        "shows": 653,
+        "booked": 10292,
+        "occupancy": "7.32%",
+        "sum": 1560561
       }
-    ],
-    "reddit": true
+    ]
   },
   "546": {
+    "reddit": true,
     "title": "Devadoothan",
-    "image": "https://i.imgur.com/bCG2Trm.jpeg",
+    "image": "https://fridaymatinee.in/fmbo/images/posters/Devadoothan-546.webp",
     "data": [
       {
-        "name": "Jul26Fri D1",
+        "name": "Jul26Sat D1",
         "shows": 105,
         "booked": 14738,
         "occupancy": "52.95%",
         "sum": 2521867
       },
       {
-        "name": "Jul27Sat D2",
+        "name": "Jul27Sun D2",
         "shows": 156,
         "booked": 17964,
         "occupancy": "44.92%",
         "sum": 3148704
       },
       {
-        "name": "Jul28Sun D3",
+        "name": "Jul28Mon D3",
         "shows": 186,
         "booked": 24758,
         "occupancy": "52.54%",
         "sum": 4265710
       },
       {
-        "name": "Jul29Mon D4",
+        "name": "Jul29Tue D4",
         "shows": 193,
         "booked": 12442,
         "occupancy": "25.02%",
         "sum": 2087895
       },
       {
-        "name": "Jul30Tue D5",
+        "name": "Jul30Wed D5",
         "shows": 181,
         "booked": 11784,
         "occupancy": "24.65%",
         "sum": 1986653
       },
       {
-        "name": "Jul31Wed D6",
+        "name": "Jul31Thu D6",
         "shows": 184,
         "booked": 10336,
         "occupancy": "21.24%",
         "sum": 1770433
       },
       {
-        "name": "Aug1Thu D7",
+        "name": "Aug1Fri D7",
         "shows": 197,
         "booked": 9339,
         "occupancy": "18.44%",
         "sum": 1609273
       },
       {
-        "name": "Aug2Fri D8",
+        "name": "Aug2Sat D8",
         "shows": 352,
         "booked": 11113,
         "occupancy": "11.24%",
         "sum": 1842603
       },
       {
-        "name": "Aug3Sat D9",
+        "name": "Aug3Sun D9",
         "shows": 364,
         "booked": 18379,
         "occupancy": "17.94%",
         "sum": 3048869
       },
       {
-        "name": "Aug4Sun D10",
+        "name": "Aug4Mon D10",
         "shows": 378,
         "booked": 19929,
         "occupancy": "18.7%",
         "sum": 3256438
       },
       {
-        "name": "Aug5Mon D11",
+        "name": "Aug5Tue D11",
         "shows": 343,
         "booked": 8785,
         "occupancy": "8.99%",
         "sum": 1410572
       },
       {
-        "name": "Aug6Tue D12",
+        "name": "Aug6Wed D12",
         "shows": 321,
         "booked": 7889,
         "occupancy": "8.6%",
         "sum": 1233216
       },
       {
-        "name": "Aug7Wed D13",
+        "name": "Aug7Thu D13",
         "shows": 308,
         "booked": 6389,
         "occupancy": "7.27%",
         "sum": 1033346
       },
       {
-        "name": "Aug8Thu D14",
+        "name": "Aug8Fri D14",
         "shows": 279,
         "booked": 5170,
         "occupancy": "6.4%",
         "sum": 849292
       },
       {
-        "name": "Aug9Fri D15",
+        "name": "Aug9Sat D15",
         "shows": 138,
         "booked": 3937,
         "occupancy": "11.36%",
         "sum": 518580
       },
       {
-        "name": "Aug10Sat D16",
+        "name": "Aug10Sun D16",
         "shows": 153,
         "booked": 5488,
         "occupancy": "13.54%",
         "sum": 911608
       },
       {
-        "name": "Aug11Sun D17",
+        "name": "Aug11Mon D17",
         "shows": 163,
         "booked": 6053,
         "occupancy": "14.21%",
         "sum": 987976
       },
       {
-        "name": "Aug12Mon D18",
+        "name": "Aug12Tue D18",
         "shows": 149,
         "booked": 2223,
         "occupancy": "5.97%",
         "sum": 345256
       },
       {
-        "name": "Aug13Tue D19",
+        "name": "Aug13Wed D19",
         "shows": 131,
         "booked": 2389,
         "occupancy": "7.72%",
         "sum": 330568
       },
       {
-        "name": "Aug14Wed D20",
+        "name": "Aug14Thu D20",
         "shows": 124,
         "booked": 2908,
         "occupancy": "9.68%",
         "sum": 416888
       },
       {
-        "name": "Aug15Thu D21",
+        "name": "Aug15Fri D21",
         "shows": 24,
         "booked": 1157,
         "occupancy": "28.74%",
         "sum": 207318
       },
       {
-        "name": "Aug16Fri D22",
+        "name": "Aug16Sat D22",
         "shows": 19,
         "booked": 512,
         "occupancy": "16.76%",
         "sum": 91510
       },
       {
-        "name": "Aug17Sat D23",
+        "name": "Aug17Sun D23",
         "shows": 15,
         "booked": 919,
         "occupancy": "40.38%",
         "sum": 162380
       },
       {
-        "name": "Aug18Sun D24",
+        "name": "Aug18Mon D24",
         "shows": 15,
         "booked": 995,
         "occupancy": "46%",
         "sum": 178450
       },
       {
-        "name": "Aug19Mon D25",
+        "name": "Aug19Tue D25",
         "shows": 10,
         "booked": 228,
         "occupancy": "15.56%",
         "sum": 39990
       },
       {
-        "name": "Aug20Tue D26",
+        "name": "Aug20Wed D26",
         "shows": 9,
         "booked": 386,
         "occupancy": "25.72%",
         "sum": 46227
       },
       {
-        "name": "Aug21Wed D27",
+        "name": "Aug21Thu D27",
         "shows": 8,
         "booked": 173,
         "occupancy": "13.26%",
         "sum": 23155
       },
       {
-        "name": "Aug22Thu D28",
+        "name": "Aug22Fri D28",
         "shows": 9,
         "booked": 136,
         "occupancy": "9.92%",
         "sum": 22300
       },
       {
-        "name": "Aug23Fri D29",
-        "shows": 1,
-        "booked": 21,
-        "occupancy": "19.81%",
-        "sum": 3680
-      },
-      {
         "name": "",
-        "shows": 4515,
-        "booked": 206540,
+        "shows": 4514,
+        "booked": 206519,
         "occupancy": "17.05%",
-        "sum": 34350759
+        "sum": 34347079
       }
-    ],
-    "reddit": true
+    ]
   },
   "547": {
+    "reddit": true,
     "title": "Raayan",
-    "image": "https://i.imgur.com/aW2G0fG.jpeg",
+    "image": "https://fridaymatinee.in/fmbo/images/posters/Raayan-547.webp",
     "data": [
       {
-        "name": "Jul26Fri D1",
+        "name": "Jul26Sat D1",
         "shows": 743,
         "booked": 50307,
         "occupancy": "23.26%",
         "sum": 7661982
       },
       {
-        "name": "Jul27Sat D2",
+        "name": "Jul27Sun D2",
         "shows": 756,
         "booked": 41042,
         "occupancy": "18.88%",
         "sum": 6315661
       },
       {
-        "name": "Jul28Sun D3",
+        "name": "Jul28Mon D3",
         "shows": 693,
         "booked": 43549,
         "occupancy": "21.78%",
         "sum": 6575817
       },
       {
-        "name": "Jul29Mon D4",
+        "name": "Jul29Tue D4",
         "shows": 687,
         "booked": 18110,
         "occupancy": "9.16%",
         "sum": 2756393
       },
       {
-        "name": "Jul30Tue D5",
+        "name": "Jul30Wed D5",
         "shows": 616,
         "booked": 16460,
         "occupancy": "9.33%",
         "sum": 2533858
       },
       {
-        "name": "Jul31Wed D6",
+        "name": "Jul31Thu D6",
         "shows": 606,
         "booked": 14034,
         "occupancy": "8.07%",
         "sum": 2183436
       },
       {
-        "name": "Aug1Thu D7",
+        "name": "Aug1Fri D7",
         "shows": 593,
         "booked": 13802,
         "occupancy": "8.23%",
         "sum": 2121335
       },
       {
-        "name": "Aug2Fri D8",
+        "name": "Aug2Sat D8",
         "shows": 420,
         "booked": 10097,
         "occupancy": "9.2%",
         "sum": 1559981
       },
       {
-        "name": "Aug3Sat D9",
+        "name": "Aug3Sun D9",
         "shows": 412,
         "booked": 13073,
         "occupancy": "12.25%",
         "sum": 2039240
       },
       {
-        "name": "Aug4Sun D10",
+        "name": "Aug4Mon D10",
         "shows": 417,
         "booked": 16209,
         "occupancy": "14.89%",
         "sum": 2493645
       },
       {
-        "name": "Aug5Mon D11",
+        "name": "Aug5Tue D11",
         "shows": 389,
         "booked": 7838,
         "occupancy": "7.83%",
         "sum": 1181830
       },
       {
-        "name": "Aug6Tue D12",
+        "name": "Aug6Wed D12",
         "shows": 380,
         "booked": 7694,
         "occupancy": "7.7%",
         "sum": 1146733
       },
       {
-        "name": "Aug7Wed D13",
+        "name": "Aug7Thu D13",
         "shows": 374,
         "booked": 6809,
         "occupancy": "7.11%",
         "sum": 998223
       },
       {
-        "name": "Aug8Thu D14",
+        "name": "Aug8Fri D14",
         "shows": 343,
         "booked": 6711,
         "occupancy": "7.59%",
         "sum": 1020651
       },
       {
-        "name": "Aug9Fri D15",
+        "name": "Aug9Sat D15",
         "shows": 143,
         "booked": 3872,
         "occupancy": "10.42%",
         "sum": 507927
       },
       {
-        "name": "Aug10Sat D16",
+        "name": "Aug10Sun D16",
         "shows": 158,
         "booked": 4131,
         "occupancy": "10.22%",
         "sum": 633679
       },
       {
-        "name": "Aug11Sun D17",
+        "name": "Aug11Mon D17",
         "shows": 173,
         "booked": 5986,
         "occupancy": "12.98%",
         "sum": 906132
       },
       {
-        "name": "Aug12Mon D18",
+        "name": "Aug12Tue D18",
         "shows": 162,
         "booked": 2566,
         "occupancy": "6.08%",
         "sum": 381936
       },
       {
-        "name": "Aug13Tue D19",
+        "name": "Aug13Wed D19",
         "shows": 152,
         "booked": 2330,
         "occupancy": "6%",
         "sum": 319562
       },
       {
-        "name": "Aug14Wed D20",
+        "name": "Aug14Thu D20",
         "shows": 136,
         "booked": 1751,
         "occupancy": "5.68%",
         "sum": 251606
       },
       {
-        "name": "Aug15Thu D21",
+        "name": "Aug15Fri D21",
         "shows": 15,
         "booked": 655,
         "occupancy": "35.83%",
         "sum": 103557
       },
       {
-        "name": "Aug16Fri D22",
+        "name": "Aug16Sat D22",
         "shows": 13,
         "booked": 107,
         "occupancy": "7.21%",
         "sum": 17101
       },
       {
-        "name": "Aug17Sat D23",
+        "name": "Aug17Sun D23",
         "shows": 12,
         "booked": 163,
         "occupancy": "11.67%",
         "sum": 28629
       },
       {
-        "name": "Aug18Sun D24",
+        "name": "Aug18Mon D24",
         "shows": 13,
         "booked": 304,
         "occupancy": "20.47%",
         "sum": 48215
       },
       {
-        "name": "Aug19Mon D25",
+        "name": "Aug19Tue D25",
         "shows": 9,
         "booked": 31,
         "occupancy": "3.16%",
         "sum": 5430
       },
       {
-        "name": "Aug20Tue D26",
+        "name": "Aug20Wed D26",
         "shows": 13,
         "booked": 157,
         "occupancy": "10.57%",
         "sum": 20313
       },
       {
-        "name": "Aug21Wed D27",
+        "name": "Aug21Thu D27",
         "shows": 12,
         "booked": 106,
         "occupancy": "7.59%",
         "sum": 14993
       },
       {
-        "name": "Aug22Thu D28",
-        "shows": 12,
-        "booked": 59,
-        "occupancy": "4.28%",
-        "sum": 9405
-      },
-      {
         "name": "",
-        "shows": 8452,
-        "booked": 287953,
+        "shows": 8440,
+        "booked": 287894,
         "occupancy": "12.49%",
-        "sum": 43837270
+        "sum": 43827865
       }
-    ],
-    "reddit": true
+    ]
   },
   "548": {
+    "reddit": true,
     "title": "AdiosAmigo",
-    "image": "https://i.imgur.com/um8dtc6.jpeg",
+    "image": "https://fridaymatinee.in/fmbo/images/posters/Adios Amigo-548.webp",
     "data": [
       {
-        "name": "Aug10Sat D1",
+        "name": "Aug10Sun D1",
         "shows": 513,
         "booked": 31286,
         "occupancy": "21.7%",
         "sum": 5043026
       },
       {
-        "name": "Aug11Sun D2",
+        "name": "Aug11Mon D2",
         "shows": 611,
         "booked": 36791,
         "occupancy": "21.62%",
         "sum": 5849491
       },
       {
-        "name": "Aug12Mon D3",
+        "name": "Aug12Tue D3",
         "shows": 579,
         "booked": 15067,
         "occupancy": "9.62%",
         "sum": 2349232
       },
       {
-        "name": "Aug13Tue D4",
+        "name": "Aug13Wed D4",
         "shows": 564,
         "booked": 12963,
         "occupancy": "8.52%",
         "sum": 2051482
       },
       {
-        "name": "Aug14Wed D5",
+        "name": "Aug14Thu D5",
         "shows": 539,
         "booked": 11877,
         "occupancy": "8.19%",
         "sum": 1895768
       },
       {
-        "name": "Aug15Thu D6",
+        "name": "Aug15Fri D6",
         "shows": 167,
         "booked": 4340,
         "occupancy": "14.71%",
         "sum": 744732
       },
       {
-        "name": "Aug16Fri D7",
+        "name": "Aug16Sat D7",
         "shows": 144,
         "booked": 2365,
         "occupancy": "9.22%",
         "sum": 406424
       },
       {
-        "name": "Aug17Sat D8",
+        "name": "Aug17Sun D8",
         "shows": 103,
         "booked": 1957,
         "occupancy": "11.17%",
         "sum": 353005
       },
       {
-        "name": "Aug18Sun D9",
+        "name": "Aug18Mon D9",
         "shows": 92,
         "booked": 1951,
         "occupancy": "12.58%",
         "sum": 329507
       },
       {
-        "name": "Aug19Mon D10",
+        "name": "Aug19Tue D10",
         "shows": 74,
         "booked": 854,
         "occupancy": "6.96%",
         "sum": 152570
       },
       {
-        "name": "Aug20Tue D11",
+        "name": "Aug20Wed D11",
         "shows": 54,
         "booked": 1468,
         "occupancy": "16.72%",
         "sum": 235714
       },
       {
-        "name": "Aug21Wed D12",
+        "name": "Aug21Thu D12",
         "shows": 47,
         "booked": 432,
         "occupancy": "5.69%",
         "sum": 76686
       },
       {
-        "name": "Aug22Thu D13",
+        "name": "Aug22Fri D13",
         "shows": 42,
         "booked": 402,
         "occupancy": "5.97%",
         "sum": 66885
       },
       {
-        "name": "Aug23Fri D14",
-        "shows": 2,
-        "booked": 0,
-        "occupancy": "0%",
-        "sum": 0
+        "name": "",
+        "shows": 3529,
+        "booked": 121753,
+        "occupancy": "13.66%",
+        "sum": 19554523
+      }
+    ]
+  },
+  "549": {
+    "title": "Vaazha",
+    "image": "https://fridaymatinee.in/fmbo/images/posters/Vaazha-549.webp",
+    "data": [
+      {
+        "name": "Aug15Fri D1",
+        "shows": 620,
+        "booked": 84300,
+        "occupancy": "66.8%",
+        "sum": 12588658
+      },
+      {
+        "name": "Aug16Sat D2",
+        "shows": 747,
+        "booked": 84732,
+        "occupancy": "47.84%",
+        "sum": 12763072
+      },
+      {
+        "name": "Aug17Sun D3",
+        "shows": 811,
+        "booked": 124469,
+        "occupancy": "62.83%",
+        "sum": 18601777
+      },
+      {
+        "name": "Aug18Mon D4",
+        "shows": 841,
+        "booked": 151826,
+        "occupancy": "72.91%",
+        "sum": 22767749
+      },
+      {
+        "name": "Aug19Tue D5",
+        "shows": 804,
+        "booked": 89813,
+        "occupancy": "43.64%",
+        "sum": 13437538
+      },
+      {
+        "name": "Aug20Wed D6",
+        "shows": 830,
+        "booked": 116054,
+        "occupancy": "55.25%",
+        "sum": 17427372
+      },
+      {
+        "name": "Aug21Thu D7",
+        "shows": 782,
+        "booked": 56607,
+        "occupancy": "28.42%",
+        "sum": 8519594
+      },
+      {
+        "name": "Aug22Fri D8",
+        "shows": 798,
+        "booked": 53220,
+        "occupancy": "26.35%",
+        "sum": 8084909
+      },
+      {
+        "name": "Aug23Sat D9",
+        "shows": 852,
+        "booked": 57959,
+        "occupancy": "23.08%",
+        "sum": 8995298
+      },
+      {
+        "name": "Aug24Sun D10",
+        "shows": 889,
+        "booked": 97169,
+        "occupancy": "37.3%",
+        "sum": 15173971
+      },
+      {
+        "name": "Aug25Mon D11",
+        "shows": 931,
+        "booked": 144440,
+        "occupancy": "53.7%",
+        "sum": 22158514
+      },
+      {
+        "name": "Aug26Tue D12",
+        "shows": 913,
+        "booked": 73447,
+        "occupancy": "27.67%",
+        "sum": 11167366
+      },
+      {
+        "name": "Aug27Wed D13",
+        "shows": 874,
+        "booked": 51323,
+        "occupancy": "20.33%",
+        "sum": 7828459
+      },
+      {
+        "name": "Aug28Thu D14",
+        "shows": 878,
+        "booked": 54144,
+        "occupancy": "21.28%",
+        "sum": 7968921
+      },
+      {
+        "name": "Aug29Fri D15",
+        "shows": 836,
+        "booked": 26851,
+        "occupancy": "11%",
+        "sum": 4084548
+      },
+      {
+        "name": "Aug30Sat D16",
+        "shows": 773,
+        "booked": 28881,
+        "occupancy": "12.75%",
+        "sum": 4489502
+      },
+      {
+        "name": "Aug31Sun D17",
+        "shows": 798,
+        "booked": 47742,
+        "occupancy": "20.43%",
+        "sum": 7499927
+      },
+      {
+        "name": "Sep1Mon D18",
+        "shows": 820,
+        "booked": 65626,
+        "occupancy": "27.38%",
+        "sum": 10155043
+      },
+      {
+        "name": "Sep2Tue D19",
+        "shows": 750,
+        "booked": 21335,
+        "occupancy": "9.82%",
+        "sum": 3196726
+      },
+      {
+        "name": "Sep3Wed D20",
+        "shows": 733,
+        "booked": 17281,
+        "occupancy": "8.14%",
+        "sum": 2577605
+      },
+      {
+        "name": "Sep4Thu D21",
+        "shows": 699,
+        "booked": 19028,
+        "occupancy": "9.48%",
+        "sum": 2710134
+      },
+      {
+        "name": "Sep5Fri D22",
+        "shows": 321,
+        "booked": 6515,
+        "occupancy": "10.82%",
+        "sum": 1013023
+      },
+      {
+        "name": "Sep6Sat D23",
+        "shows": 479,
+        "booked": 13929,
+        "occupancy": "15.23%",
+        "sum": 2263731
+      },
+      {
+        "name": "Sep7Sun D24",
+        "shows": 514,
+        "booked": 20334,
+        "occupancy": "20.64%",
+        "sum": 3340262
+      },
+      {
+        "name": "Sep8Mon D25",
+        "shows": 535,
+        "booked": 23954,
+        "occupancy": "23.44%",
+        "sum": 3891835
+      },
+      {
+        "name": "Sep9Tue D26",
+        "shows": 494,
+        "booked": 9223,
+        "occupancy": "9.66%",
+        "sum": 1535365
+      },
+      {
+        "name": "Sep10Wed D27",
+        "shows": 460,
+        "booked": 9104,
+        "occupancy": "10.41%",
+        "sum": 1525785
+      },
+      {
+        "name": "Sep11Thu D28",
+        "shows": 452,
+        "booked": 9804,
+        "occupancy": "11.42%",
+        "sum": 1475839
+      },
+      {
+        "name": "Sep12Fri D29",
+        "shows": 225,
+        "booked": 5516,
+        "occupancy": "12.35%",
+        "sum": 907928
+      },
+      {
+        "name": "Sep13Sat D30",
+        "shows": 61,
+        "booked": 2225,
+        "occupancy": "17.21%",
+        "sum": 409473
+      },
+      {
+        "name": "Sep14Sun D31",
+        "shows": 53,
+        "booked": 3329,
+        "occupancy": "29.43%",
+        "sum": 612306
+      },
+      {
+        "name": "Sep15Mon D32",
+        "shows": 49,
+        "booked": 3873,
+        "occupancy": "42.93%",
+        "sum": 684321
+      },
+      {
+        "name": "Sep16Tue D33",
+        "shows": 47,
+        "booked": 4918,
+        "occupancy": "61.12%",
+        "sum": 852706
+      },
+      {
+        "name": "Sep17Wed D34",
+        "shows": 52,
+        "booked": 4225,
+        "occupancy": "47.58%",
+        "sum": 749494
+      },
+      {
+        "name": "Sep18Thu D35",
+        "shows": 51,
+        "booked": 2507,
+        "occupancy": "28.94%",
+        "sum": 443240
+      },
+      {
+        "name": "Sep19Fri D36",
+        "shows": 49,
+        "booked": 2022,
+        "occupancy": "24.76%",
+        "sum": 349210
+      },
+      {
+        "name": "Sep20Sat D37",
+        "shows": 24,
+        "booked": 1773,
+        "occupancy": "39.52%",
+        "sum": 200201
+      },
+      {
+        "name": "Sep21Sun D38",
+        "shows": 27,
+        "booked": 1535,
+        "occupancy": "29.82%",
+        "sum": 294046
+      },
+      {
+        "name": "Sep22Mon D39",
+        "shows": 28,
+        "booked": 1752,
+        "occupancy": "31.92%",
+        "sum": 338330
+      },
+      {
+        "name": "Sep23Tue D40",
+        "shows": 16,
+        "booked": 422,
+        "occupancy": "14.91%",
+        "sum": 69174
+      },
+      {
+        "name": "Sep24Wed D41",
+        "shows": 14,
+        "booked": 224,
+        "occupancy": "9.13%",
+        "sum": 33638
+      },
+      {
+        "name": "Sep25Thu D42",
+        "shows": 13,
+        "booked": 139,
+        "occupancy": "5.71%",
+        "sum": 27570
+      },
+      {
+        "name": "Sep26Fri D43",
+        "shows": 11,
+        "booked": 173,
+        "occupancy": "8.05%",
+        "sum": 33780
+      },
+      {
+        "name": "Sep27Sat D44",
+        "shows": 4,
+        "booked": 38,
+        "occupancy": "7.16%",
+        "sum": 8190
+      },
+      {
+        "name": "Sep28Sun D45",
+        "shows": 4,
+        "booked": 146,
+        "occupancy": "24.66%",
+        "sum": 30450
+      },
+      {
+        "name": "Sep29Mon D46",
+        "shows": 4,
+        "booked": 212,
+        "occupancy": "35.81%",
+        "sum": 44150
       },
       {
         "name": "",
-        "shows": 3531,
-        "booked": 121753,
-        "occupancy": "13.65%",
-        "sum": 19554523
+        "shows": 20966,
+        "booked": 1594139,
+        "occupancy": "29.45%",
+        "sum": 243330729
+      }
+    ],
+    "reddit": true
+  },
+  "550": {
+    "title": "Nunakkuzhi",
+    "image": "https://fridaymatinee.in/fmbo/images/posters/Nunakkuzhi-550.webp",
+    "data": [
+      {
+        "name": "Aug15Fri D1",
+        "shows": 766,
+        "booked": 88888,
+        "occupancy": "42.27%",
+        "sum": 14416031
+      },
+      {
+        "name": "Aug16Sat D2",
+        "shows": 767,
+        "booked": 46482,
+        "occupancy": "22.54%",
+        "sum": 7671527
+      },
+      {
+        "name": "Aug17Sun D3",
+        "shows": 751,
+        "booked": 61541,
+        "occupancy": "30.17%",
+        "sum": 10073965
+      },
+      {
+        "name": "Aug18Mon D4",
+        "shows": 757,
+        "booked": 79124,
+        "occupancy": "38.75%",
+        "sum": 12689655
+      },
+      {
+        "name": "Aug19Tue D5",
+        "shows": 723,
+        "booked": 39937,
+        "occupancy": "21.03%",
+        "sum": 6382022
+      },
+      {
+        "name": "Aug20Wed D6",
+        "shows": 735,
+        "booked": 44517,
+        "occupancy": "23.21%",
+        "sum": 7130679
+      },
+      {
+        "name": "Aug21Thu D7",
+        "shows": 691,
+        "booked": 21478,
+        "occupancy": "11.93%",
+        "sum": 3488903
+      },
+      {
+        "name": "Aug22Fri D8",
+        "shows": 704,
+        "booked": 19736,
+        "occupancy": "10.91%",
+        "sum": 3177344
+      },
+      {
+        "name": "Aug23Sat D9",
+        "shows": 602,
+        "booked": 19724,
+        "occupancy": "13.49%",
+        "sum": 3163449
+      },
+      {
+        "name": "Aug24Sun D10",
+        "shows": 612,
+        "booked": 33333,
+        "occupancy": "22.74%",
+        "sum": 5363701
+      },
+      {
+        "name": "Aug25Mon D11",
+        "shows": 650,
+        "booked": 57016,
+        "occupancy": "36.88%",
+        "sum": 8919130
+      },
+      {
+        "name": "Aug26Tue D12",
+        "shows": 665,
+        "booked": 24171,
+        "occupancy": "15.39%",
+        "sum": 3828704
+      },
+      {
+        "name": "Aug27Wed D13",
+        "shows": 631,
+        "booked": 19233,
+        "occupancy": "12.82%",
+        "sum": 3026437
+      },
+      {
+        "name": "Aug28Thu D14",
+        "shows": 636,
+        "booked": 18452,
+        "occupancy": "12.3%",
+        "sum": 2859069
+      },
+      {
+        "name": "Aug29Fri D15",
+        "shows": 525,
+        "booked": 10702,
+        "occupancy": "8.68%",
+        "sum": 1690418
+      },
+      {
+        "name": "Aug30Sat D16",
+        "shows": 435,
+        "booked": 11759,
+        "occupancy": "11.35%",
+        "sum": 1896742
+      },
+      {
+        "name": "Aug31Sun D17",
+        "shows": 428,
+        "booked": 17121,
+        "occupancy": "16.62%",
+        "sum": 2771685
+      },
+      {
+        "name": "Sep1Mon D18",
+        "shows": 447,
+        "booked": 23491,
+        "occupancy": "22.24%",
+        "sum": 3746264
+      },
+      {
+        "name": "Sep2Tue D19",
+        "shows": 412,
+        "booked": 6821,
+        "occupancy": "7%",
+        "sum": 1101762
+      },
+      {
+        "name": "Sep3Wed D20",
+        "shows": 377,
+        "booked": 6188,
+        "occupancy": "6.98%",
+        "sum": 999333
+      },
+      {
+        "name": "Sep4Thu D21",
+        "shows": 350,
+        "booked": 5956,
+        "occupancy": "7.6%",
+        "sum": 917282
+      },
+      {
+        "name": "Sep5Fri D22",
+        "shows": 128,
+        "booked": 2191,
+        "occupancy": "10.56%",
+        "sum": 378335
+      },
+      {
+        "name": "Sep6Sat D23",
+        "shows": 174,
+        "booked": 3450,
+        "occupancy": "11.4%",
+        "sum": 592453
+      },
+      {
+        "name": "Sep7Sun D24",
+        "shows": 183,
+        "booked": 4687,
+        "occupancy": "15.13%",
+        "sum": 815440
+      },
+      {
+        "name": "Sep8Mon D25",
+        "shows": 186,
+        "booked": 5997,
+        "occupancy": "18.54%",
+        "sum": 1044548
+      },
+      {
+        "name": "Sep9Tue D26",
+        "shows": 187,
+        "booked": 2551,
+        "occupancy": "7.83%",
+        "sum": 441639
+      },
+      {
+        "name": "Sep10Wed D27",
+        "shows": 175,
+        "booked": 2868,
+        "occupancy": "9.6%",
+        "sum": 470306
+      },
+      {
+        "name": "Sep11Thu D28",
+        "shows": 165,
+        "booked": 2179,
+        "occupancy": "7.75%",
+        "sum": 349986
+      },
+      {
+        "name": "Sep12Fri D29",
+        "shows": 45,
+        "booked": 522,
+        "occupancy": "6.47%",
+        "sum": 92599
+      },
+      {
+        "name": "Sep13Sat D30",
+        "shows": 10,
+        "booked": 305,
+        "occupancy": "26.5%",
+        "sum": 60990
+      },
+      {
+        "name": "Sep14Sun D31",
+        "shows": 8,
+        "booked": 373,
+        "occupancy": "44.25%",
+        "sum": 72280
+      },
+      {
+        "name": "Sep15Mon D32",
+        "shows": 8,
+        "booked": 362,
+        "occupancy": "42.94%",
+        "sum": 68340
+      },
+      {
+        "name": "Sep16Tue D33",
+        "shows": 7,
+        "booked": 582,
+        "occupancy": "74.62%",
+        "sum": 113350
+      },
+      {
+        "name": "Sep17Wed D34",
+        "shows": 7,
+        "booked": 475,
+        "occupancy": "61.05%",
+        "sum": 92290
+      },
+      {
+        "name": "Sep18Thu D35",
+        "shows": 8,
+        "booked": 306,
+        "occupancy": "28.13%",
+        "sum": 61530
+      },
+      {
+        "name": "Sep19Fri D36",
+        "shows": 7,
+        "booked": 210,
+        "occupancy": "21.38%",
+        "sum": 40400
+      },
+      {
+        "name": "Sep20Sat D37",
+        "shows": 3,
+        "booked": 199,
+        "occupancy": "36.45%",
+        "sum": 23231
+      },
+      {
+        "name": "",
+        "shows": 13965,
+        "booked": 682927,
+        "occupancy": "20.14%",
+        "sum": 110031817
+      }
+    ],
+    "reddit": true
+  },
+  "551": {
+    "title": "Manichitrathazhu",
+    "image": "https://fridaymatinee.in/fmbo/images/posters/Manichitrathazhu-551.webp",
+    "data": [
+      {
+        "name": "Aug17Sun D1",
+        "shows": 243,
+        "booked": 24302,
+        "occupancy": "40%",
+        "sum": 4396025
+      },
+      {
+        "name": "Aug18Mon D2",
+        "shows": 261,
+        "booked": 27903,
+        "occupancy": "43.85%",
+        "sum": 4921827
+      },
+      {
+        "name": "Aug19Tue D3",
+        "shows": 229,
+        "booked": 12147,
+        "occupancy": "23.01%",
+        "sum": 2215548
+      },
+      {
+        "name": "Aug20Wed D4",
+        "shows": 262,
+        "booked": 17511,
+        "occupancy": "28.61%",
+        "sum": 3111539
+      },
+      {
+        "name": "Aug21Thu D5",
+        "shows": 251,
+        "booked": 7585,
+        "occupancy": "12.89%",
+        "sum": 1352543
+      },
+      {
+        "name": "Aug22Fri D6",
+        "shows": 238,
+        "booked": 6535,
+        "occupancy": "11.59%",
+        "sum": 1198674
+      },
+      {
+        "name": "Aug23Sat D7",
+        "shows": 108,
+        "booked": 4642,
+        "occupancy": "17.06%",
+        "sum": 842450
+      },
+      {
+        "name": "Aug24Sun D8",
+        "shows": 119,
+        "booked": 8453,
+        "occupancy": "28.19%",
+        "sum": 1551595
+      },
+      {
+        "name": "Aug25Mon D9",
+        "shows": 127,
+        "booked": 12315,
+        "occupancy": "39.95%",
+        "sum": 2195828
+      },
+      {
+        "name": "Aug26Tue D10",
+        "shows": 131,
+        "booked": 4653,
+        "occupancy": "14.88%",
+        "sum": 834040
+      },
+      {
+        "name": "Aug27Wed D11",
+        "shows": 131,
+        "booked": 3700,
+        "occupancy": "11.68%",
+        "sum": 668526
+      },
+      {
+        "name": "Aug28Thu D12",
+        "shows": 126,
+        "booked": 3994,
+        "occupancy": "13.34%",
+        "sum": 652251
+      },
+      {
+        "name": "Aug29Fri D13",
+        "shows": 97,
+        "booked": 1789,
+        "occupancy": "8.12%",
+        "sum": 318933
+      },
+      {
+        "name": "Aug30Sat D14",
+        "shows": 59,
+        "booked": 1465,
+        "occupancy": "10.91%",
+        "sum": 260344
+      },
+      {
+        "name": "Aug31Sun D15",
+        "shows": 65,
+        "booked": 2683,
+        "occupancy": "19.11%",
+        "sum": 487926
+      },
+      {
+        "name": "Sep1Mon D16",
+        "shows": 66,
+        "booked": 3437,
+        "occupancy": "24.36%",
+        "sum": 627964
+      },
+      {
+        "name": "Sep2Tue D17",
+        "shows": 53,
+        "booked": 1163,
+        "occupancy": "10.2%",
+        "sum": 198926
+      },
+      {
+        "name": "Sep3Wed D18",
+        "shows": 53,
+        "booked": 1085,
+        "occupancy": "9.8%",
+        "sum": 185013
+      },
+      {
+        "name": "Sep4Thu D19",
+        "shows": 47,
+        "booked": 1124,
+        "occupancy": "11.38%",
+        "sum": 183637
+      },
+      {
+        "name": "Sep5Fri D20",
+        "shows": 9,
+        "booked": 293,
+        "occupancy": "20.52%",
+        "sum": 55370
+      },
+      {
+        "name": "Sep6Sat D21",
+        "shows": 12,
+        "booked": 802,
+        "occupancy": "49.63%",
+        "sum": 154270
+      },
+      {
+        "name": "Sep7Sun D22",
+        "shows": 11,
+        "booked": 593,
+        "occupancy": "39.61%",
+        "sum": 122460
+      },
+      {
+        "name": "Sep8Mon D23",
+        "shows": 12,
+        "booked": 649,
+        "occupancy": "40.16%",
+        "sum": 130700
+      },
+      {
+        "name": "Sep9Tue D24",
+        "shows": 13,
+        "booked": 342,
+        "occupancy": "19.21%",
+        "sum": 67220
+      },
+      {
+        "name": "Sep10Wed D25",
+        "shows": 14,
+        "booked": 308,
+        "occupancy": "14.71%",
+        "sum": 59807
+      },
+      {
+        "name": "Sep11Thu D26",
+        "shows": 14,
+        "booked": 330,
+        "occupancy": "16.17%",
+        "sum": 54083
+      },
+      {
+        "name": "Sep12Fri D27",
+        "shows": 10,
+        "booked": 287,
+        "occupancy": "25.93%",
+        "sum": 49120
+      },
+      {
+        "name": "Sep13Sat D28",
+        "shows": 7,
+        "booked": 166,
+        "occupancy": "24.96%",
+        "sum": 33030
+      },
+      {
+        "name": "Sep14Sun D29",
+        "shows": 7,
+        "booked": 225,
+        "occupancy": "33.83%",
+        "sum": 46770
+      },
+      {
+        "name": "Sep15Mon D30",
+        "shows": 7,
+        "booked": 291,
+        "occupancy": "43.69%",
+        "sum": 62600
+      },
+      {
+        "name": "Sep16Tue D31",
+        "shows": 6,
+        "booked": 263,
+        "occupancy": "43.83%",
+        "sum": 55130
+      },
+      {
+        "name": "Sep17Wed D32",
+        "shows": 5,
+        "booked": 210,
+        "occupancy": "39.25%",
+        "sum": 43260
+      },
+      {
+        "name": "Sep18Thu D33",
+        "shows": 6,
+        "booked": 162,
+        "occupancy": "27%",
+        "sum": 32180
+      },
+      {
+        "name": "Sep19Fri D34",
+        "shows": 5,
+        "booked": 123,
+        "occupancy": "22.99%",
+        "sum": 29700
+      },
+      {
+        "name": "Sep20Sat D35",
+        "shows": 2,
+        "booked": 159,
+        "occupancy": "58.24%",
+        "sum": 20223
+      },
+      {
+        "name": "",
+        "shows": 2806,
+        "booked": 151689,
+        "occupancy": "23.4%",
+        "sum": 27219512
+      }
+    ],
+    "reddit": true
+  },
+  "552": {
+    "title": "Thangalaan",
+    "image": "https://fridaymatinee.in/fmbo/images/posters/Thangalaan-552.webp",
+    "data": [
+      {
+        "name": "Aug15Fri D1",
+        "shows": 744,
+        "booked": 54283,
+        "occupancy": "25.78%",
+        "sum": 8499005
+      },
+      {
+        "name": "Aug16Sat D2",
+        "shows": 677,
+        "booked": 18076,
+        "occupancy": "10.3%",
+        "sum": 2815310
+      },
+      {
+        "name": "Aug17Sun D3",
+        "shows": 622,
+        "booked": 17001,
+        "occupancy": "11.32%",
+        "sum": 2655750
+      },
+      {
+        "name": "Aug18Mon D4",
+        "shows": 582,
+        "booked": 19094,
+        "occupancy": "13.56%",
+        "sum": 2955499
+      },
+      {
+        "name": "Aug19Tue D5",
+        "shows": 523,
+        "booked": 10980,
+        "occupancy": "8.49%",
+        "sum": 1627047
+      },
+      {
+        "name": "Aug20Wed D6",
+        "shows": 500,
+        "booked": 10491,
+        "occupancy": "8.45%",
+        "sum": 1582183
+      },
+      {
+        "name": "Aug21Thu D7",
+        "shows": 429,
+        "booked": 6326,
+        "occupancy": "5.93%",
+        "sum": 952208
+      },
+      {
+        "name": "Aug22Fri D8",
+        "shows": 405,
+        "booked": 5192,
+        "occupancy": "5.26%",
+        "sum": 777754
+      },
+      {
+        "name": "Aug23Sat D9",
+        "shows": 45,
+        "booked": 829,
+        "occupancy": "8.33%",
+        "sum": 123241
+      },
+      {
+        "name": "Aug24Sun D10",
+        "shows": 45,
+        "booked": 1086,
+        "occupancy": "10.96%",
+        "sum": 176939
+      },
+      {
+        "name": "Aug25Mon D11",
+        "shows": 45,
+        "booked": 1601,
+        "occupancy": "15.79%",
+        "sum": 243937
+      },
+      {
+        "name": "Aug26Tue D12",
+        "shows": 45,
+        "booked": 923,
+        "occupancy": "9.51%",
+        "sum": 141503
+      },
+      {
+        "name": "Aug27Wed D13",
+        "shows": 41,
+        "booked": 670,
+        "occupancy": "7.42%",
+        "sum": 98738
+      },
+      {
+        "name": "Aug28Thu D14",
+        "shows": 40,
+        "booked": 745,
+        "occupancy": "8.07%",
+        "sum": 104986
+      },
+      {
+        "name": "Aug29Fri D15",
+        "shows": 22,
+        "booked": 482,
+        "occupancy": "9.76%",
+        "sum": 70124
+      },
+      {
+        "name": "Aug30Sat D16",
+        "shows": 8,
+        "booked": 151,
+        "occupancy": "8.18%",
+        "sum": 19617
+      },
+      {
+        "name": "Aug31Sun D17",
+        "shows": 10,
+        "booked": 285,
+        "occupancy": "12.42%",
+        "sum": 36099
+      },
+      {
+        "name": "Sep1Mon D18",
+        "shows": 8,
+        "booked": 331,
+        "occupancy": "16.76%",
+        "sum": 45499
+      },
+      {
+        "name": "Sep2Tue D19",
+        "shows": 9,
+        "booked": 346,
+        "occupancy": "15.92%",
+        "sum": 43201
+      },
+      {
+        "name": "Sep3Wed D20",
+        "shows": 9,
+        "booked": 459,
+        "occupancy": "21.11%",
+        "sum": 57309
+      },
+      {
+        "name": "",
+        "shows": 4809,
+        "booked": 149351,
+        "occupancy": "12.35%",
+        "sum": 23025949
       }
     ],
     "reddit": true
   },
   "554": {
+    "reddit": true,
     "title": "DemonteColony2",
-    "image": "https://i.imgur.com/r4hGZ9I.jpeg",
+    "image": "https://fridaymatinee.in/fmbo/images/posters/Demonte Colony 2-554.webp",
     "data": [
       {
-        "name": "Aug15Thu D1",
+        "name": "Aug15Fri D1",
         "shows": 96,
         "booked": 3516,
         "occupancy": "18.06%",
         "sum": 491172
       },
       {
-        "name": "Aug16Fri D2",
+        "name": "Aug16Sat D2",
         "shows": 145,
         "booked": 4142,
         "occupancy": "14.1%",
         "sum": 573031
       },
       {
-        "name": "Aug17Sat D3",
+        "name": "Aug17Sun D3",
         "shows": 122,
         "booked": 3970,
         "occupancy": "16.47%",
         "sum": 586565
       },
       {
-        "name": "Aug18Sun D4",
+        "name": "Aug18Mon D4",
         "shows": 107,
         "booked": 4372,
         "occupancy": "21.12%",
         "sum": 648184
       },
       {
-        "name": "Aug19Mon D5",
+        "name": "Aug19Tue D5",
         "shows": 103,
         "booked": 2523,
         "occupancy": "12.21%",
         "sum": 350349
       },
       {
-        "name": "Aug20Tue D6",
+        "name": "Aug20Wed D6",
         "shows": 91,
         "booked": 2301,
         "occupancy": "12.17%",
         "sum": 316195
       },
       {
-        "name": "Aug21Wed D7",
+        "name": "Aug21Thu D7",
         "shows": 87,
         "booked": 1988,
         "occupancy": "11.11%",
         "sum": 272819
       },
       {
-        "name": "Aug22Thu D8",
+        "name": "Aug22Fri D8",
         "shows": 84,
         "booked": 1668,
         "occupancy": "9.39%",
         "sum": 222680
       },
       {
-        "name": "Aug23Fri D9",
-        "shows": 7,
-        "booked": 21,
-        "occupancy": "2%",
-        "sum": 2960
+        "name": "",
+        "shows": 835,
+        "booked": 24480,
+        "occupancy": "14.5%",
+        "sum": 3460995
+      }
+    ]
+  },
+  "555": {
+    "title": "Hunt",
+    "image": "https://fridaymatinee.in/fmbo/images/posters/Hunt-555.webp",
+    "data": [
+      {
+        "name": "Aug23Sat D1",
+        "shows": 212,
+        "booked": 5108,
+        "occupancy": "11.35%",
+        "sum": 828597
+      },
+      {
+        "name": "Aug24Sun D2",
+        "shows": 205,
+        "booked": 4045,
+        "occupancy": "9.38%",
+        "sum": 663230
+      },
+      {
+        "name": "Aug25Mon D3",
+        "shows": 198,
+        "booked": 4844,
+        "occupancy": "11.87%",
+        "sum": 757109
+      },
+      {
+        "name": "Aug26Tue D4",
+        "shows": 175,
+        "booked": 2930,
+        "occupancy": "8.05%",
+        "sum": 464104
+      },
+      {
+        "name": "Aug27Wed D5",
+        "shows": 159,
+        "booked": 2779,
+        "occupancy": "8.69%",
+        "sum": 408947
+      },
+      {
+        "name": "Aug28Thu D6",
+        "shows": 150,
+        "booked": 1809,
+        "occupancy": "6.13%",
+        "sum": 277158
+      },
+      {
+        "name": "Aug29Fri D7",
+        "shows": 75,
+        "booked": 755,
+        "occupancy": "5.5%",
+        "sum": 116954
+      },
+      {
+        "name": "Aug30Sat D8",
+        "shows": 16,
+        "booked": 205,
+        "occupancy": "7.7%",
+        "sum": 36226
+      },
+      {
+        "name": "Aug31Sun D9",
+        "shows": 15,
+        "booked": 299,
+        "occupancy": "12.38%",
+        "sum": 53170
+      },
+      {
+        "name": "Sep1Mon D10",
+        "shows": 15,
+        "booked": 382,
+        "occupancy": "15.81%",
+        "sum": 67547
+      },
+      {
+        "name": "Sep2Tue D11",
+        "shows": 16,
+        "booked": 171,
+        "occupancy": "6.62%",
+        "sum": 29812
+      },
+      {
+        "name": "Sep3Wed D12",
+        "shows": 16,
+        "booked": 159,
+        "occupancy": "6.15%",
+        "sum": 23353
+      },
+      {
+        "name": "Sep4Thu D13",
+        "shows": 15,
+        "booked": 171,
+        "occupancy": "6.81%",
+        "sum": 26110
       },
       {
         "name": "",
-        "shows": 842,
-        "booked": 24501,
-        "occupancy": "14.42%",
-        "sum": 3463955
+        "shows": 1267,
+        "booked": 23657,
+        "occupancy": "9.25%",
+        "sum": 3752315
+      }
+    ],
+    "reddit": true
+  },
+  "556": {
+    "title": "Footage",
+    "image": "https://fridaymatinee.in/fmbo/images/posters/Footage-556.webp",
+    "data": [
+      {
+        "name": "Aug23Sat D1",
+        "shows": 176,
+        "booked": 4371,
+        "occupancy": "12.83%",
+        "sum": 818597
+      },
+      {
+        "name": "Aug24Sun D2",
+        "shows": 163,
+        "booked": 3615,
+        "occupancy": "11.3%",
+        "sum": 649862
+      },
+      {
+        "name": "Aug25Mon D3",
+        "shows": 143,
+        "booked": 2968,
+        "occupancy": "11.2%",
+        "sum": 510810
+      },
+      {
+        "name": "Aug26Tue D4",
+        "shows": 117,
+        "booked": 1574,
+        "occupancy": "7.27%",
+        "sum": 288816
+      },
+      {
+        "name": "Aug27Wed D5",
+        "shows": 94,
+        "booked": 1118,
+        "occupancy": "6.8%",
+        "sum": 193572
+      },
+      {
+        "name": "Aug28Thu D6",
+        "shows": 95,
+        "booked": 1342,
+        "occupancy": "8.22%",
+        "sum": 220710
+      },
+      {
+        "name": "Aug29Fri D7",
+        "shows": 42,
+        "booked": 624,
+        "occupancy": "8.09%",
+        "sum": 111231
+      },
+      {
+        "name": "Aug30Sat D8",
+        "shows": 12,
+        "booked": 225,
+        "occupancy": "9.57%",
+        "sum": 41920
+      },
+      {
+        "name": "Aug31Sun D9",
+        "shows": 13,
+        "booked": 545,
+        "occupancy": "21.09%",
+        "sum": 91228
+      },
+      {
+        "name": "Sep1Mon D10",
+        "shows": 13,
+        "booked": 496,
+        "occupancy": "19.2%",
+        "sum": 90261
+      },
+      {
+        "name": "Sep2Tue D11",
+        "shows": 12,
+        "booked": 110,
+        "occupancy": "4.68%",
+        "sum": 20109
+      },
+      {
+        "name": "Sep3Wed D12",
+        "shows": 10,
+        "booked": 204,
+        "occupancy": "9.67%",
+        "sum": 29774
+      },
+      {
+        "name": "Sep4Thu D13",
+        "shows": 10,
+        "booked": 171,
+        "occupancy": "8.11%",
+        "sum": 26782
+      },
+      {
+        "name": "",
+        "shows": 900,
+        "booked": 17363,
+        "occupancy": "10.29%",
+        "sum": 3093671
+      }
+    ],
+    "reddit": true
+  },
+  "557": {
+    "title": "AlienRomulus",
+    "image": "https://fridaymatinee.in/fmbo/images/posters/Alien: Romulus-557.webp",
+    "data": [
+      {
+        "name": "Aug23Sat D1",
+        "shows": 123,
+        "booked": 2083,
+        "occupancy": "8.99%",
+        "sum": 468912
+      },
+      {
+        "name": "Aug24Sun D2",
+        "shows": 109,
+        "booked": 2827,
+        "occupancy": "13.47%",
+        "sum": 659538
+      },
+      {
+        "name": "Aug25Mon D3",
+        "shows": 96,
+        "booked": 3300,
+        "occupancy": "18.45%",
+        "sum": 725305
+      },
+      {
+        "name": "Aug26Tue D4",
+        "shows": 80,
+        "booked": 1521,
+        "occupancy": "9.92%",
+        "sum": 314693
+      },
+      {
+        "name": "Aug27Wed D5",
+        "shows": 74,
+        "booked": 1703,
+        "occupancy": "12.74%",
+        "sum": 363370
+      },
+      {
+        "name": "Aug28Thu D6",
+        "shows": 69,
+        "booked": 1303,
+        "occupancy": "10.35%",
+        "sum": 278275
+      },
+      {
+        "name": "Aug29Fri D7",
+        "shows": 44,
+        "booked": 869,
+        "occupancy": "11.18%",
+        "sum": 214228
+      },
+      {
+        "name": "Aug30Sat D8",
+        "shows": 12,
+        "booked": 575,
+        "occupancy": "31.73%",
+        "sum": 126770
+      },
+      {
+        "name": "Aug31Sun D9",
+        "shows": 11,
+        "booked": 758,
+        "occupancy": "45.53%",
+        "sum": 194640
+      },
+      {
+        "name": "Sep1Mon D10",
+        "shows": 11,
+        "booked": 755,
+        "occupancy": "45.32%",
+        "sum": 206370
+      },
+      {
+        "name": "Sep2Tue D11",
+        "shows": 12,
+        "booked": 398,
+        "occupancy": "21.99%",
+        "sum": 97120
+      },
+      {
+        "name": "Sep3Wed D12",
+        "shows": 12,
+        "booked": 479,
+        "occupancy": "26.46%",
+        "sum": 92871
+      },
+      {
+        "name": "Sep4Thu D13",
+        "shows": 12,
+        "booked": 496,
+        "occupancy": "27.4%",
+        "sum": 96882
+      },
+      {
+        "name": "Sep5Fri D14",
+        "shows": 6,
+        "booked": 227,
+        "occupancy": "33.63%",
+        "sum": 46320
+      },
+      {
+        "name": "Sep6Sat D15",
+        "shows": 8,
+        "booked": 182,
+        "occupancy": "17.83%",
+        "sum": 39050
+      },
+      {
+        "name": "Sep7Sun D16",
+        "shows": 9,
+        "booked": 335,
+        "occupancy": "30.45%",
+        "sum": 73250
+      },
+      {
+        "name": "Sep8Mon D17",
+        "shows": 10,
+        "booked": 543,
+        "occupancy": "44.54%",
+        "sum": 126960
+      },
+      {
+        "name": "Sep9Tue D18",
+        "shows": 10,
+        "booked": 226,
+        "occupancy": "18.59%",
+        "sum": 56440
+      },
+      {
+        "name": "Sep10Wed D19",
+        "shows": 10,
+        "booked": 256,
+        "occupancy": "18.52%",
+        "sum": 58490
+      },
+      {
+        "name": "Sep11Thu D20",
+        "shows": 8,
+        "booked": 264,
+        "occupancy": "22.82%",
+        "sum": 47575
+      },
+      {
+        "name": "Sep12Fri D21",
+        "shows": 6,
+        "booked": 94,
+        "occupancy": "13%",
+        "sum": 22860
+      },
+      {
+        "name": "Sep13Sat D22",
+        "shows": 4,
+        "booked": 80,
+        "occupancy": "20.41%",
+        "sum": 26950
+      },
+      {
+        "name": "Sep14Sun D23",
+        "shows": 4,
+        "booked": 54,
+        "occupancy": "13.78%",
+        "sum": 16700
+      },
+      {
+        "name": "Sep15Mon D24",
+        "shows": 4,
+        "booked": 117,
+        "occupancy": "29.85%",
+        "sum": 35850
+      },
+      {
+        "name": "Sep16Tue D25",
+        "shows": 4,
+        "booked": 123,
+        "occupancy": "31.38%",
+        "sum": 37850
+      },
+      {
+        "name": "Sep17Wed D26",
+        "shows": 4,
+        "booked": 84,
+        "occupancy": "21.43%",
+        "sum": 25950
+      },
+      {
+        "name": "Sep18Thu D27",
+        "shows": 4,
+        "booked": 91,
+        "occupancy": "23.21%",
+        "sum": 28250
+      },
+      {
+        "name": "",
+        "shows": 756,
+        "booked": 19743,
+        "occupancy": "14.9%",
+        "sum": 4481469
       }
     ],
     "reddit": true
