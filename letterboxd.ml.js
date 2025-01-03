@@ -19,7 +19,7 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
   const reddit_post_id = "1hl4vy1"; // top100
 
   // // lang:ml
-  // for (let i = 0; i < 5; i++) {
+  // for (let i = 0; i < 15; i++) {
   //   const url = `https://letterboxd.com/films/ajax/language/malayalam/by/release/page/${
   //     i + 1
   //   }`;
@@ -35,16 +35,15 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
   //   // if (!$1("[data-film-slug]").length) break;
 
   //   $1("[data-film-slug]").each((_i, e) => {
-  //     const letterboxd_slug = $1(e).attr("data-film-slug");
+  //     const ltrbxd_slug = $1(e).attr("data-film-slug");
   //     if (
-  //       !configs.filter((i) => letterboxd_slug === i.letterboxd_slug).length
+  //       !configs.filter((i) => ltrbxd_slug === i.ltrbxd_slug).length
   //     ) {
-  //       console.log(i + 1, letterboxd_slug);
+  //       console.log(i + 1, ltrbxd_slug);
   //       configs.push({
   //         enable: true,
   //         last_updated_at: moment().format("YYYY-MM-DDTHH:mmZ"),
-  //         letterboxd_slug,
-  //         name: $1(e).find("img").attr("alt"),
+  //         ltrbxd_slug,
   //       });
   //     }
   //   });
@@ -52,44 +51,46 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
   //   fs.writeFileSync(config_path, JSON.stringify(configs, undefined, 2));
   // }
 
-  // console.log(
-  //   JSON.stringify(
-  //     Object.entries(
-  //       groupBy(
-  //         configs.filter((i) => i.enable),
-  //         "name"
-  //       )
-  //     )
-  //       .filter(([k, v]) => 1 < v.length)
-  //       .map(([k, v]) => ({ [k]: v })),
-  //     undefined,
-  //     2
-  //   )
-  // );
+  // lang:ml metadata
+  for (const config of configs.filter((i) => i.enable && !i.name))
+    try {
+      const { name, originalName, releaseYear, runTime, slug } = await fetch(
+        `https://letterboxd.com/film/${config.ltrbxd_slug}/json`,
+        {
+          ...(proxy ? { agent: new HttpsProxyAgent(proxy) } : {}),
+          headers: { "user-agent": "curl/1.0" },
+        }
+      ).then((r) => r.json());
 
-  // // lang:ml metadata
-  // for (const config of configs.filter(
-  //   (i) => i.enable && /*!i.originalName ||*/ !i.releaseYear
-  // ))
-  //   try {
-  //     const { originalName, releaseYear } = await fetch(
-  //       `https://letterboxd.com/film/${config.letterboxd_slug}/json`,
-  //       {
-  //         ...(proxy ? { agent: new HttpsProxyAgent(proxy) } : {}),
-  //         headers: { "user-agent": "curl/1.0" },
-  //       }
-  //     ).then((r) => r.json());
+      if (name) config.name = name;
+      if (originalName) config.originalName = originalName;
+      if (releaseYear) config.releaseYear = releaseYear;
+      if (runTime) config.runTime = runTime;
+      if (slug) config.ltrbxd_slug = slug;
 
-  //     if (originalName) config.originalName = originalName;
-  //     if (releaseYear) config.releaseYear = releaseYear;
+      console.log(config);
 
-  //     console.log(config);
+      config.last_updated_at = moment().format("YYYY-MM-DDTHH:mmZ");
+      fs.writeFileSync(config_path, JSON.stringify(configs, undefined, 2));
+    } catch (e) {
+      console.error(e);
+    }
 
-  //     config.last_updated_at = moment().format("YYYY-MM-DDTHH:mmZ");
-  //     fs.writeFileSync(config_path, JSON.stringify(configs, undefined, 2));
-  //   } catch (e) {
-  //     console.error(e);
-  //   }
+  // dedup ltrbxd_slug
+  console.log(
+    JSON.stringify(
+      Object.entries(
+        groupBy(
+          configs.filter((i) => i.enable),
+          "ltrbxd_slug"
+        )
+      )
+        .filter(([k, v]) => 1 < v.length)
+        .map(([k, v]) => ({ [k]: v })),
+      undefined,
+      2
+    )
+  );
 
   // letterboxd fetch
   for (const config of orderBy(
@@ -100,7 +101,7 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
     console.log(config);
 
     const $1 = cheerio.load(
-      await fetch(`https://letterboxd.com/film/${config.letterboxd_slug}`, {
+      await fetch(`https://letterboxd.com/film/${config.ltrbxd_slug}`, {
         ...(proxy ? { agent: new HttpsProxyAgent(proxy) } : {}),
         headers: { "user-agent": "curl/1.0" },
       }).then((r) => r.text())
@@ -138,20 +139,10 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
       fs.writeFileSync(config_path, JSON.stringify(configs, undefined, 2));
     }
 
-    // duration
-    const footer = unescape($1(".text-footer").text());
-    const duration = footer.trim().match(/^([0-9]*)/)?.[1];
-    if (duration) {
-      config.duration = +duration;
-
-      config.last_updated_at = moment().format("YYYY-MM-DDTHH:mmZ");
-      fs.writeFileSync(config_path, JSON.stringify(configs, undefined, 2));
-    }
-
     // ratings
     const $10 = cheerio.load(
       await fetch(
-        `https://letterboxd.com/csi/film/${config.letterboxd_slug}/rating-histogram`,
+        `https://letterboxd.com/csi/film/${config.ltrbxd_slug}/rating-histogram`,
         {
           ...(proxy ? { agent: new HttpsProxyAgent(proxy) } : {}),
           headers: { "user-agent": "curl/1.0" },
@@ -232,7 +223,7 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
         (config.five || 0);
     text += `\n| ${rank++} | [${startCase(
       config.name
-    )}](https://letterboxd.com/film/${config.letterboxd_slug})${
+    )}](https://letterboxd.com/film/${config.ltrbxd_slug})${
       config.originalName ? ` ~ ${config.originalName}` : ""
     } | ${total ? toEnIn(total) : ""} | ${
       config.average ? config.average : ""

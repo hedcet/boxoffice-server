@@ -5,38 +5,20 @@ const fetch = require("node-fetch");
 const path = require("path");
 
 const { local, proxy } = require("./config/env.js");
-const { moment } = require("./config/moment.js");
 
-const config_path = path.resolve(__dirname, "./letterboxd.ml.json");
+const config_path = path.resolve(__dirname, "./letterboxd.kbo.json");
 const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
 
 (async () => {
   const fixtures = orderBy(
-    configs.filter(
-      (i) =>
-        i.enable &&
-        i.releaseDate &&
-        moment(i.releaseDate).isBefore() &&
-        0 <
-          (i.half || 0) +
-            (i.one || 0) +
-            (i.one_half || 0) +
-            (i.two || 0) +
-            (i.two_half || 0) +
-            (i.three || 0) +
-            (i.three_half || 0) +
-            (i.four || 0) +
-            (i.four_half || 0) +
-            (i.five || 0) &&
-        i.image
-    ),
+    configs.filter((i) => i.enable),
     ["releaseDate"],
     ["desc"]
-  ).slice(0, 60); // top60
+  );
 
   fs.writeFileSync(
-    path.resolve(local, "ml-movies.fixtures.json"),
-    JSON.stringify(fixtures, undefined, 2)
+    path.resolve(local, "src/fixture.tsx"),
+    `export const ltrbxd = ${JSON.stringify(fixtures)}`
   );
 
   let index = 0;
@@ -44,7 +26,7 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
     console.log(index++, fixture);
     const filePath = path.resolve(
       local,
-      `ltrbxd/${fixture.letterboxd_slug}.jpg`
+      `assets/ltrbxd/${fixture.ltrbxd_slug}.jpg`
     );
     if (!fs.existsSync(filePath)) {
       const r = await fetch(fixture.image, {
