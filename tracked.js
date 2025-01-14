@@ -97,8 +97,8 @@ const { client } = require("./config/snoowrap.js");
   // table generation
   let text =
     "| Movie | Shows | Occupancy | Gross | From | To | Files |\n| - | -: | -: | -: | - | - | -: |";
-  for (const item of items)
-    text += `\n| [${startCase(
+  for (const item of items) {
+    const t = `\n| [${startCase(
       item.name
     )}](https://github.com/hedcet/boxoffice/tree/main/${item.name})${
       1 < names[item.name].length ? ` (${item._id}.*)` : ""
@@ -109,6 +109,9 @@ const { client } = require("./config/snoowrap.js");
     } | ₹${toEnIn(item.sum, "en-in", {
       notation: "compact",
     })} | ${item.from} | ${item.to} | ${item.files} |`;
+    if (40000 < `${text}${t}`.length) break;
+    text += t;
+  }
 
   // reddit
   await new Promise((resolve, reject) =>
