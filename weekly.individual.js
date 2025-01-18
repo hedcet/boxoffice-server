@@ -1,5 +1,6 @@
 const { parseString } = require("fast-csv");
 const fs = require("fs");
+const { HttpsProxyAgent } = require("https-proxy-agent");
 const { camelCase, round, shuffle, upperFirst } = require("lodash");
 const fetch = require("node-fetch");
 const path = require("path");
@@ -21,11 +22,11 @@ const collageItemWidth = 96;
 
 (async () => {
   const group = "";
-  const name = /Mummy/i;
-  const displayName = "HelloMummy";
+  const name = /Identity/i;
+  const displayName = "Identity";
   let image = ""; // bms/ptm image-url
-  const start_date = moment("2024-11-21", ["YYYY-MM-DD"]);
-  const end_date = moment("2024-12-05", ["YYYY-MM-DD"]);
+  const start_date = moment("2025-01-02", ["YYYY-MM-DD"]);
+  const end_date = moment("2025-01-16", ["YYYY-MM-DD"]);
 
   await sync(csvPath); // git clone/pull
   await syncFileInfo(csvPath); // sync folder/file metadata to nedb
@@ -111,7 +112,7 @@ const collageItemWidth = 96;
         : ""
     }\n├ Shows ~ ${toEnIn(
       data._total._shows
-    )}\ngithub.com/hedcet/boxoffice/tree/main/${displayName}`
+    )}\nhttps://github.com/hedcet/boxoffice/tree/main/${displayName}`
   );
 
   // table generation
