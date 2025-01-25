@@ -61,11 +61,9 @@ const { db, syncFileInfo } = require("./config/nedb.js");
   });
 
   app.get("/group_", (req, res) => {
-    res.sendFile(path.join(__dirname, "/group.html"));
+    res.sendFile(path.join(__dirname, "./group.html"));
   });
 
   const port = process.env.PORT || 8080;
-  app.listen(port, () => {
-    console.log(`server listening on port ${port}`);
-  });
+  app.listen(port, () => console.log(`server listening on port ${port}`));
 })();

@@ -14,6 +14,22 @@ const { client } = require("./config/snoowrap.js");
 const config_path = path.resolve(__dirname, "./letterboxd.ml.json");
 const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
 
+async function fetchWrapper(url, retry = 0) {
+  try {
+    const r = await fetch(url, {
+      ...(proxy ? { agent: new HttpsProxyAgent(proxy) } : {}),
+      headers: { "user-agent": "curl/1.0" },
+    });
+    if (![200].includes(r.status)) throw new Error("invalid status");
+    const text = await r.text();
+    return isJSON(text) ? JSON.parse(text) : text;
+  } catch (e) {
+    console.error(e);
+    if (retry < 3) return await fetch(url, retry + 1);
+    else throw e;
+  }
+}
+
 (async () => {
   // const reddit_post_id = "1hio2ju"; // 2024 year-in-review
   const reddit_post_id = "1hl4vy1"; // top100
@@ -36,9 +52,7 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
 
   //   $1("[data-film-slug]").each((_i, e) => {
   //     const ltrbxd_slug = $1(e).attr("data-film-slug");
-  //     if (
-  //       !configs.filter((i) => ltrbxd_slug === i.ltrbxd_slug).length
-  //     ) {
+  //     if (!configs.filter((i) => ltrbxd_slug === i.ltrbxd_slug).length) {
   //       console.log(i + 1, ltrbxd_slug);
   //       configs.push({
   //         enable: true,
@@ -101,10 +115,7 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
     console.log(config);
 
     const $1 = cheerio.load(
-      await fetch(`https://letterboxd.com/film/${config.ltrbxd_slug}`, {
-        ...(proxy ? { agent: new HttpsProxyAgent(proxy) } : {}),
-        headers: { "user-agent": "curl/1.0" },
-      }).then((r) => r.text())
+      await fetchWrapper(`https://letterboxd.com/film/${config.ltrbxd_slug}`)
     );
 
     const metadata = $1('script:contains("<![CDATA[")')
@@ -141,13 +152,9 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
 
     // ratings
     const $10 = cheerio.load(
-      await fetch(
-        `https://letterboxd.com/csi/film/${config.ltrbxd_slug}/rating-histogram`,
-        {
-          ...(proxy ? { agent: new HttpsProxyAgent(proxy) } : {}),
-          headers: { "user-agent": "curl/1.0" },
-        }
-      ).then((r) => r.text())
+      await fetchWrapper(
+        `https://letterboxd.com/csi/film/${config.ltrbxd_slug}/rating-histogram`
+      )
     );
 
     if (!$10(".ratings-histogram-chart").length) continue;

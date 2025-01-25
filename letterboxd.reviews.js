@@ -1,6 +1,6 @@
 const fs = require("fs");
 const { HttpsProxyAgent } = require("https-proxy-agent");
-const { sample, uniqueId } = require("lodash");
+const { round, sample, uniqueId } = require("lodash");
 const fetch = require("node-fetch");
 const path = require("path");
 const puppeteer = require("puppeteer");
@@ -17,9 +17,9 @@ const json = fs.existsSync(json_path)
 
 (async () => {
   let image = "";
-  const github_folder = "EnnuSwanthamPunyalan";
+  const github_folder = "DominicAndTheLadiesPurse";
   const letterboxd_page = 1;
-  const letterboxd_slug = "ennu-swantham-punyalan";
+  const letterboxd_slug = "dominic-and-the-ladies-purse";
 
   const images = [];
   for (const { id } of await db.find({ name: github_folder }))
@@ -42,6 +42,54 @@ const json = fs.existsSync(json_path)
     timeout: 60000,
     waitUntil: "networkidle2",
   });
+
+  const ratings = await page.evaluate(
+    (selectors) => {
+      const r = {};
+      for (const [k, v] of Object.entries(selectors)) {
+        const e = document.querySelector(v);
+        if (e) {
+          const [count] = e.innerText.match(/([0-9,.%]+)/g);
+          r[k] = +count.replace(/[^0-9.]+/g, "");
+        }
+      }
+      return r;
+    },
+    {
+      "½": 'a[href*="/rated/%C2%BD/"]',
+      "★": 'a[href*="/rated/1/"]',
+      "★½": 'a[href*="/rated/1%C2%BD/"]',
+      "★★": 'a[href*="/rated/2/"]',
+      "★★½": 'a[href*="/rated/2%C2%BD/"]',
+      "★★★": 'a[href*="/rated/3/"]',
+      "★★★½": 'a[href*="/rated/3%C2%BD/"]',
+      "★★★★": 'a[href*="/rated/4/"]',
+      "★★★★½": 'a[href*="/rated/4%C2%BD/"]',
+      "★★★★★": 'a[href*="/rated/5/"]',
+    }
+  );
+  let ai = 0;
+  const { count, sum } = Object.entries(ratings).reduce(
+    (m, [k, v]) => {
+      ai += 0.5;
+      m.count += v;
+      m.sum += v * ai;
+      return m;
+    },
+    { count: 0, sum: 0 }
+  );
+  const avgSelector = ".ratings-histogram-chart .average-rating";
+  if (await page.$(avgSelector))
+    await page.$eval(avgSelector, (e) => e.remove());
+  await page.evaluate((avg) => {
+    const avgSpan = document.createElement("span");
+    avgSpan.className = "average-rating";
+    const avgA = document.createElement("a");
+    avgA.className = "display-rating";
+    avgA.textContent = avg;
+    avgSpan.appendChild(avgA);
+    document.querySelector(".ratings-histogram-chart h2").after(avgSpan);
+  }, round(sum / count, 1));
   const element = await page.$(".ratings-histogram-chart");
   await page.evaluate((element) => {
     element.style.backgroundColor = "#000";
@@ -123,7 +171,17 @@ const json = fs.existsSync(json_path)
         "★★★★★": 'a[href*="/rated/5/"]',
       }
     );
-    console.log(ratings);
+    let ai = 0;
+    const { count, sum } = Object.entries(ratings).reduce(
+      (m, [k, v]) => {
+        ai += 0.5;
+        m.count += v;
+        m.sum += v * ai;
+        return m;
+      },
+      { count: 0, sum: 0 }
+    );
+    console.log(ratings, round(sum / count, 1));
 
     // switch focus
     await page.bringToFront();
