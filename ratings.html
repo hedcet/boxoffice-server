@@ -1,0 +1,315 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/normalize.css/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/animejs/lib/anime.min.js"></script>
+    <style>
+      #agg,
+      #star {
+        opacity: 0;
+      }
+    </style>
+  </head>
+
+  <body class="bg-white" style="overflow: hidden">
+    <div class="flex flex-col justify-center items-center" id="card">
+      <div class="flex flex-row justify-center">
+        <img class="mx-3 w-32" id="image" />
+        <div class="flex flex-col justify-end">
+          <div class="flex flex-col justify-end my-3">
+            <div class="text-xs italic">Name</div>
+            <div class="font-bold text-xl" id="name"></div>
+            <div class="text-xs" id="original-name"></div>
+          </div>
+          <div class="flex flex-col justify-end my-1">
+            <div class="text-xs italic">Director</div>
+            <div class="font-bold text-sm" id="director"></div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="flex flex-row justify-center items-center mt-10 mb-5 text-xs"
+        id="agg"
+      >
+        <span class="font-bold text-xl" id="avg">0</span>
+        &nbsp;from&nbsp;
+        <span class="font-bold text-sm" id="count">0</span>
+        &nbsp;ratings
+      </div>
+
+      <div class="w-56" id="star">
+        <div class="my-1">
+          <div class="flex flex-row justify-between items-center mx-1">
+            <div class="text-xs">
+              <span id="star5count">0</span> ~ <span id="star5avg">0%</span>
+            </div>
+            <div class="font-bold text-warning">★★★★★</div>
+          </div>
+          <progress
+            class="progress progress-success"
+            id="star5progress"
+            max="100"
+            value="0"
+          ></progress>
+        </div>
+
+        <div class="my-1">
+          <div class="flex flex-row justify-between items-center mx-1">
+            <div class="text-xs">
+              <span id="star4count">0</span> ~ <span id="star4avg">0%</span>
+            </div>
+            <div class="font-bold text-warning">★★★★</div>
+          </div>
+          <progress
+            class="progress progress-success"
+            id="star4progress"
+            max="100"
+            value="0"
+          ></progress>
+        </div>
+
+        <div class="my-1">
+          <div class="flex flex-row justify-between items-center mx-1">
+            <div class="text-xs">
+              <span id="star3count">0</span> ~ <span id="star3avg">0%</span>
+            </div>
+            <div class="font-bold text-warning">★★★</div>
+          </div>
+          <progress
+            class="progress progress-success"
+            id="star3progress"
+            max="100"
+            value="0"
+          ></progress>
+        </div>
+
+        <div class="my-1">
+          <div class="flex flex-row justify-between items-center mx-1">
+            <div class="text-xs">
+              <span id="star2count">0</span> ~ <span id="star2avg">0%</span>
+            </div>
+            <div class="font-bold text-warning">★★</div>
+          </div>
+          <progress
+            class="progress progress-success"
+            id="star2progress"
+            max="100"
+            value="0"
+          ></progress>
+        </div>
+
+        <div class="my-1">
+          <div class="flex flex-row justify-between items-center mx-1">
+            <div class="text-xs">
+              <span id="star1count">0</span> ~ <span id="star1avg">0%</span>
+            </div>
+            <div class="font-bold text-warning">★</div>
+          </div>
+          <progress
+            class="progress progress-success"
+            id="star1progress"
+            max="100"
+            value="0"
+          ></progress>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const ltrbxd = $?;
+
+      document.querySelector("#image").src = ltrbxd.image;
+      document.querySelector("#name").innerText = ltrbxd.name;
+      document.querySelector("#original-name").innerText = ltrbxd.originalName;
+      document.querySelector("#director").innerText = Object.entries(
+        ltrbxd.director
+      )
+        .map(([, v]) => v)
+        .join(" | ");
+
+      const props = [
+        "half",
+        "one",
+        "one_half",
+        "two",
+        "two_half",
+        "three",
+        "three_half",
+        "four",
+        "four_half",
+        "five",
+      ];
+      const count = props.reduce((m, i) => m + (ltrbxd[i] || 0), 0);
+      const sum = props.reduce(
+        (m, p, i) => m + (ltrbxd[p] || 0) * ((i + 1) * 0.5),
+        0
+      );
+
+      window.onload = () => {
+        const delay = 400;
+
+        anime({
+          duration: 0,
+          targets: ["#card"],
+          translateY: "300px",
+        });
+        anime({
+          update: (e) => {
+            if (50 < e.progress)
+              anime({ opacity: 1, targets: ["#agg", "#star"] });
+          },
+          delay,
+          easing: "linear",
+          targets: ["#card"],
+          translateY: "60px",
+        });
+
+        anime({
+          delay,
+          easing: "linear",
+          innerHTML: [0, sum / count],
+          round: 10,
+          targets: ["#avg"],
+        });
+        anime({
+          delay,
+          easing: "linear",
+          innerHTML: [0, count],
+          round: 1,
+          targets: ["#count"],
+        });
+
+        const star5count = (ltrbxd.four_half || 0) + (ltrbxd.five || 0);
+        const star5avg = (star5count / count) * 100;
+        anime({
+          delay,
+          easing: "linear",
+          innerHTML: [0, star5count],
+          round: 1,
+          targets: ["#star5count"],
+        });
+        anime({
+          delay,
+          easing: "linear",
+          innerHTML: ["0%", star5avg],
+          round: 10,
+          targets: ["#star5avg"],
+        });
+        anime({
+          delay,
+          easing: "linear",
+          value: [0, star5avg],
+          round: 10,
+          targets: ["#star5progress"],
+        });
+
+        const star4count = (ltrbxd.three_half || 0) + (ltrbxd.four || 0);
+        const star4avg = (star4count / count) * 100;
+        anime({
+          delay,
+          easing: "linear",
+          innerHTML: [0, star4count],
+          round: 1,
+          targets: ["#star4count"],
+        });
+        anime({
+          delay,
+          easing: "linear",
+          innerHTML: ["0%", star4avg],
+          round: 10,
+          targets: ["#star4avg"],
+        });
+        anime({
+          delay,
+          easing: "linear",
+          value: [0, star4avg],
+          round: 10,
+          targets: ["#star4progress"],
+        });
+
+        const star3count = (ltrbxd.two_half || 0) + (ltrbxd.three || 0);
+        const star3avg = (star3count / count) * 100;
+        anime({
+          delay,
+          easing: "linear",
+          innerHTML: [0, star3count],
+          round: 1,
+          targets: ["#star3count"],
+        });
+        anime({
+          delay,
+          easing: "linear",
+          innerHTML: ["0%", star3avg],
+          round: 10,
+          targets: ["#star3avg"],
+        });
+        anime({
+          delay,
+          easing: "linear",
+          value: [0, star3avg],
+          round: 10,
+          targets: ["#star3progress"],
+        });
+
+        const star2count = (ltrbxd.one_half || 0) + (ltrbxd.two || 0);
+        const star2avg = (star2count / count) * 100;
+        anime({
+          delay,
+          easing: "linear",
+          innerHTML: [0, star2count],
+          round: 1,
+          targets: ["#star2count"],
+        });
+        anime({
+          delay,
+          easing: "linear",
+          innerHTML: ["0%", star2avg],
+          round: 10,
+          targets: ["#star2avg"],
+        });
+        anime({
+          delay,
+          easing: "linear",
+          value: [0, star2avg],
+          round: 10,
+          targets: ["#star2progress"],
+        });
+
+        const star1count = (ltrbxd.half || 0) + (ltrbxd.one || 0);
+        const star1avg = (star1count / count) * 100;
+        anime({
+          delay,
+          easing: "linear",
+          innerHTML: [0, star1count],
+          round: 1,
+          targets: ["#star1count"],
+        });
+        anime({
+          delay,
+          easing: "linear",
+          innerHTML: ["0%", star1avg],
+          round: 10,
+          targets: ["#star1avg"],
+        });
+        anime({
+          delay,
+          easing: "linear",
+          value: [0, star1avg],
+          round: 10,
+          targets: ["#star1progress"],
+        });
+      };
+    </script>
+  </body>
+</html>

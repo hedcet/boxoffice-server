@@ -22,10 +22,10 @@ const collageItemWidth = 96;
 
 (async () => {
   const group = "";
-  const name = /GameChanger/i;
-  const displayName = "GameChanger";
+  const name = /Aavanazhi/i;
+  const displayName = "Aavanazhi";
   let image = ""; // bms/ptm image-url
-  const start_date = moment("2025-01-10", ["YYYY-MM-DD"]);
+  const start_date = moment("2025-01-17", ["YYYY-MM-DD"]);
   const end_date = moment("2025-01-24", ["YYYY-MM-DD"]);
 
   await sync(csvPath); // git clone/pull
