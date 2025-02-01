@@ -17,9 +17,9 @@ const json = fs.existsSync(json_path)
 
 (async () => {
   let image = "";
-  const github_folder = "DominicAndTheLadiesPurse";
+  const github_folder = "Ponman";
   const letterboxd_page = 1;
-  const letterboxd_slug = "dominic-and-the-ladies-purse";
+  const letterboxd_slug = "ponman";
 
   const images = [];
   for (const { id } of await db.find({ name: github_folder }))

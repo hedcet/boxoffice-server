@@ -1,6 +1,26 @@
 [
   {
     "enable": true,
+    "last_updated_at": "2025-02-01T07:41+05:30",
+    "ltrbxd_slug": "oru-jaathi-jaathakam",
+    "name": "Oru Jaathi Jaathakam",
+    "originalName": "ഒരു ജാതി  ജാതകം",
+    "releaseYear": 2025,
+    "director": {
+      "/director/m-mohanan/": "M. Mohanan"
+    },
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/0/3/6/6/2/5/1036625-oru-jaathi-jaathakam-0-230-0-345-crop.jpg?v=235c2b9e3f",
+    "releaseDate": "2025-01-31",
+    "one": 4,
+    "one_half": 11,
+    "two": 7,
+    "two_half": 20,
+    "three": 14,
+    "three_half": 9,
+    "four": 9
+  },
+  {
+    "enable": true,
     "last_updated_at": "2025-01-31T21:52+05:30",
     "ltrbxd_slug": "ponman",
     "name": "Ponman",
