@@ -108,7 +108,7 @@ async function fetchWrapper(url, retry = 0) {
 
   // letterboxd fetch
   for (const config of orderBy(
-    configs.filter((i) => i.enable && moment().diff(i.last_updated_at, "day")),
+    configs.filter((i) => i.enable && 7 < moment().diff(i.last_updated_at, "day")),
     [(i) => i.last_updated_at || ""], // last updated first
     ["asc"]
   )) {
