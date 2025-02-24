@@ -25,8 +25,10 @@ async function fetchWrapper(url, retry = 0) {
     return isJSON(text) ? JSON.parse(text) : text;
   } catch (e) {
     console.error(e);
-    if (retry < 3) return await fetch(url, retry + 1);
-    else throw e;
+    if (retry < 3) {
+      await new Promise((r) => setTimeout(r, 60000 * retry));
+      return await fetchWrapper(url, retry + 1);
+    } else throw e;
   }
 }
 
@@ -108,7 +110,9 @@ async function fetchWrapper(url, retry = 0) {
 
   // letterboxd fetch
   for (const config of orderBy(
-    configs.filter((i) => i.enable && 7 < moment().diff(i.last_updated_at, "day")),
+    configs.filter(
+      (i) => i.enable && 5 < moment().diff(i.last_updated_at, "day")
+    ),
     [(i) => i.last_updated_at || ""], // last updated first
     ["asc"]
   )) {

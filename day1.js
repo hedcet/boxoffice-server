@@ -56,6 +56,7 @@ const json = fs.existsSync(json_path)
       capacity: 0,
       sum: 0,
     };
+    if (i.released_at) data[_id][date]["released_at"] = i.released_at;
     await new Promise(async (resolve, reject) => {
       const csv = [];
       parseString(fs.readFileSync(file, "utf8"), { headers: true })
@@ -89,7 +90,12 @@ const json = fs.existsSync(json_path)
     let _item = v[0].shows < v[1]?.shows * 0.25 ? v[1] : v[0];
     for (const i of v)
       if (d[json[i.id]?.released_at]) {
-        _item = d[json[i.id]?.released_at];
+        _item = d[json[i.id].released_at];
+        break;
+      }
+    for (const i of v)
+      if (d[i.released_at]) {
+        _item = d[i.released_at];
         break;
       }
     if (1000000 < _item.sum) _items.push(_item);
