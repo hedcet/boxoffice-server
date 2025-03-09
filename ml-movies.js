@@ -1,44 +1,37 @@
 const fs = require("fs");
-const { HttpsProxyAgent } = require("https-proxy-agent");
-const { orderBy } = require("lodash");
-const fetch = require("node-fetch");
+const { orderBy, pick } = require("lodash");
 const path = require("path");
-
-const { local, proxy } = require("./config/env.js");
 
 const config_path = path.resolve(__dirname, "./letterboxd.kbo.json");
 const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
 
-(async () => {
-  const fixtures = orderBy(
-    configs.filter((i) => i.enable),
-    ["releaseDate"],
-    ["desc"]
-  );
+const cache_path = path.resolve(__dirname, "./ml-movies.json");
+const cache = JSON.parse(fs.readFileSync(cache_path, "utf8"));
 
-  fs.writeFileSync(
-    path.resolve(local, "src/fixture.tsx"),
-    `export const ltrbxd = ${JSON.stringify(fixtures)}`
-  );
+const movies = orderBy(
+  configs.filter((i) => i.enable),
+  ["releaseDate"],
+  ["desc"]
+).map((i) => ({
+  id: i.ltrbxd_slug,
+  image_uri: i.image,
+  title: i.name,
+  original_title: i.originalName,
+  secondary_key: `Driector${Object.values(i.director).length > 1 ? "s" : ""}`,
+  secondary_value: Object.values(i.director).join(" | "),
+  ...pick(i, [
+    "half",
+    "one",
+    "one_half",
+    "two",
+    "two_half",
+    "three",
+    "three_half",
+    "four",
+    "four_half",
+    "five",
+  ]),
+}));
 
-  let index = 0;
-  for (const fixture of fixtures) {
-    console.log(index++, fixture);
-    const filePath = path.resolve(
-      local,
-      `assets/ltrbxd/${fixture.ltrbxd_slug}.jpg`
-    );
-    if (!fs.existsSync(filePath)) {
-      const r = await fetch(fixture.image, {
-        ...(proxy ? { agent: new HttpsProxyAgent(proxy) } : {}),
-        headers: { "user-agent": "curl/1.0" },
-      });
-      const fileStream = fs.createWriteStream(filePath);
-      await new Promise((resolve, reject) => {
-        fileStream.on("finish", resolve);
-        r.body.on("error", reject);
-        r.body.pipe(fileStream);
-      });
-    }
-  }
-})();
+cache.movies = movies;
+fs.writeFileSync(cache_path, JSON.stringify(cache, null, 2));
