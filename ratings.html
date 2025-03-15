@@ -131,7 +131,7 @@
 
       document.querySelector("#image").src = ltrbxd.image;
       document.querySelector("#name").innerText = ltrbxd.name;
-      document.querySelector("#original-name").innerText = ltrbxd.originalName;
+      if(ltrbxd.originalName) document.querySelector("#original-name").innerText = ltrbxd.originalName;
       document.querySelector("#director").innerText = Object.entries(
         ltrbxd.director
       )

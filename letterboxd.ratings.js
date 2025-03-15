@@ -3,7 +3,7 @@ const path = require("path");
 const puppeteer = require("puppeteer");
 const { PuppeteerScreenRecorder } = require("puppeteer-screen-recorder");
 
-const ltrbxd_slug = "narayaneente-moonnaanmakkal";
+const ltrbxd_slug = "get-set-baby";
 
 const height = 720;
 const width = 576;

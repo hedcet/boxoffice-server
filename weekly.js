@@ -21,7 +21,7 @@ const json = fs.existsSync(json_path)
 const collageMax = 6;
 
 (async () => {
-  const start_date = moment("2025-02-24", ["YYYY-MM-DD"]).startOf("day");
+  const start_date = moment("2025-03-03", ["YYYY-MM-DD"]).startOf("day");
   const end_date = start_date.clone().add(7, "day").startOf("day");
 
   await sync(csvPath); // git clone/pull
@@ -190,14 +190,17 @@ const collageMax = 6;
   )} Week Summary (${start_date.format("MMM DD")} - ${end_date.format(
     "MMM DD YYYY"
   )})\n\n| Movie | Shows | Occupancy↓ | Gross |\n| - | -: | -: | -: |`;
-  for (const item of items)
-    text += `\n| [${startCase(
+  for (const item of items) {
+    const t = `\n| [${startCase(
       item.name
     )}](https://github.com/hedcet/boxoffice/tree/main/${item.name}) | ${toEnIn(
       item.shows
     )} | ${item.booked_}${item.occupancy ? `(${item.occupancy})` : ""} | ₹${
       item.gross
     } |`;
+    if (5000 < `${text}${t}`.length) break;
+    text += t;
+  }
   text += `\n\n[source](https://github.com/hedcet/boxoffice/commits/main/?since=${start_date
     .clone()
     .add(1, "day")

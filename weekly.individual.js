@@ -22,11 +22,11 @@ const collageItemWidth = 96;
 
 (async () => {
   const group = "";
-  const name = /^daveed/i;
-  const displayName = "Daveed";
+  const name = /^get/i;
+  const displayName = "GetSetBaby";
   let image = ""; // bms/ptm image-url
-  const start_date = moment("2025-02-14", ["YYYY-MM-DD"]);
-  const end_date = moment("2025-02-28", ["YYYY-MM-DD"]);
+  const start_date = moment("2025-02-21", ["YYYY-MM-DD"]);
+  const end_date = moment("2025-03-14", ["YYYY-MM-DD"]);
 
   await sync(csvPath); // git clone/pull
   await syncFileInfo(csvPath); // sync folder/file metadata to nedb
@@ -123,7 +123,7 @@ const collageItemWidth = 96;
       for (const i of items) if (!m.includes(i)) m.push(i);
       return m;
     }, [])
-    .sort()
+    .sort((a, b) => +a.replace(/[^0-9]/g, "") - +b.replace(/[^0-9]/g, ""))
     .entries()) {
     data._total[dataIndex] = Object.values(data)
       .filter((i) => i[dataIndex])

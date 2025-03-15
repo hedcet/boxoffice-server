@@ -127,11 +127,11 @@
     </div>
 
     <script>
-      const ltrbxd = {"enable":true,"last_updated_at":"2025-03-01T23:47+05:30","ltrbxd_slug":"narayaneente-moonnaanmakkal","name":"Narayaneente Moonnaanmakkal","originalName":"നാരായണീൻ്റെ മൂന്നാൺമക്കൾ","releaseYear":2024,"runTime":111,"director":{"/director/sharan-venugopal/":"Sharan Venugopal"},"genre":["Drama"],"image":"https://a.ltrbxd.com/resized/film-poster/9/5/6/8/2/6/956826-three-sons-of-narayani-0-230-0-345-crop.jpg?v=ac7cb73831","releaseDate":"2025-02-07","half":4,"one":7,"one_half":5,"two":14,"two_half":22,"three":72,"three_half":49,"four":41,"four_half":9,"five":11,"average":3.36,"total":234};
+      const ltrbxd = {"enable":true,"last_updated_at":"2025-03-15T10:25+05:30","ltrbxd_slug":"get-set-baby","name":"Get-Set Baby","originalName":"ഗെറ്റ്-സെറ്റ് ബേബി","releaseYear":2025,"runTime":137,"director":{"/director/vinay-govind/":"Vinay Govind"},"genre":["Drama"],"image":"https://a.ltrbxd.com/resized/film-poster/1/0/8/4/8/8/6/1084886-get-set-baby-0-230-0-345-crop.jpg?v=ae18a6a10a","releaseDate":"2025-02-21","half":5,"one_half":10,"two":36,"two_half":40,"three":42,"one":10,"three_half":9,"four":5,"four_half":1};
 
       document.querySelector("#image").src = ltrbxd.image;
       document.querySelector("#name").innerText = ltrbxd.name;
-      document.querySelector("#original-name").innerText = ltrbxd.originalName;
+      if(ltrbxd.originalName) document.querySelector("#original-name").innerText = ltrbxd.originalName;
       document.querySelector("#director").innerText = Object.entries(
         ltrbxd.director
       )
