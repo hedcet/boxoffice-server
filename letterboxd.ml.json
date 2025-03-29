@@ -117,7 +117,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:40+05:30",
+    "last_updated_at": "2025-03-23T23:07+05:30",
     "ltrbxd_slug": "painkili",
     "name": "Painkili",
     "originalName": "പൈങ്കിളി",
@@ -126,28 +126,28 @@
       "/director/sreejith-babu-1/": "Sreejith Babu"
     },
     "genre": [
-      "Romance",
-      "Comedy"
+      "Comedy",
+      "Romance"
     ],
     "releaseDate": "2025-02-14",
-    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/7/3/3/4/6/1173346-painkili-0-230-0-345-crop.jpg?v=bc847cf1b7",
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/1/7/3/3/4/6/1173346-painkili-0-230-0-345-crop.jpg?v=cb554d588e",
     "runTime": 150,
-    "half": 21,
-    "one": 46,
-    "one_half": 53,
-    "two": 110,
-    "two_half": 132,
-    "three": 177,
+    "half": 22,
+    "one": 48,
+    "one_half": 54,
+    "two": 114,
+    "two_half": 137,
+    "three": 180,
     "three_half": 56,
-    "four": 58,
-    "four_half": 9,
+    "four": 64,
+    "four_half": 10,
     "five": 8,
-    "average": 3.08,
-    "total": 670
+    "average": 3.09,
+    "total": 693
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:40+05:30",
+    "last_updated_at": "2025-03-23T23:07+05:30",
     "ltrbxd_slug": "bromance-2025",
     "name": "Bromance",
     "releaseYear": 2025,
@@ -162,18 +162,18 @@
     "releaseDate": "2025-02-14",
     "originalName": "ബ്രോമാൻസ്",
     "runTime": 136,
-    "half": 31,
-    "one": 66,
-    "one_half": 57,
-    "two": 197,
-    "two_half": 325,
-    "three": 443,
-    "three_half": 231,
-    "four": 118,
-    "four_half": 20,
-    "five": 12,
+    "half": 34,
+    "one": 72,
+    "one_half": 58,
+    "two": 199,
+    "two_half": 338,
+    "three": 456,
+    "three_half": 235,
+    "four": 122,
+    "four_half": 21,
+    "five": 14,
     "average": 3.09,
-    "total": 1500
+    "total": 1549
   },
   {
     "enable": true,
@@ -192,7 +192,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:40+05:30",
+    "last_updated_at": "2025-03-23T23:08+05:30",
     "ltrbxd_slug": "ponman",
     "name": "Ponman",
     "originalName": "പൊൻMAN",
@@ -205,23 +205,23 @@
     ],
     "image": "https://a.ltrbxd.com/resized/film-poster/1/1/2/7/3/4/7/1127347-ponman-0-230-0-345-crop.jpg?v=c28d617ff2",
     "releaseDate": "2025-01-30",
-    "half": 3,
-    "one": 3,
-    "one_half": 11,
-    "two": 43,
-    "two_half": 109,
-    "three": 517,
-    "three_half": 934,
-    "four": 887,
-    "four_half": 149,
-    "five": 103,
+    "half": 8,
+    "one": 18,
+    "one_half": 28,
+    "two": 136,
+    "two_half": 379,
+    "three": 1690,
+    "three_half": 2923,
+    "four": 3451,
+    "four_half": 570,
+    "five": 476,
     "runTime": 127,
-    "average": 3.52,
-    "total": 2759
+    "average": 3.6,
+    "total": 9679
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:40+05:30",
+    "last_updated_at": "2025-03-23T23:08+05:30",
     "ltrbxd_slug": "thudarum",
     "name": "Thudarum",
     "originalName": "തുടരും",
@@ -236,7 +236,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:41+05:30",
+    "last_updated_at": "2025-03-23T23:08+05:30",
     "ltrbxd_slug": "dominic-and-the-ladies-purse",
     "name": "Dominic and the Ladies' Purse",
     "releaseYear": 2025,
@@ -250,23 +250,23 @@
     "image": "https://a.ltrbxd.com/resized/film-poster/1/1/8/5/5/9/3/1185593-dominic-and-the-ladies-purse-0-230-0-345-crop.jpg?v=16aa2ccdcc",
     "releaseDate": "2025-01-23",
     "half": 26,
-    "one": 93,
-    "one_half": 112,
-    "two": 365,
-    "two_half": 569,
-    "three": 918,
-    "three_half": 529,
-    "four": 305,
+    "one": 94,
+    "one_half": 115,
+    "two": 368,
+    "two_half": 574,
+    "three": 924,
+    "three_half": 534,
+    "four": 309,
     "four_half": 46,
     "five": 42,
     "originalName": "ഡൊമിനിക് ആൻഡ് ലേഡീസ് പേഴ്സ്",
     "runTime": 151,
     "average": 3.13,
-    "total": 3005
+    "total": 3032
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:41+05:30",
+    "last_updated_at": "2025-03-23T23:09+05:30",
     "ltrbxd_slug": "pravinkoodu-shappu",
     "name": "Pravinkoodu Shappu",
     "originalName": "പ്രാവിൻകൂട് ഷാപ്പു",
@@ -281,23 +281,23 @@
     ],
     "image": "https://a.ltrbxd.com/resized/film-poster/1/1/3/5/8/2/4/1135824-pravinkoodu-shappu-0-230-0-345-crop.jpg?v=38659005eb",
     "releaseDate": "2025-01-16",
-    "half": 8,
-    "one": 14,
-    "one_half": 41,
-    "two": 163,
+    "half": 9,
+    "one": 15,
+    "one_half": 40,
+    "two": 166,
     "two_half": 309,
-    "three": 808,
-    "three_half": 567,
-    "four": 348,
-    "four_half": 44,
-    "five": 26,
-    "average": 3.27,
-    "total": 2328,
+    "three": 818,
+    "three_half": 568,
+    "four": 351,
+    "four_half": 45,
+    "five": 27,
+    "average": 3.28,
+    "total": 2348,
     "runTime": 146
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:41+05:30",
+    "last_updated_at": "2025-03-23T23:09+05:30",
     "ltrbxd_slug": "ennu-swantham-punyalan",
     "name": "Ennu Swantham Punyalan",
     "originalName": "എന്ന് സ്വന്തം പുണ്യാളൻ",
@@ -314,15 +314,15 @@
     "releaseDate": "2025-01-10",
     "half": 8,
     "one": 20,
-    "one_half": 27,
-    "two": 57,
+    "one_half": 28,
+    "two": 58,
     "two_half": 50,
     "three": 46,
     "three_half": 17,
     "four": 10,
     "four_half": 2,
-    "average": 2.99,
-    "total": 237,
+    "average": 3,
+    "total": 239,
     "runTime": 127
   },
   {
@@ -388,7 +388,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:41+05:30",
+    "last_updated_at": "2025-03-23T23:09+05:30",
     "ltrbxd_slug": "id-2025",
     "name": "ID",
     "originalName": "ഐ ഡി : ദി ഫാക്ട്",
@@ -402,7 +402,7 @@
     ],
     "image": "https://a.ltrbxd.com/resized/film-poster/9/2/2/0/1/7/922017-id-2025-0-230-0-345-crop.jpg?v=ba35201cac",
     "releaseDate": "2025-01-03",
-    "one": 2,
+    "one": 3,
     "half": 2,
     "runTime": 114
   },
@@ -1753,7 +1753,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:42+05:30",
+    "last_updated_at": "2025-03-23T23:10+05:30",
     "ltrbxd_slug": "cup",
     "name": "Cup",
     "originalName": "കപ്പ്",
@@ -1827,7 +1827,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:42+05:30",
+    "last_updated_at": "2025-03-23T23:10+05:30",
     "ltrbxd_slug": "kuttante-shinigami",
     "name": "Kuttante Shinigami",
     "releaseYear": 2024,
@@ -1995,7 +1995,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:42+05:30",
+    "last_updated_at": "2025-03-23T23:10+05:30",
     "ltrbxd_slug": "dreadful-chapters",
     "name": "Dreadful Chapters",
     "originalName": "ഡ്രെഡ്ഫുൾ ചാപ്‌റ്റേഴ്‌സ്",
@@ -2190,7 +2190,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:42+05:30",
+    "last_updated_at": "2025-03-23T23:10+05:30",
     "ltrbxd_slug": "hunt-2024",
     "name": "Hunt",
     "releaseYear": 2024,
@@ -2301,7 +2301,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:42+05:30",
+    "last_updated_at": "2025-03-23T23:10+05:30",
     "ltrbxd_slug": "manorathangal",
     "name": "Manorathangal",
     "originalName": "മനോരഥങ്ങൾ",
@@ -2321,16 +2321,16 @@
       "Romance",
       "Drama"
     ],
-    "average": 3.18,
-    "total": 557,
+    "average": 3.19,
+    "total": 563,
     "half": 4,
     "one": 20,
     "one_half": 29,
-    "two": 84,
+    "two": 86,
     "two_half": 95,
-    "three": 189,
+    "three": 191,
     "three_half": 51,
-    "four": 64,
+    "four": 66,
     "four_half": 10,
     "five": 11,
     "image": "https://a.ltrbxd.com/resized/film-poster/7/7/9/6/5/7/779657-manorathangal-0-230-0-345-crop.jpg?v=3d26154688"
@@ -2824,7 +2824,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:42+05:30",
+    "last_updated_at": "2025-03-23T23:10+05:30",
     "ltrbxd_slug": "kurukku",
     "name": "Kurukku",
     "originalName": "കുരുക്ക്",
@@ -2840,7 +2840,7 @@
     "half": 7,
     "one": 15,
     "one_half": 7,
-    "two": 15,
+    "two": 16,
     "two_half": 9,
     "three": 8,
     "three_half": 2,
@@ -3098,7 +3098,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:42+05:30",
+    "last_updated_at": "2025-03-23T23:11+05:30",
     "ltrbxd_slug": "murivu",
     "name": "Murivu",
     "releaseYear": 2024,
@@ -3692,7 +3692,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:43+05:30",
+    "last_updated_at": "2025-03-23T23:11+05:30",
     "ltrbxd_slug": "aaro",
     "name": "Aaro",
     "originalName": "ആരോ",
@@ -3726,7 +3726,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:43+05:30",
+    "last_updated_at": "2025-03-23T23:11+05:30",
     "ltrbxd_slug": "her-2024",
     "name": "Her",
     "releaseYear": 2024,
@@ -3804,7 +3804,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:43+05:30",
+    "last_updated_at": "2025-03-23T23:11+05:30",
     "ltrbxd_slug": "aadrika",
     "name": "Aadrika",
     "releaseYear": 2024,
@@ -4374,7 +4374,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:43+05:30",
+    "last_updated_at": "2025-03-23T23:11+05:30",
     "ltrbxd_slug": "manasa-vacha",
     "name": "Manasa Vacha",
     "originalName": "മനസാ വാചാ",
@@ -4826,7 +4826,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:43+05:30",
+    "last_updated_at": "2025-03-23T23:11+05:30",
     "ltrbxd_slug": "jerry-2024",
     "name": "Jerry",
     "releaseYear": 2024,
@@ -5050,7 +5050,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:43+05:30",
+    "last_updated_at": "2025-03-23T23:11+05:30",
     "ltrbxd_slug": "hodu",
     "name": "Hodu",
     "releaseYear": 2024,
@@ -5142,7 +5142,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:43+05:30",
+    "last_updated_at": "2025-03-23T23:11+05:30",
     "ltrbxd_slug": "prethangalude-koottam",
     "name": "Prethangalude Koottam",
     "releaseYear": 2024,
@@ -5271,7 +5271,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:44+05:30",
+    "last_updated_at": "2025-03-23T23:12+05:30",
     "ltrbxd_slug": "queen-elizabeth-2023",
     "name": "Queen Elizabeth",
     "releaseYear": 2023,
@@ -5284,8 +5284,8 @@
       "Comedy"
     ],
     "average": 2.67,
-    "total": 326,
-    "half": 76,
+    "total": 327,
+    "half": 77,
     "one": 63,
     "one_half": 60,
     "two": 58,
@@ -5327,7 +5327,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:44+05:30",
+    "last_updated_at": "2025-03-23T23:12+05:30",
     "ltrbxd_slug": "adiyantharavasthakalathe-anuragam",
     "name": "Adiyantharavasthakalathe Anuragam",
     "originalName": "അടിയന്തരവസ്ഥകളത്തെ അനുരാഗം",
@@ -5399,7 +5399,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:44+05:30",
+    "last_updated_at": "2025-03-23T23:12+05:30",
     "ltrbxd_slug": "oru-kadath-naadan-katha",
     "name": "Oru Kadath Naadan Katha",
     "releaseYear": 2023,
@@ -5688,7 +5688,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:44+05:30",
+    "last_updated_at": "2025-03-23T23:12+05:30",
     "ltrbxd_slug": "pulli",
     "name": "Pulli",
     "originalName": "പുള്ളി",
@@ -5704,7 +5704,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:44+05:30",
+    "last_updated_at": "2025-03-23T23:12+05:30",
     "ltrbxd_slug": "thaal",
     "name": "Thaal",
     "releaseYear": 2023,
@@ -5720,7 +5720,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:44+05:30",
+    "last_updated_at": "2025-03-23T23:12+05:30",
     "ltrbxd_slug": "ohh-cinderella",
     "name": "Ohh.. Cinderella",
     "releaseYear": 2023,
@@ -5878,7 +5878,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:44+05:30",
+    "last_updated_at": "2025-03-23T23:13+05:30",
     "ltrbxd_slug": "asthra",
     "name": "Asthra",
     "originalName": "അസ്ത്രാ",
@@ -5893,7 +5893,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:44+05:30",
+    "last_updated_at": "2025-03-23T23:13+05:30",
     "ltrbxd_slug": "khadhikan",
     "name": "Khadhikan",
     "releaseYear": 2023,
@@ -6302,7 +6302,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:45+05:30",
+    "last_updated_at": "2025-03-23T23:13+05:30",
     "ltrbxd_slug": "oru-sadhachara-premakadha",
     "name": "Oru Sadhachara Premakadha",
     "releaseYear": 2023,
@@ -6416,7 +6416,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:45+05:30",
+    "last_updated_at": "2025-03-23T23:13+05:30",
     "ltrbxd_slug": "kasiminte-kadal",
     "name": "Kasiminte Kadal",
     "releaseYear": 2023,
@@ -6435,7 +6435,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:45+05:30",
+    "last_updated_at": "2025-03-23T23:13+05:30",
     "ltrbxd_slug": "imbam",
     "name": "Imbam",
     "releaseYear": 2023,
@@ -7213,7 +7213,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:45+05:30",
+    "last_updated_at": "2025-03-23T23:13+05:30",
     "ltrbxd_slug": "jailer-2023",
     "name": "Jailer",
     "originalName": "ജയിലര്‍",
@@ -7324,7 +7324,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:45+05:30",
+    "last_updated_at": "2025-03-23T23:13+05:30",
     "ltrbxd_slug": "olam",
     "name": "Olam",
     "originalName": "ഓളം",
@@ -7448,7 +7448,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:45+05:30",
+    "last_updated_at": "2025-03-23T23:14+05:30",
     "ltrbxd_slug": "dark-shades-of-a-secret",
     "name": "Dark Shades Of A Secret",
     "releaseYear": 2023,
@@ -7527,7 +7527,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:45+05:30",
+    "last_updated_at": "2025-03-23T23:14+05:30",
     "ltrbxd_slug": "njaan-ippo-entha-cheyya",
     "name": "Njaan Ippo Entha Cheyya?",
     "releaseYear": 2023,
@@ -7546,7 +7546,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:45+05:30",
+    "last_updated_at": "2025-03-23T23:14+05:30",
     "ltrbxd_slug": "shashiyum-shakundhalayum",
     "name": "Shashiyum Shakundhalayum",
     "originalName": "ശശിയും ശകുന്തളയും",
@@ -7583,7 +7583,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:46+05:30",
+    "last_updated_at": "2025-03-23T23:14+05:30",
     "ltrbxd_slug": "nerchappetty",
     "name": "Nerchappetty",
     "originalName": "നേർച്ചപ്പെട്ടി",
@@ -7843,7 +7843,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:46+05:30",
+    "last_updated_at": "2025-03-23T23:14+05:30",
     "ltrbxd_slug": "salmon-3d",
     "name": "Salmon 3D",
     "releaseYear": 2023,
@@ -7854,7 +7854,7 @@
       "Thriller",
       "Romance"
     ],
-    "half": 31,
+    "half": 32,
     "one": 4,
     "one_half": 1,
     "four": 1,
@@ -7895,7 +7895,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:46+05:30",
+    "last_updated_at": "2025-03-23T23:14+05:30",
     "ltrbxd_slug": "kerala-crime-files-shiju-parayil-veedu-neendakara-2023",
     "name": "Kerala Crime Files: Shiju, Parayil Veedu, Neendakara",
     "originalName": "കേരളാ  ക്രൈം ഫയല്സ്: ഷിജു, പാറയിൽ വീട്, നീണ്ടകര",
@@ -7908,17 +7908,17 @@
       "Crime",
       "Drama"
     ],
-    "average": 3.35,
-    "total": 1342,
+    "average": 3.36,
+    "total": 1363,
     "half": 1,
     "one": 21,
     "one_half": 13,
-    "two": 78,
-    "two_half": 129,
-    "three": 444,
-    "three_half": 384,
-    "four": 210,
-    "four_half": 31,
+    "two": 79,
+    "two_half": 131,
+    "three": 450,
+    "three_half": 386,
+    "four": 219,
+    "four_half": 32,
     "five": 31,
     "image": "https://a.ltrbxd.com/resized/film-poster/1/0/3/4/6/6/0/1034660-kerala-crime-files-shiju-parayil-veedu-neendakara-0-230-0-345-crop.jpg?v=9837cf538f"
   },
@@ -8460,7 +8460,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:46+05:30",
+    "last_updated_at": "2025-03-23T23:14+05:30",
     "ltrbxd_slug": "makkottan",
     "name": "Makkottan",
     "originalName": "മാക്കോട്ടൻ",
@@ -10132,7 +10132,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:46+05:30",
+    "last_updated_at": "2025-03-23T23:15+05:30",
     "ltrbxd_slug": "iru",
     "name": "Iru",
     "originalName": "ഋ",
@@ -10244,7 +10244,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:46+05:30",
+    "last_updated_at": "2025-03-23T23:15+05:30",
     "ltrbxd_slug": "route-map",
     "name": "Route Map",
     "originalName": "റൂട്ട് മാപ്പ്",
@@ -10526,7 +10526,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:46+05:30",
+    "last_updated_at": "2025-03-23T23:15+05:30",
     "ltrbxd_slug": "the-husband-the-wife-and-their-two-dead-sons",
     "name": "The Husband, The Wife and Their Two Dead Sons",
     "originalName": "ഭർത്താവും ഭാര്യയും മരിച്ച രണ്ടുമക്കളും",
@@ -10681,7 +10681,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:46+05:30",
+    "last_updated_at": "2025-03-23T23:15+05:30",
     "ltrbxd_slug": "kafir-2022",
     "name": "Kafir",
     "originalName": "കാഫിർ",
@@ -10712,7 +10712,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:46+05:30",
+    "last_updated_at": "2025-03-23T23:15+05:30",
     "ltrbxd_slug": "madhuram-ee-jeevitham",
     "name": "Madhuram Ee Jeevitham",
     "releaseYear": 2022,
@@ -10767,7 +10767,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:47+05:30",
+    "last_updated_at": "2025-03-23T23:15+05:30",
     "ltrbxd_slug": "prathi-niraparadhiyaano",
     "name": "Prathi Niraparadhiyaano",
     "releaseYear": 2022,
@@ -10943,7 +10943,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:47+05:30",
+    "last_updated_at": "2025-03-23T23:16+05:30",
     "ltrbxd_slug": "haya",
     "name": "Haya",
     "originalName": "ഹയ",
@@ -10989,7 +10989,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:47+05:30",
+    "last_updated_at": "2025-03-23T23:16+05:30",
     "ltrbxd_slug": "sparrow-2022",
     "name": "Sparrow",
     "originalName": "ധബാരി ക്യുരുവി",
@@ -11499,7 +11499,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:47+05:30",
+    "last_updated_at": "2025-03-23T23:16+05:30",
     "ltrbxd_slug": "sanjay-on-call",
     "name": "Sanjay on Call",
     "releaseYear": 2022,
@@ -11683,7 +11683,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:47+05:30",
+    "last_updated_at": "2025-03-23T23:16+05:30",
     "ltrbxd_slug": "siddy",
     "name": "Siddy",
     "releaseYear": 2022,
@@ -12263,7 +12263,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:47+05:30",
+    "last_updated_at": "2025-03-23T23:16+05:30",
     "ltrbxd_slug": "the-clock-with-blue-legs",
     "name": "The Clock With Blue Legs",
     "releaseYear": 2022,
@@ -12413,7 +12413,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:47+05:30",
+    "last_updated_at": "2025-03-23T23:16+05:30",
     "ltrbxd_slug": "ulkazhcha",
     "name": "Ulkazhcha",
     "originalName": "ഉൾക്കാഴ്ച്ച",
@@ -12583,7 +12583,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:48+05:30",
+    "last_updated_at": "2025-03-23T23:16+05:30",
     "ltrbxd_slug": "chalachithram",
     "name": "Chalachithram",
     "originalName": "ചലചിത്രം",
@@ -12983,7 +12983,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:48+05:30",
+    "last_updated_at": "2025-03-23T23:16+05:30",
     "ltrbxd_slug": "santacruz",
     "name": "Santacruz",
     "releaseYear": 2022,
@@ -13181,7 +13181,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:48+05:30",
+    "last_updated_at": "2025-03-23T23:17+05:30",
     "ltrbxd_slug": "viddikalude-maash",
     "name": "Viddikalude Maash",
     "releaseYear": 2022,
@@ -13198,7 +13198,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:48+05:30",
+    "last_updated_at": "2025-03-23T23:17+05:30",
     "ltrbxd_slug": "vazhiye",
     "name": "Vazhiye",
     "originalName": "വഴിയെ",
@@ -13212,10 +13212,10 @@
       "Horror"
     ],
     "image": "https://a.ltrbxd.com/resized/film-poster/5/1/3/0/6/1/513061-eventual-0-230-0-345-crop.jpg?v=d5e0188afc",
-    "half": 19,
+    "half": 20,
     "one": 9,
     "one_half": 6,
-    "two": 12,
+    "two": 13,
     "two_half": 8,
     "three": 5,
     "three_half": 1,
@@ -13436,7 +13436,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:48+05:30",
+    "last_updated_at": "2025-03-23T23:17+05:30",
     "ltrbxd_slug": "son-of-alibaba-nalpathonnaman",
     "name": "Son of Alibaba Nalpathonnaman",
     "releaseYear": 2022,
@@ -13920,7 +13920,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:48+05:30",
+    "last_updated_at": "2025-03-23T23:17+05:30",
     "ltrbxd_slug": "chilappol-daivam",
     "name": "Chilappol Daivam",
     "releaseYear": 2022,
@@ -14183,7 +14183,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:48+05:30",
+    "last_updated_at": "2025-03-23T23:17+05:30",
     "ltrbxd_slug": "avanovilona",
     "name": "Avanovilona",
     "originalName": "അവനോവിലോന",
@@ -14259,7 +14259,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:48+05:30",
+    "last_updated_at": "2025-03-23T23:17+05:30",
     "ltrbxd_slug": "allusion",
     "name": "Allusion",
     "originalName": "ഉദ്ധരണി",
@@ -14518,7 +14518,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:49+05:30",
+    "last_updated_at": "2025-03-23T23:18+05:30",
     "ltrbxd_slug": "night-saloon",
     "name": "Night Saloon",
     "releaseYear": 2022,
@@ -14528,7 +14528,7 @@
     "image": "https://a.ltrbxd.com/resized/film-poster/8/8/9/3/8/3/889383-night-saloon-0-230-0-345-crop.jpg?v=1dde4fb8fb",
     "one_half": 1,
     "two": 1,
-    "three": 9,
+    "three": 12,
     "three_half": 10,
     "four": 18,
     "four_half": 3,
@@ -14550,7 +14550,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:49+05:30",
+    "last_updated_at": "2025-03-23T23:18+05:30",
     "ltrbxd_slug": "forbidden-2022-1",
     "name": "Forbidden",
     "originalName": "നിഷിദ്ധോ",
@@ -14569,7 +14569,7 @@
     "two_half": 10,
     "three": 18,
     "three_half": 30,
-    "four": 30,
+    "four": 31,
     "four_half": 12,
     "five": 8
   },
@@ -14767,7 +14767,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:49+05:30",
+    "last_updated_at": "2025-03-23T23:18+05:30",
     "ltrbxd_slug": "shakadam",
     "name": "Shakadam",
     "releaseYear": 2022,
@@ -14938,7 +14938,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:49+05:30",
+    "last_updated_at": "2025-03-23T23:18+05:30",
     "ltrbxd_slug": "karnan-napoleon-bhagat-singh",
     "name": "Karnan Napoleon Bhagat Singh",
     "originalName": "കർണൻ നെപ്പോളിയൻ ഭഗത്‌സിംഗ്",
@@ -15604,7 +15604,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:49+05:30",
+    "last_updated_at": "2025-03-23T23:18+05:30",
     "ltrbxd_slug": "yakshi-2021",
     "name": "Yakshi",
     "releaseYear": 2021,
@@ -15942,7 +15942,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:49+05:30",
+    "last_updated_at": "2025-03-23T23:18+05:30",
     "ltrbxd_slug": "yet-another-river",
     "name": "Yet Another River",
     "originalName": "ഭാരത പുഴ",
@@ -16034,7 +16034,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:49+05:30",
+    "last_updated_at": "2025-03-23T23:18+05:30",
     "ltrbxd_slug": "tree-full-of-parrots",
     "name": "Tree Full of Parrots",
     "originalName": "നിറയെ തത്തകളുള്ള മരം",
@@ -16497,7 +16497,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:49+05:30",
+    "last_updated_at": "2025-03-23T23:18+05:30",
     "ltrbxd_slug": "karup",
     "name": "Karup",
     "releaseYear": 2021,
@@ -16548,7 +16548,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:50+05:30",
+    "last_updated_at": "2025-03-23T23:19+05:30",
     "ltrbxd_slug": "queen-of-thonnakkal",
     "name": "Queen Of Thonnakkal",
     "releaseYear": 2021,
@@ -17028,7 +17028,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:50+05:30",
+    "last_updated_at": "2025-03-23T23:19+05:30",
     "ltrbxd_slug": "average-ambili-2021",
     "name": "Average Ambili",
     "releaseYear": 2021,
@@ -18070,7 +18070,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:50+05:30",
+    "last_updated_at": "2025-03-23T23:19+05:30",
     "ltrbxd_slug": "chiri-2021",
     "name": "Chiri",
     "originalName": "ചിരി",
@@ -18079,7 +18079,7 @@
       "/director/joseph-p-krishna/": "Joseph P.  Krishna"
     },
     "image": "https://a.ltrbxd.com/resized/film-poster/7/2/8/6/4/5/728645-chiri-0-230-0-345-crop.jpg?v=91efbfcf0e",
-    "half": 2,
+    "half": 3,
     "one": 1,
     "one_half": 2,
     "two": 2,
@@ -18473,7 +18473,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:50+05:30",
+    "last_updated_at": "2025-03-23T23:19+05:30",
     "ltrbxd_slug": "mmmmm-sound-of-pain",
     "name": "Mmmmm (Sound of Pain)",
     "releaseYear": 2021,
@@ -18543,7 +18543,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:50+05:30",
+    "last_updated_at": "2025-03-23T23:19+05:30",
     "ltrbxd_slug": "vasanthi",
     "name": "Vasanthi",
     "releaseYear": 2021,
@@ -18561,7 +18561,7 @@
     "two": 12,
     "two_half": 8,
     "three": 27,
-    "three_half": 10,
+    "three_half": 12,
     "four": 5
   },
   {
@@ -20025,7 +20025,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:50+05:30",
+    "last_updated_at": "2025-03-23T23:19+05:30",
     "ltrbxd_slug": "cochin-shadhi-at-chennai-03",
     "name": "Cochin Shadhi at Chennai 03",
     "originalName": "കൊച്ചിൻ ശാദി at ചെന്നൈ 03",
@@ -21115,7 +21115,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:50+05:30",
+    "last_updated_at": "2025-03-23T23:19+05:30",
     "ltrbxd_slug": "like-a-midnight-dream",
     "name": "Like a Midnight Dream",
     "originalName": "Oru Paathira Swapnam Pole",
@@ -21124,16 +21124,16 @@
       "/director/sharan-venugopal/": "Sharan Venugopal"
     },
     "image": "https://a.ltrbxd.com/resized/film-poster/7/2/9/7/1/2/729712-like-a-midnight-dream-0-230-0-345-crop.jpg?v=951e4688d4",
-    "two": 1,
-    "three": 6,
-    "three_half": 5,
+    "two": 2,
+    "three": 10,
+    "three_half": 6,
     "four": 4,
     "releaseDate": "2019-11-22",
     "two_half": 1
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:50+05:30",
+    "last_updated_at": "2025-03-23T23:20+05:30",
     "ltrbxd_slug": "a-happy-end",
     "name": "A Happy End",
     "originalName": "Sukhantyam",
@@ -21156,7 +21156,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:51+05:30",
+    "last_updated_at": "2025-03-23T23:20+05:30",
     "ltrbxd_slug": "kenjira",
     "name": "Kenjira",
     "releaseYear": 2019,
@@ -21359,7 +21359,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:51+05:30",
+    "last_updated_at": "2025-03-23T23:20+05:30",
     "ltrbxd_slug": "28-2019",
     "name": "28",
     "releaseYear": 2019,
@@ -21561,7 +21561,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:51+05:30",
+    "last_updated_at": "2025-03-23T23:20+05:30",
     "ltrbxd_slug": "eelam",
     "name": "Eelam",
     "originalName": "ഈലാമ",
@@ -21667,7 +21667,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:51+05:30",
+    "last_updated_at": "2025-03-23T23:20+05:30",
     "ltrbxd_slug": "chilappol-penkutty",
     "name": "Chilappol Penkutty",
     "releaseYear": 2019,
@@ -23281,7 +23281,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:51+05:30",
+    "last_updated_at": "2025-03-23T23:21+05:30",
     "ltrbxd_slug": "raksha-purushan",
     "name": "Raksha Purushan",
     "originalName": "രക്ഷാപുരുഷൻ",
@@ -23453,7 +23453,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:51+05:30",
+    "last_updated_at": "2025-03-23T23:21+05:30",
     "ltrbxd_slug": "lelam-2",
     "name": "Lelam 2",
     "releaseYear": 2019,
@@ -23605,7 +23605,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:51+05:30",
+    "last_updated_at": "2025-03-23T23:21+05:30",
     "ltrbxd_slug": "the-sound-story",
     "name": "The Sound Story",
     "originalName": "ദി സൗണ്ട് സ്റ്റോറി",
@@ -23623,7 +23623,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:51+05:30",
+    "last_updated_at": "2025-03-23T23:21+05:30",
     "ltrbxd_slug": "viplavam-jayikkanullathanu",
     "name": "Viplavam Jayikkanullathanu",
     "releaseYear": 2019,
@@ -24052,7 +24052,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:52+05:30",
+    "last_updated_at": "2025-03-23T23:21+05:30",
     "ltrbxd_slug": "swarna-malsyangal",
     "name": "Swarna Malsyangal",
     "originalName": "സ്വർണമൽസ്യങ്ങൾ",
@@ -24122,7 +24122,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:52+05:30",
+    "last_updated_at": "2025-03-23T23:22+05:30",
     "ltrbxd_slug": "kantharam",
     "name": "Kantharam",
     "originalName": "കാന്താരം",
@@ -24325,7 +24325,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:52+05:30",
+    "last_updated_at": "2025-03-23T23:22+05:30",
     "ltrbxd_slug": "theerumanam",
     "name": "Theerumanam",
     "originalName": "തീരുമാനം",
@@ -25047,7 +25047,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:52+05:30",
+    "last_updated_at": "2025-03-23T23:22+05:30",
     "ltrbxd_slug": "peyithozhinju",
     "name": "Peyithozhinju",
     "releaseYear": 2018,
@@ -26163,7 +26163,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:52+05:30",
+    "last_updated_at": "2025-03-23T23:22+05:30",
     "ltrbxd_slug": "neeli",
     "name": "Neeli",
     "originalName": "നീലി",
@@ -26710,7 +26710,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:52+05:30",
+    "last_updated_at": "2025-03-23T23:22+05:30",
     "ltrbxd_slug": "yours-lovingly",
     "name": "Yours Lovingly",
     "originalName": "യുവേർഴ്സ് ലവിങ്ങ്‌ലി",
@@ -26727,7 +26727,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:52+05:30",
+    "last_updated_at": "2025-03-23T23:22+05:30",
     "ltrbxd_slug": "onnumariyathe",
     "name": "Onnumariyathe",
     "originalName": "ഒന്നുമറിയാതെ",
@@ -28034,7 +28034,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:52+05:30",
+    "last_updated_at": "2025-03-23T23:23+05:30",
     "ltrbxd_slug": "theneechayum-peerankippadayum",
     "name": "Theneechayum Peerankippadayum",
     "originalName": "തേനീച്ചയും പീരങ്കിപ്പടയും",
@@ -28243,7 +28243,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:53+05:30",
+    "last_updated_at": "2025-03-23T23:23+05:30",
     "ltrbxd_slug": "kallai-fm",
     "name": "Kallai FM",
     "releaseYear": 2018,
@@ -28337,7 +28337,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:53+05:30",
+    "last_updated_at": "2025-03-23T23:23+05:30",
     "ltrbxd_slug": "kaly",
     "name": "Kaly",
     "originalName": "കളി",
@@ -28355,7 +28355,7 @@
     "one": 4,
     "one_half": 13,
     "two": 19,
-    "two_half": 12,
+    "two_half": 13,
     "three": 23,
     "three_half": 2,
     "four": 1,
@@ -30195,7 +30195,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:53+05:30",
+    "last_updated_at": "2025-03-23T23:23+05:30",
     "ltrbxd_slug": "the-eclipse-2017",
     "name": "The Eclipse",
     "originalName": "Grahanam",
@@ -31107,7 +31107,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:53+05:30",
+    "last_updated_at": "2025-03-23T23:23+05:30",
     "ltrbxd_slug": "vilakkumaram",
     "name": "Vilakkumaram",
     "originalName": "വിളക്കുമരം",
@@ -31235,7 +31235,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:53+05:30",
+    "last_updated_at": "2025-03-23T23:23+05:30",
     "ltrbxd_slug": "the-crab-2017",
     "name": "The Crab",
     "originalName": "ദി ക്രാബ്",
@@ -32375,7 +32375,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:53+05:30",
+    "last_updated_at": "2025-03-23T23:24+05:30",
     "ltrbxd_slug": "kaviyude-osyath",
     "name": "Kaviyude Osyath",
     "originalName": "കവിയുടെ  ഒസ്യത്ത്",
@@ -32530,7 +32530,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:53+05:30",
+    "last_updated_at": "2025-03-23T23:24+05:30",
     "ltrbxd_slug": "neelima-nalla-kuttiyanu-vs-chiranjeevi-ips",
     "name": "Neelima Nalla Kuttiyanu Vs Chiranjeevi IPS",
     "originalName": "നീലിമ നല്ല കുട്ടിയാണ് vs ചിരഞ്ജീവി I.P.S",
@@ -32860,7 +32860,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:53+05:30",
+    "last_updated_at": "2025-03-23T23:24+05:30",
     "ltrbxd_slug": "oro-puzhayum-parayunnathu",
     "name": "Oro Puzhayum Parayunnathu",
     "originalName": "ഓരോ പുഴയും പറയുന്നത്",
@@ -33466,7 +33466,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:54+05:30",
+    "last_updated_at": "2025-03-23T23:24+05:30",
     "ltrbxd_slug": "lbw-love-breakup-and-war",
     "name": "LBW: Love, Breakup and War",
     "releaseYear": 2016,
@@ -33981,7 +33981,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:54+05:30",
+    "last_updated_at": "2025-03-23T23:24+05:30",
     "ltrbxd_slug": "yanam-mahayanam",
     "name": "Yanam Mahayanam",
     "originalName": "യാനം മഹായാനം",
@@ -34257,7 +34257,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:54+05:30",
+    "last_updated_at": "2025-03-23T23:24+05:30",
     "ltrbxd_slug": "dhanayathra",
     "name": "Dhanayathra",
     "releaseYear": 2016,
@@ -34368,7 +34368,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:54+05:30",
+    "last_updated_at": "2025-03-23T23:24+05:30",
     "ltrbxd_slug": "idavappathi",
     "name": "Idavappathi",
     "originalName": "ഇടവപ്പാതി",
@@ -34385,7 +34385,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:54+05:30",
+    "last_updated_at": "2025-03-23T23:25+05:30",
     "ltrbxd_slug": "arani",
     "name": "Arani",
     "originalName": "അരണി",
@@ -34486,7 +34486,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:54+05:30",
+    "last_updated_at": "2025-03-23T23:25+05:30",
     "ltrbxd_slug": "yathra-chodikkathe",
     "name": "Yathra Chodikkathe",
     "originalName": "യാത്ര ചോദിക്കാതെ",
@@ -34781,7 +34781,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:54+05:30",
+    "last_updated_at": "2025-03-23T23:25+05:30",
     "ltrbxd_slug": "sahapadi-1975",
     "name": "Sahapadi 1975",
     "originalName": "സഹപാഠി 1975",
@@ -35085,7 +35085,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:54+05:30",
+    "last_updated_at": "2025-03-23T23:25+05:30",
     "ltrbxd_slug": "kadhantharam",
     "name": "Kadhantharam",
     "originalName": "കഥാന്തരം",
@@ -35101,7 +35101,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:55+05:30",
+    "last_updated_at": "2025-03-23T23:25+05:30",
     "ltrbxd_slug": "aakasangalkkappuram",
     "name": "Aakasangalkkappuram",
     "releaseYear": 2016,
@@ -35175,7 +35175,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:55+05:30",
+    "last_updated_at": "2025-03-23T23:25+05:30",
     "ltrbxd_slug": "maalgudi-days",
     "name": "Maalgudi Days",
     "releaseYear": 2016,
@@ -35444,7 +35444,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:55+05:30",
+    "last_updated_at": "2025-03-23T23:25+05:30",
     "ltrbxd_slug": "one-day-2015",
     "name": "One Day",
     "releaseYear": 2015,
@@ -35458,7 +35458,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:55+05:30",
+    "last_updated_at": "2025-03-23T23:26+05:30",
     "ltrbxd_slug": "ariyathe-ishtamai",
     "name": "Ariyathe Ishtamai",
     "releaseYear": 2015,
@@ -35470,7 +35470,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:57+05:30",
+    "last_updated_at": "2025-03-23T23:26+05:30",
     "ltrbxd_slug": "akkaldhamayile-pennu",
     "name": "Akkaldhamayile Pennu",
     "originalName": "അക്കല്‍ദാമയിലെ പെണ്ണ്",
@@ -36253,7 +36253,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:57+05:30",
+    "last_updated_at": "2025-03-23T23:26+05:30",
     "ltrbxd_slug": "onnum-onnum-moonu",
     "name": "Onnum Onnum Moonu",
     "originalName": "ഒന്നും ഒന്നും മൂന്ന്",
@@ -92931,7 +92931,7 @@
   {
     "enable": true,
     "last_updated_at": "2025-03-11T03:29+05:30",
-    "ltrbxd_slug": "oru-jaathi-jathakam",
+    "ltrbxd_slug": "oru-jaathi-jaathakam-2025",
     "name": "Oru Jaathi Jathakam",
     "originalName": "ഒരു ജാതി  ജാതകം",
     "director": {
@@ -96908,7 +96908,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:39+05:30",
+    "last_updated_at": "2025-03-23T23:01+05:30",
     "ltrbxd_slug": "theatre-2025",
     "name": "Theatre",
     "releaseYear": 2025,
@@ -96929,7 +96929,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:39+05:30",
+    "last_updated_at": "2025-03-23T23:01+05:30",
     "ltrbxd_slug": "ocha-2025",
     "name": "Ocha",
     "originalName": "ഒച്ച",
@@ -96949,7 +96949,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:41+05:30",
+    "last_updated_at": "2025-03-23T23:09+05:30",
     "ltrbxd_slug": "sambhavam",
     "name": "Sambhavam",
     "releaseYear": 2024,
@@ -96966,13 +96966,13 @@
     "image": "https://a.ltrbxd.com/resized/film-poster/1/3/0/6/2/4/7/1306247-sambhavam-0-230-0-345-crop.jpg?v=65c16b899f",
     "three": 2,
     "three_half": 10,
-    "four": 19,
-    "four_half": 4,
-    "five": 6
+    "four": 21,
+    "four_half": 6,
+    "five": 7
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:41+05:30",
+    "last_updated_at": "2025-03-23T23:09+05:30",
     "ltrbxd_slug": "innalekal-thalirkkumbol",
     "name": "Innalekal Thalirkkumbol",
     "originalName": "ഇന്നലെകൾ തളിർക്കുമ്പോൾ",
@@ -96983,11 +96983,12 @@
     },
     "image": "https://a.ltrbxd.com/resized/film-poster/1/3/0/3/5/5/6/1303556-innalekal-thalirkkumbol-0-230-0-345-crop.jpg?v=1d0ec25b91",
     "releaseDate": "2023-10-06",
-    "half": 4
+    "half": 4,
+    "one_half": 1
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:41+05:30",
+    "last_updated_at": "2025-03-23T23:09+05:30",
     "ltrbxd_slug": "90-00-minutes",
     "name": "90:00 Minutes",
     "releaseYear": 2023,
@@ -96995,7 +96996,8 @@
     "image": "https://a.ltrbxd.com/resized/film-poster/1/3/0/5/5/9/4/1305594-90-00-minutes-0-230-0-345-crop.jpg?v=97cccc5017",
     "releaseDate": "2023-03-17",
     "half": 1,
-    "one": 1
+    "one": 1,
+    "one_half": 1
   },
   {
     "enable": true,
@@ -97073,7 +97075,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:39+05:30",
+    "last_updated_at": "2025-03-23T23:02+05:30",
     "ltrbxd_slug": "bhramam-2022",
     "name": "Bhramam",
     "releaseYear": 2022,
@@ -97088,7 +97090,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:39+05:30",
+    "last_updated_at": "2025-03-23T23:07+05:30",
     "ltrbxd_slug": "recur",
     "name": "Recur",
     "releaseYear": 2021,
@@ -97100,7 +97102,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:39+05:30",
+    "last_updated_at": "2025-03-23T23:07+05:30",
     "ltrbxd_slug": "kalamkaval",
     "name": "Kalamkaval",
     "originalName": "കളങ്കാവൽ",
@@ -97117,7 +97119,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:40+05:30",
+    "last_updated_at": "2025-03-23T23:08+05:30",
     "ltrbxd_slug": "tree-roots-through-concrete",
     "name": "Tree Roots Through Concrete",
     "releaseYear": 2025,
@@ -97135,7 +97137,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:40+05:30",
+    "last_updated_at": "2025-03-23T23:08+05:30",
     "ltrbxd_slug": "franky-2024",
     "name": "FRANKY",
     "releaseYear": 2024,
@@ -97154,7 +97156,7 @@
   },
   {
     "enable": true,
-    "last_updated_at": "2025-03-10T09:40+05:30",
+    "last_updated_at": "2025-03-23T23:08+05:30",
     "ltrbxd_slug": "rave-saloon-advertisement",
     "name": "Rave Saloon - Advertisement",
     "releaseYear": 2024,
@@ -97271,5 +97273,34 @@
     "image": "https://a.ltrbxd.com/resized/film-poster/1/3/2/2/5/3/3/1322533-the-malabar-tales-0-230-0-345-crop.jpg?v=c6c7566903",
     "releaseDate": "2025-01-03",
     "one": 1
+  },
+  {
+    "enable": false,
+    "last_updated_at": "2025-03-03T23:02+05:30",
+    "ltrbxd_slug": "oru-jaathi-jaathakam"
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2025-03-23T23:07+05:30",
+    "ltrbxd_slug": "phases-2024",
+    "name": "Phases",
+    "releaseYear": 2024,
+    "runTime": 12
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2025-03-23T23:07+05:30",
+    "ltrbxd_slug": "14-february",
+    "name": "14 February",
+    "releaseYear": 2023,
+    "runTime": 141
+  },
+  {
+    "enable": true,
+    "last_updated_at": "2025-03-23T23:07+05:30",
+    "ltrbxd_slug": "paradise-2023-3",
+    "name": "Paradise",
+    "releaseYear": 2023,
+    "runTime": 94
   }
 ]
