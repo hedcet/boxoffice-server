@@ -30,6 +30,36 @@
   },
   {
     "enable": true,
+    "last_updated_at": "2025-03-29T05:37+05:30",
+    "ltrbxd_slug": "veera-dheera-sooran-part-2",
+    "name": "Veera Dheera Sooran: Part 2",
+    "originalName": "வீர தீர சூரன்: பாகம் 2",
+    "releaseYear": 2025,
+    "runTime": 160,
+    "director": {
+      "/director/s-u-arunkumar/": "S. U. Arunkumar"
+    },
+    "genre": [
+      "Drama",
+      "Action",
+      "Thriller",
+      "Crime"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/1/0/8/3/5/6/9/1083569-veera-dheera-sooran-part-2-0-230-0-345-crop.jpg?v=6826540c61",
+    "releaseDate": "2025-03-27",
+    "half": 1,
+    "one": 7,
+    "one_half": 16,
+    "two": 36,
+    "two_half": 83,
+    "three": 264,
+    "three_half": 383,
+    "four": 453,
+    "four_half": 116,
+    "five": 81
+  },
+  {
+    "enable": true,
     "last_updated_at": "2025-03-29T05:20+05:30",
     "ltrbxd_slug": "lucifer-2019",
     "name": "Lucifer",
