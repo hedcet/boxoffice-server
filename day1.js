@@ -64,7 +64,7 @@ const json = fs.existsSync(json_path)
         .on("data", (row) => csv.push(row))
         .on("end", () => {
           for (const j of csv) {
-            const show_id = `${j.City}|${j.Name}|${j.Language}|${j["Time(IST)"]}`; // unique show id
+            const show_id = `${j.City}|${j["Time(IST)"]}|${j.Name}|${j.Language}|${i.Format}`; // unique show id
             const booked = +j.Booked.replace(/[^0-9]+/g, "");
             const capacity = +j.Capacity.replace(/[^0-9]+/g, "");
             const sum = booked * +j.Price.split(".")[0].replace(/[^0-9]+/g, "");

@@ -12,6 +12,7 @@ const { toEnIn } = require("./config/misc.js");
 const { sync } = require("./config/git.js");
 const { moment } = require("./config/moment.js");
 const { db, syncFileInfo } = require("./config/nedb.js");
+const { group } = require("console");
 
 const json_path = path.resolve(__dirname, "./store/data.json");
 const json = fs.existsSync(json_path)
@@ -21,23 +22,33 @@ const json = fs.existsSync(json_path)
 const collageMax = 6;
 
 (async () => {
-  const start_date = moment("2025-04-28", ["YYYY-MM-DD"]).startOf("day");
+  const start_date = moment("2025-05-12", ["YYYY-MM-DD"]).startOf("day");
   const end_date = start_date.clone().add(7, "day").startOf("day");
 
   await sync(csvPath); // git clone/pull
   await syncFileInfo(csvPath); // sync folder/file metadata to nedb
 
+  const history = {};
   for (const { group } of await db.find({
     date: { $gte: start_date.toDate(), $lt: end_date.toDate() },
     group: { $exists: true },
   })) {
-    const $in = await db.find({ group });
+    const groups = await db.find({ group });
+    history[group] = groups.map((i) => i.id);
     await db.update(
-      { id: { $in: $in.map((i) => i.id) } },
+      { id: { $in: groups.map((i) => i.id) } },
       { $set: { group } },
       { multi: true }
     );
   }
+
+  const images = {};
+  for (const [group, list] of Object.entries(history))
+    for (const id of list)
+      for (const image of json[id]?.images || []) {
+        if (!images[group]) images[group] = [];
+        if (!images[group].includes(image)) images[group].push(image);
+      }
 
   // aggregate
   const data = {};
@@ -48,14 +59,11 @@ const collageMax = 6;
       csvPath,
       `${i.name}/${i.id}.${moment(i.date).format("YYYY-MM-DD")}.csv`
     );
-    console.log(file);
     const _id = i.group || i.id;
-    if (data[_id])
-      data[_id].images = [...data[_id].images, ...(json[i.id]?.images || [])];
-    else
+    if (!data[_id])
       data[_id] = {
         name: i.name,
-        images: json[i.id]?.images || [],
+        images: images[i.group] || [], // json[i.id]?.images || [],
         shows: 0,
         booked: 0,
         capacity: 0,
@@ -68,7 +76,7 @@ const collageMax = 6;
         .on("data", (row) => csv.push(row))
         .on("end", () => {
           for (const j of csv) {
-            const show_id = `${j.City}|${j.Name}|${j.Language}|${j["Time(IST)"]}`; // unique show id
+            const show_id = `${j.City}|${j["Time(IST)"]}|${j.Name}|${j.Language}|${i.Format}`; // unique show id
             const booked = +j.Booked.replace(/[^0-9]+/g, "");
             const capacity = +j.Capacity.replace(/[^0-9]+/g, "");
             const sum = booked * +j.Price.split(".")[0].replace(/[^0-9]+/g, "");
@@ -126,12 +134,12 @@ const collageMax = 6;
             .join("");
         item.fg =
           128 <
-          Math.round(
-            (item.dominant.r * 299 +
-              item.dominant.g * 587 +
-              item.dominant.b * 114) /
+            Math.round(
+              (item.dominant.r * 299 +
+                item.dominant.g * 587 +
+                item.dominant.b * 114) /
               1000
-          )
+            )
             ? "black"
             : "white";
         break;
@@ -195,9 +203,8 @@ const collageMax = 6;
       item.name
     )}](https://github.com/hedcet/boxoffice/tree/main/${item.name}) | ${toEnIn(
       item.shows
-    )} | ${item.booked_}${item.occupancy ? `(${item.occupancy})` : ""} | ₹${
-      item.gross
-    } |`;
+    )} | ${item.booked_}${item.occupancy ? `(${item.occupancy})` : ""} | ₹${item.gross
+      } |`;
     if (5000 < `${text}${t}`.length) break;
     text += t;
   }
@@ -205,7 +212,7 @@ const collageMax = 6;
     .clone()
     .add(1, "day")
     .format("YYYY-MM-DD")}&until=${end_date.format(
-    "YYYY-MM-DD"
-  )}) | last updated at ${moment().format("YYYY-MM-DDTHH:mmZ")}`;
+      "YYYY-MM-DD"
+    )}) | last updated at ${moment().format("YYYY-MM-DDTHH:mmZ")}`;
   console.log(text);
 })();
