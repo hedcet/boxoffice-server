@@ -22,7 +22,7 @@ const json = fs.existsSync(json_path)
 const collageMax = 6;
 
 (async () => {
-  const start_date = moment("2025-05-12", ["YYYY-MM-DD"]).startOf("day");
+  const start_date = moment("2025-05-26", ["YYYY-MM-DD"]).startOf("day");
   const end_date = start_date.clone().add(7, "day").startOf("day");
 
   await sync(csvPath); // git clone/pull
@@ -63,7 +63,7 @@ const collageMax = 6;
     if (!data[_id])
       data[_id] = {
         name: i.name,
-        images: images[i.group] || [], // json[i.id]?.images || [],
+        images: images[i.group] || json[i.id]?.images || [],
         shows: 0,
         booked: 0,
         capacity: 0,
@@ -95,6 +95,7 @@ const collageMax = 6;
     });
   }
 
+  console.log(data);
   const items = orderBy(
     Object.values(data).filter((i) => i.images.length),
     ["booked", "sum"],
