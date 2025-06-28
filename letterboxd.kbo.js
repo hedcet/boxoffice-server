@@ -92,7 +92,7 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
     // ratings
     const $10 = cheerio.load(
       await fetch(
-        `https://letterboxd.com/csi/film/${config.ltrbxd_slug}/rating-histogram`,
+        `https://letterboxd.com/csi/film/${config.ltrbxd_slug}/ratings-summary`,
         {
           ...(proxy ? { agent: new HttpsProxyAgent(proxy) } : {}),
           headers: { "user-agent": "curl/1.0" },
