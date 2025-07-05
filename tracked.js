@@ -98,8 +98,9 @@ const { client } = require("./config/snoowrap.js");
   let text =
     "| Movie | Shows | Occupancy | Gross | From | To | Files |\n| - | -: | -: | -: | - | - | -: |";
   for (const item of items) {
-    const t = `\n| [${startCase(
-      item.name
+    const t = `\n| [${startCase(item.name).replace(
+      /([A-Z]) (\d) ([A-Z])/g,
+      "$1$2 $3"
     )}](https://github.com/hedcet/boxoffice/tree/main/${item.name})${
       1 < names[item.name].length ? ` (${item._id}.*)` : ""
     } | ${toEnIn(item.shows)} | ${toEnIn(item.booked, "en-in", {

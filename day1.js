@@ -121,8 +121,9 @@ const json = fs.existsSync(json_path)
   let text =
     "| Date | Movie | Shows | Occupancy | Gross |\n| - | - | -: | -: | -: |";
   for (const item of items)
-    text += `\n| ${item.date} | [${startCase(
-      item.name
+    text += `\n| ${item.date} | [${startCase(item.name).replace(
+      /([A-Z]) (\d) ([A-Z])/g,
+      "$1$2 $3"
     )}](https://github.com/hedcet/boxoffice/tree/main/${item.name})${
       1 < names[item.name].length ? ` (${item._id}.*)` : ""
     } | ${toEnIn(item.shows)} | ${toEnIn(item.booked, "en-in", {

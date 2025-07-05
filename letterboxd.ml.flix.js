@@ -36,9 +36,12 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8")).filter(
     (i) => !rows.find((r) => r[0].includes(`film/${i.ltrbxd_slug}`))
   ))
     rows.push([
-      `[${startCase(config.name)}](https://letterboxd.com/film/${
-        config.ltrbxd_slug
-      })${config.originalName ? ` ~ ${config.originalName}` : ""}`,
+      `[${startCase(config.name).replace(
+        /([A-Z]) (\d) ([A-Z])/g,
+        "$1$2 $3"
+      )}](https://letterboxd.com/film/${config.ltrbxd_slug})${
+        config.originalName ? ` ~ ${config.originalName}` : ""
+      }`,
       `${Object.entries(config.director || {})
         .map(([k, v]) => `[${v}](https://letterboxd.com${k})`)
         .sort()

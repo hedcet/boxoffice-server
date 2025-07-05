@@ -232,8 +232,9 @@ async function fetchWrapper(url, retry = 0) {
         (config.four || 0) +
         (config.four_half || 0) +
         (config.five || 0);
-    text += `\n| ${rank++} | [${startCase(
-      config.name
+    text += `\n| ${rank++} | [${startCase(config.name).replace(
+      /([A-Z]) (\d) ([A-Z])/g,
+      "$1$2 $3"
     )}](https://letterboxd.com/film/${config.ltrbxd_slug})${
       config.originalName ? ` ~ ${config.originalName}` : ""
     } | ${total ? toEnIn(total) : ""} | ${

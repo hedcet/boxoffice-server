@@ -22,7 +22,7 @@ const json = fs.existsSync(json_path)
 const collageMax = 6;
 
 (async () => {
-  const start_date = moment("2025-06-16", ["YYYY-MM-DD"]).startOf("day");
+  const start_date = moment("2025-06-23", ["YYYY-MM-DD"]).startOf("day");
   const end_date = start_date.clone().add(7, "day").startOf("day");
 
   await sync(csvPath); // git clone/pull
@@ -135,12 +135,12 @@ const collageMax = 6;
             .join("");
         item.fg =
           128 <
-            Math.round(
-              (item.dominant.r * 299 +
-                item.dominant.g * 587 +
-                item.dominant.b * 114) /
+          Math.round(
+            (item.dominant.r * 299 +
+              item.dominant.g * 587 +
+              item.dominant.b * 114) /
               1000
-            )
+          )
             ? "black"
             : "white";
         break;
@@ -200,12 +200,14 @@ const collageMax = 6;
     "MMM DD YYYY"
   )})\n\n| Movie | Shows | Occupancy↓ | Gross |\n| - | -: | -: | -: |`;
   for (const item of items) {
-    const t = `\n| [${startCase(
-      item.name
+    const t = `\n| [${startCase(item.name).replace(
+      /([A-Z]) (\d) ([A-Z])/g,
+      "$1$2 $3"
     )}](https://github.com/hedcet/boxoffice/tree/main/${item.name}) | ${toEnIn(
       item.shows
-    )} | ${item.booked_}${item.occupancy ? `(${item.occupancy})` : ""} | ₹${item.gross
-      } |`;
+    )} | ${item.booked_}${item.occupancy ? `(${item.occupancy})` : ""} | ₹${
+      item.gross
+    } |`;
     if (5000 < `${text}${t}`.length) break;
     text += t;
   }
@@ -213,7 +215,7 @@ const collageMax = 6;
     .clone()
     .add(1, "day")
     .format("YYYY-MM-DD")}&until=${end_date.format(
-      "YYYY-MM-DD"
-    )}) | last updated at ${moment().format("YYYY-MM-DDTHH:mmZ")}`;
+    "YYYY-MM-DD"
+  )}) | last updated at ${moment().format("YYYY-MM-DDTHH:mmZ")}`;
   console.log(text);
 })();
