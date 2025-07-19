@@ -22,7 +22,7 @@ const json = fs.existsSync(json_path)
 const collageMax = 6;
 
 (async () => {
-  const start_date = moment("2025-06-23", ["YYYY-MM-DD"]).startOf("day");
+  const start_date = moment("2025-07-07", ["YYYY-MM-DD"]).startOf("day");
   const end_date = start_date.clone().add(7, "day").startOf("day");
 
   await sync(csvPath); // git clone/pull
@@ -199,7 +199,7 @@ const collageMax = 6;
   )} Week Summary (${start_date.format("MMM DD")} - ${end_date.format(
     "MMM DD YYYY"
   )})\n\n| Movie | Shows | Occupancy↓ | Gross |\n| - | -: | -: | -: |`;
-  for (const item of items) {
+  for (const item of items.filter((i) => 10 < i.shows)) {
     const t = `\n| [${startCase(item.name).replace(
       /([A-Z]) (\d) ([A-Z])/g,
       "$1$2 $3"
