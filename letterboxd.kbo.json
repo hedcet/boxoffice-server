@@ -32,6 +32,35 @@
   },
   {
     "enable": true,
+    "last_updated_at": "2025-08-15T22:52+05:30",
+    "ltrbxd_slug": "war-2",
+    "name": "War 2",
+    "originalName": "वॉर 2",
+    "releaseYear": 2025,
+    "runTime": 173,
+    "director": {
+      "/director/ayan-mukerji/": "Ayan Mukerji"
+    },
+    "genre": [
+      "Thriller",
+      "Action",
+      "Adventure"
+    ],
+    "image": "https://a.ltrbxd.com/resized/film-poster/9/9/9/5/2/5/999525-war-2-0-230-0-345-crop.jpg?v=3201742a2b",
+    "releaseDate": "2025-08-14",
+    "half": 149,
+    "one": 246,
+    "one_half": 298,
+    "two": 646,
+    "two_half": 643,
+    "three": 620,
+    "three_half": 286,
+    "four": 170,
+    "four_half": 18,
+    "five": 64
+  },
+  {
+    "enable": true,
     "last_updated_at": "2025-08-15T00:20+05:30",
     "ltrbxd_slug": "sahasam-2025",
     "name": "Sahasam",
