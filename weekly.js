@@ -22,7 +22,7 @@ const json = fs.existsSync(json_path)
 const collageMax = 6;
 
 (async () => {
-  const start_date = moment("2025-07-21", ["YYYY-MM-DD"]).startOf("day");
+  const start_date = moment("2025-08-04", ["YYYY-MM-DD"]).startOf("day");
   const end_date = start_date.clone().add(7, "day").startOf("day");
 
   await sync(csvPath); // git clone/pull
@@ -102,13 +102,26 @@ const collageMax = 6;
     ["desc", "desc"]
   );
 
+  // console.log(
+  //   items.reduce(
+  //     (m, { name }) => (`${m} #${name}`.length < 240 ? `${m} #${name}` : m),
+  //     `#Kerala #BoxOffice ${start_date.format("MMMD")}/${end_date.format(
+  //       "MMMD"
+  //     )} ${Math.round(end_date.diff(start_date, "week", true))}Week Summary`
+  //   )
+  // );
+
   console.log(
-    items.reduce(
-      (m, { name }) => (`${m} #${name}`.length < 240 ? `${m} #${name}` : m),
-      `#Kerala #BoxOffice ${start_date.format("MMMD")}/${end_date.format(
-        "MMMD"
-      )} ${Math.round(end_date.diff(start_date, "week", true))}Week Summary`
-    )
+    items
+      .slice(0, 6)
+      .reduce(
+        (m, { name }) => (`${m} #${name}`.length < 240 ? `${m} | #${name}` : m),
+        `#Kerala #BoxOffice ${start_date
+          .format("Wo")
+          .replace(/([0-9]+)(.*)/, "$1'$2")} Week Summary (${start_date.format(
+          "MMM DD"
+        )} - ${end_date.format("MMM DD YYYY")})`
+      )
   );
 
   // image processing
@@ -194,9 +207,11 @@ const collageMax = 6;
   await browser.close();
 
   // md generation
-  let text = `Kerala BoxOffice ${start_date.format(
-    "Wo"
-  )} Week Summary (${start_date.format("MMM DD")} - ${end_date.format(
+  let text = `Kerala BoxOffice ${start_date
+    .format("Wo")
+    .replace(/([0-9]+)(.*)/, "$1^$2")} Week Summary (${start_date.format(
+    "MMM DD"
+  )} - ${end_date.format(
     "MMM DD YYYY"
   )})\n\n| Movie | Shows | Occupancy↓ | Gross |\n| - | -: | -: | -: |`;
   for (const item of items.filter((i) => 10 < i.shows)) {
