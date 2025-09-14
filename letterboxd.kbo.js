@@ -137,7 +137,7 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
 
   // table generation
   let rank = 1;
-  let text = `| Rank | Movie | Reviews | Average | Director | Genre | Released At | Last Updated At |\n| -: | :- | -: | -: | :- | :- | :- | :- |`;
+  let text = `| Rank | Movie | Reviews | Average↓ | Director | Genre | Released At | Last Updated At |\n| -: | :- | -: | -: | :- | :- | :- | :- |`;
   for (const config of orderBy(
     configs.filter((i) => i.enable),
     [

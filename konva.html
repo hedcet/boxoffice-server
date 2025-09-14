@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/normalize.css/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs/dist/cdn.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/konva/konva.min.js"></script>
+  </head>
+
+  <body class="bg-white" x-data="{ movies: [] }">
+    <div class="flex flex-row justify-center">
+      <div id="container"></div>
+    </div>
+  </body>
+
+  <script>
+    const height = 512;
+
+    const stage = new Konva.Stage({
+      container: "container",
+      height,
+      width: 1,
+    });
+
+    const layer = new Konva.Layer();
+    stage.add(layer);
+
+    const img = new Image();
+    img.src =
+      "https://image.tmdb.org/t/p/original/uOTDBabtxHA6szYKQNQe9Y7rFlv.jpg";
+    img.onload = function () {
+      const aspectRatio = img.width / img.height;
+      const scaledWidth = height * aspectRatio;
+
+      const poster = new Konva.Image({
+        height,
+        image: img,
+        name: "poster",
+        width: scaledWidth,
+        x: 0,
+        y: 0,
+      });
+
+      layer.add(poster);
+      stage.size({ width: scaledWidth, height });
+
+      const gradient = new Konva.Rect({
+        fillLinearGradientColorStops: [
+          0.6,
+          "rgba(0,0,0,0)",
+          0.8,
+          "rgba(0,0,0,0.5)",
+          1,
+          "rgba(0,0,0,0.9)",
+        ],
+        fillLinearGradientEndPoint: { x: 0, y: height },
+        fillLinearGradientStartPoint: { x: 0, y: 0 },
+        globalCompositeOperation: "multiply",
+        height: height,
+        listening: false,
+        width: scaledWidth,
+        x: 0,
+        y: 0,
+      });
+      layer.add(gradient);
+    };
+  </script>
+</html>
