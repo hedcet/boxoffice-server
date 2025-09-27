@@ -115,7 +115,15 @@ const { client } = require("./config/snoowrap.js");
   }
 
   // reddit
-  await new Promise((resolve, reject) =>
-    client.getSubmission(reddit_post_id).edit(text).then(resolve).catch(reject)
-  );
+  try {
+    await new Promise((resolve, reject) =>
+      client
+        .getSubmission(reddit_post_id)
+        .edit(text)
+        .then(resolve)
+        .catch(reject)
+    );
+  } catch (e) {
+    console.error(e);
+  }
 })();
