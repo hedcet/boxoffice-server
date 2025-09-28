@@ -63,7 +63,7 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
   ).slice(0, collageMax);
 
   console.log(
-    `#Letterboxd top${collageMax} #Malayalam #Movies released within 1year peroid https://rebrand.ly/kbo-letterboxd\n\n${items
+    `#Letterboxd top${collageMax} #Malayalam #Movies released within 1year period https://rebrand.ly/kbo-letterboxd\n\n${items
       .map(
         (i) => `#${startCase(i.ltrbxd_slug).replace(/\s+/g, "")} ~ ${i.rating}★`
       )
