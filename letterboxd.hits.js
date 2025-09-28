@@ -41,6 +41,7 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
         i.count = toEnIn(i._count, "en-in", { notation: "compact" });
 
         i._rating =
+          i.average ||
           ((i.half || 0) * 0.5 +
             (i.one || 0) +
             (i.one_half || 0) * 1.5 +
@@ -51,7 +52,7 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
             (i.four || 0) * 4 +
             (i.four_half || 0) * 4.5 +
             (i.five || 0) * 5) /
-          i._count;
+            i._count;
         i.rating = toEnIn(i._rating, "en-in", {
           notation: "compact",
         });
@@ -120,7 +121,7 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
     ],
     defaultViewport: { width: 1920, height: 1080 },
     executablePath,
-    headless: false,
+    // headless: false,
   });
   let [page] = await browser.pages();
   if (!page) page = await browser.newPage();
