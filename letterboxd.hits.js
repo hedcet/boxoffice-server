@@ -150,6 +150,6 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
       .sort()
       .join(" / ")} | ${(i.genre || []).sort().join(" / ")} | ${
       i.releaseDate
-    } | ${i.last_updated_at.split("T")[0]} |`;
+    } |`;
   console.log(text);
 })();
