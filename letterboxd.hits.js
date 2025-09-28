@@ -14,7 +14,7 @@ const config_path = path.resolve(__dirname, "./letterboxd.kbo.json");
 const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
 
 (async () => {
-  const collageMax = 6;
+  const collageMax = 10;
   const isMalayalam = (str = "") => /[\u0D00-\u0D7F]/.test(str);
 
   // filter
@@ -72,7 +72,7 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
   );
 
   // other props
-  for (const i of items) {
+  for (const i of items.slice(0, 6 < collageMax ? 6 : collageMax)) {
     i.dominant = (
       await sharp(
         await (
@@ -95,8 +95,6 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
       )
         ? "black"
         : "white";
-
-    console.log(i);
   }
 
   // html generation
@@ -107,7 +105,7 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
   fs.writeFileSync(
     `${html_path}.html`,
     String.raw({ raw: html.split("$?") }, [
-      JSON.stringify(items.slice(0, collageMax)),
+      JSON.stringify(items.slice(0, 6 < collageMax ? 6 : collageMax)),
     ])
   );
 
@@ -135,4 +133,23 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
     path: path.resolve(local, "letterboxd.hits.png"),
   });
   await browser.close();
+
+  // table generation
+  let rank = 1;
+  let text = `Letterboxd top${collageMax} Malayalam Movies released within 1year period | last updated at ${moment().format(
+    "YYYY-MM-DDTHH:mmZ"
+  )}\n\n| Rank | Movie | Reviews | Weighted Average↓ | Director | Genre | Released At |\n| -: | :- | -: | -: | :- | :- | :- |`;
+  for (const i of items)
+    text += `\n| ${rank++} | [${startCase(i.name).replace(
+      /([A-Z]) (\d) ([A-Z])/g,
+      "$1$2 $3"
+    )}](https://letterboxd.com/film/${i.ltrbxd_slug})${
+      i.originalName ? ` ~ ${i.originalName}` : ""
+    } | ${i.count} | ${i.rating} | ${Object.entries(i.director || {})
+      .map(([k, v]) => `[${v}](https://letterboxd.com${k})`)
+      .sort()
+      .join(" / ")} | ${(i.genre || []).sort().join(" / ")} | ${
+      i.releaseDate
+    } | ${i.last_updated_at.split("T")[0]} |`;
+  console.log(text);
 })();
