@@ -12,7 +12,6 @@ const { toEnIn } = require("./config/misc.js");
 const { sync } = require("./config/git.js");
 const { moment } = require("./config/moment.js");
 const { db, syncFileInfo } = require("./config/nedb.js");
-const { group } = require("console");
 
 const json_path = path.resolve(__dirname, "./store/data.json");
 const json = fs.existsSync(json_path)

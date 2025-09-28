@@ -1,0 +1,57 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <link href='https://cdn.jsdelivr.net/npm/normalize.css/normalize.min.css' rel='stylesheet' type='text/css' />
+  <script src='https://cdn.tailwindcss.com'></script>
+  <link href='https://cdn.jsdelivr.net/npm/daisyui/dist/full.min.css' rel='stylesheet' type='text/css' />
+  <script src="https://cdn.jsdelivr.net/npm/alpinejs/dist/cdn.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+    .oswald {
+      font-family: "Oswald", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    .image {
+      height: 360px;
+      position: relative;
+    }
+
+    .image img {
+      height: 100%;
+    }
+
+    .image .overlay {
+      bottom: 0;
+      left: 0;
+      mask-image: linear-gradient(210deg, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 1) 90%);
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  </style>
+</head>
+
+<body class="bg-white" x-data="{ movies: [] }" x-init='movies = [{"enable":true,"last_updated_at":"2025-09-27T18:22+05:30","ltrbxd_slug":"lokah-chapter-one-chandra","name":"Lokah: Chapter One - Chandra","originalName":"ലോകഃ  Chapter One - ചന്ദ്ര","releaseYear":2025,"runTime":150,"director":{"/director/dominic-arun-1/":"Dominic Arun"},"genre":["Fantasy","Adventure","Action"],"image":"https://a.ltrbxd.com/resized/film-poster/1/1/7/3/3/2/4/1173324-lokah-chapter-one-chandra-0-230-0-345-crop.jpg?v=2a812f793d","releaseDate":"2025-08-28","half":32,"five":3510,"two":396,"three":3280,"three_half":5978,"four":10162,"four_half":3835,"one_half":98,"two_half":916,"one":73,"average":3.79,"total":28280,"_count":28280,"count":"28T","_rating":3.873285007072136,"rating":"3.9","dominant":{"r":8,"g":8,"b":8},"bg":"#080808","fg":"white"},{"enable":true,"ltrbxd_slug":"sookshmadarshini","average":3.63,"total":29775,"half":48,"one":87,"one_half":97,"two":603,"two_half":1198,"three":5066,"three_half":8069,"four":10533,"four_half":2262,"five":1812,"last_updated_at":"2025-09-27T18:21+05:30","director":{"/director/mc-jithin/":"MC Jithin"},"genre":["Thriller","Mystery","Comedy"],"image":"https://a.ltrbxd.com/resized/film-poster/8/5/4/8/8/7/854887-sookshmadarshini-0-230-0-345-crop.jpg?v=dae4514406","releaseDate":"2024-11-22","runTime":142,"name":"Sookshmadarshini","originalName":"സൂക്ഷ്മദര്‍ശിനി","releaseYear":2024,"_count":29775,"count":"30T","_rating":3.669790092359362,"rating":"3.7","dominant":{"r":8,"g":8,"b":8},"bg":"#080808","fg":"white"},{"enable":true,"last_updated_at":"2025-09-27T18:16+05:30","ltrbxd_slug":"ponman","name":"Ponman","originalName":"പൊൻMAN","releaseYear":2025,"runTime":125,"director":{"/director/jyothish-shankar/":"Jyothish Shankar"},"genre":["Drama"],"image":"https://a.ltrbxd.com/resized/film-poster/1/1/2/7/3/4/7/1127347-ponman-0-230-0-345-crop.jpg?v=c28d617ff2","releaseDate":"2025-01-30","one":32,"two":269,"two_half":672,"three":3163,"three_half":5081,"four":6155,"four_half":1125,"five":947,"half":16,"one_half":50,"average":3.62,"total":17510,"_count":17510,"count":"18T","_rating":3.6563677898343805,"rating":"3.7","dominant":{"r":8,"g":8,"b":8},"bg":"#080808","fg":"white"},{"enable":true,"last_updated_at":"2025-09-27T18:19+05:30","ltrbxd_slug":"thudarum","name":"Thudarum","originalName":"തുടരും","releaseYear":2025,"runTime":164,"director":{"/director/tharun-moorthy/":"Tharun Moorthy"},"genre":["Drama","Action","Thriller"],"image":"https://a.ltrbxd.com/resized/film-poster/1/1/4/5/5/0/3/1145503-thudarum-0-230-0-345-crop.jpg?v=9070f2cee0","releaseDate":"2025-04-25","half":49,"one":131,"one_half":153,"two":782,"two_half":1622,"three":5077,"three_half":6468,"four":7425,"four_half":2494,"five":2662,"average":3.51,"total":26863,"_count":26863,"count":"27T","_rating":3.6520865130476863,"rating":"3.7","dominant":{"r":8,"g":8,"b":8},"bg":"#080808","fg":"white"},{"enable":true,"last_updated_at":"2025-09-27T18:15+05:30","ltrbxd_slug":"padakkalam","name":"Padakkalam","originalName":"പടക്കളം","releaseYear":2025,"runTime":124,"director":{"/director/manu-swaraj/":"Manu Swaraj"},"genre":["Comedy","Fantasy"],"image":"https://a.ltrbxd.com/resized/film-poster/1/1/3/6/2/4/2/1136242-padakkalam-0-230-0-345-crop.jpg?v=362c13f189","releaseDate":"2025-05-08","half":25,"one":81,"one_half":106,"two":526,"two_half":1224,"three":5099,"three_half":7080,"four":6094,"four_half":1118,"five":1101,"average":3.42,"total":22454,"_count":22454,"count":"22T","_rating":3.534047385766456,"rating":"3.5","dominant":{"r":248,"g":248,"b":8},"bg":"#f8f808","fg":"black"},{"enable":true,"ltrbxd_slug":"rifle-club","director":{"/director/aashiq-abu/":"Aashiq Abu"},"half":54,"one":134,"one_half":137,"two":651,"two_half":1309,"three":4128,"three_half":4991,"four":5702,"four_half":1132,"five":1084,"last_updated_at":"2025-09-27T18:18+05:30","genre":["Thriller","Action"],"image":"https://a.ltrbxd.com/resized/film-poster/1/0/6/4/4/6/8/1064468-rifle-club-0-230-0-345-crop.jpg?v=ae3f2da0e3","releaseDate":"2024-12-19","runTime":113,"average":3.39,"total":19322,"name":"Rifle Club","originalName":"റൈഫിൾ ക്ലബ്ബ്","releaseYear":2024,"_count":19322,"count":"19T","_rating":3.5252820618983542,"rating":"3.5","dominant":{"r":8,"g":8,"b":8},"bg":"#080808","fg":"white"}]'>
+  <div class="flex">
+    <div class="flex" id="screenshot">
+      <template x-for="(v, i) in movies">
+        <div class="image" :class="i?'ml-1':''">
+          <img :src="v.image" />
+          <template x-if="v.rating">
+            <div class="overlay flex flex-col justify-end" :style="{backgroundColor:v.bg,color:v.fg}">
+              <div class="oswald flex flex-row items-end m-1 text-xs tracking-tighter"><span class="text-6xl"
+                  style="letter-spacing: -0.075em; margin-right: 2px;" x-text="v.rating"></span>&nbsp;★ from&nbsp;<span x-text="v.count"></span>&nbsp;ratings</div>
+            </div>
+          </template>
+        </div>
+      </template>
+    </div>
+  </div>
+</body>
+
+</html>
