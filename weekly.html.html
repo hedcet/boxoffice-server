@@ -1,0 +1,65 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <link href='https://cdn.jsdelivr.net/npm/normalize.css/normalize.min.css' rel='stylesheet' type='text/css' />
+  <script src='https://cdn.tailwindcss.com'></script>
+  <link href='https://cdn.jsdelivr.net/npm/daisyui/dist/full.min.css' rel='stylesheet' type='text/css' />
+  <script src="https://cdn.jsdelivr.net/npm/alpinejs/dist/cdn.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+    .oswald {
+      font-family: "Oswald", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    .image {
+      height: 360px;
+      position: relative;
+    }
+
+    .image img {
+      height: 100%;
+    }
+
+    .image .overlay {
+      bottom: 0;
+      left: 0;
+      mask-image: linear-gradient(195deg, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 1) 90%);
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  </style>
+</head>
+
+<body class="bg-white" x-data="{ movies: [] }" x-init='movies = [{"name":"LokahChapter1Chandra","images":["https://res.cloudinary.com/hedcet/image/upload/v1756469232/boxoffice/wgmkudosbibri6wnrsoa.jpg?1eb154|57047","https://res.cloudinary.com/hedcet/image/upload/v1756272672/boxoffice/uructbaha6z7g0dkcisw.jpg?b98fdb|40138","https://res.cloudinary.com/hedcet/image/upload/v1756114293/boxoffice/kssgqsyq7lnug1hnuduh.jpg?05d07f|46187","https://res.cloudinary.com/hedcet/image/upload/v1756114287/boxoffice/w2y9ypqxwku70ai5bkfd.jpg?50511b|33036","https://res.cloudinary.com/hedcet/image/upload/v1756114282/boxoffice/lywst4y0iciashteeraj.jpg?1fdfd1|28015","https://res.cloudinary.com/hedcet/image/upload/v1756039760/boxoffice/cu9tttfokh8wpu1zx5ai.jpg?24f8d8|100807","https://res.cloudinary.com/hedcet/image/upload/v1756039764/boxoffice/kpriolwces1tzy2vq3xk.jpg?8896dc|209252","https://res.cloudinary.com/hedcet/image/upload/v1756039767/boxoffice/lfcqn5vdc8bk9u52lntl.jpg?d554f2|169874","https://res.cloudinary.com/hedcet/image/upload/v1756039770/boxoffice/gc4qp7vjj1vxvtdqvd4m.jpg?e1b391|248274","https://res.cloudinary.com/hedcet/image/upload/v1756039773/boxoffice/zlzjd0sxthvwfj25dnpk.jpg?64c566|170015","https://res.cloudinary.com/hedcet/image/upload/v1756039776/boxoffice/vu16vrviayndqnzidzwo.jpg?5514c8|275104","https://res.cloudinary.com/hedcet/image/upload/v1756282602/boxoffice/xkiyg2xq14jxifzaaddn.jpg?7b1020|34323","https://res.cloudinary.com/hedcet/image/upload/v1756094954/boxoffice/prpf5f5cdtifgyrumjqa.jpg?fc6e4d|43806"],"shows":7478,"booked":358755,"capacity":2062159,"sum":58304778,"show_id":"Malappuram|21:15|GalaxyCinemasNilambur||undefined","image":"https://res.cloudinary.com/hedcet/image/upload/v1756094954/boxoffice/prpf5f5cdtifgyrumjqa.jpg?fc6e4d","dominant":{"r":8,"g":8,"b":8},"bg":"#080808","fg":"white","booked_":"3.6L","occupancy":"17.4%","gross":"5.8Cr"},{"name":"Balti","images":["https://res.cloudinary.com/hedcet/image/upload/v1758961887/boxoffice/gwmk9qdqzclangrsbuft.jpg?1d99a7|80987","https://res.cloudinary.com/hedcet/image/upload/v1758850298/boxoffice/umstgf8gft1orhcuhbem.jpg?c49921|37712","https://res.cloudinary.com/hedcet/image/upload/v1758789078/boxoffice/xbhohwys8apdhmmkfuno.jpg?5858c7|58227","https://res.cloudinary.com/hedcet/image/upload/v1758763905/boxoffice/x7osuvj2ulvjijbmyeey.jpg?5538ae|26556","https://res.cloudinary.com/hedcet/image/upload/v1758727880/boxoffice/uvvik52ibuhk87mczlyx.jpg?87662f|91841","https://res.cloudinary.com/hedcet/image/upload/v1758722032/boxoffice/kr0ygtyjcrozh3n7d9er.jpg?262c9e|228491","https://res.cloudinary.com/hedcet/image/upload/v1758722034/boxoffice/hfsmp8na41bqdnsgofrt.jpg?d7937a|161666","https://res.cloudinary.com/hedcet/image/upload/v1758693392/boxoffice/djrpc8vbfiftgps1zp7y.jpg?959db5|228491","https://res.cloudinary.com/hedcet/image/upload/v1758693394/boxoffice/qv5ufc5p6jo3bxyy6qbm.jpg?cb1a8a|217196","https://res.cloudinary.com/hedcet/image/upload/v1758695368/boxoffice/y0tglcciownxmzhlzlh9.jpg?d7937a|161666","https://res.cloudinary.com/hedcet/image/upload/v1758792285/boxoffice/sq64ciay6mj5smi1gets.jpg?14c7dd|83248","https://res.cloudinary.com/hedcet/image/upload/v1758877644/boxoffice/r9ogztnyz72y4861col4.jpg?980aba|55637","https://res.cloudinary.com/hedcet/image/upload/v1758648812/boxoffice/e8phebctfr0rhpxdpou3.jpg?25d591|83248","https://res.cloudinary.com/hedcet/image/upload/v1758875502/boxoffice/vqkriqonmiorlfmeoaep.jpg?000f9e|55637","https://res.cloudinary.com/hedcet/image/upload/v1758875503/boxoffice/dxyuxpmcfgt9qtieozok.jpg?000f9e|55637"],"shows":2642,"booked":163548,"capacity":719314,"sum":25900000,"show_id":"Malappuram|21:15|GalaxyCinemasNilambur||undefined","image":"https://res.cloudinary.com/hedcet/image/upload/v1758877644/boxoffice/r9ogztnyz72y4861col4.jpg?980aba","dominant":{"r":40,"g":40,"b":40},"bg":"#282828","fg":"white","booked_":"1.6L","occupancy":"22.74%","gross":"2.6Cr"},{"name":"Mirage","images":["https://res.cloudinary.com/hedcet/image/upload/v1758195088/boxoffice/g49spiscptxdyaptxcrm.jpg?631e57|31033","https://res.cloudinary.com/hedcet/image/upload/v1758195081/boxoffice/ksqdyd70rafkc85popnt.jpg?9bd755|59554","https://res.cloudinary.com/hedcet/image/upload/v1758173478/boxoffice/n6wtwiqwxdotm57dnp1d.jpg?d08a34|41341","https://res.cloudinary.com/hedcet/image/upload/v1758119484/boxoffice/bylfkhosbkna6m1mw11u.jpg?292766|51452","https://res.cloudinary.com/hedcet/image/upload/v1758031181/boxoffice/gkoln03nhsakoeczi5ek.jpg?0e56da|186613","https://res.cloudinary.com/hedcet/image/upload/v1758031184/boxoffice/anbte5brklhpedt6tppi.jpg?fa6a13|245697","https://res.cloudinary.com/hedcet/image/upload/v1758089646/boxoffice/v3xtjo4pg6xvofbqpg9k.jpg?4cfe75|48587"],"shows":3925,"booked":105405,"capacity":893949,"sum":17337794,"show_id":"Malappuram|21:15|GalaxyCinemasNilambur||undefined","image":"https://res.cloudinary.com/hedcet/image/upload/v1758173478/boxoffice/n6wtwiqwxdotm57dnp1d.jpg?d08a34","dominant":{"r":8,"g":8,"b":8},"bg":"#080808","fg":"white","booked_":"1.1L","occupancy":"11.79%","gross":"1.7Cr"},{"name":"Karam","images":["https://res.cloudinary.com/hedcet/image/upload/v1758702689/boxoffice/stumywdcgylz0sepb0tk.jpg?507357|24516","https://res.cloudinary.com/hedcet/image/upload/v1758702684/boxoffice/h4au7zbbnalvmtgcpk8a.jpg?677851|28396","https://res.cloudinary.com/hedcet/image/upload/v1758702674/boxoffice/vngmypjk6kejawjfb8y5.jpg?56ead7|31720","https://res.cloudinary.com/hedcet/image/upload/v1758635050/boxoffice/xikrgqcsovwpqlkkmmmo.jpg?c2f050|116023","https://res.cloudinary.com/hedcet/image/upload/v1758618869/boxoffice/ralphimy7n6u6bohrogy.jpg?db47db|57469"],"shows":2994,"booked":59310,"capacity":738140,"sum":9873792,"show_id":"Malappuram|21:30|FairylandCinemasNilambur||undefined","image":"https://res.cloudinary.com/hedcet/image/upload/v1758635050/boxoffice/xikrgqcsovwpqlkkmmmo.jpg?c2f050","dominant":{"r":152,"g":184,"b":200},"bg":"#98b8c8","fg":"black","booked_":"59T","occupancy":"8.04%","gross":"99L"},{"name":"Hridayapoorvam","images":["https://res.cloudinary.com/hedcet/image/upload/v1756128683/boxoffice/irhbmzkmdylwzxlftnhq.jpg?27e368|50698","https://res.cloudinary.com/hedcet/image/upload/v1756128674/boxoffice/xzbmyndqqwnkbquzslia.jpg?3a505b|30156","https://res.cloudinary.com/hedcet/image/upload/v1756114295/boxoffice/tcymy8te4ltcwd0gwevn.jpg?8224ab|32183","https://res.cloudinary.com/hedcet/image/upload/v1756085471/boxoffice/ikifzvytkvyscjsstwx3.jpg?ca22c4|53837","https://res.cloudinary.com/hedcet/image/upload/v1756095229/boxoffice/qu4uwnunpmil7vftrqve.jpg?488774|102873","https://res.cloudinary.com/hedcet/image/upload/v1756095232/boxoffice/xisetwoecatoib5efvwi.jpg?46d800|219762","https://res.cloudinary.com/hedcet/image/upload/v1756094617/boxoffice/k3cama6ismte2mdmd2fv.jpg?3b6a13|48652"],"shows":1641,"booked":41638,"capacity":354683,"sum":6397392,"show_id":"Ernakulam|23:40|CinepolisCentreSquareMallErnakulamKochi|Malayalam|undefined","image":"https://res.cloudinary.com/hedcet/image/upload/v1756095232/boxoffice/xisetwoecatoib5efvwi.jpg?46d800","dominant":{"r":24,"g":24,"b":24},"bg":"#181818","fg":"white","booked_":"42T","occupancy":"11.74%","gross":"64L"},{"name":"ValaStoryOfABangle","images":["https://res.cloudinary.com/hedcet/image/upload/v1758215739/boxoffice/wdiahaszl7mp36c3r5aj.jpg?2e41e3|36666","https://res.cloudinary.com/hedcet/image/upload/v1758173503/boxoffice/bpilgo9gmd1cjrjao1kj.jpg?a71e7e|36308","https://res.cloudinary.com/hedcet/image/upload/v1758173476/boxoffice/dsndvfbimoogfpfmiex0.jpg?e77f7e|61824","https://res.cloudinary.com/hedcet/image/upload/v1758031378/boxoffice/aq0qrvvllcqzvtder38t.jpg?ce8f0b|191440","https://res.cloudinary.com/hedcet/image/upload/v1758022470/boxoffice/zyvbf4qvnxveqy4smups.jpg?9fdf12|44314"],"shows":1334,"booked":23663,"capacity":275403,"sum":3614296,"show_id":"Wayanad|21:45|AiswaryaCinemasSultanBathery||undefined","image":"https://res.cloudinary.com/hedcet/image/upload/v1758173476/boxoffice/dsndvfbimoogfpfmiex0.jpg?e77f7e","dominant":{"r":248,"g":248,"b":248},"bg":"#f8f8f8","fg":"black","booked_":"24T","occupancy":"8.59%","gross":"36L"}]'>
+  <div class="flex">
+    <div class="flex" id="screenshot">
+      <template x-for="(v, i) in movies">
+        <div class="image" :class="i?'ml-1':''">
+          <img :src="v.image" />
+          <template x-if="v.gross">
+            <div class="overlay flex flex-col justify-end" :style="{backgroundColor:v.bg,color:v.fg}">
+              <div class="oswald flex flex-row items-end m-1 text-xs tracking-tighter">₹<span class="text-6xl"
+                  style="letter-spacing: -0.075em; margin-right: 2px;" x-text="v.gross"></span>&nbsp;from&nbsp;
+                <div class="flex flex-col justify-end">
+                  <span style="position: relative; top: 2px" x-text="v.occupancy"></span>
+                  <div>
+                    <span x-text="v.booked_"></span>
+                    <span>bookings</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </template>
+        </div>
+      </template>
+    </div>
+  </div>
+</body>
+
+</html>
