@@ -1,7 +1,7 @@
 const cheerio = require("cheerio");
 const fs = require("fs");
 const { HttpsProxyAgent } = require("https-proxy-agent");
-const { orderBy, startCase } = require("lodash");
+const { orderBy, round, startCase } = require("lodash");
 const fetch = require("node-fetch");
 const path = require("path");
 const { isJSON } = require("validator");
@@ -142,46 +142,56 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
     fs.writeFileSync(config_path, JSON.stringify(configs, undefined, 2));
   }
 
+  const total = (i) => {
+    return (
+      (i.half || 0) +
+      (i.one || 0) +
+      (i.one_half || 0) +
+      (i.two || 0) +
+      (i.two_half || 0) +
+      (i.three || 0) +
+      (i.three_half || 0) +
+      (i.four || 0) +
+      (i.four_half || 0) +
+      (i.five || 0)
+    );
+  };
+  const sum = (i) => {
+    return (
+      (i.half || 0) * 0.5 +
+      (i.one || 0) * 1 +
+      (i.one_half || 0) * 1.5 +
+      (i.two || 0) * 2 +
+      (i.two_half || 0) * 2.5 +
+      (i.three || 0) * 3 +
+      (i.three_half || 0) * 3.5 +
+      (i.four || 0) * 4 +
+      (i.four_half || 0) * 4.5 +
+      (i.five || 0) * 5
+    );
+  };
+
   // table generation
   let rank = 1;
-  let text = `| Rank | Movie | Reviews | Weighted Average↓ | Director | Genre | Released At | Last Updated At |\n| -: | :- | -: | -: | :- | :- | :- | :- |`;
+  let text = `| Rank | Movie | Ratings↓ | Reviews | Director | Genre | Released At | Last Updated At |\n| -: | :- | -: | -: | :- | :- | :- | :- |`;
   for (const config of orderBy(
-    configs.filter((i) => i.enable),
-    [
-      (i) => i.average || 0,
-      (i) =>
-        (i.half || 0) +
-        (i.one || 0) +
-        (i.one_half || 0) +
-        (i.two || 0) +
-        (i.two_half || 0) +
-        (i.three || 0) +
-        (i.three_half || 0) +
-        (i.four || 0) +
-        (i.four_half || 0) +
-        (i.five || 0),
-    ],
-    ["desc", "desc"]
+    configs
+      .filter((i) => i.enable)
+      .map((i) => {
+        if (!i.total) i.total = total(i) || 0;
+        if (!i.average) i.average = i.total ? sum(i) / i.total : 0;
+        return i;
+      }),
+    ["average", "total", "releaseDate"],
+    ["desc", "desc", "desc"]
   )) {
-    const total =
-      config.total ||
-      (config.half || 0) +
-        (config.one || 0) +
-        (config.one_half || 0) +
-        (config.two || 0) +
-        (config.two_half || 0) +
-        (config.three || 0) +
-        (config.three_half || 0) +
-        (config.four || 0) +
-        (config.four_half || 0) +
-        (config.five || 0);
     text += `\n| ${rank++} | [${startCase(config.name).replace(
       /([A-Z]) (\d) ([A-Z])/g,
       "$1$2 $3"
     )}](https://letterboxd.com/film/${config.ltrbxd_slug})${
       config.originalName ? ` ~ ${config.originalName}` : ""
-    } | ${total ? toEnIn(total) : ""} | ${
-      config.average ? config.average : ""
+    } | ${config.average ? round(config.average, 1) : ""} | ${
+      config.total ? toEnIn(config.total) : ""
     } | ${Object.entries(config.director || {})
       .map(([k, v]) => `[${v}](https://letterboxd.com${k})`)
       .sort()
