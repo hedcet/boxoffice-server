@@ -19,6 +19,7 @@ const movies =
   //   .filter((i) => moment().diff(i.releaseDate, "months") <= 3)
   configs
     .filter((i) => i.enable)
+    .slice(0, process.argv[2] ? +process.argv[2] : 10)
     .map((i) => ({
       id: i.ltrbxd_slug,
       image_uri: i.image,
