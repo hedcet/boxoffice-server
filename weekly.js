@@ -21,7 +21,7 @@ const json = fs.existsSync(json_path)
 const collageMax = 6;
 
 (async () => {
-  const start_date = moment("2025-10-13", ["YYYY-MM-DD"]).startOf("day");
+  const start_date = moment("2025-10-20", ["YYYY-MM-DD"]).startOf("day");
   const end_date = start_date.clone().add(7, "day").startOf("day");
 
   await sync(csvPath); // git clone/pull
@@ -213,7 +213,9 @@ const collageMax = 6;
   )} - ${end_date.format(
     "MMM DD YYYY"
   )})\n\n| Movie | Shows | Occupancy↓ | Gross |\n| - | -: | -: | -: |`;
-  for (const item of items.filter((i) => 10 < i.shows)) {
+  for (const item of items.slice(0, 15)) {
+    // .filter((i) => 30 < i.shows)
+    // .filter((i) => 300000 < item.sum)
     const t = `\n| [${startCase(item.name).replace(
       /([A-Z]) (\d) ([A-Z])/g,
       "$1$2 $3"
