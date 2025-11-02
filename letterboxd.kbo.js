@@ -22,10 +22,10 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
     configs.filter(
       (i) =>
         i.enable &&
-        (!i.releaseDate ||
+        (!!process.argv[2] ||
+          !i.releaseDate ||
           moment().diff(i.releaseDate, "month") <= 1 ||
-          (1 < moment().diff(i.releaseDate, "month") &&
-            1 < moment().diff(i.last_updated_at, "month")))
+          1 < moment().diff(i.last_updated_at, "month"))
     ),
     [(i) => i.last_updated_at || ""], // last updated first
     ["asc"]
