@@ -11,6 +11,9 @@ const { toEnIn } = require("./config/misc.js");
 const { moment } = require("./config/moment.js");
 const { client } = require("./config/snoowrap.js");
 
+const force = !!process.argv[2];
+console.log("force", force);
+
 const config_path = path.resolve(__dirname, "./letterboxd.kbo.json");
 const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
 
@@ -22,7 +25,7 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
     configs.filter(
       (i) =>
         i.enable &&
-        (!!process.argv[2] ||
+        (force ||
           !i.releaseDate ||
           moment().diff(i.releaseDate, "month") <= 1 ||
           1 < moment().diff(i.last_updated_at, "month"))

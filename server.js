@@ -27,9 +27,7 @@ const { db, syncFileInfo } = require("./config/nedb.js");
   });
 
   app.get("/group", async (req, res) => {
-    const data = await db.find({
-      date: { $gt: moment().subtract(3, "month").toDate() },
-    });
+    const data = await db.find({}); // date: { $gt: moment().subtract(6, "month").toDate() },
     const r = [];
     for (const items of orderBy(
       Object.values(groupBy(data, "id")),

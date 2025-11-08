@@ -39,6 +39,7 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
           (i.four_half || 0) +
           (i.five || 0);
         i.count = toEnIn(i._count, "en-in", { notation: "compact" });
+        console.log(i.name, i._count, i.count);
 
         i._rating =
           i.average ||
@@ -139,7 +140,8 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
   let text = `Letterboxd top${collageMax} Malayalam Movies released within 1year period | last updated at ${moment().format(
     "YYYY-MM-DDTHH:mmZ"
   )}\n\n| Rank | Movie | Reviews | Weighted Average↓ | Director | Genre | Released At |\n| -: | :- | -: | -: | :- | :- | :- |`;
-  for (const i of items)
+  for (const i of items) {
+    console.log(i.name, i.count)
     text += `\n| ${rank++} | [${startCase(i.name).replace(
       /([A-Z]) (\d) ([A-Z])/g,
       "$1$2 $3"
@@ -151,5 +153,6 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
       .join(" / ")} | ${(i.genre || []).sort().join(" / ")} | ${
       i.releaseDate
     } |`;
+  }
   console.log(text);
 })();
