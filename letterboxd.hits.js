@@ -66,9 +66,7 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
 
   console.log(
     `#Letterboxd top${collageMax} #Malayalam #Movies released within 1year period https://rebrand.ly/kbo-letterboxd\n\n${items
-      .map(
-        (i) => `#${startCase(i.ltrbxd_slug).replace(/\s+/g, "")} ~ ${i.rating}★`
-      )
+      .map((i) => `#${startCase(i.name).replace(/\s+/g, "")} ~ ${i.rating}★`)
       .join("\n")}`
   );
 
@@ -141,7 +139,7 @@ const configs = JSON.parse(fs.readFileSync(config_path, "utf8"));
     "YYYY-MM-DDTHH:mmZ"
   )}\n\n| Rank | Movie | Reviews | Weighted Average↓ | Director | Genre | Released At |\n| -: | :- | -: | -: | :- | :- | :- |`;
   for (const i of items) {
-    console.log(i.name, i.count)
+    console.log(i.name, i.count);
     text += `\n| ${rank++} | [${startCase(i.name).replace(
       /([A-Z]) (\d) ([A-Z])/g,
       "$1$2 $3"

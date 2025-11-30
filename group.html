@@ -6,18 +6,29 @@
   <script src='https://cdn.tailwindcss.com'></script>
   <link href='https://cdn.jsdelivr.net/npm/daisyui/dist/full.min.css' rel='stylesheet' type='text/css' />
   <script src="https://cdn.jsdelivr.net/npm/alpinejs/dist/cdn.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/string-similarity/umd/string-similarity.min.js"></script>
 </head>
 
-<body class='bg-white' x-data="{ movies: [] }" x-init="fetch('/group').then(res => res.json()).then(data => movies = data)">
+<body class='bg-white' x-data="{ movies: [] }" x-init="fetch('/group').then(res => res.json()).then(data => {
+  movies = data;
+  // Restore scroll position after data is loaded
+  const savedPosition = sessionStorage.getItem('scrollPosition');
+  if (savedPosition) {
+    setTimeout(() => {
+      window.scrollTo(0, +savedPosition);
+      sessionStorage.removeItem('scrollPosition');
+    }, 50);
+  }
+})">
   <table class='table table-xs table-zebra'>
-    <thead style='position: sticky; top: 0;'>
+    <thead class="bg-base-100" style='position: sticky; top: 0;'>
       <tr>
         <th></th>
         <th>group</th>
         <th>name</th>
         <th>created_at</th>
         <th>hits</th>
-        <th><input class='badge badge-xs badge-outline' style='cursor: pointer;' type='submit' @click="clickHandler($data)" /></th>
+        <th><button class='badge badge-xs badge-outline' style='cursor: pointer;' type='button' x-text="'submit | ' + movies.filter(i => i._enable).length" :disabled="!movies.filter(i => i._enable).length" @click="clickHandler($data)"></button></th>
       </tr>
     </thead>
     <tbody>
@@ -25,7 +36,13 @@
         <tr class="hover" @click="v._enable = !v._enable">
           <td :style="v.color" x-text="i + 1"></td>
           <td x-text="v.group"></td>
-          <td x-text="v.name"></td>
+          <td x-html="v.name + (() => {
+            if (v.group) return '';
+            const prev = i > 0 ? similarity(v.name, movies[i-1].name) : 0;
+            const next = i < movies.length - 1 ? similarity(v.name, movies[i+1].name) : 0;
+            const max = Math.max(prev, next);
+            return max > 0.5 ? ` | ${max === prev ? '↑' : '↓'}${Math.round(max * 100)}%` : '';
+          })()"></td>
           <td x-text="v.created_at"></td>
           <td x-text="v.hits"></td>
           <th><input class='checkbox checkbox-xs' type='checkbox' x-model="v._enable" /></th>
@@ -35,13 +52,24 @@
   </table>
 
   <script>
+    function similarity(a, b) { return stringSimilarity.compareTwoStrings(a, b); }
     function clickHandler({ movies }) {
+      sessionStorage.setItem('scrollPosition', window.scrollY);
       fetch('/group', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ refs: movies.filter(i => i._enable).reduce((m, i) => [...m, ...i.refs], []) })
       }).then(r => location.reload());
     }
+    window.addEventListener('load', () => {
+      const savedPosition = sessionStorage.getItem('scrollPosition');
+      if (savedPosition) {
+        setTimeout(() => {
+          window.scrollTo(0, +savedPosition);
+          sessionStorage.removeItem('scrollPosition');
+        }, 200);
+      }
+    });
   </script>
 </body>
 
