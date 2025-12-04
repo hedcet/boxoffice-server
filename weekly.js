@@ -21,8 +21,8 @@ const json = fs.existsSync(json_path)
 const collageMax = 6;
 
 (async () => {
-  const start_date = moment("2025-11-17", ["YYYY-MM-DD"]).endOf("day");
-  const end_date = start_date.clone().add(7, "day").endOf("day");
+  const start_date = moment("2025-11-24", ["YYYY-MM-DD"]).endOf("day");
+  const end_date = start_date.clone().add(1, "week");
 
   await sync(csvPath); // git clone/pull
   await syncFileInfo(csvPath); // sync folder/file metadata to nedb
