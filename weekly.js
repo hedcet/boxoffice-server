@@ -21,7 +21,7 @@ const json = fs.existsSync(json_path)
 const collageMax = 6;
 
 (async () => {
-  const start_date = moment("2025-12-01", ["YYYY-MM-DD"]).endOf("day");
+  const start_date = moment("2025-12-15", ["YYYY-MM-DD"]).endOf("day");
   const end_date = start_date.clone().add(1, "week");
 
   await sync(csvPath); // git clone/pull
